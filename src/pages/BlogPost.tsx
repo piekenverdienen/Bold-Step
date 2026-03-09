@@ -42,7 +42,7 @@ export default function BlogPost({ lang }: BlogPostProps) {
             </span>
           </div>
 
-          <h1 className="text-4xl md:text-7xl font-serif mb-12 leading-tight">
+          <h1 className="text-4xl md:text-7xl font-serif font-bold mb-12 leading-tight">
             {post.title}
           </h1>
 
@@ -78,55 +78,36 @@ export default function BlogPost({ lang }: BlogPostProps) {
                 </div>
               );
 
+              const MarkdownComponents = {
+                p: ({ children }: { children: React.ReactNode }) => <p className="text-lg md:text-xl opacity-90 font-light leading-relaxed mb-8">{children}</p>,
+                a: ({ href, children }: { href?: string; children: React.ReactNode }) => (
+                  <a 
+                    href={href} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-brand-gold underline decoration-brand-gold/30 underline-offset-4 hover:decoration-brand-gold transition-all font-medium"
+                  >
+                    {children}
+                  </a>
+                ),
+                h1: ({ children }: { children: React.ReactNode }) => <h1 className="text-3xl md:text-5xl font-serif font-black mb-10 mt-20 leading-tight text-brand-black">{children}</h1>,
+                h2: ({ children }: { children: React.ReactNode }) => <h2 className="text-2xl md:text-4xl font-serif font-bold mb-8 mt-16 leading-tight text-brand-black">{children}</h2>,
+                h3: ({ children }: { children: React.ReactNode }) => <h3 className="text-xl md:text-2xl font-serif font-bold mb-6 mt-12 leading-tight text-brand-black">{children}</h3>,
+                h4: ({ children }: { children: React.ReactNode }) => <h4 className="text-lg md:text-xl font-serif font-bold mb-4 mt-10 leading-tight text-brand-black">{children}</h4>,
+                ul: ({ children }: { children: React.ReactNode }) => <ul className="list-disc list-outside ml-6 mb-8 flex flex-col gap-2">{children}</ul>,
+                ol: ({ children }: { children: React.ReactNode }) => <ol className="list-decimal list-outside ml-6 mb-8 flex flex-col gap-2">{children}</ol>,
+                li: ({ children }: { children: React.ReactNode }) => <li className="text-lg opacity-90 font-light leading-relaxed">{children}</li>,
+              };
+
               return (
                 <>
-                  <Markdown 
-                    components={{
-                      p: ({ children }) => <p className="text-lg md:text-xl opacity-90 font-light leading-relaxed mb-8">{children}</p>,
-                      a: ({ href, children }) => (
-                        <a 
-                          href={href} 
-                          target="_blank" 
-                          rel="noopener noreferrer" 
-                          className="text-brand-gold underline decoration-brand-gold/30 underline-offset-4 hover:decoration-brand-gold transition-all font-medium"
-                        >
-                          {children}
-                        </a>
-                      ),
-                      h1: ({ children }) => <h1 className="text-3xl font-serif mb-6 mt-12">{children}</h1>,
-                      h2: ({ children }) => <h2 className="text-2xl font-serif mb-4 mt-10">{children}</h2>,
-                      h3: ({ children }) => <h3 className="text-xl font-serif mb-4 mt-8">{children}</h3>,
-                      ul: ({ children }) => <ul className="list-disc list-outside ml-6 mb-8 flex flex-col gap-2">{children}</ul>,
-                      ol: ({ children }) => <ol className="list-decimal list-outside ml-6 mb-8 flex flex-col gap-2">{children}</ol>,
-                      li: ({ children }) => <li className="text-lg opacity-90 font-light leading-relaxed">{children}</li>,
-                    }}
-                  >
+                  <Markdown components={MarkdownComponents}>
                     {firstHalf}
                   </Markdown>
                   
                   <CTAButton />
 
-                  <Markdown 
-                    components={{
-                      p: ({ children }) => <p className="text-lg md:text-xl opacity-90 font-light leading-relaxed mb-8">{children}</p>,
-                      a: ({ href, children }) => (
-                        <a 
-                          href={href} 
-                          target="_blank" 
-                          rel="noopener noreferrer" 
-                          className="text-brand-gold underline decoration-brand-gold/30 underline-offset-4 hover:decoration-brand-gold transition-all font-medium"
-                        >
-                          {children}
-                        </a>
-                      ),
-                      h1: ({ children }) => <h1 className="text-3xl font-serif mb-6 mt-12">{children}</h1>,
-                      h2: ({ children }) => <h2 className="text-2xl font-serif mb-4 mt-10">{children}</h2>,
-                      h3: ({ children }) => <h3 className="text-xl font-serif mb-4 mt-8">{children}</h3>,
-                      ul: ({ children }) => <ul className="list-disc list-outside ml-6 mb-8 flex flex-col gap-2">{children}</ul>,
-                      ol: ({ children }) => <ol className="list-decimal list-outside ml-6 mb-8 flex flex-col gap-2">{children}</ol>,
-                      li: ({ children }) => <li className="text-lg opacity-90 font-light leading-relaxed">{children}</li>,
-                    }}
-                  >
+                  <Markdown components={MarkdownComponents}>
                     {secondHalf}
                   </Markdown>
                 </>

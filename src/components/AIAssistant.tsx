@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import { Upload, Sparkles, Loader2, ChevronRight, X } from 'lucide-react';
 import { GoogleGenAI } from "@google/genai";
 import { Language } from '../constants';
+import Markdown from 'react-markdown';
 
 interface AIAssistantProps {
   lang: Language;
@@ -39,7 +40,11 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
       const prompt = `Analyse the suit in this image. Identify: fabric, colour, lapel style, formality level. 
       Then recommend the single best Aurélien loafer model (Suede Loafer, Leather Loafer, Yacht Loafer, or Driving Shoe) with a 2-sentence justification.
       Deliver the response in ${lang === 'EN' ? 'British English' : 'German (formal Sie-form)'}.
-      Format the response with clear headings.`;
+      Use Markdown formatting: 
+      - Use ### for section headings.
+      - Use bullet points for the analysis details.
+      - Use bold text for key terms.
+      Keep it concise and elegant.`;
 
       const response = await ai.models.generateContent({
         model: "gemini-3-flash-preview",
@@ -150,17 +155,30 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
                   <motion.div 
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="p-6 bg-white/10 border border-white/10"
+                    className="p-8 bg-white/10 border border-white/20 shadow-2xl"
                   >
-                    <h4 className="text-xs uppercase tracking-widest font-bold text-brand-gold mb-4">
+                    <h4 className="text-[10px] uppercase tracking-[0.3em] font-bold text-brand-gold mb-8">
                       {lang === 'EN' ? 'Stylist Recommendation' : 'Empfehlung des Stylisten'}
                     </h4>
-                    <div className="text-sm font-light leading-relaxed whitespace-pre-wrap opacity-90">
-                      {result}
+                    <div className="text-base font-light leading-relaxed text-brand-offwhite/90">
+                      <Markdown
+                        components={{
+                          h1: ({ children }) => <h3 className="text-lg font-serif font-bold text-brand-gold mt-10 mb-6 first:mt-0">{children}</h3>,
+                          h2: ({ children }) => <h3 className="text-lg font-serif font-bold text-brand-gold mt-10 mb-6 first:mt-0">{children}</h3>,
+                          h3: ({ children }) => <h3 className="text-lg font-serif font-bold text-brand-gold mt-10 mb-6 first:mt-0">{children}</h3>,
+                          p: ({ children }) => <p className="mb-6 last:mb-0">{children}</p>,
+                          ul: ({ children }) => <ul className="list-disc list-outside ml-5 space-y-3 mb-6 marker:text-brand-gold last:mb-0">{children}</ul>,
+                          ol: ({ children }) => <ol className="list-decimal list-outside ml-5 space-y-3 mb-6 marker:text-brand-gold last:mb-0">{children}</ol>,
+                          li: ({ children }) => <li className="pl-1 last:mb-0">{children}</li>,
+                          strong: ({ children }) => <strong className="font-bold text-brand-gold">{children}</strong>,
+                        }}
+                      >
+                        {result}
+                      </Markdown>
                     </div>
                     <button 
                       onClick={() => { setImage(null); setResult(null); }}
-                      className="mt-8 text-[10px] uppercase tracking-widest font-bold opacity-40 hover:opacity-100 transition-opacity"
+                      className="mt-12 w-full py-4 border border-brand-gold/30 text-brand-gold text-[10px] uppercase tracking-[0.3em] font-bold hover:bg-brand-gold hover:text-brand-black transition-all"
                     >
                       {lang === 'EN' ? 'Try Another Suit' : 'Anderen Anzug Probieren'}
                     </button>

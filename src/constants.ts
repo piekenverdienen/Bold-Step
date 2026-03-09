@@ -66,6 +66,11 @@ export interface Content {
     quote: string;
     author: string;
   };
+  notFound: {
+    title: string;
+    message: string;
+    cta: string;
+  };
   blog: {
     title: string;
     cta: string;
@@ -106,6 +111,11 @@ export const translations: Record<Language, Content> = {
     social: {
       quote: "Modern elegance isn't about following every rule; it's about knowing which ones to rewrite with confidence.",
       author: "The Modern Gentleman"
+    },
+    notFound: {
+      title: "Lost Your Way?",
+      message: "Even the most intentional journeys hit a dead end. This path is as worn out as an old pair of shoes.",
+      cta: "Return to the Journey"
     },
     blog: {
       title: "The Journal",
@@ -335,6 +345,11 @@ If you find yourself with a pair that is slightly loose, a small suede heel grip
     social: {
       quote: "Moderne Eleganz bedeutet nicht, jeder Regel zu folgen; es bedeutet zu wissen, welche man mit Selbstvertrauen neu schreiben kann.",
       author: "The Modern Gentleman"
+    },
+    notFound: {
+      title: "Weg verloren?",
+      message: "Selbst die am besten geplanten Reisen führen manchmal in eine Sackgasse. Dieser Pfad ist so abgenutzt wie ein altes Paar Schuhe.",
+      cta: "Zurück zur Reise"
     },
     blog: {
       title: "Das Journal",

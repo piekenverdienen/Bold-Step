@@ -27,11 +27,11 @@ export const IMAGES = {
   // You can use these IDs to replace any of the images above.
   ALT_1: "https://drive.google.com/thumbnail?id=1JDjnx_GUIU1Z8MfC1_am-QZl_RKdxj4u&sz=w1200",
   ALT_2: "https://drive.google.com/thumbnail?id=1GGSvjsUeBTwd2EOrdpgORzS8tDmr6xyd&sz=w1200",
-  ALT_3: "https://drive.google.com/thumbnail?id=1EJLnA8aVClItpV9mi9n7RWuEitpykvyy&sz=w1200",
-  ALT_4: "https://drive.google.com/thumbnail?id=10ogm7qX5UGShqwCSwxewl_rNUJCF5ADx&sz=w1200",
-  ALT_5: "https://drive.google.com/thumbnail?id=178TJASmSg7KW3_uE-c1QMkY6JXyYk13N&sz=w1200",
-  ALT_6: "https://drive.google.com/thumbnail?id=1nlY6Xfd98K5g8FmY1lsPWJUH4THNgunz&sz=w1200",
-  ALT_7: "https://drive.google.com/thumbnail?id=14BjAZaEZgPaCXRuwvBVjzpwsA17DBGwA&sz=w1200",
+  ALT_3: "https://drive.google.com/thumbnail?id=1ZUV4lfGuqJKcQUp1qWsk7aeLvgT8REZP&sz=w1200",
+  ALT_4: "https://drive.google.com/thumbnail?id=13FpNGPzJvo8axm8ow2qkiUiUpSGl2QyC&sz=w1200",
+  ALT_5: "https://drive.google.com/thumbnail?id=1EJLnA8aVClItpV9mi9n7RWuEitpykvyy&sz=w1200",
+  ALT_6: "https://drive.google.com/thumbnail?id=1ZqApXaug6eoNz9kOYSvjQDXj4_dkA_W7&sz=w1200",
+  ALT_7: "https://drive.google.com/thumbnail?id=1jEEkD_JEfNiimoRCZQJNT2E1CqVfFTxy&sz=w1200",
   ALT_8: "https://drive.google.com/thumbnail?id=11qNPJW1f-R1PIBdJphnrr-4g6_kY4lQv&sz=w1200",
   ALT_9: "https://drive.google.com/thumbnail?id=10dT6HwsOdhBKC5p0380YnOtiayBB3YI5&sz=w1200",
   ALT_10: "https://drive.google.com/thumbnail?id=1_4puVXAvos4PYibE6C5_s1uS9Z_F-HGq&sz=w1200",
@@ -225,25 +225,87 @@ Your shoes are the foundation of your presence. Choose wisely, and you’ll carr
           excerpt: "From destination beaches to city cathedrals, the loafer has become the definitive choice for the contemporary groom. Discover why.",
           category: "Style",
           image: IMAGES.ALT_5,
-          content: `The wedding landscape is changing. The days of rigid, uncomfortable formality are being replaced by a new era of "relaxed elegance." At the heart of this shift is a single piece of footwear: the loafer.
+          content: `The wedding landscape is shifting. The days of rigid, uncomfortable formality are being replaced by a new era of "relaxed elegance." At the heart of this sartorial revolution is a single, iconic silhouette: the loafer.
 
-Why are modern grooms increasingly ditching traditional laces for the slip-on silhouette? The answer lies in the perfect intersection of style, comfort, and contemporary confidence.
+Why are modern grooms increasingly trading traditional Oxfords for the slip-on? The answer lies at the intersection of heritage style, supreme comfort, and contemporary confidence.
 
-## The Comfort Factor
-A wedding is a marathon, not a sprint. Grooms spend hours standing during the ceremony, navigating the reception, and dancing into the night. Traditional dress shoes often require a "break-in" period and can be unforgiving. Loafers, especially those crafted from premium suede or soft leather, offer immediate comfort and flexibility.
+## Finding Your Match: A Guide to Wedding Venues
+The beauty of the loafer is its adaptability. Whether you are walking down a cathedral aisle or across a sandy beach, there is a silhouette designed for the moment.
 
-## Sartorial Versatility
-The beauty of the loafer is its ability to adapt. Whether you are wearing a classic tuxedo, a linen suit for a destination wedding, or sharp city tailoring, there is a loafer that complements the look. They bridge the gap between formal and relaxed in a way that no other shoe can.
+| Wedding Theme | Recommended Style | Material & Color | The Styling Secret |
+| :--- | :--- | :--- | :--- |
+| **Black Tie / Formal** | Sleek Penny Loafer | Polished Black Calf | Pair with a 'no-break' trouser hem. |
+| **Destination / Beach** | Unlined Voyage Loafer | Sand or Sage Suede | Go sockless for a true Mediterranean feel. |
+| **City Chic / Modern** | Tassel Loafer | Rich Chocolate Suede | Perfectly complements navy or charcoal tailoring. |
 
-## A Statement of Confidence
-Choosing a loafer is a subtle declaration of style. It suggests a groom who knows the rules well enough to play with them. It signals a man who values craftsmanship and quality but prioritizes the ease of the occasion. It is the footwear of a modern gentleman who is comfortable in his own skin.
+## Why the Loafer is the New Gold Standard
 
-## The Aesthetic Appeal
-From the rich texture of Mediterranean suede to the deep luster of hand-finished leather, loafers offer a visual depth that adds character to a wedding ensemble. They look exceptional in photographs and add a touch of personality to the traditional groom’s uniform.
+### 1. The Comfort of a "Second Skin"
+A wedding is a marathon, not a sprint. From the first look to the final dance, you will be on your feet for over ten hours. While traditional dress shoes often require a painful "break-in" period, loafers crafted from premium Mediterranean suede offer immediate flexibility.
 
-In the world of modern weddings, the loafer isn't just an alternative — it’s the new standard.
+**Pro Tip:** Look for a Blake-stitched sole. This construction method results in a lighter, more flexible shoe that moves with your foot—essential for dominating the dance floor.
 
-[Explore our curated collection of the most popular wedding loafers for the modern groom.](https://aurelien-online.com/collections/loafers)`
+### 2. A Statement of Sartorial Confidence
+Choosing a loafer is a subtle declaration of intent. It suggests a groom who knows the rules of menswear well enough to play with them. It signals a man who values craftsmanship but prioritizes the ease of the occasion. It is the footwear of a gentleman who is truly comfortable in his own skin.
+
+### 3. Visual Depth & Character
+Beyond functionality, loafers simply look exceptional in photography. The rich texture of hand-finished leather or the buttery softness of suede adds a layer of visual interest that flat leathers often lack.
+
+## To Sock or Not to Sock?
+The ultimate debate. For a formal city wedding, a fine silk or mercerized cotton sock in a tonal color is best. However, for a summer or destination wedding, the "no-sock" look has become the hallmark of the modern, well-dressed groom.
+
+**Expert Tip:** If going sockless, always use high-quality cedar shoe trees the day after to maintain the shape and freshness of your leather.
+
+## Ready to Step Up?
+In the modern wedding world, the loafer isn't just an alternative—it’s the standard for the man who wants the best of both worlds. Whether you prefer the structure of a classic leather or the effortless drape of suede, your choice of footwear should be as memorable as the day itself.
+
+---
+
+**Explore the Wedding Loafer Collection** – [Hand-picked styles for the modern groom.](https://aurelien-online.com/collections/loafers)
+
+**The Fit Guide** – [How to ensure your loafers stay snug from ceremony to sunrise.](/en/journal/the-fit-guide)
+
+**View the Lookbook** – [Inspiration for the complete wedding ensemble.](/en/journal/the-lookbook)`
+        },
+        {
+          slug: "the-fit-guide",
+          title: "The Fit Guide: Ensuring Your Loafers Stay Snug",
+          excerpt: "Achieving the perfect fit is essential for a day of celebration. Learn how to ensure your loafers stay secure from ceremony to sunrise.",
+          category: "Guide",
+          image: IMAGES.ALT_6,
+          content: `The most common fear when switching to loafers for a wedding is the "heel slip." Unlike laced shoes, you can't tighten a loafer once it's on. Achieving a snug, secure fit is essential for a day that involves everything from standing at the altar to late-night dancing.
+
+## 1. The "Pop" Test
+When you step into a high-quality loafer, you should hear a slight "pop" of air escaping. This indicates a vacuum-like seal around your foot. If the shoe slides on too easily, it’s likely too large and will slip as the leather softens throughout the day.
+
+## 2. Account for Suede Stretch
+Premium Mediterranean suede is incredibly soft, but it will stretch slightly more than calf leather. If you are between sizes in a suede loafer, we recommend sizing down. It should feel "comfortably tight" initially; within an hour of wear, it will mold perfectly to your foot.
+
+## 3. The Invisible Advantage
+If you prefer the sockless look but want extra security, use high-quality invisible liners with silicone heel grips. This provides the aesthetic of a bare ankle while adding a layer of friction that prevents any internal movement.
+
+## 4. Heel Grips as a Last Resort
+If you find yourself with a pair that is slightly loose, a small suede heel grip can be a lifesaver. However, the best solution is always starting with the correct last.`
+        },
+        {
+          slug: "the-lookbook",
+          title: "The Wedding Lookbook: Inspiration for the Modern Groom",
+          excerpt: "Explore three distinct archetypes for the modern groom, showcasing how to balance texture, color, and silhouette.",
+          category: "Style",
+          image: IMAGES.ALT_7,
+          content: `Footwear is the foundation, but the complete ensemble is what creates the narrative. Our wedding lookbook explores three distinct archetypes for the modern groom, showcasing how to balance texture, color, and silhouette.
+
+## The Amalfi Coast Destination
+**The Look:** A light sand linen suit, an open-collar white shirt, and our Unlined Voyage Loafers in Sage Suede.
+**The Vibe:** Effortless, sun-drenched, and sophisticated. This look prioritizes breathability without sacrificing the gravity of the occasion.
+
+## The London City Micro-Wedding
+**The Look:** A charcoal grey double-breasted suit, a knitted silk tie, and Tassel Loafers in Dark Chocolate Suede.
+**The Vibe:** Sharp, architectural, and modern. The texture of the suede breaks the formality of the grey tailoring, adding a layer of contemporary cool.
+
+## The Classic Black Tie Revolution
+**The Look:** A midnight blue tuxedo with silk grosgrain lapels and Sleek Penny Loafers in Polished Black Calf.
+**The Vibe:** The ultimate statement of confidence. Replacing the patent lace-up with a polished loafer is the hallmark of a groom who knows his style.`
         }
       ]
     }
@@ -392,25 +454,87 @@ Ihre Schuhe sind das Fundament Ihrer Präsenz. Wählen Sie weise, und Sie werden
           excerpt: "Vom Strand bis zur Kathedrale – der Loafer ist zur definitiven Wahl für den modernen Bräutigam geworden. Erfahren Sie, warum.",
           category: "Stil",
           image: IMAGES.ALT_5,
-          content: `Die Hochzeitslandschaft verändert sich. Die Tage der starren, unbequemen Formalität werden durch eine neue Ära der "entspannten Eleganz" ersetzt. Im Zentrum dieses Wandels steht ein einziges Schuhwerk: der Loafer.
+          content: `Die Hochzeitslandschaft verändert sich. Die Tage der starren, unbequemen Formalität werden durch eine neue Ära der „entspannten Eleganz“ ersetzt. Im Zentrum dieser sartorialen Revolution steht eine einzige, ikonische Silhouette: der Loafer.
 
-Warum verzichten moderne Bräutigame immer häufiger auf traditionelle Schnürsenkel zugunsten der Slip-on-Silhouette? Die Antwort liegt in der perfekten Schnittmenge aus Stil, Komfort und zeitgemäßem Selbstvertrauen.
+Warum tauschen moderne Bräutigame zunehmend traditionelle Oxfords gegen den Slip-on? Die Antwort liegt an der Schnittstelle von traditionellem Stil, höchstem Komfort und zeitgemäßem Selbstvertrauen.
 
-## Der Komfort-Faktor
-Eine Hochzeit ist ein Marathon, kein Sprint. Bräutigame verbringen Stunden im Stehen während der Zeremonie, navigieren durch den Empfang und tanzen bis in die Nacht. Traditionelle Abendschuhe erfordern oft eine Einlaufzeit und können unnachgiebig sein. Loafer, insbesondere solche aus hochwertigem Wildleder oder weichem Leder, bieten sofortigen Komfort und Flexibilität.
+## Finden Sie Ihre Übereinstimmung: Ein Leitfaden für Hochzeitsorte
+Die Schönheit des Loafers liegt in seiner Anpassungsfähigkeit. Egal, ob Sie einen Kathedralengang entlangschreiten oder über einen Sandstrand laufen, es gibt eine Silhouette, die für diesen Moment entworfen wurde.
 
-## Sartoriale Vielseitigkeit
-Die Schönheit des Loafers liegt in seiner Anpassungsfähigkeit. Egal, ob Sie einen klassischen Smoking, einen Leinenanzug für eine Hochzeit am Strand oder scharfes City-Tailoring tragen – es gibt einen Loafer, der den Look ergänzt. Sie schlagen die Brücke zwischen formell und entspannt auf eine Weise, wie es kein anderer Schuh kann.
+| Hochzeitsthema | Empfohlener Stil | Material & Farbe | Das Styling-Geheimnis |
+| :--- | :--- | :--- | :--- |
+| **Black Tie / Formell** | Eleganter Penny Loafer | Poliertes schwarzes Kalbsleder | Kombinieren Sie ihn mit einem Hosenbeinsaum ohne Knick („no-break“). |
+| **Destination / Strand** | Ungefütterter Voyage Loafer | Sand- oder Salbei-Wildleder | Gehen Sie barfuß für ein echtes mediterranes Gefühl. |
+| **City Chic / Modern** | Tassel Loafer | Sattes Schokoladen-Wildleder | Ergänzt perfekt marineblaue oder anthrazitfarbene Maßkonfektion. |
 
-## Ein Statement des Selbstvertrauens
-Die Wahl eines Loafers ist eine subtile Stilerklärung. Sie deutet auf einen Bräutigam hin, der die Regeln gut genug kennt, um mit ihnen zu spielen. Sie signalisiert einen Mann, der Handwerkskunst und Qualität schätzt, aber die Leichtigkeit des Anlasses priorisiert. Es ist das Schuhwerk eines modernen Gentlemans, der sich in seiner Haut wohlfühlt.
+## Warum der Loafer der neue Goldstandard ist
 
-## Der ästhetische Reiz
-Von der reichen Textur des mediterranen Wildleders tot zum tiefen Glanz von handveredeltem Leder bieten Loafer eine visuelle Tiefe, die dem Hochzeitsensemble Charakter verleiht. Sie sehen auf Fotos außergewöhnlich aus und verleihen der traditionellen Bräutigam-Uniform einen Hauch von Persönlichkeit.
+### 1. Der Komfort einer „zweiten Haut“
+Eine Hochzeit ist ein Marathon, kein Sprint. Vom ersten Blick bis zum letzten Tanz werden Sie über zehn Stunden auf den Beinen sein. Während traditionelle Abendschuhe oft eine schmerzhafte Einlaufzeit erfordern, bieten Loafer aus hochwertigem mediterranem Wildleder sofortige Flexibilität.
 
-In der Welt der modernen Hochzeiten ist der Loafer nicht nur eine Alternative – er ist der neue Standard.
+**Profi-Tipp:** Achten Sie auf eine Blake-genähte Sohle. Diese Konstruktionsmethode führt zu einem leichteren, flexibleren Schuh, der sich mit Ihrem Fuß bewegt – unerlässlich, um die Tanzfläche zu dominieren.
 
-[Entdecken Sie unsere kuratierte Kollektion der beliebtesten Hochzeits-Loafer für den modernen Bräutigam.](https://aurelien-online.com/collections/loafers)`
+### 2. Ein Statement sartorialen Selbstvertrauens
+Die Wahl eines Loafers ist eine subtile Absichtserklärung. Sie deutet auf einen Bräutigam hin, der die Regeln der Herrenmode gut genug kennt, um mit ihnen zu spielen. Sie signalisiert einen Mann, der Handwerkskunst schätzt, aber die Leichtigkeit des Anlasses priorisiert. Es ist das Schuhwerk eines Gentlemans, der sich in seiner Haut wirklich wohlfühlt.
+
+### 3. Visuelle Tiefe & Charakter
+Über die Funktionalität hinaus sehen Loafer in der Fotografie einfach außergewöhnlich aus. Die reiche Textur von handveredeltem Leder oder die butterweiche Haptik von Wildleder fügt eine Ebene visuellen Interesses hinzu, die glattem Leder oft fehlt.
+
+## Socken oder keine Socken?
+Die ultimative Debatte. Für eine formelle Stadthochzeit ist eine feine Socke aus Seide oder merzerisierter Baumwolle in einer passenden Farbe am besten. Für eine Sommer- oder Destination-Hochzeit ist der „No-Sock“-Look jedoch zum Markenzeichen des modernen, gut gekleideten Bräutigams geworden.
+
+**Experten-Tipp:** Wenn Sie barfuß gehen, verwenden Sie am Tag danach immer hochwertige Schuhspanner aus Zedernholz, um die Form und Frische Ihres Leders zu erhalten.
+
+## Bereit für den nächsten Schritt?
+In der modernen Hochzeitswelt ist der Loafer nicht nur eine Alternative – er ist der Standard für den Mann, der das Beste aus beiden Welten will. Egal, ob Sie die Struktur eines klassischen Leders oder den mühelosen Fall von Wildleder bevorzugen, Ihre Wahl des Schuhwerks sollte so unvergesslich sein wie der Tag selbst.
+
+---
+
+**Entdecken Sie die Hochzeits-Loafer-Kollektion** – [Handverlesene Stile für den modernen Bräutigam.](https://aurelien-online.com/collections/loafers)
+
+**Der Fit-Guide** – [So stellen Sie sicher, dass Ihre Loafer von der Zeremonie bis zum Sonnenaufgang perfekt sitzen.](/de/journal/the-fit-guide)
+
+**Das Lookbook ansehen** – [Inspiration für das komplette Hochzeitsensemble.](/de/journal/the-lookbook)`
+        },
+        {
+          slug: "the-fit-guide",
+          title: "Der Fit-Guide: So sitzen Ihre Loafer perfekt",
+          excerpt: "Die perfekte Passform ist entscheidend für einen Tag voller Feierlichkeiten. Erfahren Sie, wie Ihre Loafer von der Zeremonie bis zum Sonnenaufgang sicher sitzen.",
+          category: "Leitfaden",
+          image: IMAGES.ALT_6,
+          content: `Die häufigste Sorge beim Wechsel zu Loafern für eine Hochzeit ist das „Herausrutschen der Ferse“. Im Gegensatz zu Schnürschuhen können Sie einen Loafer nicht festziehen, sobald er angezogen ist. Eine eng anliegende, sichere Passform ist unerlässlich für einen Tag, der alles umfasst – vom Stehen am Altar bis zum Tanzen bis spät in die Nacht.
+
+## 1. Der „Pop“-Test
+Wenn Sie in einen hochwertigen Loafer schlüpfen, sollten Sie ein leichtes „Ploppen“ der entweichenden Luft hören. Dies deutet auf eine vakuumähnliche Versiegelung um Ihren Fuß hin. Wenn der Schuh zu leicht hineingleitet, ist er wahrscheinlich zu groß und wird rutschen, wenn das Leder im Laufe des Tages weicher wird.
+
+## 2. Berücksichtigen Sie die Dehnung von Wildleder
+Hochwertiges mediterranes Wildleder ist unglaublich weich, dehnt sich aber etwas mehr als Kalbsleder. Wenn Sie bei einem Wildleder-Loafer zwischen zwei Größen liegen, empfehlen wir, die kleinere Größe zu wählen. Er sollte sich anfangs „angenehm eng“ anfühlen; innerhalb einer Stunde Tragezeit passt er sich perfekt an Ihren Fuß an.
+
+## 3. Der unsichtbare Vorteil
+Wenn Sie den „No-Sock“-Look bevorzugen, aber zusätzliche Sicherheit wünschen, verwenden Sie hochwertige unsichtbare Socken mit Silikon-Fersengriffen. Dies bietet die Ästhetik eines nackten Knöchels und fügt gleichzeitig eine Reibungsebene hinzu, die jegliche interne Bewegung verhindert.
+
+## 4. Fersenhalter als letzter Ausweg
+Wenn Sie ein Paar haben, das etwas zu locker sitzt, kann ein kleiner Wildleder-Fersenhalter ein Lebensretter sein. Die beste Lösung ist jedoch immer, mit der richtigen Leistenform zu beginnen.`
+        },
+        {
+          slug: "the-lookbook",
+          title: "Das Hochzeits-Lookbook: Inspiration für den modernen Bräutigam",
+          excerpt: "Entdecken Sie drei verschiedene Archetypen für den modernen Bräutigam und sehen Sie, wie man Textur, Farbe und Silhouette in Einklang bringt.",
+          category: "Stil",
+          image: IMAGES.ALT_7,
+          content: `Schuhwerk ist das Fundament, aber das komplette Ensemble ist das, was die Geschichte erzählt. Unser Hochzeits-Lookbook erkundet drei verschiedene Archetypen für den modernen Bräutigam und zeigt, wie man Textur, Farbe und Silhouette in Einklang bringt.
+
+## Die Amalfiküste Destination
+**Der Look:** Ein hellsandfarbener Leinenanzug, ein weißes Hemd mit offenem Kragen und unsere ungefütterten Voyage Loafer in Salbei-Wildleder.
+**Der Vibe:** Mühelos, sonnendurchflutet und anspruchsvoll. Dieser Look priorisiert Atmungsaktivität, ohne die Bedeutung des Anlasses zu vernachlässigen.
+
+## Die Londoner City-Mikrohochzeit
+**Der Look:** Ein anthrazitgrauer zweireihiger Anzug, eine gestrickte Seidenkrawatte und Tassel Loafer in dunkelbraunem Wildleder.
+**Der Vibe:** Scharf, architektonisch und modern. Die Textur des Wildleders bricht die Formalität der grauen Maßkonfektion auf und fügt eine Ebene zeitgemäßer Coolness hinzu.
+
+## Die klassische Black-Tie-Revolution
+**Der Look:** Ein mitternachtsblauer Smoking mit Revers aus Seidengrosgrain und elegante Penny Loafer in poliertem schwarzem Kalbsleder.
+**Der Vibe:** Das ultimative Statement an Selbstvertrauen. Den Lackschuh mit Schnürung durch einen polierten Loafer zu ersetzen, ist das Markenzeichen eines Bräutigams, der seinen Stil kennt.`
         }
       ]
     }

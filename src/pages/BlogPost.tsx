@@ -4,6 +4,7 @@ import { motion } from 'motion/react';
 import { ChevronLeft, Calendar, Tag } from 'lucide-react';
 import { Language, translations } from '../constants';
 import Markdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 interface BlogPostProps {
   lang: Language;
@@ -80,16 +81,29 @@ export default function BlogPost({ lang }: BlogPostProps) {
 
               const MarkdownComponents = {
                 p: ({ children }: { children: React.ReactNode }) => <p className="text-lg md:text-xl opacity-90 font-light leading-relaxed mb-8">{children}</p>,
-                a: ({ href, children }: { href?: string; children: React.ReactNode }) => (
-                  <a 
-                    href={href} 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="text-brand-gold underline decoration-brand-gold/30 underline-offset-4 hover:decoration-brand-gold transition-all font-medium"
-                  >
-                    {children}
-                  </a>
-                ),
+                a: ({ href, children }: { href?: string; children: React.ReactNode }) => {
+                  const isInternal = href?.startsWith('/');
+                  if (isInternal) {
+                    return (
+                      <Link 
+                        to={href} 
+                        className="text-brand-gold underline decoration-brand-gold/30 underline-offset-4 hover:decoration-brand-gold transition-all font-medium"
+                      >
+                        {children}
+                      </Link>
+                    );
+                  }
+                  return (
+                    <a 
+                      href={href} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="text-brand-gold underline decoration-brand-gold/30 underline-offset-4 hover:decoration-brand-gold transition-all font-medium"
+                    >
+                      {children}
+                    </a>
+                  );
+                },
                 h1: ({ children }: { children: React.ReactNode }) => <h1 className="text-3xl md:text-5xl font-serif font-black mb-10 mt-20 leading-tight text-brand-black">{children}</h1>,
                 h2: ({ children }: { children: React.ReactNode }) => <h2 className="text-2xl md:text-4xl font-serif font-bold mb-8 mt-16 leading-tight text-brand-black">{children}</h2>,
                 h3: ({ children }: { children: React.ReactNode }) => <h3 className="text-xl md:text-2xl font-serif font-bold mb-6 mt-12 leading-tight text-brand-black">{children}</h3>,
@@ -97,17 +111,25 @@ export default function BlogPost({ lang }: BlogPostProps) {
                 ul: ({ children }: { children: React.ReactNode }) => <ul className="list-disc list-outside ml-6 mb-8 flex flex-col gap-2">{children}</ul>,
                 ol: ({ children }: { children: React.ReactNode }) => <ol className="list-decimal list-outside ml-6 mb-8 flex flex-col gap-2">{children}</ol>,
                 li: ({ children }: { children: React.ReactNode }) => <li className="text-lg opacity-90 font-light leading-relaxed">{children}</li>,
+                table: ({ children }: { children: React.ReactNode }) => (
+                  <div className="overflow-x-auto my-12">
+                    <table className="w-full border-collapse text-left">{children}</table>
+                  </div>
+                ),
+                thead: ({ children }: { children: React.ReactNode }) => <thead className="bg-brand-offwhite">{children}</thead>,
+                th: ({ children }: { children: React.ReactNode }) => <th className="p-4 text-xs uppercase tracking-widest font-bold border-b border-brand-black/10">{children}</th>,
+                td: ({ children }: { children: React.ReactNode }) => <td className="p-4 text-sm border-b border-brand-black/5 opacity-80">{children}</td>,
               };
 
               return (
                 <>
-                  <Markdown components={MarkdownComponents}>
+                  <Markdown components={MarkdownComponents} remarkPlugins={[remarkGfm]}>
                     {firstHalf}
                   </Markdown>
                   
                   <CTAButton />
 
-                  <Markdown components={MarkdownComponents}>
+                  <Markdown components={MarkdownComponents} remarkPlugins={[remarkGfm]}>
                     {secondHalf}
                   </Markdown>
                 </>

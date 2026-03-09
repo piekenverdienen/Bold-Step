@@ -10,6 +10,7 @@ interface BlogProps {
 
 export default function Blog({ lang }: BlogProps) {
   const data = translations[lang].blog;
+  const langPrefix = `/${lang.toLowerCase()}`;
 
   return (
     <section id="journal" className="py-32 px-6 bg-brand-offwhite">
@@ -32,7 +33,7 @@ export default function Blog({ lang }: BlogProps) {
               transition={{ delay: i * 0.1 }}
               className="bg-white group"
             >
-              <Link to={`/journal/${i}`} className="block">
+              <Link to={`${langPrefix}/journal/${post.slug}`} className="block">
                 <div className="aspect-[16/10] overflow-hidden">
                   <img 
                     src={post.image} 
@@ -62,7 +63,7 @@ export default function Blog({ lang }: BlogProps) {
 
         <div className="mt-20 text-center">
           <Link 
-            to="/journal"
+            to={`${langPrefix}/journal`}
             className="inline-flex items-center gap-4 px-10 py-5 border border-brand-black text-xs uppercase tracking-[0.3em] font-bold hover:bg-brand-black hover:text-brand-offwhite transition-all"
           >
             {lang === 'EN' ? 'View All Articles' : 'Alle Artikel ansehen'}

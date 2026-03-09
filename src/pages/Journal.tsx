@@ -10,6 +10,7 @@ interface JournalProps {
 
 export default function Journal({ lang }: JournalProps) {
   const data = translations[lang].blog;
+  const langPrefix = `/${lang.toLowerCase()}`;
 
   return (
     <main className="pt-32 pb-32 px-6 bg-brand-offwhite min-h-screen">
@@ -31,7 +32,7 @@ export default function Journal({ lang }: JournalProps) {
               transition={{ delay: i * 0.1 }}
               className="bg-white group"
             >
-              <Link to={`/journal/${i}`} className="block">
+              <Link to={`${langPrefix}/journal/${post.slug}`} className="block">
                 <div className="aspect-[16/10] overflow-hidden">
                   <img 
                     src={post.image} 

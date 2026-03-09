@@ -16,20 +16,22 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
   const location = useLocation();
   const t = translations[lang];
 
+  const langPrefix = `/${lang.toLowerCase()}`;
+
   const navLinks = [
-    { name: lang === 'EN' ? 'The Journey' : 'Die Reise', href: '/#narrative' },
-    { name: lang === 'EN' ? 'The Proposal' : 'Der Antrag', href: '/#proposal' },
-    { name: lang === 'EN' ? 'The Planning' : 'Die Planung', href: '/#planning' },
-    { name: lang === 'EN' ? 'The Style' : 'Der Stil', href: '/#style' },
-    { name: lang === 'EN' ? 'The Collection' : 'Die Kollektion', href: '/collection' },
-    { name: lang === 'EN' ? 'The Journal' : 'Das Journal', href: '/journal' },
+    { name: lang === 'EN' ? 'The Journey' : 'Die Reise', href: `${langPrefix}/#narrative` },
+    { name: lang === 'EN' ? 'The Proposal' : 'Der Antrag', href: `${langPrefix}/#proposal` },
+    { name: lang === 'EN' ? 'The Planning' : 'Die Planung', href: `${langPrefix}/#planning` },
+    { name: lang === 'EN' ? 'The Style' : 'Der Stil', href: `${langPrefix}/#style` },
+    { name: lang === 'EN' ? 'The Collection' : 'Die Kollektion', href: `${langPrefix}/collection` },
+    { name: lang === 'EN' ? 'The Journal' : 'Das Journal', href: `${langPrefix}/journal` },
   ];
 
   const handleScroll = (href: string) => {
     setIsMenuOpen(false);
-    if (href.startsWith('/#')) {
+    if (href.includes('#')) {
       const id = href.split('#')[1];
-      if (location.pathname === '/') {
+      if (location.pathname === langPrefix || location.pathname === `${langPrefix}/`) {
         const element = document.getElementById(id);
         if (element) {
           element.scrollIntoView({ behavior: 'smooth' });
@@ -49,10 +51,10 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
       <nav className="fixed w-full z-50 bg-brand-offwhite/80 backdrop-blur-md border-b border-brand-black/5">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-8">
-            <Link to="/" className="text-2xl font-serif tracking-widest uppercase">The Groom Code</Link>
+            <Link to={langPrefix} className="text-2xl font-serif tracking-widest uppercase">The Groom Code</Link>
             <div className="hidden md:flex gap-6 text-xs uppercase tracking-widest font-medium opacity-60">
               {navLinks.map((link) => (
-                link.href.startsWith('/#') ? (
+                link.href.includes('#') ? (
                   <Link 
                     key={link.href} 
                     to={link.href}

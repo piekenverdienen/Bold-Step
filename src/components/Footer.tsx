@@ -7,6 +7,8 @@ interface FooterProps {
 }
 
 export default function Footer({ lang }: FooterProps) {
+    const langPrefix = `/${lang.toLowerCase()}`;
+
   return (
     <footer className="bg-brand-offwhite border-t border-brand-black/5 py-20 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-12">
@@ -21,10 +23,10 @@ export default function Footer({ lang }: FooterProps) {
         <div>
           <h4 className="text-xs uppercase tracking-widest font-bold mb-6">Navigation</h4>
           <ul className="flex flex-col gap-4 text-sm opacity-60 font-light">
-            <li><Link to="/#proposal" className="hover:text-brand-gold transition-colors">The Proposal</Link></li>
-            <li><Link to="/#planning" className="hover:text-brand-gold transition-colors">The Planning</Link></li>
-            <li><Link to="/#style" className="hover:text-brand-gold transition-colors">The Style</Link></li>
-            <li><Link to="/journal" className="hover:text-brand-gold transition-colors">The Journal</Link></li>
+            <li><Link to={`${langPrefix}/#proposal`} className="hover:text-brand-gold transition-colors">The Proposal</Link></li>
+            <li><Link to={`${langPrefix}/#planning`} className="hover:text-brand-gold transition-colors">The Planning</Link></li>
+            <li><Link to={`${langPrefix}/#style`} className="hover:text-brand-gold transition-colors">The Style</Link></li>
+            <li><Link to={`${langPrefix}/journal`} className="hover:text-brand-gold transition-colors">The Journal</Link></li>
           </ul>
         </div>
         <div>

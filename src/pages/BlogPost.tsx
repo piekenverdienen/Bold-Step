@@ -9,20 +9,20 @@ interface BlogPostProps {
 }
 
 export default function BlogPost({ lang }: BlogPostProps) {
-  const { id } = useParams();
-  const postIndex = parseInt(id || '0');
+  const { id: slug } = useParams();
   const data = translations[lang].blog;
-  const post = data.posts[postIndex];
+  const post = data.posts.find(p => p.slug === slug);
+  const langPrefix = `/${lang.toLowerCase()}`;
 
   if (!post) {
-    return <Navigate to="/journal" />;
+    return <Navigate to={`${langPrefix}/journal`} />;
   }
 
   return (
     <main className="pt-32 pb-32 bg-white min-h-screen">
       <article className="max-w-4xl mx-auto px-6">
         <Link 
-          to="/journal" 
+          to={`${langPrefix}/journal`} 
           className="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-bold opacity-60 hover:opacity-100 mb-12 transition-opacity"
         >
           <ChevronLeft size={16} /> {lang === 'EN' ? 'Back to Journal' : 'Zurück zum Journal'}

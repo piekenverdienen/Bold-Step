@@ -70,6 +70,7 @@ export interface Content {
     title: string;
     cta: string;
     posts: {
+      slug: string;
       title: string;
       excerpt: string;
       content: string;
@@ -111,6 +112,7 @@ export const translations: Record<Language, Content> = {
       cta: "Read More",
       posts: [
         {
+          slug: "why-traditional-wedding-shoes-replaced-by-loafers",
           title: "Why the Traditional Wedding Shoe Is Being Replaced by the Loafer",
           excerpt: "Increasingly, the classic lace-up is stepping aside for something more relaxed, more refined, and arguably more confident: the loafer.",
           category: "Style",
@@ -130,6 +132,7 @@ Ultimately, choosing a loafer on your wedding day communicates something subtle 
 And perhaps that is exactly what modern elegance looks like.`
         },
         {
+          slug: "7-essential-tips-choosing-wedding-suit",
           title: "7 Essential Tips for Choosing Your Wedding Suit",
           excerpt: "Your wedding suit is more than just clothing — it’s the uniform of one of the most important days of your life.",
           category: "Guide",
@@ -162,6 +165,7 @@ The best suit is the one that makes you stand taller. If you feel good in it, it
 Because on your wedding day, presence matters just as much as style.`
         },
         {
+          slug: "how-to-propose-modern-gentlemans-guide",
           title: "How to Propose to Your Girlfriend: A Modern Gentleman’s Guide",
           excerpt: "Proposing marriage is one of the most significant moments in a man’s life. It marks the beginning of a shared future.",
           category: "Life",
@@ -226,6 +230,7 @@ It’s about taking the first bold step toward forever.`
       cta: "Mehr lesen",
       posts: [
         {
+          slug: "warum-traditionelle-hochzeitsschuhe-durch-loafer-ersetzt-werden",
           title: "Warum der traditionelle Hochzeitsschuh durch den Loafer ersetzt wird",
           excerpt: "Immer häufiger weicht der klassische Schnürschuh einer entspannteren, raffinierteren und wohl auch selbstbewussteren Variante: dem Loafer.",
           category: "Stil",
@@ -245,6 +250,7 @@ Letztendlich kommuniziert die Wahl eines Loafers an Ihrem Hochzeitstag etwas Sub
 Und vielleicht ist es genau das, wonach moderne Eleganz aussieht.`
         },
         {
+          slug: "7-essenzielle-tipps-wahl-hochzeitsanzug",
           title: "7 essenzielle Tipps für die Wahl Ihres Hochzeitsanzugs",
           excerpt: "Ihr Hochzeitsanzug ist mehr als nur Kleidung – er ist die Uniform eines der wichtigsten Tage Ihres Lebens.",
           category: "Leitfaden",
@@ -277,6 +283,7 @@ Der beste Anzug ist der, in dem Sie aufrechter stehen. Wenn Sie sich darin wohlf
 Denn an Ihrem Hochzeitstag zählt die Präsenz genauso viel wie der Stil.`
         },
         {
+          slug: "wie-sie-ihrer-freundin-einen-antrag-machen-leitfaden",
           title: "Wie Sie Ihrer Freundin einen Antrag machen: Ein Leitfaden für den modernen Gentleman",
           excerpt: "Ein Heiratsantrag ist einer der bedeutendsten Momente im Leben eines Mannes. Er markiert den Beginn einer gemeinsamen Zukunft.",
           category: "Leben",

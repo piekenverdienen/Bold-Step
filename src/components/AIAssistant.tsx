@@ -30,6 +30,9 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
     setResult(null);
 
     try {
+      if (!process.env.GEMINI_API_KEY) {
+        throw new Error("MISSING_KEY");
+      }
       const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
       const base64Data = image.split(',')[1];
       
@@ -39,7 +42,7 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
       Format the response with clear headings.`;
 
       const response = await ai.models.generateContent({
-        model: "gemini-2.0-flash",
+        model: "gemini-3-flash-preview",
         contents: [
           {
             parts: [
@@ -51,9 +54,13 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
       });
 
       setResult(response.text || "Analysis failed. Please try again.");
-    } catch (error) {
+    } catch (error: any) {
       console.error(error);
-      setResult("Error connecting to the AI Stylist. Please ensure your API key is configured.");
+      if (error.message === "MISSING_KEY") {
+        setResult("The Digital Tailor requires a Gemini API Key. Please configure GEMINI_API_KEY in your Vercel Environment Variables.");
+      } else {
+        setResult("Error connecting to the AI Stylist. Please ensure your API key is valid and has sufficient quota.");
+      }
     } finally {
       setAnalyzing(false);
     }

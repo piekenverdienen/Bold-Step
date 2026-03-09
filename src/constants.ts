@@ -323,22 +323,22 @@ If you find yourself with a pair that is slightly loose, a small suede heel grip
   DE: {
     hero: {
       headline: "Der Bräutigam-Kodex",
-      subline: "Ein kuratierter Leitfaden für den modernen Bräutigam. Tradition mit zeitgenössischer Eleganz verbinden.",
+      subline: "Ein kuratierter Leitfaden für den modernen Bräutigam. Die Symbiose aus Tradition und zeitgenössischer Eleganz.",
       cta: "Beginnen Sie Ihre Reise"
     },
     narrative: {
       title: "Die Reise des Bräutigams",
       steps: [
-        { title: "Der Antrag", description: "Souveränität vom ersten Moment an. Beginnen Sie Ihre gemeinsame Geschichte mit bewusstem Stil." },
-        { title: "Die Planung", description: "Sartoriale Präzision in jedem Detail. Navigieren Sie stilsicher durch die Protokolle moderner Feiern." },
+        { title: "Der Antrag", description: "Souveränität ab dem ersten Moment. Beginnen Sie Ihre gemeinsame Geschichte mit bewusstem Stil." },
+        { title: "Die Planung", description: "Sartoriale Präzision in jedem Detail. Sicher navigieren durch die Etikette moderner Feierlichkeiten." },
         { title: "Der Große Tag", description: "Der ultimative Schritt. Wo Handwerkskunst auf die Leichtigkeit des Anlasses trifft." }
       ]
     },
     collection: {
       title: "Kuratierte Essentials",
       products: [
-        { name: "Wildleder-Loafer", description: "Unsere Top-Empfehlung für Hochzeiten im Ausland. Außergewöhnlicher Komfort trifft auf raffinierten Stil.", image: IMAGES.PRODUCT_SUEDE_LOAFER, link: "https://aurelien-online.com/collections/driving-shoes" },
-        { name: "Leder-Loafer", description: "Die definitive Wahl für City-Tailoring. Handgefertigte Qualität für eine scharfe Silhouette.", image: IMAGES.PRODUCT_LEATHER_LOAFER, link: "https://aurelien-online.com/collections/city-loafers" },
+        { name: "Wildleder-Loafer", description: "Unsere Top-Empfehlung für Destination-Hochzeiten. Außergewöhnlicher Komfort trifft auf raffinierten Stil.", image: IMAGES.PRODUCT_SUEDE_LOAFER, link: "https://aurelien-online.com/collections/driving-shoes" },
+        { name: "Leder-Loafer", description: "Die definitive Wahl für urbane Maßkonfektion. Handgefertigte Qualität für eine scharfe Silhouette.", image: IMAGES.PRODUCT_LEATHER_LOAFER, link: "https://aurelien-online.com/collections/city-loafers" },
         { name: "Yacht-Loafer", description: "Ideal für entspannte Feiern. Eine vielseitige Balance aus Luxus und mediterraner Leichtigkeit.", image: IMAGES.PRODUCT_YACHT_LOAFER, link: "https://aurelien-online.com/collections/loafers" }
       ]
     },
@@ -357,11 +357,11 @@ If you find yourself with a pair that is slightly loose, a small suede heel grip
       posts: [
         {
           slug: "warum-traditionelle-hochzeitsschuhe-durch-loafer-ersetzt-werden",
-          title: "Warum der traditionelle Hochzeitsschuh durch den Loafer ersetzt wird",
-          excerpt: "Immer häufiger weicht der klassische Schnürschuh einer entspannteren, raffinierteren und wohl auch selbstbewussteren Variante: dem Loafer.",
+          title: "Der Wandel am Fuß: Warum der Loafer den klassischen Hochzeitsschuh ablöst",
+          excerpt: "Immer öfter weicht der klassische Schnürschuh einer entspannteren, raffinierteren und selbstbewussteren Alternative: dem Loafer.",
           category: "Stil",
           image: IMAGES.ALT_1,
-          content: `Seit Jahrzehnten war das Regelwerk für Bräutigame einfach: schwarzer Anzug, polierte Oxford-Schuhe und wenig Spielraum für Interpretationen. Doch moderne Hochzeiten – und moderne Männer – schreiben dieses Drehbuch neu. Immer häufiger weicht der klassische Schnürschuh einer entspannteren, raffinierteren und wohl auch selbstbewussteren Variante: dem Loafer.
+          content: `Seit Jahrzehnten war das Regelwerk für Bräutigame einfach: schwarzer Anzug, polierte Oxford-Schuhe und wenig Spielraum für Interpretationen. Doch moderne Hochzeiten – und moderne Männer – schreiben dieses Drehbuch neu. Immer öfter weicht der klassische Schnürschuh einer entspannteren, raffinierteren und selbstbewussteren Alternative: dem Loafer.
 
 ## Ein Wandel der Perspektive
 Dieser Wandel spiegelt eine breitere Veränderung im Stil der Männer wider. Der Bräutigam von heute wünscht sich Eleganz ohne Steifheit. Er möchte maßgeschneidert, bewusst und zeitgemäß aussehen – nicht so, als würde er an einer Vorstandssitzung teilnehmen. Der Loafer liefert genau dieses Gleichgewicht.
@@ -451,7 +451,7 @@ Bei der Wahl der Schuhe steht der Best Man vor einer besonderen Herausforderung:
 Obwohl Sie sich am Formalitätsgrad des Bräutigams orientieren sollten, benötigen Sie nicht unbedingt exakt denselben Schuh. Wenn der Bräutigam poliertes Leder trägt, kann ein raffinierter Wildleder-Loafer in einem ähnlichen Ton eine subtile, anspruchsvolle Unterscheidung bieten.
 
 ## 2. Priorität auf Vielseitigkeit
-Ein Best Man ist oft mehr auf den Beinen als jeder andere. Von den Vorbereitungen am Morgen tot zu den Feierlichkeiten am späten Abend müssen Ihre Schuhe Leistung bringen. Hier wird eine hochwertige Konstruktion unerlässlich. Achten Sie auf Schuhe mit flexiblen Sohlen und erstklassigen Materialien, die atmen.
+Ein Best Man ist oft mehr auf den Beinen als jeder andere. Von den Vorbereitungen am Morgen bis hin zu den Feierlichkeiten am späten Abend müssen Ihre Schuhe Leistung bringen. Hier wird eine hochwertige Konstruktion unerlässlich. Achten Sie auf Schuhe mit flexiblen Sohlen und erstklassigen Materialien, die atmen.
 
 ## 3. Berücksichtigen Sie die Farbpalette
 Wenn die Hochzeitsgesellschaft in Navy gekleidet ist, ziehen Sie satte Schokoladen- oder Espresso-Töne in Betracht. Für graue Maßkonfektion bietet Schwarz oder tiefes Anthrazit ein scharfes, modernes Finish. Das Ziel ist eine harmonische Ästhetik, die auf jedem Foto bewusst gewählt wirkt.
@@ -485,7 +485,7 @@ Die Schönheit des Loafers liegt in seiner Anpassungsfähigkeit. Egal, ob Sie ei
 ## Warum der Loafer der neue Goldstandard ist
 
 ### 1. Der Komfort einer „zweiten Haut“
-Eine Hochzeit ist ein Marathon, kein Sprint. Vom ersten Blick bis zum letzten Tanz werden Sie über zehn Stunden auf den Beinen sein. Während traditionelle Abendschuhe oft eine schmerzhafte Einlaufzeit erfordern, bieten Loafer aus hochwertigem mediterranem Wildleder sofortige Flexibilität.
+Eine Hochzeit ist ein Marathon, kein Sprint. Vom ersten Blick bis zum letzten Tanz werden Sie über zehn Stunden auf den Beinen sein. Während traditionelle Abendschuhe oft eine schmerzhafte Einlaufzeit erfordern, bieten Loafer aus hochwertigem mediterranem Veloursleder sofortige Flexibilität.
 
 **Profi-Tipp:** Achten Sie auf eine Blake-genähte Sohle. Diese Konstruktionsmethode führt zu einem leichteren, flexibleren Schuh, der sich mit Ihrem Fuß bewegt – unerlässlich, um die Tanzfläche zu dominieren.
 
@@ -522,14 +522,14 @@ In der modernen Hochzeitswelt ist der Loafer nicht nur eine Alternative – er i
 ## 1. Der „Pop“-Test
 Wenn Sie in einen hochwertigen Loafer schlüpfen, sollten Sie ein leichtes „Ploppen“ der entweichenden Luft hören. Dies deutet auf eine vakuumähnliche Versiegelung um Ihren Fuß hin. Wenn der Schuh zu leicht hineingleitet, ist er wahrscheinlich zu groß und wird rutschen, wenn das Leder im Laufe des Tages weicher wird.
 
-## 2. Berücksichtigen Sie die Dehnung von Wildleder
-Hochwertiges mediterranes Wildleder ist unglaublich weich, dehnt sich aber etwas mehr als Kalbsleder. Wenn Sie bei einem Wildleder-Loafer zwischen zwei Größen liegen, empfehlen wir, die kleinere Größe zu wählen. Er sollte sich anfangs „angenehm eng“ anfühlen; innerhalb einer Stunde Tragezeit passt er sich perfekt an Ihren Fuß an.
+## 2. Berücksichtigen Sie die Dehnung von Veloursleder
+Hochwertiges mediterranes Veloursleder ist unglaublich weich, dehnt sich aber etwas mehr als Kalbsleder. Wenn Sie bei einem Veloursleder-Loafer zwischen zwei Größen liegen, empfehlen wir, die kleinere Größe zu wählen. Er sollte sich anfangs „angenehm eng“ anfühlen; innerhalb einer Stunde Tragezeit passt er sich perfekt an Ihren Fuß an.
 
 ## 3. Der unsichtbare Vorteil
 Wenn Sie den „No-Sock“-Look bevorzugen, aber zusätzliche Sicherheit wünschen, verwenden Sie hochwertige unsichtbare Socken mit Silikon-Fersengriffen. Dies bietet die Ästhetik eines nackten Knöchels und fügt gleichzeitig eine Reibungsebene hinzu, die jegliche interne Bewegung verhindert.
 
 ## 4. Fersenhalter als letzter Ausweg
-Wenn Sie ein Paar haben, das etwas zu locker sitzt, kann ein kleiner Wildleder-Fersenhalter ein Lebensretter sein. Die beste Lösung ist jedoch immer, mit der richtigen Leistenform zu beginnen.`
+Wenn Sie ein Paar haben, das etwas zu locker sitzt, kann ein kleiner Veloursleder-Fersenhalter ein Lebensretter sein. Die beste Lösung ist jedoch immer, mit der richtigen Leistenform zu beginnen.`
         },
         {
           slug: "the-lookbook",
@@ -539,13 +539,13 @@ Wenn Sie ein Paar haben, das etwas zu locker sitzt, kann ein kleiner Wildleder-F
           image: IMAGES.ALT_7,
           content: `Schuhwerk ist das Fundament, aber das komplette Ensemble ist das, was die Geschichte erzählt. Unser Hochzeits-Lookbook erkundet drei verschiedene Archetypen für den modernen Bräutigam und zeigt, wie man Textur, Farbe und Silhouette in Einklang bringt.
 
-## Die Amalfiküste Destination
-**Der Look:** Ein hellsandfarbener Leinenanzug, ein weißes Hemd mit offenem Kragen und unsere ungefütterten Voyage Loafer in Salbei-Wildleder.
+## Destination: Amalfiküste
+**Der Look:** Ein hellsandfarbener Leinenanzug, ein weißes Hemd mit offenem Kragen und unsere ungefütterten Voyage Loafer in Salbei-Veloursleder.
 **Der Vibe:** Mühelos, sonnendurchflutet und anspruchsvoll. Dieser Look priorisiert Atmungsaktivität, ohne die Bedeutung des Anlasses zu vernachlässigen.
 
-## Die Londoner City-Mikrohochzeit
-**Der Look:** Ein anthrazitgrauer zweireihiger Anzug, eine gestrickte Seidenkrawatte und Tassel Loafer in dunkelbraunem Wildleder.
-**Der Vibe:** Scharf, architektonisch und modern. Die Textur des Wildleders bricht die Formalität der grauen Maßkonfektion auf und fügt eine Ebene zeitgemäßer Coolness hinzu.
+## Urbane Mikro-Hochzeit: London
+**Der Look:** Ein anthrazitgrauer zweireihiger Anzug, eine gestrickte Seidenkrawatte und Tassel Loafer in dunkelbraunem Veloursleder.
+**Der Vibe:** Scharf, architektonisch und modern. Die Textur des Veloursleders bricht die Formalität der grauen Maßkonfektion auf und fügt eine Ebene zeitgemäßer Coolness hinzu.
 
 ## Die klassische Black-Tie-Revolution
 **Der Look:** Ein mitternachtsblauer Smoking mit Revers aus Seidengrosgrain und elegante Penny Loafer in poliertem schwarzem Kalbsleder.

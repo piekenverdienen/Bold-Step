@@ -82,7 +82,7 @@ export interface Content {
 export const translations: Record<Language, Content> = {
   EN: {
     hero: {
-      headline: "The Bold Step",
+      headline: "The Groom Code",
       subline: "A curated guide for the modern groom. Navigating tradition with contemporary elegance.",
       cta: "Start Your Journey"
     },
@@ -197,7 +197,7 @@ It’s about taking the first bold step toward forever.`
   },
   DE: {
     hero: {
-      headline: "Der Mutige Schritt",
+      headline: "Der Bräutigam-Kodex",
       subline: "Ein kuratierter Leitfaden für den modernen Bräutigam. Tradition mit zeitgenössischer Eleganz verbinden.",
       cta: "Beginnen Sie Ihre Reise"
     },

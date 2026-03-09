@@ -49,7 +49,7 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
       <nav className="fixed w-full z-50 bg-brand-offwhite/80 backdrop-blur-md border-b border-brand-black/5">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-8">
-            <Link to="/" className="text-2xl font-serif tracking-widest uppercase">Bold Step</Link>
+            <Link to="/" className="text-2xl font-serif tracking-widest uppercase">The Groom Code</Link>
             <div className="hidden md:flex gap-6 text-xs uppercase tracking-widest font-medium opacity-60">
               {navLinks.map((link) => (
                 link.href.startsWith('/#') ? (

@@ -11,11 +11,11 @@ export default function Footer({ lang }: FooterProps) {
     <footer className="bg-brand-offwhite border-t border-brand-black/5 py-20 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-12">
         <div className="col-span-2">
-          <h2 className="text-2xl font-serif uppercase tracking-widest mb-6">Bold Step</h2>
+          <h2 className="text-2xl font-serif uppercase tracking-widest mb-6">The Groom Code</h2>
           <p className="max-w-sm text-sm opacity-60 font-light leading-relaxed">
             {lang === 'EN'
-              ? "The ultimate guide for the modern groom. We believe every wedding journey begins with a bold step."
-              : "Der ultimative Leitfaden für den modernen Bräutigam. Wir glauben, dass jede Hochzeitsreise mit einem mutigen Schritt beginnt."}
+              ? "The definitive style manual for the modern groom. Navigating tradition with contemporary elegance."
+              : "Der definitive Stil-Leitfaden für den modernen Bräutigam. Tradition met zeitgenössischer Eleganz verbinden."}
           </p>
         </div>
         <div>
@@ -37,7 +37,7 @@ export default function Footer({ lang }: FooterProps) {
         </div>
       </div>
       <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-brand-black/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest font-bold opacity-40">
-        <p>© 2026 Bold Step</p>
+        <p>© 2026 The Groom Code</p>
         <p>Handcrafted in Italy. Designed for the Aisle.</p>
       </div>
     </footer>

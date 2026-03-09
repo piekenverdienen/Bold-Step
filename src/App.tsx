@@ -41,6 +41,13 @@ function LanguageWrapper() {
     // Update HTML lang attribute
     document.documentElement.lang = lang.toLowerCase();
 
+    // Update document title
+    const titles = {
+      EN: "The Groom Code — Unlock the code for a perfect day",
+      DE: "The Groom Code — Entschlüsseln Sie den Code für den perfekten Tag"
+    };
+    document.title = titles[lang];
+
     // Update hreflang tags
     const baseUrl = window.location.origin;
     const pathWithoutLang = location.pathname.replace(/^\/(en|de)/i, '') || '/';

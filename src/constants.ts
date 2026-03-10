@@ -179,11 +179,62 @@ export const translations: Record<Language, Content> = {
       ]
     },
     collection: {
-      title: "Curated Essentials",
+      title: "The Selection",
       products: [
-        { name: "Suede Loafers", description: "Our top recommendation for destination weddings. Exceptional comfort meets refined style.", image: IMAGES.PRODUCT_SUEDE_LOAFER, link: "https://aurelien-online.com/collections/driving-shoes" },
-        { name: "Leather Loafers", description: "The definitive choice for city tailoring. Hand-finished quality for a sharp silhouette.", image: IMAGES.PRODUCT_LEATHER_LOAFER, link: "https://aurelien-online.com/collections/city-loafers" },
-        { name: "Yacht Loafers", description: "Ideal for relaxed celebrations. A versatile balance of luxury and Mediterranean ease.", image: IMAGES.PRODUCT_YACHT_LOAFER, link: "https://aurelien-online.com/collections/loafers" }
+        { 
+          name: LOAFER_PRODUCTS.COGNAC.name, 
+          description: "The definitive choice for destination weddings. Exceptional comfort meets refined Mediterranean style.", 
+          image: LOAFER_PRODUCTS.COGNAC.image, 
+          link: LOAFER_PRODUCTS.COGNAC.url 
+        },
+        { 
+          name: LOAFER_PRODUCTS.BLACK.name, 
+          description: "The sharpest silhouette for formal city tailoring. Hand-finished quality for a commanding presence.", 
+          image: LOAFER_PRODUCTS.BLACK.image, 
+          link: LOAFER_PRODUCTS.BLACK.url 
+        },
+        { 
+          name: LOAFER_PRODUCTS.DARK_BROWN.name, 
+          description: "A versatile balance of luxury and ease. Ideal for rustic estates and sophisticated celebrations.", 
+          image: LOAFER_PRODUCTS.DARK_BROWN.image, 
+          link: LOAFER_PRODUCTS.DARK_BROWN.url 
+        },
+        { 
+          name: LOAFER_PRODUCTS.NAVY.name, 
+          description: "A modern alternative to tradition. Deep navy suede that adds character to any tailored ensemble.", 
+          image: LOAFER_PRODUCTS.NAVY.image, 
+          link: LOAFER_PRODUCTS.NAVY.url 
+        },
+        { 
+          name: LOAFER_PRODUCTS.SAND.name, 
+          description: "Lightweight and unlined. The ultimate expression of Mediterranean summer elegance.", 
+          image: LOAFER_PRODUCTS.SAND.image, 
+          link: LOAFER_PRODUCTS.SAND.url 
+        },
+        { 
+          name: LOAFER_PRODUCTS.BURGUNDY.name, 
+          description: "Rich tones for the groom who values texture and depth. A masterpiece of Italian craftsmanship.", 
+          image: LOAFER_PRODUCTS.BURGUNDY.image, 
+          link: LOAFER_PRODUCTS.BURGUNDY.url 
+        },
+        { 
+          name: LOAFER_PRODUCTS.TAN.name, 
+          description: "A warm, versatile shade that bridges the gap between formal and relaxed. Perfect for spring celebrations.", 
+          image: LOAFER_PRODUCTS.TAN.image, 
+          link: LOAFER_PRODUCTS.TAN.url 
+        },
+        { 
+          name: LOAFER_PRODUCTS.CREAM.name, 
+          description: "The ultimate choice for tropical destinations. Pure elegance in a lightweight, breathable silhouette.", 
+          image: LOAFER_PRODUCTS.CREAM.image, 
+          link: LOAFER_PRODUCTS.CREAM.url 
+        },
+        { 
+          name: LOAFER_PRODUCTS.DARK_CHARCOAL.name, 
+          description: "A sophisticated alternative to black. Deep grey suede that offers a modern, architectural finish.", 
+          image: LOAFER_PRODUCTS.DARK_CHARCOAL.image, 
+          link: LOAFER_PRODUCTS.DARK_CHARCOAL.url 
+        }
       ]
     },
     social: {
@@ -413,11 +464,62 @@ If you find yourself with a pair that is slightly loose, a small suede heel grip
       ]
     },
     collection: {
-      title: "Kuratierte Essentials",
+      title: "Die Auswahl",
       products: [
-        { name: "Wildleder-Loafer", description: "Unsere Top-Empfehlung für Destination-Hochzeiten. Außergewöhnlicher Komfort trifft auf raffinierten Stil.", image: IMAGES.PRODUCT_SUEDE_LOAFER, link: "https://aurelien-online.com/collections/driving-shoes" },
-        { name: "Leder-Loafer", description: "Die definitive Wahl für urbane Maßkonfektion. Handgefertigte Qualität für eine scharfe Silhouette.", image: IMAGES.PRODUCT_LEATHER_LOAFER, link: "https://aurelien-online.com/collections/city-loafers" },
-        { name: "Yacht-Loafer", description: "Ideal für entspannte Feiern. Eine vielseitige Balance aus Luxus und mediterraner Leichtigkeit.", image: IMAGES.PRODUCT_YACHT_LOAFER, link: "https://aurelien-online.com/collections/loafers" }
+        { 
+          name: LOAFER_PRODUCTS.COGNAC.name, 
+          description: "Die definitive Wahl für Destination-Hochzeiten. Außergewöhnlicher Komfort trifft auf raffinierten mediterranen Stil.", 
+          image: LOAFER_PRODUCTS.COGNAC.image, 
+          link: LOAFER_PRODUCTS.COGNAC.url 
+        },
+        { 
+          name: LOAFER_PRODUCTS.BLACK.name, 
+          description: "Die schärfste Silhouette für urbane Maßkonfektion. Handgefertigte Qualität für eine souveräne Präsenz.", 
+          image: LOAFER_PRODUCTS.BLACK.image, 
+          link: LOAFER_PRODUCTS.BLACK.url 
+        },
+        { 
+          name: LOAFER_PRODUCTS.DARK_BROWN.name, 
+          description: "Eine vielseitige Balance aus Luxus und Leichtigkeit. Ideal für ländliche Anwesen und anspruchsvolle Feiern.", 
+          image: LOAFER_PRODUCTS.DARK_BROWN.image, 
+          link: LOAFER_PRODUCTS.DARK_BROWN.url 
+        },
+        { 
+          name: LOAFER_PRODUCTS.NAVY.name, 
+          description: "Eine moderne Alternative zur Tradition. Tiefblaues Wildleder, das jedem maßgeschneiderten Ensemble Charakter verleiht.", 
+          image: LOAFER_PRODUCTS.NAVY.image, 
+          link: LOAFER_PRODUCTS.NAVY.url 
+        },
+        { 
+          name: LOAFER_PRODUCTS.SAND.name, 
+          description: "Leicht und ungefüttert. Der ultimative Ausdruck mediterraner Sommereleganz.", 
+          image: LOAFER_PRODUCTS.SAND.image, 
+          link: LOAFER_PRODUCTS.SAND.url 
+        },
+        { 
+          name: LOAFER_PRODUCTS.BURGUNDY.name, 
+          description: "Satte Töne für den Bräutigam, der Wert auf Textur und Tiefe legt. Ein Meisterwerk italienischer Handwerkskunst.", 
+          image: LOAFER_PRODUCTS.BURGUNDY.image, 
+          link: LOAFER_PRODUCTS.BURGUNDY.url 
+        },
+        { 
+          name: LOAFER_PRODUCTS.TAN.name, 
+          description: "Ein warmer, vielseitiger Farbton, der die Brücke zwischen formell und entspannt schlägt. Perfekt für Frühlingsfeiern.", 
+          image: LOAFER_PRODUCTS.TAN.image, 
+          link: LOAFER_PRODUCTS.TAN.url 
+        },
+        { 
+          name: LOAFER_PRODUCTS.CREAM.name, 
+          description: "Die ultimative Wahl für tropische Destinationen. Reine Eleganz in einer leichten, atmungsaktiven Silhouette.", 
+          image: LOAFER_PRODUCTS.CREAM.image, 
+          link: LOAFER_PRODUCTS.CREAM.url 
+        },
+        { 
+          name: LOAFER_PRODUCTS.DARK_CHARCOAL.name, 
+          description: "Eine anspruchsvolle Alternative zu Schwarz. Tiefgraues Wildleder, das ein modernes, architektonisches Finish bietet.", 
+          image: LOAFER_PRODUCTS.DARK_CHARCOAL.image, 
+          link: LOAFER_PRODUCTS.DARK_CHARCOAL.url 
+        }
       ]
     },
     social: {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { ChevronRight, ChevronLeft, Check } from 'lucide-react';
+import { ChevronRight, Check } from 'lucide-react';
 import { Language, IMAGES } from '../constants';
 
 interface QuizProps {
@@ -49,7 +49,7 @@ const quizData = {
       }
     ],
     result: {
-      title: "Your Sole Mate 2.0",
+      title: "Your Sole Mate",
       cta: "Shop the Selection"
     }
   },
@@ -93,7 +93,7 @@ const quizData = {
       }
     ],
     result: {
-      title: "Ihr Sole Mate 2.0",
+      title: "Ihr Sole Mate",
       cta: "Kollektion Shoppen"
     }
   }
@@ -121,7 +121,7 @@ const recommendations = {
   driving: {
     name: "The Driving Shoe",
     desc: "Unmatched comfort for relaxed celebrations. The iconic pebble sole and soft suede make this the perfect choice for a countryside estate.",
-    image: IMAGES.PRODUCT_SUEDE_LOAFER,
+    image: IMAGES.ALT_10,
     link: "https://aurelien-online.com/collections/driving-shoes"
   }
 };
@@ -129,15 +129,21 @@ const recommendations = {
 export default function Quiz({ lang, onClose }: QuizProps) {
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState<string[]>([]);
+  const [isCalculating, setIsCalculating] = useState(false);
   const data = quizData[lang];
 
   const handleOption = (value: string) => {
     const newAnswers = [...answers, value];
     setAnswers(newAnswers);
+
     if (step < data.steps.length - 1) {
       setStep(step + 1);
     } else {
-      setStep(data.steps.length);
+      setIsCalculating(true);
+      setTimeout(() => {
+        setStep(data.steps.length);
+        setIsCalculating(false);
+      }, 1500);
     }
   };
 
@@ -153,11 +159,11 @@ export default function Quiz({ lang, onClose }: QuizProps) {
   return (
     <div className="fixed inset-0 z-[100] bg-brand-offwhite flex flex-col">
       <div className="p-6 flex justify-between items-center border-b border-brand-black/5">
-        <button onClick={onClose} className="flex items-center gap-2 text-xs uppercase tracking-widest font-bold opacity-60 hover:opacity-100 transition-opacity">
-          <ChevronLeft size={16} /> {lang === 'EN' ? 'Back' : 'Zurück'}
+        <button onClick={onClose} className="text-xs uppercase tracking-widest font-bold opacity-60 hover:opacity-100 transition-opacity">
+          {lang === 'EN' ? 'Close' : 'Schließen'}
         </button>
         <div className="flex flex-col items-center">
-          <span className="text-xs uppercase tracking-[0.3em] font-bold">Sole Mate Quiz 2.0</span>
+          <span className="text-xs uppercase tracking-[0.3em] font-bold">Sole Mate Quiz</span>
           <div className="w-32 h-0.5 bg-brand-black/5 mt-2 overflow-hidden rounded-full">
             <motion.div 
               className="h-full bg-brand-gold"
@@ -170,9 +176,20 @@ export default function Quiz({ lang, onClose }: QuizProps) {
         <div className="w-10"></div>
       </div>
 
-      <div className="flex-grow flex items-center justify-center p-6 overflow-y-auto">
-        <div className="max-w-xl w-full py-12">
-          {step < data.steps.length ? (
+      <div className="flex-grow flex items-center justify-center p-6">
+        <div className="max-w-xl w-full">
+          {isCalculating ? (
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className="text-center"
+            >
+              <div className="w-16 h-16 border-2 border-brand-gold/20 border-t-brand-gold rounded-full animate-spin mx-auto mb-8" />
+              <h2 className="text-2xl font-serif italic">
+                {lang === 'EN' ? 'Finding your perfect match...' : 'Wir finden Ihr perfektes Match...'}
+              </h2>
+            </motion.div>
+          ) : step < data.steps.length ? (
             <motion.div 
               key={step}
               initial={{ opacity: 0, y: 20 }}
@@ -187,10 +204,10 @@ export default function Quiz({ lang, onClose }: QuizProps) {
                   <button 
                     key={i}
                     onClick={() => handleOption(opt.value)}
-                    className="w-full p-6 border border-brand-black/10 text-left hover:border-brand-black hover:bg-brand-black hover:text-brand-offwhite transition-all flex justify-between items-center group relative overflow-hidden"
+                    className="w-full p-6 border border-brand-black/10 text-left hover:border-brand-black hover:bg-brand-black hover:text-brand-offwhite transition-all flex justify-between items-center group"
                   >
-                    <span className="text-lg font-serif relative z-10">{opt.label}</span>
-                    <ChevronRight size={18} className="opacity-0 group-hover:opacity-100 transition-all transform translate-x-[-10px] group-hover:translate-x-0 relative z-10" />
+                    <span className="text-lg font-serif">{opt.label}</span>
+                    <ChevronRight size={18} className="opacity-0 group-hover:opacity-100 transition-all transform translate-x-[-10px] group-hover:translate-x-0" />
                   </button>
                 ))}
               </div>
@@ -216,22 +233,28 @@ export default function Quiz({ lang, onClose }: QuizProps) {
                 <p className="text-sm opacity-60 font-light leading-relaxed max-w-sm mx-auto mb-12">
                   {getResult().desc}
                 </p>
-                <motion.div 
-                  initial={{ opacity: 0, y: 40 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.5, duration: 1 }}
-                  className="aspect-[4/5] max-w-xs mx-auto mb-12 overflow-hidden rounded-sm shadow-2xl"
-                >
-                  <img src={getResult().image} alt={getResult().name} className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-[2s]" />
-                </motion.div>
-                <a 
-                  href={getResult().link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block px-12 py-5 bg-brand-black text-brand-offwhite text-xs uppercase tracking-[0.3em] font-bold hover:bg-brand-gold transition-all duration-500 shadow-lg hover:shadow-brand-gold/20"
-                >
-                  {data.result.cta}
-                </a>
+                <div className="aspect-[4/5] max-w-xs mx-auto mb-12 overflow-hidden rounded-sm shadow-2xl">
+                  <img src={getResult().image} alt={getResult().name} className="w-full h-full object-cover" />
+                </div>
+                <div className="flex flex-col md:flex-row gap-8 justify-center items-center">
+                  <a 
+                    href={getResult().link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-12 py-5 bg-brand-black text-brand-offwhite text-xs uppercase tracking-[0.3em] font-bold hover:bg-brand-gold transition-all duration-500 shadow-lg hover:shadow-brand-gold/20"
+                  >
+                    {data.result.cta}
+                  </a>
+                  <button 
+                    onClick={() => {
+                      setStep(0);
+                      setAnswers([]);
+                    }}
+                    className="text-xs uppercase tracking-[0.3em] font-bold opacity-40 hover:opacity-100 transition-opacity"
+                  >
+                    {lang === 'EN' ? 'Retake Quiz' : 'Quiz wiederholen'}
+                  </button>
+                </div>
               </div>
             </motion.div>
           )}

@@ -19,9 +19,9 @@ export const IMAGES = {
 
   // --- STYLE ARCHETYPES ---
   // Images used in the "Archetypes of Elegance" section
-  STYLE_BLACK_TIE: "https://drive.google.com/thumbnail?id=1be7WZufXHiJB0xIsYLZMZdIglfDO2X_b&sz=w1200",
-  STYLE_DESTINATION: "https://drive.google.com/thumbnail?id=1UPaWpMuE4lBnJ7r7SIPtrWJqXz9RYUbI&sz=w1200",
-  STYLE_CITY: "https://drive.google.com/thumbnail?id=1HeT76iV7spakNFo3kdwZVkt2WEM7Hm9R&sz=w1200",
+  STYLE_BLACK_TIE: "https://drive.google.com/thumbnail?id=1HhobnJZq0qFnKG_q7xleFNs5nZXeP_ep&sz=w1200",
+  STYLE_DESTINATION: "https://drive.google.com/thumbnail?id=1AGpD4TR6j7nrxQEfUlpbcBFNZyHPBFQv&sz=w1200",
+  STYLE_CITY: "https://drive.google.com/thumbnail?id=1a34NFEub-PBCHeWjbNLWWLrw-zSSGfAL&sz=w1200",
 
   // --- ALTERNATIVE IMAGES (Copy-paste these IDs above to swap) ---
   // You can use these IDs to replace any of the images above.

@@ -25,7 +25,9 @@ export default function ArchetypeHub({ lang }: ArchetypeHubProps) {
       <section className="relative py-40 px-6 bg-brand-black text-brand-offwhite overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="text-[15vw] font-serif whitespace-nowrap animate-marquee-slow">
-            SCHLOSS AUSLAND KLASSISCH SCHLOSS AUSLAND KLASSISCH
+            {lang === 'EN'
+              ? 'CASTLE DESTINATION CLASSIC CASTLE DESTINATION CLASSIC'
+              : 'SCHLOSS AUSLAND KLASSISCH SCHLOSS AUSLAND KLASSISCH'}
           </div>
         </div>
         <div className="relative z-10 max-w-4xl mx-auto text-center">

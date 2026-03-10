@@ -38,7 +38,7 @@ export const schlossArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Navy Yacht Loafers',
           reason: 'Understated elegance for the bended knee. Navy suede pairs beautifully with a smart-casual blazer look.',
-          link: 'https://aurelien-online.com/products/navy-suede-yacht-loafers-2?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-schloss'
+          link: 'https://aurelien-online.com/products/navy-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-schloss'
         }
       },
       {
@@ -81,7 +81,7 @@ export const schlossArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Black Yacht Loafers',
           reason: 'The black loafer bridges the gap between formal tradition and modern confidence. Perfect against the grandeur of a castle setting.',
-          link: 'https://aurelien-online.com/products/black-yacht-loafers-black-sole?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-schloss'
+          link: 'https://aurelien-online.com/products/black-yacht-loafers-black-sole?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-schloss'
         }
       },
       {
@@ -98,7 +98,7 @@ export const schlossArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Caramel Yacht Loafers',
           reason: 'Versatile enough for a day on Lake Como or evening cocktails in Vienna. The caramel suede transitions effortlessly between settings.',
-          link: 'https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-schloss'
+          link: 'https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-schloss'
         }
       },
       {
@@ -115,7 +115,7 @@ export const schlossArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Chocolate Yacht Loafers',
           reason: 'Rich, warm, and perfectly pitched between casual and formal. The ideal rehearsal dinner shoe.',
-          link: 'https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-schloss'
+          link: 'https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-schloss'
         }
       },
       {
@@ -133,7 +133,7 @@ export const schlossArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Black Yacht Loafers',
           reason: 'The definitive choice for a castle wedding. Black leather against stone floors, red carpets, and formal tailoring. Commanding without trying.',
-          link: 'https://aurelien-online.com/products/black-yacht-loafers-black-sole?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-schloss'
+          link: 'https://aurelien-online.com/products/black-yacht-loafers-black-sole?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-schloss'
         }
       }
     ],
@@ -260,7 +260,7 @@ export const schlossArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Navy Yacht Loafers',
           reason: 'Dezente Eleganz für den Kniefall. Navy-Wildleder harmoniert wunderbar mit einem Smart-Casual-Blazer-Look.',
-          link: 'https://aurelien-online.com/products/navy-suede-yacht-loafers-2?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-schloss'
+          link: 'https://aurelien-online.com/products/navy-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-schloss'
         }
       },
       {
@@ -303,7 +303,7 @@ export const schlossArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Black Yacht Loafers',
           reason: 'Der schwarze Loafer verbindet formelle Tradition mit modernem Selbstbewusstsein. Perfekt vor der Kulisse eines Schlosses.',
-          link: 'https://aurelien-online.com/products/black-yacht-loafers-black-sole?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-schloss'
+          link: 'https://aurelien-online.com/products/black-yacht-loafers-black-sole?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-schloss'
         }
       },
       {
@@ -320,7 +320,7 @@ export const schlossArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Caramel Yacht Loafers',
           reason: 'Vielseitig genug für einen Tag am Comer See oder Abendcocktails in Wien. Das Karamell-Wildleder wechselt mühelos zwischen Settings.',
-          link: 'https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-schloss'
+          link: 'https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-schloss'
         }
       },
       {
@@ -337,7 +337,7 @@ export const schlossArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Chocolate Yacht Loafers',
           reason: 'Warm, reichhaltig und perfekt zwischen lässig und formell positioniert. Der ideale Schuh für das Probe-Dinner.',
-          link: 'https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-schloss'
+          link: 'https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-schloss'
         }
       },
       {
@@ -355,7 +355,7 @@ export const schlossArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Black Yacht Loafers',
           reason: 'Die definitive Wahl für eine Schlosshochzeit. Schwarzes Leder auf Steinböden, roten Teppichen und formeller Garderobe. Selbstbewusst ohne es zu versuchen.',
-          link: 'https://aurelien-online.com/products/black-yacht-loafers-black-sole?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-schloss'
+          link: 'https://aurelien-online.com/products/black-yacht-loafers-black-sole?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-schloss'
         }
       }
     ],

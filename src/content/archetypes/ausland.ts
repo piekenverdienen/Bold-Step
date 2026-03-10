@@ -38,7 +38,7 @@ export const auslandArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Beige Yacht Loafers',
           reason: 'Effortless Mediterranean style. Sand suede on warm stone — the proposal shoe that feels like a holiday.',
-          link: 'https://aurelien-online.com/products/beige-suede-yacht-loafers-2?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-ausland'
+          link: 'https://aurelien-online.com/products/beige-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-ausland'
         }
       },
       {
@@ -82,7 +82,7 @@ export const auslandArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Caramel Yacht Loafers',
           reason: 'The definitive Mediterranean wedding shoe. Warm suede that handles cobblestones with ease while looking effortlessly elegant against linen.',
-          link: 'https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-ausland'
+          link: 'https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-ausland'
         }
       },
       {
@@ -99,7 +99,7 @@ export const auslandArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Light Beige Yacht Loafers',
           reason: 'From beach boardwalk to rooftop cocktails. The light beige transitions through every Mediterranean setting.',
-          link: 'https://aurelien-online.com/products/light-beige-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-ausland'
+          link: 'https://aurelien-online.com/products/light-beige-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-ausland'
         }
       },
       {
@@ -116,7 +116,7 @@ export const auslandArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Caramel Yacht Loafers',
           reason: 'Warm suede on Mediterranean stone. The rehearsal dinner shoe that sets the tone for tomorrow.',
-          link: 'https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-ausland'
+          link: 'https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-ausland'
         }
       },
       {
@@ -135,7 +135,7 @@ export const auslandArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Caramel Yacht Loafers',
           reason: 'Built for exactly this moment. Soft suede on warm stone, effortless elegance against a Mediterranean backdrop. Comfortable from ceremony to last dance.',
-          link: 'https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-ausland'
+          link: 'https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-ausland'
         }
       }
     ],
@@ -262,7 +262,7 @@ export const auslandArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Beige Yacht Loafers',
           reason: 'Müheloser mediterraner Stil. Sand-Wildleder auf warmem Stein — der Antragsschuh, der sich wie Urlaub anfühlt.',
-          link: 'https://aurelien-online.com/products/beige-suede-yacht-loafers-2?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-ausland'
+          link: 'https://aurelien-online.com/products/beige-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-ausland'
         }
       },
       {
@@ -306,7 +306,7 @@ export const auslandArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Caramel Yacht Loafers',
           reason: 'Der definitive mediterrane Hochzeitsschuh. Warmes Wildleder, das Kopfsteinpflaster mühelos meistert und dabei gegen Leinen mühelos elegant wirkt.',
-          link: 'https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-ausland'
+          link: 'https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-ausland'
         }
       },
       {
@@ -323,7 +323,7 @@ export const auslandArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Light Beige Yacht Loafers',
           reason: 'Von der Strandpromenade bis zum Rooftop-Cocktail. Das helle Beige passt in jedes mediterrane Setting.',
-          link: 'https://aurelien-online.com/products/light-beige-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-ausland'
+          link: 'https://aurelien-online.com/products/light-beige-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-ausland'
         }
       },
       {
@@ -340,7 +340,7 @@ export const auslandArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Caramel Yacht Loafers',
           reason: 'Warmes Wildleder auf mediterranem Stein. Der Probe-Dinner-Schuh, der den Ton für morgen setzt.',
-          link: 'https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-ausland'
+          link: 'https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-ausland'
         }
       },
       {
@@ -359,7 +359,7 @@ export const auslandArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Caramel Yacht Loafers',
           reason: 'Gebaut für genau diesen Moment. Weiches Wildleder auf warmem Stein, mühelose Eleganz vor mediterraner Kulisse. Bequem von der Zeremonie bis zum letzten Tanz.',
-          link: 'https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-ausland'
+          link: 'https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=archetype-ausland'
         }
       }
     ],

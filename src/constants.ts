@@ -174,7 +174,7 @@ export const translations: Record<Language, Content> = {
       title: "The Groom's Journey",
       steps: [
         { title: "The Proposal", description: "Confidence from the very first moment. Start your shared narrative with intentional style." },
-        { title: "The Planning", description: "Sartorial precision in every detail. Navigating the protocol of modern celebrations." },
+        { title: "The Planning", description: "Refined precision in every detail. Navigating the protocol of modern celebrations." },
         { title: "The Big Day", description: "The ultimate stride. Where craftsmanship meets the ease of the occasion." }
       ]
     },
@@ -459,7 +459,7 @@ If you find yourself with a pair that is slightly loose, a small suede heel grip
       title: "Die Reise des Bräutigams",
       steps: [
         { title: "Der Antrag", description: "Souveränität ab dem ersten Moment. Beginnen Sie Ihre gemeinsame Geschichte mit bewusstem Stil." },
-        { title: "Die Planung", description: "Sartoriale Präzision in jedem Detail. Sicher navigieren durch die Etikette moderner Feierlichkeiten." },
+        { title: "Die Planung", description: "Raffinierte Präzision in jedem Detail. Sicher navigieren durch die Etikette moderner Feierlichkeiten." },
         { title: "Der Große Tag", description: "Der ultimative Schritt. Wo Handwerkskunst auf die Leichtigkeit des Anlasses trifft." }
       ]
     },

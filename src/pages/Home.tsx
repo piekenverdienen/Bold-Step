@@ -6,7 +6,7 @@ import EditorialSections from '../components/EditorialSections';
 import AIAssistant from '../components/AIAssistant';
 import StyleGuide from '../components/StyleGuide';
 import Blog from '../components/Blog';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 interface HomeProps {
   lang: Language;
@@ -112,6 +112,59 @@ export default function Home({ lang, onOpenQuiz }: HomeProps) {
 
       {/* AI Style Assistant */}
       <AIAssistant lang={lang} />
+
+      {/* Suit Matcher Promotion */}
+      <section className="py-32 px-6 bg-brand-cream/30">
+        <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-16">
+          <motion.div
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+          >
+            <span className="text-[10px] uppercase tracking-[0.4em] font-bold text-brand-gold mb-6 block">
+              {lang === 'EN' ? 'Style Toolkit' : 'Stil-Toolkit'}
+            </span>
+            <h2 className="text-4xl md:text-6xl font-serif mb-8 leading-tight">
+              {lang === 'EN' ? 'The Suit Matcher' : 'Der Anzug-Matcher'}
+            </h2>
+            <p className="text-sm md:text-base opacity-60 font-light leading-relaxed mb-12 max-w-md">
+              {lang === 'EN' 
+                ? "Not sure which loafer colour complements your suit? Our interactive matcher provides the definitive answer based on sartorial rules."
+                : "Sie sind sich nicht sicher, welche Loafer-Farbe zu Ihrem Anzug passt? Unser interaktiver Matcher liefert die definitive Antwort basierend auf klassischen Stilregeln."}
+            </p>
+            <Link 
+              to={`/${lang.toLowerCase()}/matcher`}
+              className="inline-block px-10 py-5 bg-brand-black text-brand-offwhite text-[10px] uppercase tracking-[0.3em] font-bold hover:bg-brand-gold transition-all"
+            >
+              {lang === 'EN' ? 'Launch Matcher' : 'Matcher Starten'}
+            </Link>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: 40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+            className="relative"
+          >
+            <div className="aspect-[4/5] bg-brand-black/5 rounded-2xl overflow-hidden shadow-2xl">
+              <img 
+                src={IMAGES.ALT_12} 
+                alt="Suit and Loafer Coordination" 
+                className="w-full h-full object-cover"
+                referrerPolicy="no-referrer"
+              />
+            </div>
+            <div className="absolute -bottom-8 -left-8 bg-white p-8 rounded-xl shadow-xl max-w-xs hidden md:block">
+              <p className="text-xs font-serif italic opacity-60">
+                {lang === 'EN'
+                  ? "A gentleman's shoes should always speak the same language as his suit."
+                  : "Die Schuhe eines Gentlemans sollten immer dieselbe Sprache sprechen wie sein Anzug."}
+              </p>
+            </div>
+          </motion.div>
+        </div>
+      </section>
 
       {/* Style Guide */}
       <section id="style">

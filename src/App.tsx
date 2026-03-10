@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Collection from './pages/Collection';
 import Journal from './pages/Journal';
 import BlogPost from './pages/BlogPost';
+import SuitMatcher from './pages/SuitMatcher';
 import NotFound from './pages/NotFound';
 import Quiz from './components/Quiz';
 import { AnimatePresence } from 'motion/react';
@@ -104,6 +105,7 @@ export default function App() {
           <Route path="collection" element={<CollectionWrapper />} />
           <Route path="journal" element={<JournalWrapper />} />
           <Route path="journal/:id" element={<BlogPostWrapper />} />
+          <Route path="matcher" element={<SuitMatcherWrapper />} />
           <Route path="*" element={<NotFoundWrapper />} />
         </Route>
         <Route path="/" element={<Navigate to="/en" replace />} />
@@ -135,6 +137,11 @@ function JournalWrapper() {
 function BlogPostWrapper() {
   const { lang } = useParams<{ lang: string }>();
   return <BlogPost lang={(lang?.toUpperCase() as Language) || 'EN'} />;
+}
+
+function SuitMatcherWrapper() {
+  const { lang } = useParams<{ lang: string }>();
+  return <SuitMatcher lang={(lang?.toUpperCase() as Language) || 'EN'} />;
 }
 
 function NotFoundWrapper() {

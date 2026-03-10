@@ -23,6 +23,7 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
     { name: lang === 'EN' ? 'The Proposal' : 'Der Antrag', href: `${langPrefix}/#proposal` },
     { name: lang === 'EN' ? 'The Planning' : 'Die Planung', href: `${langPrefix}/#planning` },
     { name: lang === 'EN' ? 'The Style' : 'Der Stil', href: `${langPrefix}/#style` },
+    { name: lang === 'EN' ? 'The Matcher' : 'Der Matcher', href: `${langPrefix}/matcher` },
     { name: lang === 'EN' ? 'The Collection' : 'Die Kollektion', href: `${langPrefix}/collection` },
     { name: lang === 'EN' ? 'The Journal' : 'Das Journal', href: `${langPrefix}/journal` },
   ];

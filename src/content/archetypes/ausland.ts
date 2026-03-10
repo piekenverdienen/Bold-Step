@@ -9,11 +9,11 @@ export const auslandArchetype: ArchetypeData = {
     },
     hero: {
       badge: 'Archetype 02 — The Destination Groom',
-      headline: 'Der Auslands-Bräutigam',
+      headline: 'The Destination Groom',
       subline: 'Sun-drenched terraces, cobblestone paths, and Mediterranean ease. Your guide to the destination wedding abroad.'
     },
     identity: {
-      title: 'You Are the Auslands-Bräutigam If...',
+      title: 'You Are the Destination Groom If...',
       description: 'You dream of saying your vows with the Amalfi Coast behind you or olive trees overhead. You want warmth — in the weather, in the atmosphere, in everything. But you are also practical enough to worry about cobblestones, heat, and how to get 80 guests to Tuscany.',
       traits: [
         'Your Pinterest board is 90% terracotta, olive groves, and linen suits',

@@ -9,11 +9,11 @@ export const schlossArchetype: ArchetypeData = {
     },
     hero: {
       badge: 'Archetype 01 — The Castle Groom',
-      headline: 'Der Schloss-Bräutigam',
+      headline: 'The Castle Groom',
       subline: 'Grand halls, historic elegance, and a day worthy of its setting. Your guide to the luxury castle wedding.'
     },
     identity: {
-      title: 'You Are the Schloss-Bräutigam If...',
+      title: 'You Are the Castle Groom If...',
       description: 'You believe your wedding should feel like an event. Not just a celebration, but a statement. You care about the details because you know they will be remembered — and photographed.',
       traits: [
         'You have already bookmarked at least three German castles',

@@ -9,11 +9,11 @@ export const klassischArchetype: ArchetypeData = {
     },
     hero: {
       badge: 'Archetype 03 — The Classic Groom',
-      headline: 'Der Klassische Bräutigam',
+      headline: 'The Classic Groom',
       subline: 'Practical elegance, smart choices, and a celebration that feels authentic. Your guide to the well-planned German wedding.'
     },
     identity: {
-      title: 'You Are the Klassischer Bräutigam If...',
+      title: 'You Are the Classic Groom If...',
       description: 'You want a beautiful wedding without the theatrics. You are practical, value-driven, and believe that a great celebration does not require a six-figure budget. You have not spent much time thinking about shoes — but that is exactly why this guide exists.',
       traits: [
         'Your first question about any wedding decision is "what does it cost?"',

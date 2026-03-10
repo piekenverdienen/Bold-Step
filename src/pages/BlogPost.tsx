@@ -69,7 +69,7 @@ export default function BlogPost({ lang }: BlogPostProps) {
                     {lang === 'EN' ? 'Ready to find your perfect pair?' : 'Bereit für Ihr perfektes Paar?'}
                   </h4>
                   <a 
-                    href="https://aurelien-online.com/collections/loafers"
+                    href="https://aurelien-online.com/collections/loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=blog"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-8 py-4 bg-brand-black text-brand-offwhite text-xs uppercase tracking-widest font-bold hover:bg-brand-gold transition-all"

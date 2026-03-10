@@ -38,7 +38,7 @@ export const klassischArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Chocolate Yacht Loafers',
           reason: 'Versatile, comfortable, and quietly refined. A shoe that works for a restaurant proposal or a walk in the park.',
-          link: 'https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2'
+          link: 'https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-klassisch'
         }
       },
       {
@@ -82,7 +82,7 @@ export const klassischArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Chocolate Yacht Loafers',
           reason: 'The smart choice: dark brown suede works with navy and charcoal, and you will wear these long after the wedding.',
-          link: 'https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2'
+          link: 'https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-klassisch'
         }
       },
       {
@@ -99,7 +99,7 @@ export const klassischArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Grey Yacht Loafers',
           reason: 'Casual and durable. Grey suede handles a day of activities without looking like you tried too hard.',
-          link: 'https://aurelien-online.com/products/grey-suede-yacht-loafers'
+          link: 'https://aurelien-online.com/products/grey-suede-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-klassisch'
         }
       },
       {
@@ -116,7 +116,7 @@ export const klassischArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Nut Yacht Loafers',
           reason: 'Warm and relaxed for a casual evening. The nut tone works perfectly with jeans or chinos.',
-          link: 'https://aurelien-online.com/products/nut-yacht-loafers'
+          link: 'https://aurelien-online.com/products/nut-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-klassisch'
         }
       },
       {
@@ -134,7 +134,7 @@ export const klassischArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Chocolate Yacht Loafers',
           reason: 'The practical groom\'s perfect choice: elegant enough for the ceremony, comfortable enough for 14 hours, versatile enough to wear again. Dark brown suede works with every classic suit color.',
-          link: 'https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2'
+          link: 'https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-klassisch'
         }
       }
     ],
@@ -261,7 +261,7 @@ export const klassischArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Chocolate Yacht Loafers',
           reason: 'Vielseitig, bequem und dezent raffiniert. Ein Schuh, der für einen Restaurant-Antrag oder einen Parkspaziergang funktioniert.',
-          link: 'https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2'
+          link: 'https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-klassisch'
         }
       },
       {
@@ -305,7 +305,7 @@ export const klassischArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Chocolate Yacht Loafers',
           reason: 'Die clevere Wahl: Dunkelbraunes Wildleder funktioniert mit Navy und Anthrazit, und Sie werden diese Schuhe noch lange nach der Hochzeit tragen.',
-          link: 'https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2'
+          link: 'https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-klassisch'
         }
       },
       {
@@ -322,7 +322,7 @@ export const klassischArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Grey Yacht Loafers',
           reason: 'Lässig und strapazierfähig. Graues Wildleder meistert einen Tag voller Aktivitäten, ohne dass Sie wie jemand aussehen, der sich zu sehr bemüht hat.',
-          link: 'https://aurelien-online.com/products/grey-suede-yacht-loafers'
+          link: 'https://aurelien-online.com/products/grey-suede-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-klassisch'
         }
       },
       {
@@ -339,7 +339,7 @@ export const klassischArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Nut Yacht Loafers',
           reason: 'Warm und entspannt für einen lockeren Abend. Der Nusston funktioniert perfekt mit Jeans oder Chinos.',
-          link: 'https://aurelien-online.com/products/nut-yacht-loafers'
+          link: 'https://aurelien-online.com/products/nut-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-klassisch'
         }
       },
       {
@@ -357,7 +357,7 @@ export const klassischArchetype: ArchetypeData = {
         shoeRecommendation: {
           product: 'Chocolate Yacht Loafers',
           reason: 'Die perfekte Wahl des praktischen Bräutigams: elegant genug für die Zeremonie, bequem genug für 14 Stunden, vielseitig genug zum Wiedertragen. Dunkelbraunes Wildleder funktioniert mit jeder klassischen Anzugfarbe.',
-          link: 'https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2'
+          link: 'https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=bold-step&utm_medium=referral&utm_campaign=archetype-klassisch'
         }
       }
     ],

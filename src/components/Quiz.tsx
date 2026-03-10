@@ -104,25 +104,25 @@ const recommendations = {
     name: "The Voyage Loafer",
     desc: "The ultimate choice for destination weddings. Unlined for maximum breathability and crafted from buttery-soft Mediterranean suede.",
     image: IMAGES.PRODUCT_YACHT_LOAFER,
-    link: "https://aurelien-online.com/collections/loafers"
+    link: "https://aurelien-online.com/collections/loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=style-quiz"
   },
   city: {
     name: "The City Loafer",
     desc: "The definitive choice for formal city weddings. Hand-finished calf leather that ensures a sharp, commanding silhouette.",
     image: IMAGES.PRODUCT_LEATHER_LOAFER,
-    link: "https://aurelien-online.com/collections/city-loafers"
+    link: "https://aurelien-online.com/collections/city-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=style-quiz"
   },
   tassel: {
     name: "The Tassel Loafer",
     desc: "A modern classic that balances tradition with contemporary flair. Perfect for the groom who values texture and character.",
     image: IMAGES.PRODUCT_SUEDE_LOAFER,
-    link: "https://aurelien-online.com/collections/loafers"
+    link: "https://aurelien-online.com/collections/loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=style-quiz"
   },
   driving: {
     name: "The Driving Shoe",
     desc: "Unmatched comfort for relaxed celebrations. The iconic pebble sole and soft suede make this the perfect choice for a countryside estate.",
     image: IMAGES.ALT_10,
-    link: "https://aurelien-online.com/collections/driving-shoes"
+    link: "https://aurelien-online.com/collections/driving-shoes?utm_source=bold-step&utm_medium=referral&utm_campaign=style-quiz"
   }
 };
 

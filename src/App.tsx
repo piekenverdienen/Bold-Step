@@ -8,6 +8,8 @@ import Collection from './pages/Collection';
 import Journal from './pages/Journal';
 import BlogPost from './pages/BlogPost';
 import SuitMatcher from './pages/SuitMatcher';
+import ArchetypeHub from './pages/ArchetypeHub';
+import ArchetypePage from './pages/ArchetypePage';
 import NotFound from './pages/NotFound';
 import Quiz from './components/Quiz';
 import { AnimatePresence } from 'motion/react';
@@ -106,6 +108,8 @@ export default function App() {
           <Route path="journal" element={<JournalWrapper />} />
           <Route path="journal/:id" element={<BlogPostWrapper />} />
           <Route path="matcher" element={<SuitMatcherWrapper />} />
+          <Route path="archetypes" element={<ArchetypeHubWrapper />} />
+          <Route path="archetypes/:slug" element={<ArchetypePageWrapper />} />
           <Route path="*" element={<NotFoundWrapper />} />
         </Route>
         <Route path="/" element={<Navigate to="/en" replace />} />
@@ -142,6 +146,16 @@ function BlogPostWrapper() {
 function SuitMatcherWrapper() {
   const { lang } = useParams<{ lang: string }>();
   return <SuitMatcher lang={(lang?.toUpperCase() as Language) || 'EN'} />;
+}
+
+function ArchetypeHubWrapper() {
+  const { lang } = useParams<{ lang: string }>();
+  return <ArchetypeHub lang={(lang?.toUpperCase() as Language) || 'EN'} />;
+}
+
+function ArchetypePageWrapper() {
+  const { lang } = useParams<{ lang: string }>();
+  return <ArchetypePage lang={(lang?.toUpperCase() as Language) || 'EN'} />;
 }
 
 function NotFoundWrapper() {

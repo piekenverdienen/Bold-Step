@@ -44,77 +44,77 @@ export const LOAFER_PRODUCTS = {
   COGNAC: {
     name: "Caramel Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/files/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_caramel7_1003cc51-db0a-4e81-8f72-849e1feabd58.jpg?v=1699530927",
-    url: "https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
   },
   TAN: {
     name: "Light Beige Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_classic_beige8.jpg?v=1634815590",
-    url: "https://aurelien-online.com/products/light-beige-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/light-beige-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
   },
   DARK_BROWN: {
     name: "Chocolate Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_chocolate6.jpg?v=1634572930",
-    url: "https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=bold-step&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
   },
   BURGUNDY: {
     name: "Port Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_port1_50f62849-63f2-405f-91ac-4033369a6972.jpg?v=1634573727",
-    url: "https://aurelien-online.com/products/port-burgundy-suede-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/port-burgundy-suede-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
   },
   OXBLOOD: {
     name: "Port Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_port1_50f62849-63f2-405f-91ac-4033369a6972.jpg?v=1634573727",
-    url: "https://aurelien-online.com/products/port-burgundy-suede-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/port-burgundy-suede-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
   },
   BLACK: {
     name: "Black Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/files/Aurelien_yacht_loafer_suede_black_men_10_38030896-758e-4a56-8568-857aa631dd2a.jpg?v=1729770386",
-    url: "https://aurelien-online.com/products/black-yacht-loafers-black-sole?utm_source=bold-step&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/black-yacht-loafers-black-sole?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
   },
   DARK_CHARCOAL: {
     name: "Grey Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_grey1.jpg?v=1634573039",
-    url: "https://aurelien-online.com/products/grey-suede-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/grey-suede-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
   },
   LIGHT_TAN: {
     name: "Classic Beige Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_classicbeige12.jpg?v=1634814227",
-    url: "https://aurelien-online.com/products/classic-beige-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/classic-beige-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
   },
   SAND: {
     name: "Beige Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/files/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_beige6_91acb05a-25e2-4781-8496-ea5b425dc37f.jpg?v=1772894489",
-    url: "https://aurelien-online.com/products/beige-suede-yacht-loafers-2?utm_source=bold-step&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/beige-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
   },
   NAVY: {
     name: "Navy Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_navy7_eb965d69-902a-40a3-a4c9-71ac6b14385c.jpg?v=1634573228",
-    url: "https://aurelien-online.com/products/navy-suede-yacht-loafers-2?utm_source=bold-step&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/navy-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
   },
   CHOCOLATE: {
     name: "Chocolate Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_chocolate6.jpg?v=1634572930",
-    url: "https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=bold-step&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
   },
   CREAM: {
     name: "White Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_white1.jpg?v=1683547703",
-    url: "https://aurelien-online.com/products/white-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/white-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
   },
   LIGHT_BROWN: {
     name: "Nut Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/files/Aurelien_yacht_loafer_2.0_softey_suede_nut_men_1.jpg?v=1747850961",
-    url: "https://aurelien-online.com/products/nut-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/nut-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
   },
   TERRACOTTA: {
     name: "Rust Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_rust9.jpg?v=1634814965",
-    url: "https://aurelien-online.com/products/rust-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/rust-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
   },
   PALE_PINK: {
     name: "Dusty Pink Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/files/Aurelien_yacht_loafer_slip_on_suede_dusty_pink_2.0_men_1.jpg?v=1700474056",
-    url: "https://aurelien-online.com/products/dusty-pink-yacht-loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/dusty-pink-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
   }
 };
 
@@ -356,7 +356,7 @@ Increasingly, Best Men are opting for loafers. They offer a contemporary eleganc
 
 Your shoes are the foundation of your presence. Choose wisely, and you’ll carry out your duties with the style the day deserves.
 
-[Discover our selection of popular wedding shoes for Best Men and Grooms.](https://aurelien-online.com/collections/loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=blog)`
+[Discover our selection of popular wedding shoes for Best Men and Grooms.](https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=blog)`
         },
         {
           slug: "why-loafers-are-ultimate-wedding-shoes",
@@ -400,7 +400,7 @@ In the modern wedding world, the loafer isn't just an alternative—it’s the s
 
 ---
 
-**Explore the Wedding Loafer Collection** – [Hand-picked styles for the modern groom.](https://aurelien-online.com/collections/loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=blog)
+**Explore the Wedding Loafer Collection** – [Hand-picked styles for the modern groom.](https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=blog)
 
 **The Fit Guide** – [How to ensure your loafers stay snug from ceremony to sunrise.](/en/journal/the-fit-guide)
 
@@ -800,7 +800,7 @@ Immer mehr Trauzeugen entscheiden sich für Loafer. Sie bieten eine zeitgemäße
 
 Ihre Schuhe sind das Fundament Ihrer Präsenz. Wählen Sie weise, und Sie werden Ihre Aufgaben mit dem Stil erfüllen, den der Tag verdient.
 
-[Entdecken Sie unsere Auswahl an beliebten Hochzeitsschuhen für Trauzeugen und Bräutigame.](https://aurelien-online.com/collections/loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=blog)`
+[Entdecken Sie unsere Auswahl an beliebten Hochzeitsschuhen für Trauzeugen und Bräutigame.](https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=blog)`
         },
         {
           slug: "warum-loafer-die-ultimativen-hochzeitsschuhe-sind",
@@ -844,7 +844,7 @@ In der modernen Hochzeitswelt ist der Loafer nicht nur eine Alternative – er i
 
 ---
 
-**Entdecken Sie die Hochzeits-Loafer-Kollektion** – [Handverlesene Stile für den modernen Bräutigam.](https://aurelien-online.com/collections/loafers?utm_source=bold-step&utm_medium=referral&utm_campaign=blog)
+**Entdecken Sie die Hochzeits-Loafer-Kollektion** – [Handverlesene Stile für den modernen Bräutigam.](https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=blog)
 
 **Der Fit-Guide** – [So stellen Sie sicher, dass Ihre Loafer von der Zeremonie bis zum Sonnenaufgang perfekt sitzen.](/de/journal/the-fit-guide)
 

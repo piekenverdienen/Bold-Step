@@ -16,7 +16,7 @@ const archetypes = {
       image: IMAGES.STYLE_BLACK_TIE
     },
     {
-      title: "Linen or Beige Suit",
+      title: "The Destination Groom",
       suit: "Linen or beige suit",
       match: "Tan suede loafer",
       desc: "Mediterranean ease for the sun-drenched celebration. Buttery suede meets coastal style.",
@@ -39,7 +39,7 @@ const archetypes = {
       image: IMAGES.STYLE_BLACK_TIE
     },
     {
-      title: "Leinen- oder Beige-Anzug",
+      title: "Der Destination Bräutigam",
       suit: "Leinen- oder beigefarbener Anzug",
       match: "Hellbrauner Wildleder-Loafer",
       desc: "Mediterrane Leichtigkeit für die sonnenverwöhnte Feier. Butterweiches Wildleder trifft auf Küstenstil.",
@@ -92,7 +92,7 @@ export default function StyleGuide({ lang }: StyleGuideProps) {
               <div className="mb-6 space-y-2">
                 <p className="text-[10px] uppercase tracking-widest font-bold text-brand-gold">Recommended Choice</p>
                 <a 
-                  href={item.title.includes("Black Tie") ? "https://aurelien-online.com/collections/city-loafers" : (item.title.includes("Linen") || item.title.includes("Leinen")) ? "https://aurelien-online.com/collections/driving-shoes" : "https://aurelien-online.com/collections/city-loafers"}
+                  href={item.title.includes("Black Tie") ? "https://aurelien-online.com/collections/city-loafers" : item.title.includes("Destination") ? "https://aurelien-online.com/collections/driving-shoes" : "https://aurelien-online.com/collections/city-loafers"}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm font-medium hover:text-brand-gold transition-colors block"

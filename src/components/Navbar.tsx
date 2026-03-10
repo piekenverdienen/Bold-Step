@@ -53,7 +53,7 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-8">
             <Link to={langPrefix} className="text-2xl font-serif tracking-widest uppercase">The Groom Code</Link>
-            <div className="hidden md:flex gap-6 text-xs uppercase tracking-widest font-medium opacity-60">
+            <div className="hidden md:flex gap-4 text-xs uppercase tracking-widest font-medium opacity-60">
               {navLinks.map((link) => (
                 link.href.includes('#') ? (
                   <Link 
@@ -90,7 +90,7 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
             </button>
             <button 
               onClick={() => setIsQuizOpen(true)}
-              className="hidden md:block px-6 py-2 border border-brand-black text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-brand-black hover:text-brand-offwhite transition-all"
+              className="hidden md:block px-6 py-2 bg-brand-gold text-brand-black text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-brand-black hover:text-brand-offwhite transition-all"
             >
               {t.hero.cta}
             </button>

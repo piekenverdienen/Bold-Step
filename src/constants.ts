@@ -453,7 +453,7 @@ If you find yourself with a pair that is slightly loose, a small suede heel grip
     hero: {
       headline: "Der Bräutigam-Kodex",
       subline: "Ein kuratierter Leitfaden für den modernen Bräutigam. Die Symbiose aus Tradition und zeitgenössischer Eleganz.",
-      cta: "Beginnen Sie Ihre Reise"
+      cta: "Reise Starten"
     },
     narrative: {
       title: "Die Reise des Bräutigams",

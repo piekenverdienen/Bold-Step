@@ -516,6 +516,7 @@ export default function SuitMatcher({ lang }: SuitMatcherProps) {
       recSub: `Top picks for your ${selectedSuit?.name[lang].toLowerCase() || 'suit'}`,
       tipsTitle: "Styling Notes",
       shopNow: "Shop Now",
+      shopLoafer: "Shop This Loafer",
       footer: "The Groom Code — Dress with intention on the day that matters most."
     },
     DE: {
@@ -531,6 +532,7 @@ export default function SuitMatcher({ lang }: SuitMatcherProps) {
       recSub: `Top-Empfehlungen für Ihren ${selectedSuit?.name[lang].toLowerCase() || 'Anzug'}`,
       tipsTitle: "Styling-Hinweise",
       shopNow: "Jetzt Shoppen",
+      shopLoafer: "Diesen Loafer Shoppen",
       footer: "The Groom Code — Kleiden Sie sich mit Bedacht an dem Tag, der am meisten zählt."
     }
   }[lang];
@@ -631,7 +633,15 @@ export default function SuitMatcher({ lang }: SuitMatcherProps) {
                     <img src={bestMatch.product.image} alt={bestMatch.product.name} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                   </div>
                   <span className="text-[10px] uppercase tracking-[0.3em] font-bold opacity-30 mb-2 block">{t.bestLoafer}</span>
-                  <h3 className="text-2xl font-serif">{bestMatch.name}</h3>
+                  <h3 className="text-2xl font-serif mb-6">{bestMatch.name}</h3>
+                  <a
+                    href={bestMatch.product.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-8 py-3 bg-brand-gold text-white text-[11px] uppercase tracking-[0.2em] font-bold rounded-full hover:bg-brand-gold/90 transition-all duration-300 hover:gap-3 shadow-lg"
+                  >
+                    {t.shopLoafer} <ChevronRight size={14} />
+                  </a>
                 </div>
               </div>
 

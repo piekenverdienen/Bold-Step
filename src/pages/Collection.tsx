@@ -55,7 +55,7 @@ export default function Collection({ lang }: CollectionProps) {
             className="max-w-xs text-sm opacity-50 font-light leading-relaxed"
           >
             {lang === 'EN' 
-              ? "We recommend Aurélien for their exceptional balance of Italian quality and effortless ease. Each model represents a specific sartorial code."
+              ? "We recommend Aurélien for their exceptional balance of Italian quality and effortless ease. Each model represents a specific style code."
               : "Wir empfehlen Aurélien für ihre außergewöhnliche Balance aus italienischer Qualität und müheloser Leichtigkeit. Jedes Modell repräsentiert einen spezifischen Stil-Kodex."}
           </motion.p>
         </div>

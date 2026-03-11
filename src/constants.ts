@@ -23,6 +23,22 @@ export const IMAGES = {
   STYLE_DESTINATION: "https://drive.google.com/thumbnail?id=1AGpD4TR6j7nrxQEfUlpbcBFNZyHPBFQv&sz=w1200",
   STYLE_CITY: "https://drive.google.com/thumbnail?id=1a34NFEub-PBCHeWjbNLWWLrw-zSSGfAL&sz=w1200",
 
+  // --- LOOKBOOK COLLAGE IMAGES ---
+  // Black Tie Lookbook
+  LOOKBOOK_BLACK_TIE_SUIT: "https://drive.google.com/thumbnail?id=1be7WZufXHiJB0xIsYLZMZdIglfDO2X_b&sz=w800",
+  LOOKBOOK_BLACK_TIE_SHOES: "https://aurelien-online.com/cdn/shop/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_black2_717a84b3-e385-4d07-b6cf-3e5be0c8557d.jpg?v=1634572809&width=600",
+  LOOKBOOK_BLACK_TIE_DETAIL: "https://drive.google.com/thumbnail?id=1AxWMu5FrL1WurecFDzekl3hg1HiSvDu3&sz=w800",
+
+  // Linen Lookbook
+  LOOKBOOK_LINEN_SUIT: "https://aurelien-online.com/cdn/shop/files/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_lightgrey5.jpg?v=1711209455&width=600",
+  LOOKBOOK_LINEN_SHOES: "https://drive.google.com/thumbnail?id=1AxWMu5FrL1WurecFDzekl3hg1HiSvDu3&sz=w800",
+  LOOKBOOK_LINEN_DETAIL: "https://drive.google.com/thumbnail?id=1AxWMu5FrL1WurecFDzekl3hg1HiSvDu3&sz=w800",
+
+  // City Lookbook
+  LOOKBOOK_CITY_SUIT: "https://aurelien-online.com/cdn/shop/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_caramel7_198738ae-3c37-4554-a658-3c5c27216d5a.jpg?v=1634572845&width=600",
+  LOOKBOOK_CITY_SHOES: "https://drive.google.com/thumbnail?id=1HeT76iV7spakNFo3kdwZVkt2WEM7Hm9R&sz=w800",
+  LOOKBOOK_CITY_DETAIL: "https://drive.google.com/thumbnail?id=1HeT76iV7spakNFo3kdwZVkt2WEM7Hm9R&sz=w800",
+
   // --- ALTERNATIVE IMAGES (Copy-paste these IDs above to swap) ---
   // You can use these IDs to replace any of the images above.
   ALT_1: "https://drive.google.com/thumbnail?id=1JDjnx_GUIU1Z8MfC1_am-QZl_RKdxj4u&sz=w1200",
@@ -44,77 +60,77 @@ export const LOAFER_PRODUCTS = {
   COGNAC: {
     name: "Caramel Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/files/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_caramel7_1003cc51-db0a-4e81-8f72-849e1feabd58.jpg?v=1699530927",
-    url: "https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/caramel-yacht-loafers"
   },
   TAN: {
     name: "Light Beige Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_classic_beige8.jpg?v=1634815590",
-    url: "https://aurelien-online.com/products/light-beige-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/light-beige-yacht-loafers"
   },
   DARK_BROWN: {
     name: "Chocolate Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_chocolate6.jpg?v=1634572930",
-    url: "https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2"
   },
   BURGUNDY: {
     name: "Port Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_port1_50f62849-63f2-405f-91ac-4033369a6972.jpg?v=1634573727",
-    url: "https://aurelien-online.com/products/port-burgundy-suede-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/port-burgundy-suede-yacht-loafers"
   },
   OXBLOOD: {
     name: "Port Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_port1_50f62849-63f2-405f-91ac-4033369a6972.jpg?v=1634573727",
-    url: "https://aurelien-online.com/products/port-burgundy-suede-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/port-burgundy-suede-yacht-loafers"
   },
   BLACK: {
     name: "Black Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/files/Aurelien_yacht_loafer_suede_black_men_10_38030896-758e-4a56-8568-857aa631dd2a.jpg?v=1729770386",
-    url: "https://aurelien-online.com/products/black-yacht-loafers-black-sole?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/black-yacht-loafers-black-sole"
   },
   DARK_CHARCOAL: {
     name: "Grey Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_grey1.jpg?v=1634573039",
-    url: "https://aurelien-online.com/products/grey-suede-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/grey-suede-yacht-loafers"
   },
   LIGHT_TAN: {
     name: "Classic Beige Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_classicbeige12.jpg?v=1634814227",
-    url: "https://aurelien-online.com/products/classic-beige-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/classic-beige-yacht-loafers"
   },
   SAND: {
     name: "Beige Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/files/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_beige6_91acb05a-25e2-4781-8496-ea5b425dc37f.jpg?v=1772894489",
-    url: "https://aurelien-online.com/products/beige-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/beige-suede-yacht-loafers-2"
   },
   NAVY: {
     name: "Navy Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_navy7_eb965d69-902a-40a3-a4c9-71ac6b14385c.jpg?v=1634573228",
-    url: "https://aurelien-online.com/products/navy-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/navy-suede-yacht-loafers-2"
   },
   CHOCOLATE: {
     name: "Chocolate Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_chocolate6.jpg?v=1634572930",
-    url: "https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2"
   },
   CREAM: {
     name: "White Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_white1.jpg?v=1683547703",
-    url: "https://aurelien-online.com/products/white-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/white-yacht-loafers"
   },
   LIGHT_BROWN: {
     name: "Nut Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/files/Aurelien_yacht_loafer_2.0_softey_suede_nut_men_1.jpg?v=1747850961",
-    url: "https://aurelien-online.com/products/nut-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/nut-yacht-loafers"
   },
   TERRACOTTA: {
     name: "Rust Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_rust9.jpg?v=1634814965",
-    url: "https://aurelien-online.com/products/rust-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/rust-yacht-loafers"
   },
   PALE_PINK: {
     name: "Dusty Pink Yacht Loafers",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/files/Aurelien_yacht_loafer_slip_on_suede_dusty_pink_2.0_men_1.jpg?v=1700474056",
-    url: "https://aurelien-online.com/products/dusty-pink-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=shoe-grid"
+    url: "https://aurelien-online.com/products/dusty-pink-yacht-loafers"
   }
 };
 
@@ -174,7 +190,7 @@ export const translations: Record<Language, Content> = {
       title: "The Groom's Journey",
       steps: [
         { title: "The Proposal", description: "Confidence from the very first moment. Start your shared narrative with intentional style." },
-        { title: "The Planning", description: "Refined precision in every detail. Navigating the protocol of modern celebrations." },
+        { title: "The Planning", description: "Sartorial precision in every detail. Navigating the protocol of modern celebrations." },
         { title: "The Big Day", description: "The ultimate stride. Where craftsmanship meets the ease of the occasion." }
       ]
     },
@@ -356,7 +372,7 @@ Increasingly, Best Men are opting for loafers. They offer a contemporary eleganc
 
 Your shoes are the foundation of your presence. Choose wisely, and you’ll carry out your duties with the style the day deserves.
 
-[Discover our selection of popular wedding shoes for Best Men and Grooms.](https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=blog)`
+[Discover our selection of popular wedding shoes for Best Men and Grooms.](https://aurelien-online.com/collections/loafers)`
         },
         {
           slug: "why-loafers-are-ultimate-wedding-shoes",
@@ -364,7 +380,7 @@ Your shoes are the foundation of your presence. Choose wisely, and you’ll carr
           excerpt: "From destination beaches to city cathedrals, the loafer has become the definitive choice for the contemporary groom. Discover why.",
           category: "Style",
           image: IMAGES.ALT_5,
-          content: `The wedding landscape is shifting. The days of rigid, uncomfortable formality are being replaced by a new era of "relaxed elegance." At the heart of this sartorial revolution is a single, iconic silhouette: the loafer.
+          content: `The wedding landscape is shifting. The days of rigid, uncomfortable formality are being replaced by a new era of "relaxed elegance." At the heart of this style revolution is a single, iconic silhouette: the loafer.
 
 Why are modern grooms increasingly trading traditional Oxfords for the slip-on? The answer lies at the intersection of heritage style, supreme comfort, and contemporary confidence.
 
@@ -400,7 +416,7 @@ In the modern wedding world, the loafer isn't just an alternative—it’s the s
 
 ---
 
-**Explore the Wedding Loafer Collection** – [Hand-picked styles for the modern groom.](https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=blog)
+**Explore the Wedding Loafer Collection** – [Hand-picked styles for the modern groom.](https://aurelien-online.com/collections/loafers)
 
 **The Fit Guide** – [How to ensure your loafers stay snug from ceremony to sunrise.](/en/journal/the-fit-guide)
 
@@ -445,165 +461,6 @@ If you find yourself with a pair that is slightly loose, a small suede heel grip
 ## The Classic Black Tie Revolution
 **The Look:** A midnight blue tuxedo with silk grosgrain lapels and Sleek Penny Loafers in Polished Black Calf.
 **The Vibe:** The ultimate statement of confidence. Replacing the patent lace-up with a polished loafer is the hallmark of a groom who knows his style.`
-        },
-        {
-          slug: "castle-wedding-venues-germany",
-          title: "The 10 Most Beautiful Castle Wedding Venues in Germany",
-          excerpt: "From the Rhine Valley to Bavaria, Germany's castles offer some of the most dramatic wedding venues in Europe. Here are the ones worth booking.",
-          category: "Guide",
-          image: IMAGES.ALT_4,
-          content: `Germany's castles are not just tourist attractions — they are some of the most extraordinary wedding venues in Europe. From Baroque grandeur to Gothic drama, here are the castle venues that transform a wedding into an event.
-
-## Why a Castle Wedding?
-
-A castle wedding is not just about the venue — it is about the atmosphere. Stone walls that have stood for centuries, gardens that have been tended for generations, and halls that were designed to impress. For the groom who believes his wedding should be an occasion, a castle delivers.
-
-## Top Castle Venues
-
-### 1. Schloss Drachenburg, Königswinter
-A neo-Gothic masterpiece perched above the Rhine. The grand staircase alone is worth the booking. Panoramic views, tower rooms for preparation, and a sense of drama that no hotel can match. Budget: €8,000–€20,000 for exclusive hire.
-
-### 2. Burg Hohenzollern, Bisingen
-The ancestral seat of the Prussian royal family, sitting dramatically on a hilltop in Baden-Württemberg. The views of the Swabian Alps create an unforgettable ceremony backdrop. One of Germany's most iconic venues. Budget: €10,000–€25,000.
-
-### 3. Schloss Bensberg, Bergisch Gladbach
-Baroque elegance meets five-star hospitality. This Althoff hotel combines historic grandeur with modern luxury, including a Michelin-starred restaurant for the wedding dinner. Budget: €12,000–€30,000.
-
-### 4. Schloss Heidelberg
-Renaissance ruins overlooking the Neckar Valley. The atmospheric blend of preserved grandeur and romantic decay creates a setting unlike any other. Limited availability makes it highly coveted. Budget: €6,000–€15,000.
-
-### 5. Schloss Nordkirchen, Münsterland
-Often called the "Versailles of Westphalia." Baroque perfection with formal gardens, a grand orangery, and a lake. Ideal for larger weddings. Budget: €5,000–€15,000.
-
-## Practical Considerations
-
-- **Book 12–18 months ahead** — the best castles fill quickly
-- **Rain plans are essential** — even the most beautiful courtyard needs a Plan B
-- **Guest logistics matter** — arrange shuttle buses from nearby towns
-- **Discuss catering options** — some castles have in-house catering, others allow external caterers
-- **Photography planning** — discuss lighting with your photographer; castle interiors can be dark
-
-## The Shoe Question
-
-Castle floors are unforgiving — stone, marble, occasional carpet. Traditional hard-soled dress shoes echo loudly and offer no comfort for a 14-hour day. A quality leather loafer provides the formality a castle demands with the comfort your feet will thank you for.
-
-[Explore our Castle Wedding collection →](/en/archetypes/schloss-braeutigam)`
-        },
-        {
-          slug: "destination-wedding-mediterranean-groom-guide",
-          title: "Getting Married in the Mediterranean: What Every Groom Needs to Know",
-          excerpt: "From legal paperwork to cobblestone-proof shoes, here is everything a German groom needs to plan a destination wedding in Italy, Spain, or Greece.",
-          category: "Guide",
-          image: IMAGES.ALT_5,
-          content: `You have decided to get married abroad. The Amalfi Coast, a Tuscan villa, a Mallorcan finca — the setting will be extraordinary. But between the dream and the day, there is a significant amount of planning that a destination wedding demands. Here is what you need to know.
-
-## Legal Requirements: The Paperwork
-
-### Italy
-Italy requires a Nulla Osta — a certificate of no impediment — from your home country, translated into Italian and apostilled. The process takes 4–8 weeks. You will also need to post banns at the local Comune. Many couples choose to do the legal ceremony at the Standesamt in Germany and have a symbolic ceremony in Italy.
-
-### Spain
-Spain requires a civil ceremony at the local Juzgado de Paz. You will need your birth certificate, passport, and a certificate of no impediment, all translated and apostilled. The process is more bureaucratic than Italy but straightforward with a local planner.
-
-### Greece
-Greece recently simplified its process for foreign nationals. You still need documentation, but the timeline is shorter. Orthodox ceremonies are available for religious weddings.
-
-**Pro tip:** The easiest route is a legal Standesamt ceremony in Germany, followed by a symbolic ceremony at your destination. This removes 90% of the paperwork stress.
-
-## The Climate Factor
-
-Mediterranean summers mean 30–35°C. Your suit fabric choice is critical:
-- **Linen** breathes beautifully but wrinkles — embrace it or choose a linen-cotton blend
-- **Tropical wool** offers structure with breathability
-- **Cotton** is comfortable but less formal
-
-Schedule your ceremony for late afternoon when the heat breaks and the light turns golden.
-
-## The Cobblestone Challenge
-
-This is where most grooms get it wrong. Mediterranean venues are paved with centuries-old stone — uneven, often slippery, and punishing on traditional dress shoes. Suede loafers with rubber soles are the solution: they grip, flex, breathe, and look effortlessly elegant against linen.
-
-## Budget Considerations
-
-A destination wedding is not automatically more expensive than a German wedding, but the cost structure is different:
-- Venue rental is often cheaper in southern Europe
-- Catering with local cuisine offers excellent value
-- The additional costs are travel, accommodation, and a local wedding planner
-- Guest numbers tend to be smaller (60–80), which reduces per-head costs
-
-## Essential Checklist
-
-1. ✅ Start legal paperwork 6 months before
-2. ✅ Book a scouting trip 14–18 months ahead
-3. ✅ Hire a local wedding planner
-4. ✅ Choose breathable fabrics for your suit
-5. ✅ Invest in cobblestone-proof shoes
-6. ✅ Coordinate guest travel early
-7. ✅ Have a heat contingency plan
-
-[Read our full Destination Groom guide →](/en/archetypes/auslands-braeutigam)`
-        },
-        {
-          slug: "budget-wedding-germany-where-to-invest",
-          title: "Wedding on a Budget: Where to Invest and Where to Save",
-          excerpt: "A beautiful wedding does not require a six-figure budget. Here is where smart grooms put their money — and where they do not.",
-          category: "Guide",
-          image: IMAGES.ALT_6,
-          content: `The average German wedding costs between €15,000 and €30,000. But here is the truth: some of the most beautiful, memorable weddings happen on half that budget. The key is not spending less — it is spending smarter.
-
-## Where to Invest
-
-### 1. The Photographer (€1,200–€3,000)
-This is the one thing you keep forever. Twenty years from now, you will not remember the table decorations, but you will look at your wedding photos regularly. Hire the best photographer your budget allows. This is non-negotiable.
-
-### 2. The Food (€50–€100 per person)
-Guests remember two things: how the food tasted and how they felt. A quality buffet with local, seasonal ingredients beats a mediocre five-course menu. Partner with a Gasthof that does excellent home-style cooking.
-
-### 3. Your Shoes (€200–€300)
-This sounds surprising, but hear us out. A quality pair of suede loafers is comfortable for a 14-hour wedding day and becomes a wardrobe staple you wear to every event, dinner, and celebration after. The cost-per-wear of a €250 loafer worn 100+ times is €2.50. Compare that to a €40 pair of uncomfortable dress shoes you never wear again.
-
-## Where to Save
-
-### Invitations
-Digital invitations are increasingly normal and completely free. Save the €300–€500 and put it toward food or photography.
-
-### Decorations
-Wildflowers from a local market, candles from IKEA, and string lights from Amazon create more atmosphere than expensive floral arrangements. Enlist friends for a decoration day — it becomes part of the memory.
-
-### The Venue
-Gasthöfe, garden restaurants, and Bürgerhäuser offer incredible value. Many include tables, chairs, linens, and basic decoration. A Scheune (barn) with fairy lights and long wooden tables is more atmospheric than any hotel ballroom.
-
-### Wedding Favors
-Nobody remembers wedding favors. Skip them entirely or replace them with something personal and low-cost: a handwritten note, a wildflower seed packet, or a family recipe card.
-
-### Music
-A curated Spotify playlist on quality speakers can be just as good as a DJ — and saves €500–€1,500. If you want a DJ, book one for the evening only.
-
-## The Standesamt Strategy
-
-The civil ceremony at the Standesamt costs €50–€200. Some couples do this quietly with witnesses on a Friday and celebrate on Saturday. Others find a venue that is certified for Standesamt ceremonies, combining everything in one day. Both approaches save money on a separate church or ceremony venue.
-
-## Sample Budget: Beautiful Wedding for €12,000
-
-| Category | Amount |
-|----------|--------|
-| Venue (Gasthof with garden) | €1,500 |
-| Catering & Drinks (60 guests × €70) | €4,200 |
-| Photographer | €1,800 |
-| Flowers & Decoration (DIY) | €400 |
-| Music (Playlist + rented speakers) | €150 |
-| Suit (Suitsupply) | €500 |
-| Shoes (Quality loafers) | €250 |
-| Rings | €1,000 |
-| Stationery (digital + printed menus) | €150 |
-| Standesamt | €100 |
-| Cake (local bakery) | €300 |
-| Contingency | €650 |
-| **Total** | **€11,000** |
-
-That leaves €1,000 for surprises. And it is a beautiful, memorable wedding.
-
-[Read our full Classic Groom guide →](/en/archetypes/klassischer-braeutigam)`
         }
       ]
     }
@@ -612,13 +469,13 @@ That leaves €1,000 for surprises. And it is a beautiful, memorable wedding.
     hero: {
       headline: "Der Bräutigam-Kodex",
       subline: "Ein kuratierter Leitfaden für den modernen Bräutigam. Die Symbiose aus Tradition und zeitgenössischer Eleganz.",
-      cta: "Reise Starten"
+      cta: "Beginnen Sie Ihre Reise"
     },
     narrative: {
       title: "Die Reise des Bräutigams",
       steps: [
         { title: "Der Antrag", description: "Souveränität ab dem ersten Moment. Beginnen Sie Ihre gemeinsame Geschichte mit bewusstem Stil." },
-        { title: "Die Planung", description: "Raffinierte Präzision in jedem Detail. Sicher navigieren durch die Etikette moderner Feierlichkeiten." },
+        { title: "Die Planung", description: "Sartoriale Präzision in jedem Detail. Sicher navigieren durch die Etikette moderner Feierlichkeiten." },
         { title: "Der Große Tag", description: "Der ultimative Schritt. Wo Handwerkskunst auf die Leichtigkeit des Anlasses trifft." }
       ]
     },
@@ -800,7 +657,7 @@ Immer mehr Trauzeugen entscheiden sich für Loafer. Sie bieten eine zeitgemäße
 
 Ihre Schuhe sind das Fundament Ihrer Präsenz. Wählen Sie weise, und Sie werden Ihre Aufgaben mit dem Stil erfüllen, den der Tag verdient.
 
-[Entdecken Sie unsere Auswahl an beliebten Hochzeitsschuhen für Trauzeugen und Bräutigame.](https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=blog)`
+[Entdecken Sie unsere Auswahl an beliebten Hochzeitsschuhen für Trauzeugen und Bräutigame.](https://aurelien-online.com/collections/loafers)`
         },
         {
           slug: "warum-loafer-die-ultimativen-hochzeitsschuhe-sind",
@@ -808,7 +665,7 @@ Ihre Schuhe sind das Fundament Ihrer Präsenz. Wählen Sie weise, und Sie werden
           excerpt: "Vom Strand bis zur Kathedrale – der Loafer ist zur definitiven Wahl für den modernen Bräutigam geworden. Erfahren Sie, warum.",
           category: "Stil",
           image: IMAGES.ALT_5,
-          content: `Die Hochzeitslandschaft verändert sich. Die Tage der starren, unbequemen Formalität werden durch eine neue Ära der „entspannten Eleganz“ ersetzt. Im Zentrum dieser sartorialen Revolution steht eine einzige, ikonische Silhouette: der Loafer.
+          content: `Die Hochzeitslandschaft verändert sich. Die Tage der starren, unbequemen Formalität werden durch eine neue Ära der „entspannten Eleganz“ ersetzt. Im Zentrum dieser stilvollen Revolution steht eine einzige, ikonische Silhouette: der Loafer.
 
 Warum tauschen moderne Bräutigame zunehmend traditionelle Oxfords gegen den Slip-on? Die Antwort liegt an der Schnittstelle von traditionellem Stil, höchstem Komfort und zeitgemäßem Selbstvertrauen.
 
@@ -828,7 +685,7 @@ Eine Hochzeit ist ein Marathon, kein Sprint. Vom ersten Blick bis zum letzten Ta
 
 **Profi-Tipp:** Achten Sie auf eine Blake-genähte Sohle. Diese Konstruktionsmethode führt zu einem leichteren, flexibleren Schuh, der sich mit Ihrem Fuß bewegt – unerlässlich, um die Tanzfläche zu dominieren.
 
-### 2. Ein Statement sartorialen Selbstvertrauens
+### 2. Ein Statement stilvollen Selbstvertrauens
 Die Wahl eines Loafers ist eine subtile Absichtserklärung. Sie deutet auf einen Bräutigam hin, der die Regeln der Herrenmode gut genug kennt, um mit ihnen zu spielen. Sie signalisiert einen Mann, der Handwerkskunst schätzt, aber die Leichtigkeit des Anlasses priorisiert. Es ist das Schuhwerk eines Gentlemans, der sich in seiner Haut wirklich wohlfühlt.
 
 ### 3. Visuelle Tiefe & Charakter
@@ -844,7 +701,7 @@ In der modernen Hochzeitswelt ist der Loafer nicht nur eine Alternative – er i
 
 ---
 
-**Entdecken Sie die Hochzeits-Loafer-Kollektion** – [Handverlesene Stile für den modernen Bräutigam.](https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=blog)
+**Entdecken Sie die Hochzeits-Loafer-Kollektion** – [Handverlesene Stile für den modernen Bräutigam.](https://aurelien-online.com/collections/loafers)
 
 **Der Fit-Guide** – [So stellen Sie sicher, dass Ihre Loafer von der Zeremonie bis zum Sonnenaufgang perfekt sitzen.](/de/journal/the-fit-guide)
 
@@ -889,165 +746,6 @@ Wenn Sie ein Paar haben, das etwas zu locker sitzt, kann ein kleiner Velourslede
 ## Die klassische Black-Tie-Revolution
 **Der Look:** Ein mitternachtsblauer Smoking mit Revers aus Seidengrosgrain und elegante Penny Loafer in poliertem schwarzem Kalbsleder.
 **Der Vibe:** Das ultimative Statement an Selbstvertrauen. Den Lackschuh mit Schnürung durch einen polierten Loafer zu ersetzen, ist das Markenzeichen eines Bräutigams, der seinen Stil kennt.`
-        },
-        {
-          slug: "schlosshochzeit-locations-deutschland",
-          title: "Die 10 schönsten Schloss-Hochzeitslocations in Deutschland",
-          excerpt: "Vom Rheintal bis Bayern: Deutschlands Schlösser bieten einige der dramatischsten Hochzeitslocations Europas. Hier sind die, die sich zu buchen lohnen.",
-          category: "Leitfaden",
-          image: IMAGES.ALT_4,
-          content: `Deutschlands Schlösser sind nicht nur Touristenattraktionen — sie gehören zu den außergewöhnlichsten Hochzeitslocations Europas. Von barocker Pracht bis gotischer Dramatik, hier sind die Schloss-Locations, die eine Hochzeit in ein Event verwandeln.
-
-## Warum eine Schlosshochzeit?
-
-Eine Schlosshochzeit dreht sich nicht nur um die Location — sie dreht sich um die Atmosphäre. Steinmauern, die seit Jahrhunderten stehen, Gärten, die seit Generationen gepflegt werden, und Säle, die gebaut wurden, um zu beeindrucken. Für den Bräutigam, der glaubt, dass seine Hochzeit ein besonderer Anlass sein sollte, liefert ein Schloss.
-
-## Top Schloss-Locations
-
-### 1. Schloss Drachenburg, Königswinter
-Ein neogotisches Meisterwerk über dem Rhein. Allein die große Treppe ist die Buchung wert. Panoramablicke, Turmzimmer zur Vorbereitung und ein Gefühl von Dramatik, das kein Hotel erreichen kann. Budget: €8.000–€20.000 für exklusive Anmietung.
-
-### 2. Burg Hohenzollern, Bisingen
-Der Stammsitz der preußischen Königsfamilie, dramatisch auf einem Berggipfel in Baden-Württemberg gelegen. Die Blicke auf die Schwäbische Alb schaffen eine unvergessliche Zeremonie-Kulisse. Budget: €10.000–€25.000.
-
-### 3. Schloss Bensberg, Bergisch Gladbach
-Barocke Eleganz trifft auf Fünf-Sterne-Gastlichkeit. Dieses Althoff-Hotel verbindet historische Pracht mit modernem Luxus, inklusive Sterne-Restaurant für das Hochzeitsdinner. Budget: €12.000–€30.000.
-
-### 4. Schloss Heidelberg
-Renaissance-Ruine mit Blick auf das Neckartal. Die atmosphärische Mischung aus erhaltener Pracht und romantischem Verfall schafft eine einzigartige Kulisse. Begrenzte Verfügbarkeit macht es sehr begehrt. Budget: €6.000–€15.000.
-
-### 5. Schloss Nordkirchen, Münsterland
-Oft als "Versailles Westfalens" bezeichnet. Barocke Perfektion mit formalen Gärten, einer großen Orangerie und einem See. Ideal für größere Hochzeiten. Budget: €5.000–€15.000.
-
-## Praktische Überlegungen
-
-- **Buchen Sie 12–18 Monate im Voraus** — die besten Schlösser sind schnell ausgebucht
-- **Regenpläne sind essenziell** — auch der schönste Innenhof braucht einen Plan B
-- **Gästelogistik ist wichtig** — organisieren Sie Shuttle-Busse von nahegelegenen Orten
-- **Besprechen Sie Catering-Optionen** — manche Schlösser haben hauseigenes Catering, andere erlauben externe Caterer
-- **Fotografie-Planung** — besprechen Sie Beleuchtung mit Ihrem Fotografen; Schlossinterieurs können dunkel sein
-
-## Die Schuhfrage
-
-Schlossböden sind gnadenlos — Stein, Marmor, gelegentlich Teppich. Traditionelle Anzugschuhe mit harter Sohle hallen laut und bieten keinen Komfort für einen 14-Stunden-Tag. Ein hochwertiger Leder-Loafer bietet die Formalität, die ein Schloss verlangt, mit dem Komfort, den Ihre Füße Ihnen danken werden.
-
-[Entdecken Sie unseren Schloss-Bräutigam Guide →](/de/archetypes/schloss-braeutigam)`
-        },
-        {
-          slug: "destination-hochzeit-mittelmeer-braeutigam-guide",
-          title: "Heiraten am Mittelmeer: Was jeder Bräutigam wissen muss",
-          excerpt: "Von Behördenpapierkram bis kopfsteinpflaster-festen Schuhen: alles, was ein deutscher Bräutigam für eine Destination-Hochzeit in Italien, Spanien oder Griechenland braucht.",
-          category: "Leitfaden",
-          image: IMAGES.ALT_5,
-          content: `Sie haben sich entschieden, im Ausland zu heiraten. Die Amalfiküste, eine toskanische Villa, eine mallorquinische Finca — die Kulisse wird außergewöhnlich sein. Aber zwischen dem Traum und dem Tag liegt eine erhebliche Menge an Planung, die eine Destination-Hochzeit erfordert. Hier ist, was Sie wissen müssen.
-
-## Rechtliche Anforderungen: Der Papierkram
-
-### Italien
-Italien erfordert ein Nulla Osta — ein Ehefähigkeitszeugnis — aus Ihrem Heimatland, ins Italienische übersetzt und apostilliert. Der Prozess dauert 4–8 Wochen. Sie müssen auch Aufgebote beim lokalen Comune aushängen. Viele Paare entscheiden sich für die standesamtliche Trauung in Deutschland und eine symbolische Zeremonie in Italien.
-
-### Spanien
-Spanien erfordert eine standesamtliche Zeremonie beim lokalen Juzgado de Paz. Sie benötigen Ihre Geburtsurkunde, Ihren Reisepass und ein Ehefähigkeitszeugnis, alles übersetzt und apostilliert. Der Prozess ist bürokratischer als in Italien, aber mit einem lokalen Planer unkompliziert.
-
-### Griechenland
-Griechenland hat kürzlich seinen Prozess für ausländische Staatsangehörige vereinfacht. Sie benötigen immer noch Dokumentation, aber der Zeitrahmen ist kürzer.
-
-**Profi-Tipp:** Der einfachste Weg ist eine standesamtliche Trauung in Deutschland, gefolgt von einer symbolischen Zeremonie an Ihrer Destination. Das eliminiert 90% des Papierkram-Stresses.
-
-## Der Klimafaktor
-
-Mediterrane Sommer bedeuten 30–35°C. Ihre Stoffwahl ist entscheidend:
-- **Leinen** atmet wunderbar, knittert aber — akzeptieren Sie es oder wählen Sie eine Leinen-Baumwoll-Mischung
-- **Tropische Wolle** bietet Struktur mit Atmungsaktivität
-- **Baumwolle** ist bequem, aber weniger formal
-
-Planen Sie Ihre Zeremonie für den späten Nachmittag, wenn die Hitze nachlässt und das Licht golden wird.
-
-## Die Kopfsteinpflaster-Herausforderung
-
-Hier machen die meisten Bräutigame einen Fehler. Mediterrane Locations sind mit jahrhundertealtem Stein gepflastert — uneben, oft rutschig und bestrafend für traditionelle Anzugschuhe. Wildleder-Loafer mit Gummisohle sind die Lösung: sie greifen, sind flexibel, atmen und sehen mühelos elegant gegen Leinen aus.
-
-## Budget-Überlegungen
-
-Eine Destination-Hochzeit ist nicht automatisch teurer als eine deutsche Hochzeit, aber die Kostenstruktur ist anders:
-- Location-Miete ist in Südeuropa oft günstiger
-- Catering mit lokaler Küche bietet exzellentes Preis-Leistungs-Verhältnis
-- Die Zusatzkosten sind Reise, Unterkunft und ein lokaler Wedding Planner
-- Gästezahlen tendieren zu kleiner (60–80), was Pro-Kopf-Kosten senkt
-
-## Essenzielle Checkliste
-
-1. ✅ Papierkram 6 Monate vorher beginnen
-2. ✅ Erkundungsreise 14–18 Monate vorher buchen
-3. ✅ Lokalen Wedding Planner engagieren
-4. ✅ Atmungsaktive Stoffe für den Anzug wählen
-5. ✅ In kopfsteinpflaster-feste Schuhe investieren
-6. ✅ Gästereise früh koordinieren
-7. ✅ Hitze-Notfallplan haben
-
-[Lesen Sie unseren vollständigen Auslands-Bräutigam Guide →](/de/archetypes/auslands-braeutigam)`
-        },
-        {
-          slug: "hochzeit-budget-wo-investieren-wo-sparen",
-          title: "Hochzeit mit Budget: Wo investieren und wo sparen",
-          excerpt: "Eine schöne Hochzeit braucht kein sechsstelliges Budget. Hier investieren clevere Bräutigame ihr Geld — und hier nicht.",
-          category: "Leitfaden",
-          image: IMAGES.ALT_6,
-          content: `Die durchschnittliche deutsche Hochzeit kostet zwischen €15.000 und €30.000. Aber hier ist die Wahrheit: einige der schönsten, unvergesslichsten Hochzeiten finden mit der Hälfte dieses Budgets statt. Der Schlüssel ist nicht weniger auszugeben — sondern cleverer auszugeben.
-
-## Wo investieren
-
-### 1. Der Fotograf (€1.200–€3.000)
-Das ist das Eine, das Sie für immer behalten. In zwanzig Jahren werden Sie sich nicht an die Tischdekoration erinnern, aber Sie werden sich Ihre Hochzeitsfotos regelmäßig ansehen. Engagieren Sie den besten Fotografen, den Ihr Budget erlaubt. Das ist nicht verhandelbar.
-
-### 2. Das Essen (€50–€100 pro Person)
-Gäste erinnern sich an zwei Dinge: wie das Essen geschmeckt hat und wie sie sich gefühlt haben. Ein Qualitätsbuffet mit lokalen, saisonalen Zutaten schlägt ein mittelmäßiges Fünf-Gänge-Menü. Arbeiten Sie mit einem Gasthof zusammen, der exzellente Hausmannskost macht.
-
-### 3. Ihre Schuhe (€200–€300)
-Das klingt überraschend, aber hören Sie uns an. Ein hochwertiges Paar Wildleder-Loafer ist bequem für einen 14-Stunden-Hochzeitstag und wird zum Garderoben-Grundpfeiler, den Sie zu jedem Event, Dinner und jeder Feier danach tragen. Die Kosten-pro-Tragen eines €250-Loafers, der 100+ Mal getragen wird, betragen €2,50. Vergleichen Sie das mit einem €40-Paar unbequemer Anzugschuhe, die Sie nie wieder tragen.
-
-## Wo sparen
-
-### Einladungen
-Digitale Einladungen sind zunehmend normal und komplett kostenlos. Sparen Sie die €300–€500 und investieren Sie in Essen oder Fotografie.
-
-### Dekoration
-Wildblumen vom lokalen Markt, Kerzen von IKEA und Lichterketten von Amazon schaffen mehr Atmosphäre als teure Blumenarrangements. Rekrutieren Sie Freunde für einen Dekorationstag — er wird Teil der Erinnerung.
-
-### Die Location
-Gasthöfe, Gartenrestaurants und Bürgerhäuser bieten unglaubliches Preis-Leistungs-Verhältnis. Viele inkludieren Tische, Stühle, Tischwäsche und Basisdekoration. Eine Scheune mit Lichterketten und langen Holztischen ist atmosphärischer als jeder Hotel-Ballsaal.
-
-### Gastgeschenke
-Niemand erinnert sich an Hochzeits-Gastgeschenke. Lassen Sie sie ganz weg oder ersetzen Sie sie durch etwas Persönliches und Günstiges: eine handgeschriebene Notiz, ein Wildblumen-Samentütchen oder eine Familien-Rezeptkarte.
-
-### Musik
-Eine kuratierte Spotify-Playlist auf hochwertigen Lautsprechern kann genauso gut sein wie ein DJ — und spart €500–€1.500. Wenn Sie einen DJ wollen, buchen Sie ihn nur für den Abend.
-
-## Die Standesamt-Strategie
-
-Die standesamtliche Trauung kostet €50–€200. Manche Paare machen dies freitags in Ruhe mit Trauzeugen und feiern samstags. Andere finden eine Location, die für standesamtliche Trauungen zugelassen ist und kombinieren alles an einem Tag. Beide Ansätze sparen Geld.
-
-## Beispielbudget: Schöne Hochzeit für €12.000
-
-| Kategorie | Betrag |
-|-----------|--------|
-| Location (Gasthof mit Garten) | €1.500 |
-| Catering & Getränke (60 Gäste × €70) | €4.200 |
-| Fotograf | €1.800 |
-| Blumen & Deko (DIY) | €400 |
-| Musik (Playlist + gemietete Lautsprecher) | €150 |
-| Anzug (Suitsupply) | €500 |
-| Schuhe (Qualitäts-Loafer) | €250 |
-| Ringe | €1.000 |
-| Papeterie (digital + gedruckte Menüs) | €150 |
-| Standesamt | €100 |
-| Torte (lokale Bäckerei) | €300 |
-| Puffer | €650 |
-| **Gesamt** | **€11.000** |
-
-Das lässt €1.000 für Überraschungen. Und es ist eine schöne, unvergessliche Hochzeit.
-
-[Lesen Sie unseren vollständigen Klassischer Bräutigam Guide →](/de/archetypes/klassischer-braeutigam)`
         }
       ]
     }

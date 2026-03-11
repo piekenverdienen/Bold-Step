@@ -130,7 +130,7 @@ export default function Home({ lang, onOpenQuiz }: HomeProps) {
             </h2>
             <p className="text-sm md:text-base opacity-60 font-light leading-relaxed mb-12 max-w-md">
               {lang === 'EN' 
-                ? "Not sure which loafer colour complements your suit? Our interactive matcher provides the definitive answer based on classic style rules."
+                ? "Not sure which loafer colour complements your suit? Our interactive matcher provides the definitive answer based on tailoring rules."
                 : "Sie sind sich nicht sicher, welche Loafer-Farbe zu Ihrem Anzug passt? Unser interaktiver Matcher liefert die definitive Antwort basierend auf klassischen Stilregeln."}
             </p>
             <Link 

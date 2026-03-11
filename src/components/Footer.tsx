@@ -27,6 +27,7 @@ export default function Footer({ lang }: FooterProps) {
             <li><Link to={`${langPrefix}/#planning`} className="hover:text-brand-gold transition-colors">The Planning</Link></li>
             <li><Link to={`${langPrefix}/#style`} className="hover:text-brand-gold transition-colors">The Style</Link></li>
             <li><Link to={`${langPrefix}/journal`} className="hover:text-brand-gold transition-colors">The Journal</Link></li>
+            <li><Link to={`${langPrefix}/about`} className="hover:text-brand-gold transition-colors">About</Link></li>
           </ul>
         </div>
         <div>
@@ -34,7 +35,7 @@ export default function Footer({ lang }: FooterProps) {
           <ul className="flex flex-col gap-4 text-sm opacity-60 font-light">
             <li><a href="#" className="hover:text-brand-gold transition-colors">Privacy Policy</a></li>
             <li><a href="#" className="hover:text-brand-gold transition-colors">Terms of Service</a></li>
-            <li><a href="#" className="hover:text-brand-gold transition-colors">Impressum</a></li>
+            <li><Link to={`${langPrefix}/impressum`} className="hover:text-brand-gold transition-colors">Impressum</Link></li>
           </ul>
         </div>
       </div>

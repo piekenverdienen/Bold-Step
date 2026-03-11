@@ -38,7 +38,7 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
       const base64Data = image.split(',')[1];
       
       const prompt = `Analyse the suit in this image. Identify: fabric, colour, lapel style, formality level. 
-      Then recommend the single best loafer model (Suede Loafer, Leather Loafer, Yacht Loafer, or Driving Shoe) with a 2-sentence justification.
+      Then recommend the single best Aurélien loafer model (Suede Loafer, Leather Loafer, Yacht Loafer, or Driving Shoe) with a 2-sentence justification.
       Deliver the response in ${lang === 'EN' ? 'British English' : 'German (formal Sie-form)'}.
       Use Markdown formatting: 
       - Use ### for section headings.
@@ -86,8 +86,8 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
             </h2>
             <p className="text-lg font-light opacity-70 mb-12 leading-relaxed">
               {lang === 'EN'
-                ? 'Upload a photograph of your wedding suit. Our AI-driven stylist will analyse the fabric, cut, and tone to recommend the perfect loafer pairing.'
-                : 'Laden Sie ein Foto Ihres Hochzeitsanzugs hoch. Unser KI-gestützter Stylist analysiert Stoff, Schnitt und Farbton, um die perfekte Loafer-Kombination zu empfehlen.'}
+                ? 'Upload a photograph of your wedding suit. Our AI-driven stylist will analyse the fabric, cut, and tone to recommend the perfect Aurélien pairing.'
+                : 'Laden Sie ein Foto Ihres Hochzeitsanzugs hoch. Unser KI-gestützter Stylist analysiert Stoff, Schnitt und Farbton, um die perfekte Aurélien-Kombination zu empfehlen.'}
             </p>
             
             <div className="space-y-6">
@@ -104,7 +104,7 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
                   <ChevronRight size={20} />
                 </div>
                 <p className="text-sm font-light opacity-60">
-                  {lang === 'EN' ? 'Expert Colour Matching' : 'Professionelle Farbabstimmung'}
+                  {lang === 'EN' ? 'Sartorial Colour Matching' : 'Sartoriale Farbabstimmung'}
                 </p>
               </div>
             </div>

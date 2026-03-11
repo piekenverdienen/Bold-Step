@@ -25,13 +25,13 @@ export default function EditorialSections({ lang }: EditorialProps) {
             <div className="prose prose-sm opacity-70 font-light leading-relaxed mb-12">
               <p>
                 {lang === 'EN' 
-                  ? "The proposal is the first bold step in your shared narrative. It requires a balance of nerves and quiet confidence. Choosing the right setting is paramount, but so is your presence."
+                  ? "The proposal is the first bold step in your shared narrative. It requires a balance of nerves and tailoring confidence. Choosing the right setting is paramount, but so is your presence."
                   : "Der Antrag ist der erste mutige Schritt in Ihrer gemeinsamen Geschichte. Er erfordert ein Gleichgewicht zwischen Nerven und stilvollem Selbstvertrauen. Die Wahl des richtigen Rahmens ist entscheidend, ebenso wie Ihre Präsenz."}
               </p>
               <p className="mt-4">
                 {lang === 'EN'
-                  ? "For a casual yet high-end proposal, we recommend a quality Driving Shoe. It offers the perfect blend of comfort for the bended knee and the sophistication required for the celebration that follows."
-                  : "Für einen entspannten und dennoch exklusiven Antrag empfehlen wir einen hochwertigen Driving Shoe. Er bietet die perfekte Mischung aus Komfort für den Kniefall und der Raffinesse, die für die anschließende Feier erforderlich ist."}
+                  ? "For a casual yet high-end proposal, we recommend the Aurélien Driving Shoe. It offers the perfect blend of comfort for the bended knee and the sophistication required for the celebration that follows."
+                  : "Für einen entspannten und dennoch exklusiven Antrag empfehlen wir den Aurélien Driving Shoe. Er bietet die perfekte Mischung aus Komfort für den Kniefall und der Raffinesse, die für die anschließende Feier erforderlich ist."}
               </p>
             </div>
             <div className="p-8 border border-brand-black/5 bg-brand-champagne/10">
@@ -40,7 +40,7 @@ export default function EditorialSections({ lang }: EditorialProps) {
                 {lang === 'EN' ? 'Unstructured blazer, crisp white shirt, and our recommended Driving Shoes in Navy.' : 'Unstrukturierter Blazer, frisches weißes Hemd und unsere empfohlenen Driving Shoes in Navy.'}
               </p>
               <a 
-                href="https://aurelien-online.com/collections/driving-shoes?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
+                href="https://aurelien-online.com/collections/driving-shoes"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[10px] uppercase tracking-widest font-bold text-brand-gold hover:underline inline-block"
@@ -86,7 +86,7 @@ export default function EditorialSections({ lang }: EditorialProps) {
           >
             <span className="text-xs uppercase tracking-widest font-bold text-brand-gold mb-6 block">Pillar 02 — The Planning</span>
             <h2 className="text-4xl md:text-6xl font-serif mb-8 leading-tight">
-              {lang === 'EN' ? 'Style Protocol' : 'Stil-Protokoll'}
+              {lang === 'EN' ? 'Sartorial Protocol' : 'Sartoriales Protokoll'}
             </h2>
             <div className="prose prose-sm opacity-70 font-light leading-relaxed mb-12">
               <p>
@@ -96,13 +96,13 @@ export default function EditorialSections({ lang }: EditorialProps) {
               </p>
               <p className="mt-4">
                 {lang === 'EN'
-                  ? "The bachelor party demands smart casual excellence. Quality Yacht Loafers provide the versatility needed for a weekend of celebration, transitioning seamlessly from city walks to evening cocktails."
-                  : "Der Junggesellenabschied verlangt nach Smart-Casual-Exzellenz. Hochwertige Yacht-Loafer bieten die Vielseitigkeit, die für ein Wochenende voller Feierlichkeiten benötigt wird, und gehen nahtlos von Stadtspaziergängen zu Abendcocktails über."}
+                  ? "The bachelor party demands smart casual excellence. Aurélien Yacht Loafers provide the versatility needed for a weekend of celebration, transitioning seamlessly from city walks to evening cocktails."
+                  : "Der Junggesellenabschied verlangt nach Smart-Casual-Exzellenz. Aurélien Yacht-Loafer bieten die Vielseitigkeit, die für ein Wochenende voller Feierlichkeiten benötigt wird, und gehen nahtlos von Stadtspaziergängen zu Abendcocktails über."}
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">
               <a 
-                href="https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
+                href="https://aurelien-online.com/collections/loafers"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-6 bg-white border border-brand-black/5 hover:border-brand-gold transition-colors group"
@@ -111,7 +111,7 @@ export default function EditorialSections({ lang }: EditorialProps) {
                 <p className="text-xs opacity-60">Smart Casual / Yacht Loafers</p>
               </a>
               <a 
-                href="https://aurelien-online.com/collections/city-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
+                href="https://aurelien-online.com/collections/city-loafers"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-6 bg-white border border-brand-black/5 hover:border-brand-gold transition-colors group"

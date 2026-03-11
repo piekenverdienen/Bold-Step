@@ -8,8 +8,9 @@ import Collection from './pages/Collection';
 import Journal from './pages/Journal';
 import BlogPost from './pages/BlogPost';
 import SuitMatcher from './pages/SuitMatcher';
-import ArchetypeHub from './pages/ArchetypeHub';
-import ArchetypePage from './pages/ArchetypePage';
+import Lookbook from './pages/Lookbook';
+import Impressum from './pages/Impressum';
+import About from './pages/About';
 import NotFound from './pages/NotFound';
 import Quiz from './components/Quiz';
 import { AnimatePresence } from 'motion/react';
@@ -108,8 +109,9 @@ export default function App() {
           <Route path="journal" element={<JournalWrapper />} />
           <Route path="journal/:id" element={<BlogPostWrapper />} />
           <Route path="matcher" element={<SuitMatcherWrapper />} />
-          <Route path="archetypes" element={<ArchetypeHubWrapper />} />
-          <Route path="archetypes/:slug" element={<ArchetypePageWrapper />} />
+          <Route path="lookbook" element={<LookbookWrapper />} />
+          <Route path="impressum" element={<ImpressumWrapper />} />
+          <Route path="about" element={<AboutWrapper />} />
           <Route path="*" element={<NotFoundWrapper />} />
         </Route>
         <Route path="/" element={<Navigate to="/en" replace />} />
@@ -148,14 +150,19 @@ function SuitMatcherWrapper() {
   return <SuitMatcher lang={(lang?.toUpperCase() as Language) || 'EN'} />;
 }
 
-function ArchetypeHubWrapper() {
+function LookbookWrapper() {
   const { lang } = useParams<{ lang: string }>();
-  return <ArchetypeHub lang={(lang?.toUpperCase() as Language) || 'EN'} />;
+  return <Lookbook lang={(lang?.toUpperCase() as Language) || 'EN'} />;
 }
 
-function ArchetypePageWrapper() {
+function ImpressumWrapper() {
   const { lang } = useParams<{ lang: string }>();
-  return <ArchetypePage lang={(lang?.toUpperCase() as Language) || 'EN'} />;
+  return <Impressum lang={(lang?.toUpperCase() as Language) || 'EN'} />;
+}
+
+function AboutWrapper() {
+  const { lang } = useParams<{ lang: string }>();
+  return <About lang={(lang?.toUpperCase() as Language) || 'EN'} />;
 }
 
 function NotFoundWrapper() {

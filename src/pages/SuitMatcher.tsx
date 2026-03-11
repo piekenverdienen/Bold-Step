@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { ChevronRight, ChevronDown, Check, Info } from 'lucide-react';
 import { Language, LOAFER_PRODUCTS } from '../constants';
@@ -516,6 +517,7 @@ export default function SuitMatcher({ lang }: SuitMatcherProps) {
       recSub: `Top picks for your ${selectedSuit?.name[lang].toLowerCase() || 'suit'}`,
       tipsTitle: "Styling Notes",
       shopNow: "Shop Now",
+      viewCollection: "View Collection",
       footer: "The Groom Code — Dress with intention on the day that matters most."
     },
     DE: {
@@ -531,6 +533,7 @@ export default function SuitMatcher({ lang }: SuitMatcherProps) {
       recSub: `Top-Empfehlungen für Ihren ${selectedSuit?.name[lang].toLowerCase() || 'Anzug'}`,
       tipsTitle: "Styling-Hinweise",
       shopNow: "Jetzt Shoppen",
+      viewCollection: "Kollektion ansehen",
       footer: "The Groom Code — Kleiden Sie sich mit Bedacht an dem Tag, der am meisten zählt."
     }
   }[lang];
@@ -631,7 +634,23 @@ export default function SuitMatcher({ lang }: SuitMatcherProps) {
                     <img src={bestMatch.product.image} alt={bestMatch.product.name} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                   </div>
                   <span className="text-[10px] uppercase tracking-[0.3em] font-bold opacity-30 mb-2 block">{t.bestLoafer}</span>
-                  <h3 className="text-2xl font-serif">{bestMatch.name}</h3>
+                  <h3 className="text-2xl font-serif mb-6">{bestMatch.name}</h3>
+                  <div className="flex flex-col gap-3 max-w-[240px] mx-auto">
+                    <a 
+                      href={bestMatch.product.url} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-full bg-brand-black text-white text-[10px] uppercase tracking-widest font-bold py-4 rounded-xl flex items-center justify-center gap-2 hover:bg-brand-gold transition-colors"
+                    >
+                      {t.shopNow} <ChevronRight size={12} />
+                    </a>
+                    <Link 
+                      to="/collection"
+                      className="w-full border border-brand-black/10 text-brand-black text-[10px] uppercase tracking-widest font-bold py-4 rounded-xl flex items-center justify-center gap-2 hover:bg-brand-cream transition-colors"
+                    >
+                      {t.viewCollection}
+                    </Link>
+                  </div>
                 </div>
               </div>
 
@@ -658,15 +677,23 @@ export default function SuitMatcher({ lang }: SuitMatcherProps) {
                     </div>
                     <h4 className="text-xl font-serif mb-1">{match.name}</h4>
                     <p className="font-mono text-[10px] opacity-30 mb-4 uppercase tracking-widest">{match.product.name}</p>
-                    <p className="text-xs opacity-60 font-light leading-relaxed mb-6 flex-grow">{match.reason}</p>
-                    <a 
-                      href={match.product.url} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-[10px] uppercase tracking-widest font-bold text-brand-gold hover:gap-3 transition-all"
-                    >
-                      {t.shopNow} <ChevronRight size={12} />
-                    </a>
+                    <p className="text-xs opacity-60 font-light leading-relaxed mb-8 flex-grow">{match.reason}</p>
+                    <div className="flex flex-col gap-3">
+                      <a 
+                        href={match.product.url} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="w-full bg-brand-black text-white text-[10px] uppercase tracking-widest font-bold py-4 rounded-xl flex items-center justify-center gap-2 hover:bg-brand-gold transition-colors"
+                      >
+                        {t.shopNow} <ChevronRight size={12} />
+                      </a>
+                      <Link 
+                        to="/collection"
+                        className="w-full border border-brand-black/10 text-brand-black text-[10px] uppercase tracking-widest font-bold py-4 rounded-xl flex items-center justify-center gap-2 hover:bg-brand-cream transition-colors"
+                      >
+                        {t.viewCollection}
+                      </Link>
+                    </div>
                   </motion.div>
                 ))}
               </div>

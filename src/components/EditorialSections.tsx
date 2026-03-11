@@ -40,7 +40,7 @@ export default function EditorialSections({ lang }: EditorialProps) {
                 {lang === 'EN' ? 'Unstructured blazer, crisp white shirt, and our recommended Driving Shoes in Navy.' : 'Unstrukturierter Blazer, frisches weißes Hemd und unsere empfohlenen Driving Shoes in Navy.'}
               </p>
               <a 
-                href="https://aurelien-online.com/collections/driving-shoes"
+                href="https://aurelien-online.com/collections/driving-shoes?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[10px] uppercase tracking-widest font-bold text-brand-gold hover:underline inline-block"
@@ -102,7 +102,7 @@ export default function EditorialSections({ lang }: EditorialProps) {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <a 
-                href="https://aurelien-online.com/collections/loafers"
+                href="https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-6 bg-white border border-brand-black/5 hover:border-brand-gold transition-colors group"
@@ -111,7 +111,7 @@ export default function EditorialSections({ lang }: EditorialProps) {
                 <p className="text-xs opacity-60">Smart Casual / Yacht Loafers</p>
               </a>
               <a 
-                href="https://aurelien-online.com/collections/city-loafers"
+                href="https://aurelien-online.com/collections/city-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-6 bg-white border border-brand-black/5 hover:border-brand-gold transition-colors group"

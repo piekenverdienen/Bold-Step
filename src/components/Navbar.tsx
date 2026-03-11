@@ -33,6 +33,7 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
   const featuredLinks = [
     { name: lang === 'EN' ? 'Lookbook' : 'Lookbook', href: `${langPrefix}/lookbook` },
     { name: lang === 'EN' ? 'Matcher' : 'Matcher', href: `${langPrefix}/matcher` },
+    { name: lang === 'EN' ? 'Collection' : 'Kollektion', href: `${langPrefix}/collection` },
   ];
 
   const handleScroll = (href: string) => {
@@ -124,11 +125,11 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
               </button>
             </div>
 
-            <div className="flex-grow flex flex-col items-center justify-center px-6 overflow-y-auto py-12">
-              <div className="max-w-4xl w-full grid lg:grid-cols-[1fr,auto,1fr] gap-12 md:gap-24 items-center">
+            <div className="flex-grow flex flex-col items-center lg:justify-center justify-start px-6 overflow-y-auto pt-16 pb-12 lg:py-12">
+              <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32 items-start">
                 
-                {/* Primary Links - Central and Bold */}
-                <div className="flex flex-col gap-6 md:gap-10 text-center lg:text-right order-2 lg:order-1">
+                {/* Primary Links - Left Column */}
+                <div className="flex flex-col gap-8 md:gap-12 text-center lg:text-right lg:border-r lg:border-white/10 lg:pr-32">
                   <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold mb-2 block">Featured</span>
                   {[
                     { name: lang === 'EN' ? 'The Lookbook' : 'Das Lookbook', href: `${langPrefix}/lookbook` },
@@ -137,14 +138,14 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
                   ].map((link, i) => (
                     <motion.div
                       key={link.href}
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
+                      initial={{ opacity: 0, x: -20 }}
+                      animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: i * 0.1 }}
                     >
                       <Link 
                         to={link.href}
                         onClick={() => setIsMenuOpen(false)}
-                        className="text-4xl md:text-7xl font-serif hover:text-brand-gold transition-colors block leading-tight"
+                        className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-serif hover:text-brand-gold transition-colors block leading-tight whitespace-nowrap"
                       >
                         {link.name}
                       </Link>
@@ -152,14 +153,12 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
                   ))}
                 </div>
 
-                <div className="hidden lg:block w-px h-64 bg-white/10 order-2" />
-
-                {/* Secondary Links - Smaller and Subtle */}
-                <div className="flex flex-col gap-8 text-center lg:text-left order-3">
-                  <div className="grid grid-cols-2 lg:grid-cols-1 gap-x-8 gap-y-6">
+                {/* Secondary Links - Right Column */}
+                <div className="flex flex-col gap-12 text-center lg:text-left">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 sm:gap-8">
                     <div>
-                      <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold mb-4 block">The Journey</span>
-                      <div className="flex flex-col gap-3">
+                      <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold mb-6 block">The Journey</span>
+                      <div className="flex flex-col gap-4">
                         {[
                           { name: lang === 'EN' ? 'Introduction' : 'Einführung', href: `${langPrefix}/#narrative` },
                           { name: lang === 'EN' ? 'The Proposal' : 'Der Antrag', href: `${langPrefix}/#proposal` },
@@ -170,7 +169,7 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
                             key={link.href}
                             to={link.href}
                             onClick={() => handleScroll(link.href)}
-                            className="text-sm md:text-lg font-light opacity-60 hover:opacity-100 hover:text-brand-gold transition-all"
+                            className="text-base md:text-xl font-light opacity-60 hover:opacity-100 hover:text-brand-gold transition-all"
                           >
                             {link.name}
                           </Link>
@@ -179,8 +178,8 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
                     </div>
 
                     <div>
-                      <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold mb-4 block">Explore</span>
-                      <div className="flex flex-col gap-3">
+                      <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold mb-6 block">Explore</span>
+                      <div className="flex flex-col gap-4">
                         {[
                           { name: lang === 'EN' ? 'The Journal' : 'Das Journal', href: `${langPrefix}/journal` },
                           { name: lang === 'EN' ? 'About' : 'Über uns', href: `${langPrefix}/about` },
@@ -189,7 +188,7 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
                             key={link.href}
                             to={link.href}
                             onClick={() => setIsMenuOpen(false)}
-                            className="text-sm md:text-lg font-light opacity-60 hover:opacity-100 hover:text-brand-gold transition-all"
+                            className="text-base md:text-xl font-light opacity-60 hover:opacity-100 hover:text-brand-gold transition-all"
                           >
                             {link.name}
                           </Link>
@@ -198,8 +197,12 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
                     </div>
                   </div>
 
-                  <div className="pt-8 border-t border-white/5 hidden lg:block">
-                    <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold mb-4 block">Contact</span>
+                  <div className="pt-12 border-t border-white/10 hidden lg:block max-w-xs">
+                    <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold mb-4 block">The Mission</span>
+                    <p className="text-sm opacity-40 leading-relaxed italic font-serif mb-8">
+                      "Helping the modern groom navigate the most important journey of his life with precision, style, and ease."
+                    </p>
+                    <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold mb-2 block">Contact</span>
                     <p className="text-xs tracking-widest opacity-40">info@thegroomcode.com</p>
                   </div>
                 </div>

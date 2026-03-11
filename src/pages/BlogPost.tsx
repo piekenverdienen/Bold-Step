@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { motion } from 'motion/react';
-import { ChevronLeft, Calendar, Tag } from 'lucide-react';
+import { ChevronLeft, Calendar, Tag, ArrowRight } from 'lucide-react';
 import { Language, translations } from '../constants';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -136,14 +136,68 @@ export default function BlogPost({ lang }: BlogPostProps) {
           </div>
         </motion.div>
 
+        {/* Read More Section */}
+        {(() => {
+          const otherPosts = data.posts
+            .filter(p => p.slug !== post.slug)
+            .slice(0, 3);
+
+          if (otherPosts.length === 0) return null;
+
+          return (
+            <motion.section
+              className="mt-32 border-t border-brand-black/10 pt-16"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <h2 className="text-2xl md:text-3xl font-serif font-bold mb-12">
+                {lang === 'EN' ? 'Continue Reading' : 'Weiterlesen'}
+              </h2>
+
+              <div className="grid md:grid-cols-3 gap-8">
+                {otherPosts.map((relatedPost) => (
+                  <Link
+                    key={relatedPost.slug}
+                    to={`${langPrefix}/journal/${relatedPost.slug}`}
+                    className="group block"
+                  >
+                    <div className="aspect-[4/3] overflow-hidden mb-5">
+                      <img
+                        src={relatedPost.image}
+                        alt={relatedPost.title}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        referrerPolicy="no-referrer"
+                      />
+                    </div>
+                    <span className="text-[10px] uppercase tracking-widest font-bold text-brand-gold mb-2 block">
+                      {relatedPost.category}
+                    </span>
+                    <h3 className="text-lg font-serif font-bold mb-2 leading-snug group-hover:text-brand-gold transition-colors">
+                      {relatedPost.title}
+                    </h3>
+                    <p className="text-sm opacity-60 font-light leading-relaxed mb-4 line-clamp-2">
+                      {relatedPost.excerpt}
+                    </p>
+                    <span className="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-bold opacity-40 group-hover:opacity-100 group-hover:text-brand-gold transition-all">
+                      {data.cta} <ArrowRight size={12} className="transition-transform group-hover:translate-x-1" />
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </motion.section>
+          );
+        })()}
+
         {/* Newsletter / CTA */}
         <div className="mt-32 p-12 bg-brand-offwhite text-center">
           <h3 className="text-2xl font-serif mb-4">Stay Informed</h3>
           <p className="text-sm opacity-60 font-light mb-8">Get the latest insights on modern groom style directly in your inbox.</p>
           <div className="flex max-w-md mx-auto gap-4">
-            <input 
-              type="email" 
-              placeholder="Your email address" 
+            <input
+              type="email"
+              placeholder="Your email address"
               className="flex-grow bg-white border border-brand-black/10 px-6 py-4 text-sm focus:outline-none focus:border-brand-gold transition-colors"
             />
             <button className="px-8 py-4 bg-brand-black text-brand-offwhite text-xs uppercase tracking-widest font-bold hover:bg-brand-gold transition-all">

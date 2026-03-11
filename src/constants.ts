@@ -372,7 +372,7 @@ Increasingly, Best Men are opting for loafers. They offer a contemporary eleganc
 
 Your shoes are the foundation of your presence. Choose wisely, and you’ll carry out your duties with the style the day deserves.
 
-[Discover our selection of popular wedding shoes for Best Men and Grooms.](https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial)`
+[Discover our selection of popular wedding shoes for Best Men and Grooms.](/en/collection)`
         },
         {
           slug: "why-loafers-are-ultimate-wedding-shoes",
@@ -416,7 +416,7 @@ In the modern wedding world, the loafer isn't just an alternative—it’s the s
 
 ---
 
-**Explore the Wedding Loafer Collection** – [Hand-picked styles for the modern groom.](https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial)
+**Explore the Wedding Loafer Collection** – [Hand-picked styles for the modern groom.](/en/collection)
 
 **The Fit Guide** – [How to ensure your loafers stay snug from ceremony to sunrise.](/en/journal/the-fit-guide)
 
@@ -657,7 +657,7 @@ Immer mehr Trauzeugen entscheiden sich für Loafer. Sie bieten eine zeitgemäße
 
 Ihre Schuhe sind das Fundament Ihrer Präsenz. Wählen Sie weise, und Sie werden Ihre Aufgaben mit dem Stil erfüllen, den der Tag verdient.
 
-[Entdecken Sie unsere Auswahl an beliebten Hochzeitsschuhen für Trauzeugen und Bräutigame.](https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial)`
+[Entdecken Sie unsere Auswahl an beliebten Hochzeitsschuhen für Trauzeugen und Bräutigame.](/de/collection)`
         },
         {
           slug: "warum-loafer-die-ultimativen-hochzeitsschuhe-sind",
@@ -701,7 +701,7 @@ In der modernen Hochzeitswelt ist der Loafer nicht nur eine Alternative – er i
 
 ---
 
-**Entdecken Sie die Hochzeits-Loafer-Kollektion** – [Handverlesene Stile für den modernen Bräutigam.](https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial)
+**Entdecken Sie die Hochzeits-Loafer-Kollektion** – [Handverlesene Stile für den modernen Bräutigam.](/de/collection)
 
 **Der Fit-Guide** – [So stellen Sie sicher, dass Ihre Loafer von der Zeremonie bis zum Sonnenaufgang perfekt sitzen.](/de/journal/the-fit-guide)
 

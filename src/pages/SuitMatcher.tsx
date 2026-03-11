@@ -645,7 +645,7 @@ export default function SuitMatcher({ lang }: SuitMatcherProps) {
                       {t.shopNow} <ChevronRight size={12} />
                     </a>
                     <Link 
-                      to="/collection"
+                      to={`/${lang.toLowerCase()}/collection`}
                       className="w-full border border-brand-black/10 text-brand-black text-[10px] uppercase tracking-widest font-bold py-4 rounded-xl flex items-center justify-center gap-2 hover:bg-brand-cream transition-colors"
                     >
                       {t.viewCollection}
@@ -688,7 +688,7 @@ export default function SuitMatcher({ lang }: SuitMatcherProps) {
                         {t.shopNow} <ChevronRight size={12} />
                       </a>
                       <Link 
-                        to="/collection"
+                        to={`/${lang.toLowerCase()}/collection`}
                         className="w-full border border-brand-black/10 text-brand-black text-[10px] uppercase tracking-widest font-bold py-4 rounded-xl flex items-center justify-center gap-2 hover:bg-brand-cream transition-colors"
                       >
                         {t.viewCollection}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { Language, IMAGES } from '../constants';
 
@@ -126,14 +127,12 @@ function StyleCollage({ images, lang }: { images: { total: string, suit: string,
 
       <div className="mt-12 flex flex-col items-start">
         <p className="text-3xl font-bold tracking-tight uppercase text-brand-black">Look At Me</p>
-        <a 
-          href="https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link 
+          to={`/${lang.toLowerCase()}/collection`}
           className="mt-8 px-10 py-5 bg-brand-black text-brand-offwhite text-[10px] uppercase tracking-[0.3em] font-bold hover:bg-brand-gold transition-all rounded-full shadow-lg hover:shadow-brand-gold/20"
         >
           {lang === 'EN' ? 'Shop the Collection' : 'Kollektion Shoppen'}
-        </a>
+        </Link>
       </div>
     </div>
   );

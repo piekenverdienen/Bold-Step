@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { Language, IMAGES } from '../constants';
 
@@ -39,14 +40,12 @@ export default function EditorialSections({ lang }: EditorialProps) {
               <p className="text-sm italic opacity-60 mb-6">
                 {lang === 'EN' ? 'Unstructured blazer, crisp white shirt, and our recommended Driving Shoes in Navy.' : 'Unstrukturierter Blazer, frisches weißes Hemd und unsere empfohlenen Driving Shoes in Navy.'}
               </p>
-              <a 
-                href="https://aurelien-online.com/collections/driving-shoes?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link 
+                to={`/${lang.toLowerCase()}/collection`}
                 className="text-[10px] uppercase tracking-widest font-bold text-brand-gold hover:underline inline-block"
               >
                 {lang === 'EN' ? 'View Selection' : 'Auswahl Ansehen'}
-              </a>
+              </Link>
             </div>
           </motion.div>
           <motion.div 
@@ -101,24 +100,20 @@ export default function EditorialSections({ lang }: EditorialProps) {
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <a 
-                href="https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link 
+                to={`/${lang.toLowerCase()}/collection`}
                 className="p-6 bg-white border border-brand-black/5 hover:border-brand-gold transition-colors group"
               >
                 <h5 className="text-[10px] uppercase tracking-widest font-bold mb-2 group-hover:text-brand-gold transition-colors">Bachelor Party</h5>
                 <p className="text-xs opacity-60">Smart Casual / Yacht Loafers</p>
-              </a>
-              <a 
-                href="https://aurelien-online.com/collections/city-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
-                target="_blank"
-                rel="noopener noreferrer"
+              </Link>
+              <Link 
+                to={`/${lang.toLowerCase()}/collection`}
                 className="p-6 bg-white border border-brand-black/5 hover:border-brand-gold transition-colors group"
               >
                 <h5 className="text-[10px] uppercase tracking-widest font-bold mb-2 group-hover:text-brand-gold transition-colors">Rehearsal</h5>
                 <p className="text-xs opacity-60">Modern Tailoring / Leather Loafers</p>
-              </a>
+              </Link>
             </div>
           </motion.div>
         </div>

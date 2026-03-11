@@ -68,14 +68,12 @@ export default function BlogPost({ lang }: BlogPostProps) {
                   <h4 className="text-xl font-serif mb-6">
                     {lang === 'EN' ? 'Ready to find your perfect pair?' : 'Bereit für Ihr perfektes Paar?'}
                   </h4>
-                  <a 
-                    href="https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <Link 
+                    to={`${langPrefix}/collection`}
                     className="px-8 py-4 bg-brand-black text-brand-offwhite text-xs uppercase tracking-widest font-bold hover:bg-brand-gold transition-all"
                   >
                     {lang === 'EN' ? 'Explore the Collection' : 'Kollektion entdecken'}
-                  </a>
+                  </Link>
                 </div>
               );
 

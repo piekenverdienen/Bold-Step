@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { Language, IMAGES } from '../constants';
 
@@ -91,14 +92,12 @@ export default function StyleGuide({ lang }: StyleGuideProps) {
               </div>
               <div className="mb-6 space-y-2">
                 <p className="text-[10px] uppercase tracking-widest font-bold text-brand-gold">Recommended Choice</p>
-                <a 
-                  href={item.title.includes("Black Tie") ? "https://aurelien-online.com/collections/city-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial" : item.title.includes("Destination") ? "https://aurelien-online.com/collections/driving-shoes?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial" : "https://aurelien-online.com/collections/city-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link 
+                  to={`/${lang.toLowerCase()}/collection`}
                   className="text-sm font-medium hover:text-brand-gold transition-colors block"
                 >
                   {item.match}
-                </a>
+                </Link>
               </div>
               <p className="text-sm opacity-60 font-light leading-relaxed">
                 {item.desc}

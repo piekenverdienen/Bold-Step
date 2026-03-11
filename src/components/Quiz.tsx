@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { ChevronRight, Check } from 'lucide-react';
 import { Language, IMAGES } from '../constants';
@@ -104,25 +105,25 @@ const recommendations = {
     name: "The Voyage Loafer",
     desc: "The ultimate choice for destination weddings. Unlined for maximum breathability and crafted from buttery-soft Mediterranean suede.",
     image: IMAGES.PRODUCT_YACHT_LOAFER,
-    link: "https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
+    link: "/collection"
   },
   city: {
     name: "The City Loafer",
     desc: "The definitive choice for formal city weddings. Hand-finished calf leather that ensures a sharp, commanding silhouette.",
     image: IMAGES.PRODUCT_LEATHER_LOAFER,
-    link: "https://aurelien-online.com/collections/city-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
+    link: "/collection"
   },
   tassel: {
     name: "The Tassel Loafer",
     desc: "A modern classic that balances tradition with contemporary flair. Perfect for the groom who values texture and character.",
     image: IMAGES.PRODUCT_SUEDE_LOAFER,
-    link: "https://aurelien-online.com/collections/loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
+    link: "/collection"
   },
   driving: {
     name: "The Driving Shoe",
     desc: "Unmatched comfort for relaxed celebrations. The iconic pebble sole and soft suede make this the perfect choice for a countryside estate.",
     image: IMAGES.ALT_10,
-    link: "https://aurelien-online.com/collections/driving-shoes?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
+    link: "/collection"
   }
 };
 
@@ -237,14 +238,12 @@ export default function Quiz({ lang, onClose }: QuizProps) {
                   <img src={getResult().image} alt={getResult().name} className="w-full h-full object-cover" />
                 </div>
                 <div className="flex flex-col md:flex-row gap-8 justify-center items-center">
-                  <a 
-                    href={getResult().link}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <Link 
+                    to={`/${lang.toLowerCase()}${getResult().link}`}
                     className="inline-block px-12 py-5 bg-brand-black text-brand-offwhite text-xs uppercase tracking-[0.3em] font-bold hover:bg-brand-gold transition-all duration-500 shadow-lg hover:shadow-brand-gold/20"
                   >
                     {data.result.cta}
-                  </a>
+                  </Link>
                   <button 
                     onClick={() => {
                       setStep(0);

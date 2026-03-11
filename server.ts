@@ -30,8 +30,12 @@ async function startServer() {
     // Serve static files in production
     app.use(express.static(path.join(__dirname, "dist")));
     
-    // Fallback to index.html for SPA routing
-    app.get("*", (req, res) => {
+    // Fallback to index.html for SPA routing (skip static assets)
+    app.get("*", (req, res, next) => {
+      // Don't serve index.html for files with extensions (e.g. .xml, .txt, .json)
+      if (path.extname(req.path)) {
+        return next();
+      }
       res.sendFile(path.join(__dirname, "dist", "index.html"));
     });
   }

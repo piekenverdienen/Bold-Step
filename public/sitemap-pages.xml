@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.thegroomcode.com/en</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.thegroomcode.com/de</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Matcher -->
+  <url>
+    <loc>https://www.thegroomcode.com/en/matcher</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/matcher" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/matcher" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.thegroomcode.com/de/matcher</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/matcher" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/matcher" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Lookbook -->
+  <url>
+    <loc>https://www.thegroomcode.com/en/lookbook</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/lookbook" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/lookbook" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.thegroomcode.com/de/lookbook</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/lookbook" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/lookbook" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://www.thegroomcode.com/en/about</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thegroomcode.com/de/about</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Impressum -->
+  <url>
+    <loc>https://www.thegroomcode.com/en/impressum</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/impressum" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/impressum" />
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.thegroomcode.com/de/impressum</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/impressum" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/impressum" />
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

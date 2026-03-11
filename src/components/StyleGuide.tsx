@@ -27,7 +27,7 @@ const archetypes = {
       title: "The City Groom",
       suit: "Modern tailoring (charcoal, navy)",
       match: "Leather loafer",
-      desc: "Sartorial precision for the urban setting. Hand-finished Italian leather for the modern man.",
+      desc: "Refined precision for the urban setting. Hand-finished Italian leather for the modern man.",
       image: IMAGES.STYLE_CITY
     }
   ],
@@ -50,7 +50,7 @@ const archetypes = {
       title: "Der City Bräutigam",
       suit: "Moderne Maßkonfektion (Anthrazit, Navy)",
       match: "Leder-Loafer",
-      desc: "Sartoriale Präzision für das urbane Umfeld. Handgefertigtes italienisches Leder für den modernen Mann.",
+      desc: "Raffinierte Präzision für das urbane Umfeld. Handgefertigtes italienisches Leder für den modernen Mann.",
       image: IMAGES.STYLE_CITY
     }
   ]

@@ -190,7 +190,7 @@ export const translations: Record<Language, Content> = {
       title: "The Groom's Journey",
       steps: [
         { title: "The Proposal", description: "Confidence from the very first moment. Start your shared narrative with intentional style." },
-        { title: "The Planning", description: "Sartorial precision in every detail. Navigating the protocol of modern celebrations." },
+        { title: "The Planning", description: "Meticulous precision in every detail. Navigating the protocol of modern celebrations." },
         { title: "The Big Day", description: "The ultimate stride. Where craftsmanship meets the ease of the occasion." }
       ]
     },
@@ -400,7 +400,7 @@ A wedding is a marathon, not a sprint. From the first look to the final dance, y
 
 **Pro Tip:** Look for a Blake-stitched sole. This construction method results in a lighter, more flexible shoe that moves with your foot—essential for dominating the dance floor.
 
-### 2. A Statement of Sartorial Confidence
+### 2. A Statement of Timeless Confidence
 Choosing a loafer is a subtle declaration of intent. It suggests a groom who knows the rules of menswear well enough to play with them. It signals a man who values craftsmanship but prioritizes the ease of the occasion. It is the footwear of a gentleman who is truly comfortable in his own skin.
 
 ### 3. Visual Depth & Character
@@ -475,7 +475,7 @@ If you find yourself with a pair that is slightly loose, a small suede heel grip
       title: "Die Reise des Bräutigams",
       steps: [
         { title: "Der Antrag", description: "Souveränität ab dem ersten Moment. Beginnen Sie Ihre gemeinsame Geschichte mit bewusstem Stil." },
-        { title: "Die Planung", description: "Sartoriale Präzision in jedem Detail. Sicher navigieren durch die Etikette moderner Feierlichkeiten." },
+        { title: "Die Planung", description: "Akribische Präzision in jedem Detail. Sicher navigieren durch die Etikette moderner Feierlichkeiten." },
         { title: "Der Große Tag", description: "Der ultimative Schritt. Wo Handwerkskunst auf die Leichtigkeit des Anlasses trifft." }
       ]
     },

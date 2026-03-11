@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Journal Index -->
+  <url>
+    <loc>https://www.thegroomcode.com/en/journal</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/journal" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/journal" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.thegroomcode.com/de/journal</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/journal" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/journal" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Why Traditional Wedding Shoes Are Being Replaced by Loafers -->
+  <url>
+    <loc>https://www.thegroomcode.com/en/journal/why-traditional-wedding-shoes-replaced-by-loafers</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/journal/why-traditional-wedding-shoes-replaced-by-loafers" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/journal/warum-traditionelle-hochzeitsschuhe-durch-loafer-ersetzt-werden" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.thegroomcode.com/de/journal/warum-traditionelle-hochzeitsschuhe-durch-loafer-ersetzt-werden</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/journal/why-traditional-wedding-shoes-replaced-by-loafers" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/journal/warum-traditionelle-hochzeitsschuhe-durch-loafer-ersetzt-werden" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 7 Essential Tips for Choosing a Wedding Suit -->
+  <url>
+    <loc>https://www.thegroomcode.com/en/journal/7-essential-tips-choosing-wedding-suit</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/journal/7-essential-tips-choosing-wedding-suit" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/journal/7-essenzielle-tipps-wahl-hochzeitsanzug" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.thegroomcode.com/de/journal/7-essenzielle-tipps-wahl-hochzeitsanzug</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/journal/7-essential-tips-choosing-wedding-suit" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/journal/7-essenzielle-tipps-wahl-hochzeitsanzug" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- How to Propose: A Modern Gentleman's Guide -->
+  <url>
+    <loc>https://www.thegroomcode.com/en/journal/how-to-propose-modern-gentlemans-guide</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/journal/how-to-propose-modern-gentlemans-guide" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/journal/wie-sie-ihrer-freundin-einen-antrag-machen-leitfaden" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.thegroomcode.com/de/journal/wie-sie-ihrer-freundin-einen-antrag-machen-leitfaden</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/journal/how-to-propose-modern-gentlemans-guide" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/journal/wie-sie-ihrer-freundin-einen-antrag-machen-leitfaden" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Best Man Wedding Shoes Guide -->
+  <url>
+    <loc>https://www.thegroomcode.com/en/journal/best-man-wedding-shoes-guide</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/journal/best-man-wedding-shoes-guide" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/journal/best-man-hochzeitsschuhe-leitfaden" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.thegroomcode.com/de/journal/best-man-hochzeitsschuhe-leitfaden</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/journal/best-man-wedding-shoes-guide" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/journal/best-man-hochzeitsschuhe-leitfaden" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Why Loafers Are the Ultimate Wedding Shoes -->
+  <url>
+    <loc>https://www.thegroomcode.com/en/journal/why-loafers-are-ultimate-wedding-shoes</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/journal/why-loafers-are-ultimate-wedding-shoes" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/journal/warum-loafer-die-ultimativen-hochzeitsschuhe-sind" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.thegroomcode.com/de/journal/warum-loafer-die-ultimativen-hochzeitsschuhe-sind</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/journal/why-loafers-are-ultimate-wedding-shoes" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/journal/warum-loafer-die-ultimativen-hochzeitsschuhe-sind" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- The Fit Guide -->
+  <url>
+    <loc>https://www.thegroomcode.com/en/journal/the-fit-guide</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/journal/the-fit-guide" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/journal/the-fit-guide" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.thegroomcode.com/de/journal/the-fit-guide</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/journal/the-fit-guide" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/journal/the-fit-guide" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- The Lookbook -->
+  <url>
+    <loc>https://www.thegroomcode.com/en/journal/the-lookbook</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/journal/the-lookbook" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/journal/the-lookbook" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.thegroomcode.com/de/journal/the-lookbook</loc>
+    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegroomcode.com/en/journal/the-lookbook" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegroomcode.com/de/journal/the-lookbook" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

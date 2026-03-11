@@ -1,5 +1,18 @@
 {
+  "headers": [
+    {
+      "source": "/(.*)\\.xml",
+      "headers": [
+        { "key": "Content-Type", "value": "application/xml; charset=utf-8" }
+      ]
+    }
+  ],
   "rewrites": [
+    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
+    { "source": "/sitemap-pages.xml", "destination": "/sitemap-pages.xml" },
+    { "source": "/sitemap-journal.xml", "destination": "/sitemap-journal.xml" },
+    { "source": "/sitemap-collections.xml", "destination": "/sitemap-collections.xml" },
+    { "source": "/robots.txt", "destination": "/robots.txt" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

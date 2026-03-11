@@ -104,7 +104,7 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
                   <ChevronRight size={20} />
                 </div>
                 <p className="text-sm font-light opacity-60">
-                  {lang === 'EN' ? 'Sartorial Colour Matching' : 'Sartoriale Farbabstimmung'}
+                  {lang === 'EN' ? 'Refined Colour Matching' : 'Raffinierte Farbabstimmung'}
                 </p>
               </div>
             </div>

@@ -85,7 +85,7 @@ export default function EditorialSections({ lang }: EditorialProps) {
           >
             <span className="text-xs uppercase tracking-widest font-bold text-brand-gold mb-6 block">Pillar 02 — The Planning</span>
             <h2 className="text-4xl md:text-6xl font-serif mb-8 leading-tight">
-              {lang === 'EN' ? 'Sartorial Protocol' : 'Sartoriales Protokoll'}
+              {lang === 'EN' ? 'Elegant Protocol' : 'Elegantes Protokoll'}
             </h2>
             <div className="prose prose-sm opacity-70 font-light leading-relaxed mb-12">
               <p>

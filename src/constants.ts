@@ -461,6 +461,90 @@ If you find yourself with a pair that is slightly loose, a small suede heel grip
 ## The Classic Black Tie Revolution
 **The Look:** A midnight blue tuxedo with silk grosgrain lapels and Sleek Penny Loafers in Polished Black Calf.
 **The Vibe:** The ultimate statement of confidence. Replacing the patent lace-up with a polished loafer is the hallmark of a groom who knows his style.`
+        },
+        {
+          slug: "aurelien-yacht-loafers-quiet-luxury-for-the-modern-groom",
+          title: "Aurélien Yacht Loafers: Quiet Luxury Slip-Ons for the Modern Groom",
+          excerpt: "The Yacht Loafer by Aurélien is a modern reinterpretation of the classic boat shoe: minimalist, stylish, and built for comfort. The perfect 'smart casual with class' for the groom who values understatement and craftsmanship.",
+          category: "Style",
+          image: "https://aurelien-online.com/cdn/shop/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_navy7_eb965d69-902a-40a3-a4c9-71ac6b14385c.jpg?v=1634573228&width=1200",
+          content: `The [Yacht Loafer by Aurélien](https://aurelien-online.com/pages/yacht-loafer-lander) is a modern reinterpretation of the classic boat shoe: minimalist, stylish, and above all comfort-driven — thanks to an unlined suede construction that moulds to the foot. For grooms who have no desire to spend their wedding week in stiff lace-ups, this is exactly the kind of "smart casual with class" you can wear to a beach ceremony, a city wedding, or the afterparty.
+
+## Why the Yacht Loafer Works So Well for Weddings
+
+The modern wedding is rarely a single formal event anymore. It is often an entire weekend — or even a full week — with a mix of civil ceremony, dinner, drinks reception, photoshoot, ceremony, afterparty, and brunch. This is precisely why loafers are experiencing a renaissance: they sit right between sneaker comfort and formal shoes.
+
+The Yacht Loafer plays this space cleverly with a silhouette that is nautically inspired — but without the overly literal "preppy boat shoe" vibe. Aurélien positions the model as an icon that pairs maritime heritage with Mediterranean refinement, suitable "from coast to city."
+
+The practical case is equally compelling: the Yacht Loafer is designed for comfort "from the very first wear," combining supple materials with a flexible rubber sole for all-day ease. For the groom, that means less "shoe stress," a more relaxed posture in photographs, and a shoe you will keep wearing long after the honeymoon.
+
+## Product Deep Dive: Materials, Fit & Colours
+
+Aurélien describes the Yacht Loafer as "in a league of their own" when it comes to comfort and style. The unlined construction delivers breathability and flexibility — exactly what you want if you plan to wear your loafers sockless or with no-show socks.
+
+The signature details: a subtle zigzag edge on the tongue and hand stitching along the apron. Add an almond-shaped toe, and the result is a shoe that looks noticeably more refined than an average slip-on.
+
+**Key Specifications:**
+- **Upper:** Softey® Suede (100% French calfskin)
+- **Interior:** Calfskin leather
+- **Sole:** Rubber latex
+- **Craftsmanship:** Handmade in Italy
+- **Price:** €335 (e.g. [Navy Yacht Loafers](https://aurelien-online.com/products/navy-suede-yacht-loafers-2))
+- **Sizes:** 39–47
+- **Colours:** 20+ shades available
+
+Behind the "Made in Italy" label, Aurélien tells the story of its [atelier](https://aurelien-online.com/pages/driving-shoes): a family workshop in Southern Italy where Giovanni has overseen the artisans — who also produce the Yacht Loafers — for decades. It is precisely the promise a groom wants: refined simplicity backed by genuine craftsmanship.
+
+## Aurélien vs. the Usual Suspects
+
+Aurélien competes in the same "smart casual luxury" arena as the big names, but approaches it differently: less logo, more material feel; less stiff formality, more refined leisure.
+
+| Brand / Model | Approx. Price (EU) | Material & Sole | Style Code | Best Match for the Groom |
+| :--- | :--- | :--- | :--- | :--- |
+| **Aurélien Yacht Loafer** | €335 | Softey® Suede, calfskin interior, rubber latex sole | Nautically refined, quiet luxury | Destination wedding, summer suits, pre-wedding events |
+| **Tod's Gommino** | €590 | Calf suede, iconic gommini rubber outsole | Driving heritage, classic preppy luxury | Rehearsal dinner, city-chic smart casual |
+| **Gucci Horsebit 1953** | €890 | Leather, horsebit hardware, leather sole | Icon status, bit-loafer statement | City wedding with fashion edge |
+| **Santoni Essentials** | €650 | Luxury leather/suede | Italian craftsmanship, polished luxury | Formal smart casual, dinner & ceremony |
+| **Common Projects Penny** | €615 | Suede, minimal design | Clean minimalism, sneaker DNA | Minimalist groom, modern tailoring |
+| **Loro Piana Summer Walk** | ~€980 | Ultra-luxe suede, often unlined | Quiet luxury benchmark | Ultra-luxe destination & resort weddings |
+
+## What Customers Say
+
+Consumer reviews paint a remarkably consistent picture: comfort, material quality, and "genuinely wearable luxury" are frequently cited. On [Trustpilot](https://nl.trustpilot.com/review/aurelien-online.com), Aurélien sits at approximately 4.4/5 with over 2,000 reviews. A brief impression: "…comfortable from day one" and "fast shipping and great quality."
+
+Because loafers in general are sensitive to fit — they need to be snug enough not to slip, yet never pinch — it is smart for any groom to order well in advance of the wedding date and test the fit at home in peace.
+
+## Styling Guide for the Groom
+
+When it comes to styling, one principle rules: your shoes should carry the outfit, not dominate it. The Yacht Loafer helps here because it is minimal yet makes a clear luxury material statement.
+
+### Mediterranean Beach Wedding
+Think: a sand-coloured or light grey linen suit, white tee or open collar (depending on dress code), and a Yacht Loafer in navy, beige, or warm grey. Aurélien explicitly positions the Yacht Loafer as a shoe for sunny strolls and evenings out — that "holiday elegance" works perfectly by the sea.
+
+### City Wedding (City Hall + Dinner)
+Pair a darker loafer (navy or black) with a light suit (ivory/off-white) or a mid-grey suit. The almond-shaped toe makes the Yacht Loafer slightly more formal than an average slip-on, keeping the look city-proof.
+
+### Rehearsal Dinner / Afterparty
+Go for a luxe-smart combination: tailored trousers with a fine-knit polo or resort shirt. Aurélien also emphasises the "complete look" idea with matching accessories such as a belt in the same colour tone.
+
+## Care: Treating Suede Right
+
+Suede requires more attention than smooth leather, but a simple routine keeps your Yacht Loafers looking pristine:
+
+- **Brush regularly** with a suede brush to remove dirt and residue
+- **Waterproof** before the first wear — especially important for outdoor weddings
+- **Store cool and dry**, away from direct sunlight and heat sources
+- **Use tissue paper and dust bags** when storing
+
+## Why Aurélien Is So Popular
+
+Aurélien is building a recognisable "modern luxury maison" identity: [founded in 2015](https://aurelien-online.com/pages/the-maison), with a focus on Mediterranean joie de vivre and the concept of [Smart Luxury](https://aurelien-online.com/pages/smart-luxury) — luxurious materials and craftsmanship, but with a streamlined operation where design-to-consumer remains largely in-house, keeping the price point "elegant."
+
+[The Gentleman's Journal](https://shop.thegentlemansjournal.com/blogs/news/the-dutch-brand-beating-the-italians-at-their-own-style-game) explicitly names Aurélien as a Dutch brand delivering Mediterranean style at a "reasonable price point." In niche footwear media, the Yacht Loafer is regularly mentioned alongside Loro Piana's Summer Walk — with Aurélien as the compelling alternative.
+
+---
+
+*Brand claims and product specifications in this article are based on cited sources. Explore the [Yacht Loafer Collection](https://aurelien-online.com/a/l/nl/collections/loafers/model_yacht-loafer) or visit the [Aurélien Flagship Store in Amsterdam](https://aurelien-online.com/pages/amsterdam-store).*`
         }
       ]
     }
@@ -746,6 +830,90 @@ Wenn Sie ein Paar haben, das etwas zu locker sitzt, kann ein kleiner Velourslede
 ## Die klassische Black-Tie-Revolution
 **Der Look:** Ein mitternachtsblauer Smoking mit Revers aus Seidengrosgrain und elegante Penny Loafer in poliertem schwarzem Kalbsleder.
 **Der Vibe:** Das ultimative Statement an Selbstvertrauen. Den Lackschuh mit Schnürung durch einen polierten Loafer zu ersetzen, ist das Markenzeichen eines Bräutigams, der seinen Stil kennt.`
+        },
+        {
+          slug: "aurelien-yacht-loafers-quiet-luxury-fuer-den-modernen-braeutigam",
+          title: "Aurélien Yacht Loafers: ‚Quiet Luxury' Slipper für den modernen Bräutigam",
+          excerpt: "Der Yacht Loafer von Aurélien ist eine moderne Neuinterpretation des klassischen Bootsschuhs: minimalistisch, stilvoll und vor allem komfortorientiert. Perfekt für den Bräutigam, der Understatement mit Handwerkskunst verbindet.",
+          category: "Stil",
+          image: "https://aurelien-online.com/cdn/shop/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_navy7_eb965d69-902a-40a3-a4c9-71ac6b14385c.jpg?v=1634573228&width=1200",
+          content: `Der [Yacht Loafer von Aurélien](https://aurelien-online.com/pages/yacht-loafer-lander) ist eine moderne Neuinterpretation des klassischen Bootsschuhs: minimalistisch, stilvoll und vor allem komfortorientiert — dank einer ungefütterten (unlined) Wildlederkonstruktion, die sich der Fußform anpasst. Für Bräutigame, die rund um die Hochzeitswoche keine Lust auf steife Schnürschuhe haben, ist dies genau die Art von „Smart Casual mit Klasse", die man bei einer Strandzeremonie, einer City Wedding oder der Afterparty tragen kann.
+
+## Warum der Yacht Loafer so gut für Hochzeiten funktioniert
+
+Die moderne Hochzeit ist selten noch ein einziges formelles Ereignis. Oft ist es ein Wochenende — oder sogar eine ganze Woche — mit einer Mischung aus standesamtlicher Trauung, Dinner, Empfang, Fotoshooting, Zeremonie, Afterparty und Brunch. Genau deshalb erleben Loafer ein regelrechtes Comeback: Sie bewegen sich zwischen Sneaker-Komfort und formellen Schuhen.
+
+Der Yacht Loafer spielt dabei clever mit einem Silhouette, das nautisch inspiriert ist — aber ohne die wörtliche „Preppy-Bootsschuh"-Optik. Aurélien positioniert das Modell als ein Ikon, das maritime Tradition mit mediterraner Verfeinerung verbindet, geeignet „von der Küste bis in die Stadt."
+
+Praktisch ist die Wahl ebenfalls logisch: Der Yacht Loafer ist für Komfort „ab dem ersten Tragen" konzipiert und kombiniert geschmeidige Materialien mit einer flexiblen Gummisohle für ganztägigen Tragekomfort. Für den Bräutigam bedeutet das: weniger „Schuhstress", eine entspanntere Haltung auf den Fotos und ein Schuh, den man auch nach der Hochzeitsreise weiterträgt.
+
+## Produkt-Deep-Dive: Materialien, Passform & Farben
+
+Aurélien beschreibt den Yacht Loafer als „in a league of their own" in Sachen Komfort und Stil. Die ungefütterte Konstruktion sorgt für Atmungsaktivität und Flexibilität — ideal, wenn man den Loafer sockenfrei (oder mit No-Show-Socken) tragen möchte.
+
+Die Erkennungsmerkmale: die subtile Zickzack-Kante an der Zunge und die Handnaht entlang der Vorderkappe (Apron). Dazu kommt eine mandelförmige Zehenpartie (Almond-Shaped Toe), die das Gesamtbild eleganter wirken lässt als ein gewöhnlicher Slipper.
+
+**Technische Details:**
+- **Obermaterial:** Softey® Suede (100 % französisches Kalbsleder)
+- **Innenmaterial:** Kalbsleder
+- **Sohle:** Rubber Latex
+- **Herstellung:** Handgemacht in Italien
+- **Preis:** €335 (z. B. [Navy Yacht Loafers](https://aurelien-online.com/products/navy-suede-yacht-loafers-2))
+- **Größen:** 39–47
+- **Farben:** 20+ Farbtöne verfügbar
+
+Hinter dem „Made in Italy"-Label steht bei Aurélien auch eine Geschichte über das [Atelier](https://aurelien-online.com/pages/driving-shoes): ein Familienbetrieb in Süditalien, in dem Giovanni seit Jahrzehnten die Aufsicht über die Handwerker führt, die auch die Yacht Loafers produzieren. Genau die Verheißung, die ein Bräutigam sucht: verfeinerte Einfachheit mit Liebe zum Handwerk.
+
+## Aurélien vs. die üblichen Verdächtigen
+
+Aurélien agiert in derselben „Smart Casual Luxury"-Arena wie die großen Namen, geht es aber anders an: weniger Logo, mehr Materialgefühl; weniger steifer Formalschuh, mehr Refined Leisure.
+
+| Marke / Modell | Ca.-Preis (EU) | Material & Sohle | Stilcode | Beste Wahl für den Bräutigam |
+| :--- | :--- | :--- | :--- | :--- |
+| **Aurélien Yacht Loafer** | €335 | Softey® Suede, Kalbsleder-Interieur, Rubber-Latex-Sohle | Nautisch verfeinert, Quiet Luxury | Destination Wedding, Sommeranzüge, Pre-Wedding |
+| **Tod's Gommino** | €590 | Kalbswildleder, Gommini-Gummisohle | Driving Heritage, Preppy-Luxe | Rehearsal Dinner, City Smart Casual |
+| **Gucci Horsebit 1953** | €890 | Leder, Horsebit-Hardware, Ledersohle | Ikon-Status, Statement | City Wedding mit Fashion Edge |
+| **Santoni Essentials** | €650 | Luxe Leder/Wildleder | Italienisches Handwerk, Polished | Formeller Smart Casual, Dinner |
+| **Common Projects Penny** | €615 | Wildleder, minimales Design | Clean Minimalism, Sneaker-DNA | Minimalistischer Bräutigam |
+| **Loro Piana Summer Walk** | ~€980 | Ultra-Luxe-Wildleder, ungefüttert | Quiet-Luxury-Referenz | Ultra-Luxe Destination & Resort |
+
+## Was Kunden sagen
+
+In Verbraucherbewertungen ist der allgemeine Tenor bemerkenswert konsistent: Komfort, Materialgefühl und „wirklich tragbarer Luxus" werden häufig genannt. Auf [Trustpilot](https://nl.trustpilot.com/review/aurelien-online.com) steht Aurélien bei ca. 4,4/5 mit über 2000 Bewertungen. Eine kurze Impression: „…sitzen ab Tag eins bequem" und „schnelle Lieferung und gute Qualität."
+
+Da Loafer generell passformempfindlich sind — sie müssen eng genug sitzen, um nicht zu rutschen, aber dürfen nicht drücken — ist es für den Bräutigam ratsam, rechtzeitig vor dem Hochzeitstermin zu bestellen und die Passform in Ruhe zu Hause zu testen.
+
+## Styling-Guide für den Bräutigam
+
+Beim Styling dreht sich alles um ein Prinzip: Die Schuhe sollen das Outfit tragen, nicht dominieren. Der Yacht Loafer hilft dabei, weil er minimal ist, aber dennoch ein klares Luxus-Material-Statement macht.
+
+### Mediterrane Strandhochzeit
+Denken Sie an einen sandfarbenen oder hellgrauen Leinenanzug, weißes T-Shirt oder offenen Kragen, und einen Yacht Loafer in Navy, Beige oder Warm Grey. Aurélien positioniert den Yacht Loafer ausdrücklich als Schuh für sonnige Spaziergänge und Abende — diese „Urlaubs-Eleganz" funktioniert perfekt am Meer.
+
+### City Wedding (Standesamt + Dinner)
+Kombinieren Sie einen dunkleren Loafer (Navy oder Black) mit einem hellen Anzug (Ivory/Off-White) oder einem mittelgrauen Anzug. Die mandelförmige Zehenpartie macht den Yacht Loafer etwas formeller als einen gewöhnlichen Slipper — ideal für die Stadt.
+
+### Rehearsal Dinner / Afterparty
+Setzen Sie auf eine luxuriös-smarte Kombination: Tailored Trousers mit einem Feinstrick-Polo oder Resort-Shirt. Aurélien betont zudem die Idee des „Complete Look" mit passenden Accessoires wie einem Gürtel im gleichen Farbton.
+
+## Pflege: Wildleder richtig behandeln
+
+Wildleder ist pflegeintensiver als Glattleder, aber mit einer einfachen Routine bleibt Ihr Yacht Loafer lange schön:
+
+- **Regelmäßig bürsten** mit einer Wildlederbürste, um Schmutz und Ablagerungen zu entfernen
+- **Imprägnieren** vor dem ersten Tragen — besonders wichtig bei einer Outdoor-Hochzeit
+- **Kühl und trocken lagern**, fern von direktem Sonnenlicht und Hitzequellen
+- **Tissue Paper und Dust Bags** verwenden beim Aufbewahren
+
+## Warum Aurélien so beliebt ist
+
+Aurélien baut an einer wiedererkennbaren „Modern Luxury Maison"-Sprache: [gegründet 2015](https://aurelien-online.com/pages/the-maison), mit Fokus auf mediterraner Joie de Vivre und dem Konzept von [Smart Luxury](https://aurelien-online.com/pages/smart-luxury) — luxuriöse Materialien und Handwerk, aber mit einer effizienten Kette, bei der Design bis Konsument weitgehend in eigener Hand bleibt, damit das Preisniveau „elegant" bleibt.
+
+[The Gentleman's Journal](https://shop.thegentlemansjournal.com/blogs/news/the-dutch-brand-beating-the-italians-at-their-own-style-game) nennt Aurélien explizit als niederländische Marke, die mediterranen Stil zu einem „reasonable price point" bietet. In Schuh-Nischenmedien wird der Yacht Loafer zudem oft im selben Atemzug wie Loro Pianas Summer Walk genannt — mit Aurélien als überzeugende Alternative.
+
+---
+
+*In diesem Artikel basieren Markenaussagen und Produktspezifikationen auf den genannten Quellen. Entdecken Sie die [Yacht Loafer Kollektion](https://aurelien-online.com/a/l/nl/collections/loafers/model_yacht-loafer) oder besuchen Sie den [Aurélien Flagship Store in Amsterdam](https://aurelien-online.com/pages/amsterdam-store).*`
         }
       ]
     }

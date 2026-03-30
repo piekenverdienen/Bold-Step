@@ -464,13 +464,13 @@ If you find yourself with a pair that is slightly loose, a small suede heel grip
         },
         {
           slug: "aurelien-yacht-loafers-quiet-luxury-for-the-modern-groom",
-          title: "Why Modern Grooms Are Choosing Aurélien Yacht Loafers Over Traditional Luxury",
-          excerpt: "A new generation of grooms is rejecting stiff dress shoes and overpriced logos. The Aurélien Yacht Loafer — handmade in Italy at €335 — is the quiet luxury alternative that lasts well beyond the wedding day.",
+          title: "Handmade in Italy. €335. The Wedding Loafer That Changes Everything",
+          excerpt: "Italian craftsmanship, French calfskin, and a family atelier in Southern Italy — you would expect to pay €700+. The Aurélien Yacht Loafer delivers all of it for €335. Here is why grooms are paying attention.",
           category: "Style",
           image: "https://aurelien-online.com/cdn/shop/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_navy7_eb965d69-902a-40a3-a4c9-71ac6b14385c.jpg?v=1634573228&width=1200",
-          content: `There is a shift happening in the way men approach their wedding wardrobe. The old formula — a stiff black Oxford, a designer logo on the sole, and sore feet by the first dance — no longer appeals to a new generation of grooms. These are men who understand quality. They have done their research. And they know the difference between expensive and *valuable*.
+          content: `Handmade in a family-run atelier in Southern Italy. French calfskin suede. Hand-stitched detailing. You read that and expect a price tag north of €700. The [Yacht Loafer by Aurélien](https://aurelien-online.com/pages/yacht-loafer-lander) costs €335.
 
-The [Yacht Loafer by Aurélien](https://aurelien-online.com/pages/yacht-loafer-lander) sits right at the centre of that shift. At €335, handmade in a family-run atelier in Southern Italy, with the same calibre of materials you would find in shoes costing two or three times as much — it is everything the modern groom is looking for: refined, comfortable, and built to outlast any single occasion.
+That price-to-quality ratio is what makes this shoe remarkable — and it is why a growing number of grooms are discovering it as their go-to wedding shoe. Not because they are looking for a bargain, but because they recognise genuine craftsmanship when they see it, and they appreciate a brand that does not inflate the price simply because it can.
 
 ## The Wedding Has Changed — Your Shoes Should Too
 
@@ -839,13 +839,13 @@ Wenn Sie ein Paar haben, das etwas zu locker sitzt, kann ein kleiner Velourslede
         },
         {
           slug: "aurelien-yacht-loafers-quiet-luxury-fuer-den-modernen-braeutigam",
-          title: "Warum moderne Bräutigame Aurélien Yacht Loafers wählen — statt klassischer Luxusmarken",
-          excerpt: "Eine neue Generation von Bräutigamen lehnt steife Anzugschuhe und überteuerte Logos ab. Der Aurélien Yacht Loafer — handgemacht in Italien für €335 — ist die Quiet-Luxury-Alternative, die weit über den Hochzeitstag hinaus hält.",
+          title: "Handgemacht in Italien. €335. Der Hochzeitsschuh, der alles verändert",
+          excerpt: "Italienische Handwerkskunst, französisches Kalbsleder und ein Familienatelier in Süditalien — da erwartet man €700+. Der Aurélien Yacht Loafer bietet das alles für €335. Hier ist, warum Bräutigame aufhorchen.",
           category: "Stil",
           image: "https://aurelien-online.com/cdn/shop/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_navy7_eb965d69-902a-40a3-a4c9-71ac6b14385c.jpg?v=1634573228&width=1200",
-          content: `Es verändert sich etwas in der Art, wie Männer ihre Hochzeitsgarderobe angehen. Die alte Formel — ein steifer schwarzer Oxford, ein Designerlogo auf der Sohle und schmerzende Füße beim ersten Tanz — spricht eine neue Generation von Bräutigamen nicht mehr an. Es sind Männer, die Qualität verstehen. Die recherchiert haben. Und die den Unterschied kennen zwischen teuer und *wertvoll*.
+          content: `Handgefertigt in einem familiengeführten Atelier in Süditalien. Französisches Kalbswildleder. Handgenähte Details. Man liest das und erwartet einen Preis jenseits der €700. Der [Yacht Loafer von Aurélien](https://aurelien-online.com/pages/yacht-loafer-lander) kostet €335.
 
-Der [Yacht Loafer von Aurélien](https://aurelien-online.com/pages/yacht-loafer-lander) steht genau im Zentrum dieser Veränderung. Für €335, handgefertigt in einem familiengeführten Atelier in Süditalien, mit denselben erstklassigen Materialien, die man in Schuhen für das Zwei- oder Dreifache findet — ist er alles, was der moderne Bräutigam sucht: raffiniert, bequem und gemacht, um weit über einen einzelnen Anlass hinaus zu bestehen.
+Dieses Preis-Qualitäts-Verhältnis macht diesen Schuh so bemerkenswert — und es ist der Grund, warum immer mehr Bräutigame ihn als ihren Hochzeitsschuh entdecken. Nicht weil sie ein Schnäppchen suchen, sondern weil sie echte Handwerkskunst erkennen, wenn sie sie sehen, und eine Marke schätzen, die den Preis nicht künstlich aufbläst, nur weil sie es könnte.
 
 ## Die Hochzeit hat sich verändert — Ihre Schuhe sollten das auch
 

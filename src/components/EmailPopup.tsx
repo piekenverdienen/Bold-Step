@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X } from 'lucide-react';
 import { Language } from '../constants';
@@ -6,31 +6,23 @@ import { subscribeEmail } from '../lib/supabase';
 
 interface EmailPopupProps {
   lang: Language;
+  isOpen: boolean;
+  onClose: () => void;
 }
 
-export default function EmailPopup({ lang }: EmailPopupProps) {
-  const [isOpen, setIsOpen] = useState(false);
+export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
   const l = (en: string, de: string, nl: string) =>
     lang === 'EN' ? en : lang === 'DE' ? de : nl;
 
-  useEffect(() => {
-    // Don't show if already dismissed or subscribed
-    const dismissed = localStorage.getItem('email_popup_dismissed');
-    if (dismissed) return;
-
-    const timer = setTimeout(() => {
-      setIsOpen(true);
-    }, 8000);
-
-    return () => clearTimeout(timer);
-  }, []);
-
   const handleClose = () => {
-    setIsOpen(false);
-    localStorage.setItem('email_popup_dismissed', 'true');
+    onClose();
+    if (status === 'success') {
+      setStatus('idle');
+      setEmail('');
+    }
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -41,8 +33,6 @@ export default function EmailPopup({ lang }: EmailPopupProps) {
     try {
       await subscribeEmail(email, 'popup');
       setStatus('success');
-      localStorage.setItem('email_popup_dismissed', 'true');
-      setTimeout(() => setIsOpen(false), 10000);
     } catch {
       setStatus('error');
     }

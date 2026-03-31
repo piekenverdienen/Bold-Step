@@ -1,17 +1,25 @@
-import { createClient } from '@supabase/supabase-js';
+import { createClient, SupabaseClient } from '@supabase/supabase-js';
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || '';
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || '';
 
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+let supabase: SupabaseClient | null = null;
+
+if (supabaseUrl && supabaseAnonKey) {
+  supabase = createClient(supabaseUrl, supabaseAnonKey);
+}
 
 export async function subscribeEmail(email: string, source: string = 'popup') {
+  if (!supabase) {
+    console.warn('Supabase not configured — email not saved');
+    return { success: true, duplicate: false };
+  }
+
   const { error } = await supabase
     .from('email_subscribers')
     .insert([{ email, source, subscribed_at: new Date().toISOString() }]);
 
   if (error) {
-    // Handle duplicate email gracefully
     if (error.code === '23505') {
       return { success: true, duplicate: true };
     }

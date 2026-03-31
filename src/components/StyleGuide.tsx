@@ -53,6 +53,29 @@ const archetypes = {
       desc: "Raffinierte Präzision für das urbane Umfeld. Handgefertigtes italienisches Leder für den modernen Mann.",
       image: IMAGES.STYLE_CITY
     }
+  ],
+  NL: [
+    {
+      title: "De Black Tie Bruidegom",
+      suit: "Zwarte smoking / Wit dinerjasje",
+      match: "Lakleren of fluwelen loafer",
+      desc: "Voor het ultieme formele statement. Stralende elegantie onder het licht van de feestzaal.",
+      image: IMAGES.STYLE_BLACK_TIE
+    },
+    {
+      title: "Linnen of Beige Pak",
+      suit: "Linnen of beige pak",
+      match: "Lichtbruine suède loafer",
+      desc: "Mediterraans gemak voor het zonnige feest. Boterzacht suède ontmoet kuststijl.",
+      image: IMAGES.STYLE_DESTINATION
+    },
+    {
+      title: "De City Bruidegom",
+      suit: "Modern maatwerk (antraciet, navy)",
+      match: "Leren loafer",
+      desc: "Verfijnde precisie voor de stedelijke omgeving. Handafgewerkt Italiaans leer voor de moderne man.",
+      image: IMAGES.STYLE_CITY
+    }
   ]
 };
 
@@ -64,10 +87,10 @@ export default function StyleGuide({ lang }: StyleGuideProps) {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-24">
           <span className="text-xs uppercase tracking-widest font-bold text-brand-gold mb-4 block">
-            {lang === 'EN' ? 'The Style Pillars' : 'Die Stil-Säulen'}
+            {lang === 'EN' ? 'The Style Pillars' : lang === 'DE' ? 'Die Stil-Säulen' : 'De Stijlpijlers'}
           </span>
           <h2 className="text-4xl md:text-6xl font-serif mb-6">
-            {lang === 'EN' ? 'Archetypes of Elegance' : 'Archetypen der Eleganz'}
+            {lang === 'EN' ? 'Archetypes of Elegance' : lang === 'DE' ? 'Archetypen der Eleganz' : 'Archetypen van Elegantie'}
           </h2>
           <div className="w-24 h-px bg-brand-gold mx-auto"></div>
         </div>

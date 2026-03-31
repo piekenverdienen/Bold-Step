@@ -97,6 +97,50 @@ const quizData = {
       title: "Ihr Sole Mate",
       cta: "Kollektion Shoppen"
     }
+  },
+  NL: {
+    steps: [
+      {
+        question: "Waar vindt het feest plaats?",
+        options: [
+          { label: "Mediterraan strand / Destination", value: "voyage" },
+          { label: "Grote stad / Urban", value: "city" },
+          { label: "Landelijk landgoed / Rustiek", value: "driving" },
+          { label: "Grote feestzaal / Historisch", value: "city" }
+        ]
+      },
+      {
+        question: "Wat is je gekozen outfit?",
+        options: [
+          { label: "Black Tie / Smoking", value: "city" },
+          { label: "Klassiek maatpak", value: "tassel" },
+          { label: "Linnen / Zomerpak", value: "voyage" },
+          { label: "Smart Casual / Combinatie", value: "driving" }
+        ]
+      },
+      {
+        question: "Wat is het verwachte klimaat?",
+        options: [
+          { label: "Tropisch / Hoge temperatuur", value: "voyage" },
+          { label: "Mild / Lentebries", value: "driving" },
+          { label: "Fris / Herfstlucht", value: "tassel" },
+          { label: "Koud / Winteravond", value: "city" }
+        ]
+      },
+      {
+        question: "Wat is je belangrijkste stijldoel?",
+        options: [
+          { label: "Ongeëvenaard comfort", value: "driving" },
+          { label: "Het scherpste silhouet", value: "city" },
+          { label: "Moeiteloze veelzijdigheid", value: "tassel" },
+          { label: "Mediterraans gemak", value: "voyage" }
+        ]
+      }
+    ],
+    result: {
+      title: "Jouw Sole Mate",
+      cta: "Bekijk de Collectie"
+    }
   }
 };
 
@@ -161,7 +205,7 @@ export default function Quiz({ lang, onClose }: QuizProps) {
     <div className="fixed inset-0 z-[100] bg-brand-offwhite flex flex-col">
       <div className="p-6 flex justify-between items-center border-b border-brand-black/5">
         <button onClick={onClose} className="text-xs uppercase tracking-widest font-bold opacity-60 hover:opacity-100 transition-opacity">
-          {lang === 'EN' ? 'Close' : 'Schließen'}
+          {lang === 'EN' ? 'Close' : lang === 'DE' ? 'Schließen' : 'Sluiten'}
         </button>
         <div className="flex flex-col items-center">
           <span className="text-xs uppercase tracking-[0.3em] font-bold">Sole Mate Quiz</span>
@@ -187,7 +231,7 @@ export default function Quiz({ lang, onClose }: QuizProps) {
             >
               <div className="w-16 h-16 border-2 border-brand-gold/20 border-t-brand-gold rounded-full animate-spin mx-auto mb-8" />
               <h2 className="text-2xl font-serif italic">
-                {lang === 'EN' ? 'Finding your perfect match...' : 'Wir finden Ihr perfektes Match...'}
+                {lang === 'EN' ? 'Finding your perfect match...' : lang === 'DE' ? 'Wir finden Ihr perfektes Match...' : 'We vinden jouw perfecte match...'}
               </h2>
             </motion.div>
           ) : step < data.steps.length ? (
@@ -251,7 +295,7 @@ export default function Quiz({ lang, onClose }: QuizProps) {
                     }}
                     className="text-xs uppercase tracking-[0.3em] font-bold opacity-40 hover:opacity-100 transition-opacity"
                   >
-                    {lang === 'EN' ? 'Retake Quiz' : 'Quiz wiederholen'}
+                    {lang === 'EN' ? 'Retake Quiz' : lang === 'DE' ? 'Quiz wiederholen' : 'Quiz opnieuw doen'}
                   </button>
                 </div>
               </div>

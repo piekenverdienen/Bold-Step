@@ -47,7 +47,7 @@ export default function Home({ lang, onOpenQuiz }: HomeProps) {
             animate={{ opacity: 1, y: 0 }}
             className="text-xs uppercase tracking-[0.4em] font-bold text-brand-gold mb-6 block"
           >
-            {lang === 'EN' ? 'The Groom\'s Compendium' : 'Das Kompendium des Bräutigams'}
+            {lang === 'EN' ? 'The Groom\'s Compendium' : lang === 'DE' ? 'Das Kompendium des Bräutigams' : 'Het Compendium van de Bruidegom'}
           </motion.span>
           <motion.h1 
             initial={{ opacity: 0, scale: 0.95 }}
@@ -123,21 +123,23 @@ export default function Home({ lang, onOpenQuiz }: HomeProps) {
             transition={{ duration: 1 }}
           >
             <span className="text-[10px] uppercase tracking-[0.4em] font-bold text-brand-gold mb-6 block">
-              {lang === 'EN' ? 'Style Toolkit' : 'Stil-Toolkit'}
+              {lang === 'EN' ? 'Style Toolkit' : lang === 'DE' ? 'Stil-Toolkit' : 'Stijl Toolkit'}
             </span>
             <h2 className="text-4xl md:text-6xl font-serif mb-8 leading-tight">
-              {lang === 'EN' ? 'The Suit Matcher' : 'Der Anzug-Matcher'}
+              {lang === 'EN' ? 'The Suit Matcher' : lang === 'DE' ? 'Der Anzug-Matcher' : 'De Pak Matcher'}
             </h2>
             <p className="text-sm md:text-base opacity-60 font-light leading-relaxed mb-12 max-w-md">
-              {lang === 'EN' 
+              {lang === 'EN'
                 ? "Not sure which loafer colour complements your suit? Our interactive matcher provides the definitive answer based on tailoring rules."
-                : "Sie sind sich nicht sicher, welche Loafer-Farbe zu Ihrem Anzug passt? Unser interaktiver Matcher liefert die definitive Antwort basierend auf klassischen Stilregeln."}
+                : lang === 'DE'
+                ? "Sie sind sich nicht sicher, welche Loafer-Farbe zu Ihrem Anzug passt? Unser interaktiver Matcher liefert die definitive Antwort basierend auf klassischen Stilregeln."
+                : "Niet zeker welke loaferkleur bij je pak past? Onze interactieve matcher geeft het definitieve antwoord op basis van stijlregels."}
             </p>
             <Link 
               to={`/${lang.toLowerCase()}/matcher`}
               className="inline-block px-10 py-5 bg-brand-black text-brand-offwhite text-[10px] uppercase tracking-[0.3em] font-bold hover:bg-brand-gold transition-all"
             >
-              {lang === 'EN' ? 'Launch Matcher' : 'Matcher Starten'}
+              {lang === 'EN' ? 'Launch Matcher' : lang === 'DE' ? 'Matcher Starten' : 'Start Matcher'}
             </Link>
           </motion.div>
           <motion.div
@@ -159,7 +161,9 @@ export default function Home({ lang, onOpenQuiz }: HomeProps) {
               <p className="text-xs font-serif italic opacity-60">
                 {lang === 'EN'
                   ? "A gentleman's shoes should always speak the same language as his suit."
-                  : "Die Schuhe eines Gentlemans sollten immer dieselbe Sprache sprechen wie sein Anzug."}
+                  : lang === 'DE'
+                  ? "Die Schuhe eines Gentlemans sollten immer dieselbe Sprache sprechen wie sein Anzug."
+                  : "De schoenen van een gentleman moeten altijd dezelfde taal spreken als zijn pak."}
               </p>
             </div>
           </motion.div>
@@ -198,9 +202,11 @@ export default function Home({ lang, onOpenQuiz }: HomeProps) {
       <section className="py-20 px-6 bg-brand-offwhite border-t border-brand-black/5">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-xl md:text-2xl font-serif italic opacity-80">
-            {lang === 'EN' 
+            {lang === 'EN'
               ? "Handcrafted in Italy. Designed for the Aisle."
-              : "Handgefertigt in Italien. Entworfen für den Altar."}
+              : lang === 'DE'
+              ? "Handgefertigt in Italien. Entworfen für den Altar."
+              : "Handgemaakt in Italië. Ontworpen voor het Altaar."}
           </p>
         </div>
       </section>

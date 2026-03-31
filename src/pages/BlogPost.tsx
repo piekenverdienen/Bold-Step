@@ -27,7 +27,7 @@ export default function BlogPost({ lang }: BlogPostProps) {
           to={`${langPrefix}/journal`} 
           className="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-bold opacity-60 hover:opacity-100 mb-12 transition-opacity"
         >
-          <ChevronLeft size={16} /> {lang === 'EN' ? 'Back to Journal' : 'Zurück zum Journal'}
+          <ChevronLeft size={16} /> {lang === 'EN' ? 'Back to Journal' : lang === 'DE' ? 'Zurück zum Journal' : 'Terug naar Journaal'}
         </Link>
 
         <motion.div
@@ -66,13 +66,13 @@ export default function BlogPost({ lang }: BlogPostProps) {
               const CTAButton = () => (
                 <div className="my-16 py-12 border-y border-brand-black/5 flex flex-col items-center text-center">
                   <h4 className="text-xl font-serif mb-6">
-                    {lang === 'EN' ? 'Ready to find your perfect pair?' : 'Bereit für Ihr perfektes Paar?'}
+                    {lang === 'EN' ? 'Ready to find your perfect pair?' : lang === 'DE' ? 'Bereit für Ihr perfektes Paar?' : 'Klaar om je perfecte paar te vinden?'}
                   </h4>
                   <Link 
                     to={`${langPrefix}/collection`}
                     className="px-8 py-4 bg-brand-black text-brand-offwhite text-xs uppercase tracking-widest font-bold hover:bg-brand-gold transition-all"
                   >
-                    {lang === 'EN' ? 'Explore the Collection' : 'Kollektion entdecken'}
+                    {lang === 'EN' ? 'Explore the Collection' : lang === 'DE' ? 'Kollektion entdecken' : 'Ontdek de Collectie'}
                   </Link>
                 </div>
               );
@@ -153,7 +153,7 @@ export default function BlogPost({ lang }: BlogPostProps) {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-2xl md:text-3xl font-serif font-bold mb-12">
-                {lang === 'EN' ? 'Continue Reading' : 'Weiterlesen'}
+                {lang === 'EN' ? 'Continue Reading' : lang === 'DE' ? 'Weiterlesen' : 'Verder Lezen'}
               </h2>
 
               <div className="grid md:grid-cols-3 gap-8">
@@ -192,16 +192,20 @@ export default function BlogPost({ lang }: BlogPostProps) {
 
         {/* Newsletter / CTA */}
         <div className="mt-32 p-12 bg-brand-offwhite text-center">
-          <h3 className="text-2xl font-serif mb-4">Stay Informed</h3>
-          <p className="text-sm opacity-60 font-light mb-8">Get the latest insights on modern groom style directly in your inbox.</p>
+          <h3 className="text-2xl font-serif mb-4">
+            {lang === 'EN' ? 'Stay Informed' : lang === 'DE' ? 'Bleiben Sie Informiert' : 'Blijf op de Hoogte'}
+          </h3>
+          <p className="text-sm opacity-60 font-light mb-8">
+            {lang === 'EN' ? 'Get the latest insights on modern groom style directly in your inbox.' : lang === 'DE' ? 'Erhalten Sie die neuesten Einblicke in modernen Bräutigam-Stil direkt in Ihrem Postfach.' : 'Ontvang de nieuwste inzichten over moderne bruidegomstijl direct in je inbox.'}
+          </p>
           <div className="flex max-w-md mx-auto gap-4">
             <input
               type="email"
-              placeholder="Your email address"
+              placeholder={lang === 'EN' ? 'Your email address' : lang === 'DE' ? 'Ihre E-Mail-Adresse' : 'Je e-mailadres'}
               className="flex-grow bg-white border border-brand-black/10 px-6 py-4 text-sm focus:outline-none focus:border-brand-gold transition-colors"
             />
             <button className="px-8 py-4 bg-brand-black text-brand-offwhite text-xs uppercase tracking-widest font-bold hover:bg-brand-gold transition-all">
-              Join
+              {lang === 'EN' ? 'Join' : lang === 'DE' ? 'Anmelden' : 'Aanmelden'}
             </button>
           </div>
         </div>

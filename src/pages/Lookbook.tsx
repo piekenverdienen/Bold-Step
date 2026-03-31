@@ -83,6 +83,44 @@ const looks = {
       description: "Scharfe Maßkonfektion für die moderne Metropole. Anthrazitfarbene oder marineblaue Anzüge, die in jeder urbanen Umgebung Präsenz zeigen.",
       details: ["Moderne Maßkonfektion", "Italienische Handwerkskunst", "Vielseitige Elegance"]
     }
+  ],
+  NL: [
+    {
+      title: "De Black Tie Bruidegom",
+      subtitle: "Absolute Formaliteit",
+      images: {
+        total: IMAGES.STYLE_BLACK_TIE,
+        suit: IMAGES.LOOKBOOK_BLACK_TIE_SUIT,
+        shoes: IMAGES.LOOKBOOK_BLACK_TIE_SHOES,
+        detail: IMAGES.LOOKBOOK_BLACK_TIE_DETAIL
+      },
+      description: "Het hoogtepunt van stijlvolle elegantie. Een middernachtblauwe of zwarte smoking, gecombineerd met gepolijste loafers voor een moderne draai aan een tijdloze traditie.",
+      details: ["Zijden Grosgrain Revers", "Handafgewerkt Leer", "Architectonisch Silhouet"]
+    },
+    {
+      title: "Linnen of Beige Pak",
+      subtitle: "Mediterraans Gemak",
+      images: {
+        total: IMAGES.STYLE_DESTINATION,
+        suit: IMAGES.LOOKBOOK_LINEN_SUIT,
+        shoes: IMAGES.LOOKBOOK_LINEN_SHOES,
+        detail: IMAGES.LOOKBOOK_LINEN_DETAIL
+      },
+      description: "Perfect voor zonovergoten feesten. Ademende stoffen ontmoeten de ontspannen verfijning van suède schoenen.",
+      details: ["Ongevoerde Constructie", "Natuurlijke Aardetinten", "Kust Verfijning"]
+    },
+    {
+      title: "De City Bruidegom",
+      subtitle: "Stedelijke Precisie",
+      images: {
+        total: IMAGES.STYLE_CITY,
+        suit: IMAGES.LOOKBOOK_CITY_SUIT,
+        shoes: IMAGES.LOOKBOOK_CITY_SHOES,
+        detail: IMAGES.LOOKBOOK_CITY_DETAIL
+      },
+      description: "Scherp maatwerk voor de moderne metropool. Antraciet of marineblauw pakken die in elke stedelijke omgeving uitstraling tonen.",
+      details: ["Modern Maatwerk", "Italiaans Vakmanschap", "Veelzijdige Elegantie"]
+    }
   ]
 };
 
@@ -131,7 +169,7 @@ function StyleCollage({ images, lang }: { images: { total: string, suit: string,
           to={`/${lang.toLowerCase()}/collection`}
           className="mt-8 px-10 py-5 bg-brand-black text-brand-offwhite text-[10px] uppercase tracking-[0.3em] font-bold hover:bg-brand-gold transition-all rounded-full shadow-lg hover:shadow-brand-gold/20"
         >
-          {lang === 'EN' ? 'Shop the Collection' : 'Kollektion Shoppen'}
+          {lang === 'EN' ? 'Shop the Collection' : lang === 'DE' ? 'Kollektion Shoppen' : 'Bekijk de Collectie'}
         </Link>
       </div>
     </div>
@@ -150,7 +188,7 @@ export default function Lookbook({ lang }: LookbookProps) {
             animate={{ opacity: 1, y: 0 }}
             className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold mb-6 block"
           >
-            {lang === 'EN' ? 'Editorial Lookbook' : 'Editorielles Lookbook'}
+            {lang === 'EN' ? 'Editorial Lookbook' : lang === 'DE' ? 'Editorielles Lookbook' : 'Redactioneel Lookbook'}
           </motion.span>
           <motion.h1 
             initial={{ opacity: 0, scale: 0.95 }}
@@ -158,7 +196,7 @@ export default function Lookbook({ lang }: LookbookProps) {
             transition={{ delay: 0.2 }}
             className="text-5xl md:text-8xl font-serif mb-8"
           >
-            {lang === 'EN' ? 'Archetypes of Style' : 'Archetypen des Stils'}
+            {lang === 'EN' ? 'Archetypes of Style' : lang === 'DE' ? 'Archetypen des Stils' : 'Archetypen van Stijl'}
           </motion.h1>
           <motion.div 
             initial={{ width: 0 }}
@@ -210,12 +248,14 @@ export default function Lookbook({ lang }: LookbookProps) {
 
         <footer className="mt-64 text-center border-t border-brand-black/5 pt-32">
           <h3 className="text-3xl font-serif italic mb-8">
-            {lang === 'EN' ? 'Your journey begins with a single step.' : 'Ihre Reise beginnt mit einem einzigen Schritt.'}
+            {lang === 'EN' ? 'Your journey begins with a single step.' : lang === 'DE' ? 'Ihre Reise beginnt mit einem einzigen Schritt.' : 'Je reis begint met één enkele stap.'}
           </h3>
           <p className="text-sm opacity-60 max-w-md mx-auto leading-relaxed">
-            {lang === 'EN' 
+            {lang === 'EN'
               ? "Every archetype is a starting point. Your wedding is your own narrative. We are here to help you write it."
-              : "Jeder Archetyp ist ein Ausgangspunkt. Ihre Hochzeit ist Ihre eigene Geschichte. Wir sind hier, um Ihnen zu helfen, sie zu schreiben."}
+              : lang === 'DE'
+              ? "Jeder Archetyp ist ein Ausgangspunkt. Ihre Hochzeit ist Ihre eigene Geschichte. Wir sind hier, um Ihnen zu helfen, sie zu schreiben."
+              : "Elk archetype is een startpunt. Je bruiloft is jouw eigen verhaal. Wij zijn hier om je te helpen het te schrijven."}
           </p>
         </footer>
       </div>

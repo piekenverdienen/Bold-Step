@@ -39,7 +39,7 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
       
       const prompt = `Analyse the suit in this image. Identify: fabric, colour, lapel style, formality level. 
       Then recommend the single best Aurélien loafer model (Suede Loafer, Leather Loafer, Yacht Loafer, or Driving Shoe) with a 2-sentence justification.
-      Deliver the response in ${lang === 'EN' ? 'British English' : 'German (formal Sie-form)'}.
+      Deliver the response in ${lang === 'EN' ? 'British English' : lang === 'DE' ? 'German (formal Sie-form)' : 'Dutch (informal je/jij-form)'}.
       Use Markdown formatting: 
       - Use ### for section headings.
       - Use bullet points for the analysis details.
@@ -77,17 +77,21 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div>
             <span className="text-xs uppercase tracking-widest font-bold text-brand-gold mb-6 block">
-              {lang === 'EN' ? 'AI Style Assistant' : 'KI-Stil-Assistent'}
+              {lang === 'EN' ? 'AI Style Assistant' : lang === 'DE' ? 'KI-Stil-Assistent' : 'AI Stijl Assistent'}
             </span>
             <h2 className="text-4xl md:text-6xl font-serif mb-8 leading-tight">
-              {lang === 'EN' 
-                ? 'The Digital Tailor' 
-                : 'Der Digitale Schneider'}
+              {lang === 'EN'
+                ? 'The Digital Tailor'
+                : lang === 'DE'
+                ? 'Der Digitale Schneider'
+                : 'De Digitale Kleermaker'}
             </h2>
             <p className="text-lg font-light opacity-70 mb-12 leading-relaxed">
               {lang === 'EN'
                 ? 'Upload a photograph of your wedding suit. Our AI-driven stylist will analyse the fabric, cut, and tone to recommend the perfect Aurélien pairing.'
-                : 'Laden Sie ein Foto Ihres Hochzeitsanzugs hoch. Unser KI-gestützter Stylist analysiert Stoff, Schnitt und Farbton, um die perfekte Aurélien-Kombination zu empfehlen.'}
+                : lang === 'DE'
+                ? 'Laden Sie ein Foto Ihres Hochzeitsanzugs hoch. Unser KI-gestützter Stylist analysiert Stoff, Schnitt und Farbton, um die perfekte Aurélien-Kombination zu empfehlen.'
+                : 'Upload een foto van je trouwpak. Onze AI-gestuurde stylist analyseert de stof, snit en tint om de perfecte Aurélien-combinatie aan te bevelen.'}
             </p>
             
             <div className="space-y-6">
@@ -96,7 +100,7 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
                   <Sparkles size={20} />
                 </div>
                 <p className="text-sm font-light opacity-60">
-                  {lang === 'EN' ? 'Instant Fabric Analysis' : 'Sofortige Stoffanalyse'}
+                  {lang === 'EN' ? 'Instant Fabric Analysis' : lang === 'DE' ? 'Sofortige Stoffanalyse' : 'Directe Stofanalyse'}
                 </p>
               </div>
               <div className="flex items-center gap-4">
@@ -104,7 +108,7 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
                   <ChevronRight size={20} />
                 </div>
                 <p className="text-sm font-light opacity-60">
-                  {lang === 'EN' ? 'Refined Colour Matching' : 'Raffinierte Farbabstimmung'}
+                  {lang === 'EN' ? 'Refined Colour Matching' : lang === 'DE' ? 'Raffinierte Farbabstimmung' : 'Verfijnde Kleurmatching'}
                 </p>
               </div>
             </div>
@@ -115,7 +119,7 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
               <label className="flex flex-col items-center justify-center aspect-square border-2 border-dashed border-white/20 hover:border-brand-gold transition-colors cursor-pointer group">
                 <Upload size={48} className="text-white/20 group-hover:text-brand-gold mb-6 transition-colors" />
                 <span className="text-xs uppercase tracking-widest font-bold">
-                  {lang === 'EN' ? 'Upload Suit Photo' : 'Anzugfoto Hochladen'}
+                  {lang === 'EN' ? 'Upload Suit Photo' : lang === 'DE' ? 'Anzugfoto Hochladen' : 'Upload Pakfoto'}
                 </span>
                 <input type="file" className="hidden" accept="image/*" onChange={handleUpload} />
               </label>
@@ -140,12 +144,12 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
                     {analyzing ? (
                       <>
                         <Loader2 size={16} className="animate-spin" />
-                        {lang === 'EN' ? 'Analysing...' : 'Analysiere...'}
+                        {lang === 'EN' ? 'Analysing...' : lang === 'DE' ? 'Analysiere...' : 'Analyseren...'}
                       </>
                     ) : (
                       <>
                         <Sparkles size={16} />
-                        {lang === 'EN' ? 'Get Recommendation' : 'Empfehlung Erhalten'}
+                        {lang === 'EN' ? 'Get Recommendation' : lang === 'DE' ? 'Empfehlung Erhalten' : 'Krijg Aanbeveling'}
                       </>
                     )}
                   </button>
@@ -158,7 +162,7 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
                     className="p-8 bg-white/10 border border-white/20 shadow-2xl"
                   >
                     <h4 className="text-[10px] uppercase tracking-[0.3em] font-bold text-brand-gold mb-8">
-                      {lang === 'EN' ? 'Stylist Recommendation' : 'Empfehlung des Stylisten'}
+                      {lang === 'EN' ? 'Stylist Recommendation' : lang === 'DE' ? 'Empfehlung des Stylisten' : 'Aanbeveling van de Stylist'}
                     </h4>
                     <div className="text-base font-light leading-relaxed text-brand-offwhite/90">
                       <Markdown
@@ -180,7 +184,7 @@ export default function AIAssistant({ lang }: AIAssistantProps) {
                       onClick={() => { setImage(null); setResult(null); }}
                       className="mt-12 w-full py-4 border border-brand-gold/30 text-brand-gold text-[10px] uppercase tracking-[0.3em] font-bold hover:bg-brand-gold hover:text-brand-black transition-all"
                     >
-                      {lang === 'EN' ? 'Try Another Suit' : 'Anderen Anzug Probieren'}
+                      {lang === 'EN' ? 'Try Another Suit' : lang === 'DE' ? 'Anderen Anzug Probieren' : 'Probeer Een Ander Pak'}
                     </button>
                   </motion.div>
                 )}

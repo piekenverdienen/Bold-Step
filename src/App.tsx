@@ -34,7 +34,7 @@ function LanguageWrapper() {
   const [isQuizOpen, setIsQuizOpen] = useState(false);
 
   const lang = (langParam?.toUpperCase() as Language) || 'EN';
-  const validLangs: Language[] = ['EN', 'DE'];
+  const validLangs: Language[] = ['EN', 'DE', 'NL'];
 
   useEffect(() => {
     if (langParam && !validLangs.includes(langParam.toUpperCase() as Language)) {
@@ -47,16 +47,17 @@ function LanguageWrapper() {
     document.documentElement.lang = lang.toLowerCase();
 
     // Update document title
-    const titles = {
+    const titles: Record<Language, string> = {
       EN: "The Groom Code — Unlock the code for a perfect day",
-      DE: "The Groom Code — Entschlüsseln Sie den Code für den perfekten Tag"
+      DE: "The Groom Code — Entschlüsseln Sie den Code für den perfekten Tag",
+      NL: "The Groom Code — Ontgrendel de code voor een perfecte dag"
     };
     document.title = titles[lang];
 
     // Update hreflang tags
     const baseUrl = window.location.origin;
-    const pathWithoutLang = location.pathname.replace(/^\/(en|de)/i, '') || '/';
-    
+    const pathWithoutLang = location.pathname.replace(/^\/(en|de|nl)/i, '') || '/';
+
     const updateHreflang = (langCode: string, url: string) => {
       let link = document.querySelector(`link[hreflang="${langCode}"]`) as HTMLLinkElement;
       if (!link) {
@@ -70,12 +71,14 @@ function LanguageWrapper() {
 
     updateHreflang('en', `${baseUrl}/en${pathWithoutLang}`);
     updateHreflang('de', `${baseUrl}/de${pathWithoutLang}`);
+    updateHreflang('nl', `${baseUrl}/nl${pathWithoutLang}`);
     updateHreflang('x-default', `${baseUrl}/en${pathWithoutLang}`);
   }, [lang, location.pathname]);
 
   const toggleLang = () => {
-    const nextLang = lang === 'EN' ? 'de' : 'en';
-    const pathWithoutLang = location.pathname.replace(/^\/(en|de)/i, '') || '/';
+    const cycle: Record<Language, string> = { EN: 'de', DE: 'nl', NL: 'en' };
+    const nextLang = cycle[lang];
+    const pathWithoutLang = location.pathname.replace(/^\/(en|de|nl)/i, '') || '/';
     navigate(`/${nextLang}${pathWithoutLang}${location.hash}`);
   };
 

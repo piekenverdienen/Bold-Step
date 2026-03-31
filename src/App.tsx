@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route, useLocation, useParams, Navigate, useNavi
 import { Language } from './constants';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import TopBanner from './components/TopBanner';
+import EmailPopup from './components/EmailPopup';
 import Home from './pages/Home';
 import Collection from './pages/Collection';
 import Journal from './pages/Journal';
@@ -32,6 +34,7 @@ function LanguageWrapper() {
   const navigate = useNavigate();
   const location = useLocation();
   const [isQuizOpen, setIsQuizOpen] = useState(false);
+  const [isBannerVisible, setIsBannerVisible] = useState(true);
 
   const lang = (langParam?.toUpperCase() as Language) || 'EN';
   const validLangs: Language[] = ['EN', 'DE', 'NL'];
@@ -84,8 +87,9 @@ function LanguageWrapper() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar lang={lang} onToggleLang={toggleLang} />
-      
+      <TopBanner lang={lang} onClose={() => setIsBannerVisible(false)} />
+      <Navbar lang={lang} onToggleLang={toggleLang} hasBanner={isBannerVisible} />
+
       <AnimatePresence>
         {isQuizOpen && (
           <Quiz lang={lang} onClose={() => setIsQuizOpen(false)} />
@@ -96,6 +100,7 @@ function LanguageWrapper() {
         <Outlet context={{ onOpenQuiz: () => setIsQuizOpen(true) }} />
       </div>
 
+      <EmailPopup lang={lang} />
       <Footer lang={lang} />
     </div>
   );

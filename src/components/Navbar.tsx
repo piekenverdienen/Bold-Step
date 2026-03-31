@@ -8,9 +8,10 @@ import Quiz from './Quiz';
 interface NavbarProps {
   lang: Language;
   onToggleLang: () => void;
+  hasBanner?: boolean;
 }
 
-export default function Navbar({ lang, onToggleLang }: NavbarProps) {
+export default function Navbar({ lang, onToggleLang, hasBanner = false }: NavbarProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isQuizOpen, setIsQuizOpen] = useState(false);
   const location = useLocation();
@@ -59,7 +60,7 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
         )}
       </AnimatePresence>
 
-      <nav className="fixed w-full z-50 bg-brand-offwhite/80 backdrop-blur-md border-b border-brand-black/5">
+      <nav className={`fixed w-full z-50 bg-brand-offwhite/80 backdrop-blur-md border-b border-brand-black/5 transition-all duration-300 ${hasBanner ? 'top-[36px]' : 'top-0'}`}>
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <Link to={langPrefix} className="text-xl md:text-2xl font-serif tracking-widest uppercase">The Groom Code</Link>
           

@@ -82,7 +82,7 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
                   )}
                 </p>
                 <div className="bg-brand-black text-brand-offwhite py-4 px-6">
-                  <p className="text-2xl font-bold tracking-[0.3em]">THEGROOMCODE26</p>
+                  <p className="text-sm sm:text-2xl font-bold tracking-[0.15em] sm:tracking-[0.3em]">THEGROOMCODE26</p>
                 </div>
                 <p className="text-xs opacity-40 mt-4">
                   {l(

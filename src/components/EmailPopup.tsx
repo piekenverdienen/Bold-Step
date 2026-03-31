@@ -42,7 +42,7 @@ export default function EmailPopup({ lang }: EmailPopupProps) {
       await subscribeEmail(email, 'popup');
       setStatus('success');
       localStorage.setItem('email_popup_dismissed', 'true');
-      setTimeout(() => setIsOpen(false), 3000);
+      setTimeout(() => setIsOpen(false), 10000);
     } catch {
       setStatus('error');
     }
@@ -84,14 +84,23 @@ export default function EmailPopup({ lang }: EmailPopupProps) {
                 <div className="text-brand-gold text-4xl font-serif mb-4">
                   {l('Thank You', 'Vielen Dank', 'Bedankt')}
                 </div>
-                <p className="text-sm opacity-60">
+                <p className="text-sm opacity-60 mb-6">
                   {l(
-                    'Your exclusive discount code is on its way.',
-                    'Ihr exklusiver Rabattcode ist unterwegs.',
-                    'Je exclusieve kortingscode is onderweg.'
+                    'Here is your exclusive discount code:',
+                    'Hier ist Ihr exklusiver Rabattcode:',
+                    'Hier is je exclusieve kortingscode:'
                   )}
                 </p>
-                <p className="mt-4 text-lg font-bold tracking-widest">THEGROOMCODE26</p>
+                <div className="bg-brand-black text-brand-offwhite py-4 px-6">
+                  <p className="text-2xl font-bold tracking-[0.3em]">THEGROOMCODE26</p>
+                </div>
+                <p className="text-xs opacity-40 mt-4">
+                  {l(
+                    'Free shipping included. Apply at checkout on aurelien.com',
+                    'Kostenloser Versand inklusive. An der Kasse auf aurelien.com einlösen',
+                    'Gratis verzending inbegrepen. Gebruik bij checkout op aurelien.com'
+                  )}
+                </p>
               </div>
             ) : (
               <>

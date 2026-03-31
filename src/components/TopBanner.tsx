@@ -28,9 +28,9 @@ export default function TopBanner({ lang, onClose }: TopBannerProps) {
           </span>
           <span className="mx-2 opacity-40">|</span>
           <span className="opacity-60">
-            {l('Use code', 'Code verwenden', 'Gebruik code')}{' '}
+            {l('Sign up for your code', 'Melden Sie sich an für Ihren Code', 'Meld je aan voor je code')}
           </span>
-          <span className="font-bold text-brand-champagne tracking-widest">THEGROOMCODE26</span>
+          <span className="ml-1 text-brand-champagne">&#8595;</span>
         </p>
         <button
           onClick={() => { setIsVisible(false); onClose(); }}

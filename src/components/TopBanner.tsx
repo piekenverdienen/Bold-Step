@@ -21,15 +21,15 @@ export default function TopBanner({ lang, onClose, onClickSignup }: TopBannerPro
       <div className="max-w-7xl mx-auto px-6 py-2.5 flex items-center justify-center relative">
         <button onClick={onClickSignup} className="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-center cursor-pointer hover:opacity-80 transition-opacity">
           <span className="font-bold text-brand-gold">
-            {l('Exclusive Partner Discount', 'Exklusiver Partner-Rabatt', 'Exclusieve Partner Korting')}
+            {l('Exclusive: Free Shipping', 'Exklusiv: Kostenloser Versand', 'Exclusief: Gratis Verzending')}
           </span>
           <span className="mx-2 opacity-40">|</span>
           <span className="opacity-80">
-            {l('Free Shipping', 'Kostenloser Versand', 'Gratis Verzending')}
+            {l('On all Aurélien orders', 'Auf alle Aurélien Bestellungen', 'Op alle Aurélien bestellingen')}
           </span>
           <span className="mx-2 opacity-40">|</span>
           <span className="underline text-brand-champagne">
-            {l('Get Your Code', 'Code erhalten', 'Ontvang je code')}
+            {l('Claim Your Code', 'Code sichern', 'Claim je code')}
           </span>
         </button>
         <button

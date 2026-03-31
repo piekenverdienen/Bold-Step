@@ -76,9 +76,9 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
                 </div>
                 <p className="text-sm opacity-60 mb-6">
                   {l(
-                    'Here is your exclusive discount code:',
-                    'Hier ist Ihr exklusiver Rabattcode:',
-                    'Hier is je exclusieve kortingscode:'
+                    'Here is your free shipping code:',
+                    'Hier ist Ihr Code für kostenlosen Versand:',
+                    'Hier is je code voor gratis verzending:'
                   )}
                 </p>
                 <div className="bg-brand-black text-brand-offwhite py-4 px-6">
@@ -96,20 +96,20 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
               <>
                 <div className="text-center mb-8">
                   <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold block mb-3">
-                    {l('Exclusive Access', 'Exklusiver Zugang', 'Exclusieve Toegang')}
+                    {l('Exclusive Offer', 'Exklusives Angebot', 'Exclusief Aanbod')}
                   </span>
                   <h2 className="text-3xl font-serif mb-3">
                     {l(
-                      'Unlock Your Partner Discount',
-                      'Partner-Rabatt freischalten',
-                      'Ontgrendel je Partner Korting'
+                      'Claim Your Free Shipping',
+                      'Kostenloser Versand sichern',
+                      'Claim je Gratis Verzending'
                     )}
                   </h2>
                   <p className="text-sm opacity-60 leading-relaxed">
                     {l(
-                      'Sign up to receive your exclusive discount code and free shipping on Aurélien luxury footwear.',
-                      'Melden Sie sich an, um Ihren exklusiven Rabattcode und kostenlosen Versand für Aurélien Luxusschuhe zu erhalten.',
-                      'Meld je aan om je exclusieve kortingscode en gratis verzending op Aurélien luxe schoenen te ontvangen.'
+                      'Enter your email to receive your exclusive free shipping code for Aurélien luxury footwear.',
+                      'Geben Sie Ihre E-Mail-Adresse ein, um Ihren exklusiven Code für kostenlosen Versand bei Aurélien Luxusschuhen zu erhalten.',
+                      'Vul je e-mailadres in en ontvang je exclusieve code voor gratis verzending op Aurélien luxe schoenen.'
                     )}
                   </p>
                 </div>
@@ -130,7 +130,7 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
                   >
                     {status === 'loading'
                       ? '...'
-                      : l('Get My Discount', 'Rabatt erhalten', 'Ontvang mijn korting')}
+                      : l('Get Free Shipping', 'Kostenlosen Versand erhalten', 'Ontvang gratis verzending')}
                   </button>
                 </form>
 

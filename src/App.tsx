@@ -35,6 +35,7 @@ function LanguageWrapper() {
   const location = useLocation();
   const [isQuizOpen, setIsQuizOpen] = useState(false);
   const [isBannerVisible, setIsBannerVisible] = useState(true);
+  const [isEmailPopupOpen, setIsEmailPopupOpen] = useState(false);
 
   const lang = (langParam?.toUpperCase() as Language) || 'EN';
   const validLangs: Language[] = ['EN', 'DE', 'NL'];
@@ -87,7 +88,7 @@ function LanguageWrapper() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <TopBanner lang={lang} onClose={() => setIsBannerVisible(false)} />
+      <TopBanner lang={lang} onClose={() => setIsBannerVisible(false)} onClickSignup={() => setIsEmailPopupOpen(true)} />
       <Navbar lang={lang} onToggleLang={toggleLang} hasBanner={isBannerVisible} />
 
       <AnimatePresence>
@@ -100,7 +101,7 @@ function LanguageWrapper() {
         <Outlet context={{ onOpenQuiz: () => setIsQuizOpen(true) }} />
       </div>
 
-      <EmailPopup lang={lang} />
+      <EmailPopup lang={lang} isOpen={isEmailPopupOpen} onClose={() => setIsEmailPopupOpen(false)} />
       <Footer lang={lang} />
     </div>
   );

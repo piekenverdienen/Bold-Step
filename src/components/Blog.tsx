@@ -17,7 +17,7 @@ export default function Blog({ lang }: BlogProps) {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-24">
           <span className="text-xs uppercase tracking-widest font-bold text-brand-gold mb-4 block">
-            {lang === 'EN' ? 'Insights & Inspiration' : 'Einblicke & Inspiration'}
+            {lang === 'EN' ? 'Insights & Inspiration' : lang === 'DE' ? 'Einblicke & Inspiration' : 'Inzichten & Inspiratie'}
           </span>
           <h2 className="text-4xl md:text-6xl font-serif mb-6">{data.title}</h2>
           <div className="w-24 h-px bg-brand-gold mx-auto"></div>
@@ -66,7 +66,7 @@ export default function Blog({ lang }: BlogProps) {
             to={`${langPrefix}/journal`}
             className="inline-flex items-center gap-4 px-10 py-5 border border-brand-black text-xs uppercase tracking-[0.3em] font-bold hover:bg-brand-black hover:text-brand-offwhite transition-all"
           >
-            {lang === 'EN' ? 'View All Articles' : 'Alle Artikel ansehen'}
+            {lang === 'EN' ? 'View All Articles' : lang === 'DE' ? 'Alle Artikel ansehen' : 'Bekijk Alle Artikelen'}
           </Link>
         </div>
       </div>

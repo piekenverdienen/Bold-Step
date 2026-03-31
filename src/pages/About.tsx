@@ -18,10 +18,10 @@ export default function About({ lang }: AboutProps) {
           >
             <header>
               <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold mb-6 block">
-                {lang === 'EN' ? 'The Story' : 'Die Geschichte'}
+                {lang === 'EN' ? 'The Story' : lang === 'DE' ? 'Die Geschichte' : 'Het Verhaal'}
               </span>
               <h1 className="text-5xl md:text-7xl font-serif mb-8 leading-tight">
-                {lang === 'EN' ? 'The Man Behind The Groom Code' : 'Der Mann hinter The Groom Code'}
+                {lang === 'EN' ? 'The Man Behind The Groom Code' : lang === 'DE' ? 'Der Mann hinter The Groom Code' : 'De Man Achter The Groom Code'}
               </h1>
             </header>
 
@@ -29,9 +29,9 @@ export default function About({ lang }: AboutProps) {
               {lang === 'EN' ? (
                 <>
                   <p>For most of my professional life, I have worked in the world of fashion. Not just clothing, but the subtle language of style — the way a well-chosen piece can change how a man carries himself.</p>
-                  <p>Over the years, I had the privilege of helping countless men find their best version of themselves. From everyday tailoring to life’s most important moments. And none of those moments is more meaningful than a wedding day.</p>
+                  <p>Over the years, I had the privilege of helping countless men find their best version of themselves. From everyday tailoring to life's most important moments. And none of those moments is more meaningful than a wedding day.</p>
                   <p>I know this not only from experience in fashion, but from my own life.</p>
-                  <p>I’m married to my wonderful wife Jessica, and together we are raising two beautiful children. When I stood there on my own wedding day, I realized something simple but powerful: a man should feel completely himself on that day — confident, relaxed, and proud of the way he shows up.</p>
+                  <p>I'm married to my wonderful wife Jessica, and together we are raising two beautiful children. When I stood there on my own wedding day, I realized something simple but powerful: a man should feel completely himself on that day — confident, relaxed, and proud of the way he shows up.</p>
                   <p className="text-brand-black opacity-100 font-serif italic text-2xl">Not dressed up. But elevated.</p>
                   <p>That moment stayed with me.</p>
                   <p>Throughout my career I noticed that while the wedding industry offers endless guidance for brides, the groom is often left navigating the experience on his own. Yet he deserves the same attention to detail, the same care, and the same sense of occasion.</p>
@@ -43,7 +43,7 @@ export default function About({ lang }: AboutProps) {
                   <p>Because on what may very well be the most beautiful day of your life, you deserve to step forward with confidence, style, and ease.</p>
                   <p className="pt-8 font-serif text-xl">— The Groom Code</p>
                 </>
-              ) : (
+              ) : lang === 'DE' ? (
                 <>
                   <p>Den größten Teil meines Berufslebens habe ich in der Welt der Mode gearbeitet. Nicht nur Kleidung, sondern die subtile Sprache des Stils – die Art und Weise, wie ein gut gewähltes Stück verändern kann, wie ein Mann sich gibt.</p>
                   <p>Im Laufe der Jahre hatte ich das Privileg, unzähligen Männern zu helfen, die beste Version ihrer selbst zu finden. Von der alltäglichen Maßkonfektion bis hin zu den wichtigsten Momenten des Lebens. Und keiner dieser Momente ist bedeutungsvoller als ein Hochzeitstag.</p>
@@ -58,6 +58,23 @@ export default function About({ lang }: AboutProps) {
                   <p>Meine Leidenschaft war es schon immer, Männern zu helfen, gut auszusehen – und vor allem sich gut zu fühlen.</p>
                   <p>Mit The Groom Code hoffe ich, diese Leidenschaft mit Ihnen zu teilen.</p>
                   <p>Denn an dem Tag, der sehr wohl der schönste Tag Ihres Lebens sein kann, verdienen Sie es, mit Selbstvertrauen, Stil und Leichtigkeit voranzuschreiten.</p>
+                  <p className="pt-8 font-serif text-xl">— The Groom Code</p>
+                </>
+              ) : (
+                <>
+                  <p>Het grootste deel van mijn professionele leven heb ik in de modewereld gewerkt. Niet alleen kleding, maar de subtiele taal van stijl — de manier waarop een goed gekozen kledingstuk kan veranderen hoe een man zich presenteert.</p>
+                  <p>Door de jaren heen heb ik het voorrecht gehad om talloze mannen te helpen de beste versie van zichzelf te vinden. Van dagelijkse maatkleding tot de belangrijkste momenten in het leven. En geen van die momenten is betekenisvoller dan een trouwdag.</p>
+                  <p>Ik weet dit niet alleen vanuit mijn ervaring in de mode, maar vanuit mijn eigen leven.</p>
+                  <p>Ik ben getrouwd met mijn geweldige vrouw Jessica, en samen voeden we twee prachtige kinderen op. Toen ik daar stond op mijn eigen trouwdag, realiseerde ik me iets eenvoudigs maar krachtigs: een man moet zich op die dag volledig zichzelf voelen — zelfverzekerd, ontspannen en trots op hoe hij verschijnt.</p>
+                  <p className="text-brand-black opacity-100 font-serif italic text-2xl">Niet verkleed. Maar verheven.</p>
+                  <p>Dat moment bleef me bij.</p>
+                  <p>Gedurende mijn hele carrière viel me op dat de bruiloftsindustrie eindeloze begeleiding biedt voor bruiden, maar de bruidegom vaak alleen wordt gelaten om deze ervaring te navigeren. Toch verdient hij dezelfde aandacht voor detail, dezelfde zorg en hetzelfde gevoel voor de gelegenheid.</p>
+                  <p>Daarom heb ik The Groom Code opgericht.</p>
+                  <p>Dit platform is een samengestelde gids voor de moderne bruidegom. Een plek waar traditie hedendaagse elegantie ontmoet, en waar stijl met intentie wordt benaderd.</p>
+                  <p>Van het aanzoek tot de ceremonie, van het kiezen van het juiste pak tot het vinden van het perfecte paar loafers, elk detail draagt bij aan het verhaal van de dag.</p>
+                  <p>Mijn passie is altijd geweest om mannen te helpen er goed uit te zien — en nog belangrijker, zich goed te voelen.</p>
+                  <p>Met The Groom Code hoop ik die passie met je te delen.</p>
+                  <p>Want op wat wellicht de mooiste dag van je leven wordt, verdien je het om met zelfvertrouwen, stijl en gemak vooruit te stappen.</p>
                   <p className="pt-8 font-serif text-xl">— The Groom Code</p>
                 </>
               )}

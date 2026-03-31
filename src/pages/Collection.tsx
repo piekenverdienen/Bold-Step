@@ -21,7 +21,7 @@ export default function Collection({ lang }: CollectionProps) {
               animate={{ opacity: 1, y: 0 }}
               className="text-xs uppercase tracking-[0.4em] font-bold text-brand-gold mb-6 block"
             >
-              {lang === 'EN' ? 'Independent Selection' : 'Unabhängige Auswahl'}
+              {lang === 'EN' ? 'Independent Selection' : lang === 'DE' ? 'Unabhängige Auswahl' : 'Onafhankelijke Selectie'}
             </motion.span>
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
@@ -37,9 +37,11 @@ export default function Collection({ lang }: CollectionProps) {
               transition={{ delay: 0.2 }}
               className="text-lg md:text-xl opacity-60 font-light leading-relaxed italic font-serif"
             >
-              {lang === 'EN' 
+              {lang === 'EN'
                 ? "A definitive curation of Mediterranean craftsmanship, selected for the modern aisle."
-                : "Eine definitive Auswahl mediterraner Handwerkskunst, kuratiert für den modernen Altar."}
+                : lang === 'DE'
+                ? "Eine definitive Auswahl mediterraner Handwerkskunst, kuratiert für den modernen Altar."
+                : "Een definitieve selectie van mediterraans vakmanschap, samengesteld voor het moderne altaar."}
             </motion.p>
           </div>
           <motion.div 
@@ -54,9 +56,11 @@ export default function Collection({ lang }: CollectionProps) {
             transition={{ delay: 0.4 }}
             className="max-w-xs text-sm opacity-50 font-light leading-relaxed"
           >
-            {lang === 'EN' 
+            {lang === 'EN'
               ? "We recommend Aurélien for their exceptional balance of Italian quality and effortless ease. Each model represents a specific style code."
-              : "Wir empfehlen Aurélien für ihre außergewöhnliche Balance aus italienischer Qualität und müheloser Leichtigkeit. Jedes Modell repräsentiert einen spezifischen Stil-Kodex."}
+              : lang === 'DE'
+              ? "Wir empfehlen Aurélien für ihre außergewöhnliche Balance aus italienischer Qualität und müheloser Leichtigkeit. Jedes Modell repräsentiert einen spezifischen Stil-Kodex."
+              : "Wij bevelen Aurélien aan vanwege hun uitzonderlijke balans van Italiaanse kwaliteit en moeiteloos gemak. Elk model vertegenwoordigt een specifieke stijlcode."}
           </motion.p>
         </div>
 
@@ -89,7 +93,7 @@ export default function Collection({ lang }: CollectionProps) {
                   {/* Hover Overlay */}
                   <div className="absolute bottom-0 left-0 right-0 p-8 translate-y-full group-hover:translate-y-0 transition-transform duration-500 bg-gradient-to-t from-brand-black/40 to-transparent">
                     <span className="text-[10px] uppercase tracking-[0.3em] font-bold text-brand-offwhite">
-                      {lang === 'EN' ? 'View Details' : 'Details Anzeigen'}
+                      {lang === 'EN' ? 'View Details' : lang === 'DE' ? 'Details Anzeigen' : 'Bekijk Details'}
                     </span>
                   </div>
                 </div>
@@ -133,22 +137,28 @@ export default function Collection({ lang }: CollectionProps) {
               <div className="space-y-12">
                 {[
                   {
-                    title: lang === 'EN' ? "Craftsmanship" : "Handwerkskunst",
-                    desc: lang === 'EN' 
-                      ? "Hand-finished in Italy using the finest Mediterranean suedes and leathers." 
-                      : "Handgefertigt in Italien aus feinstem mediterranem Wildleder und Glattleder."
+                    title: lang === 'EN' ? "Craftsmanship" : lang === 'DE' ? "Handwerkskunst" : "Vakmanschap",
+                    desc: lang === 'EN'
+                      ? "Hand-finished in Italy using the finest Mediterranean suedes and leathers."
+                      : lang === 'DE'
+                      ? "Handgefertigt in Italien aus feinstem mediterranem Wildleder und Glattleder."
+                      : "Handafgewerkt in Italië met het finest mediterrane suède en leer."
                   },
                   {
-                    title: lang === 'EN' ? "Comfort" : "Komfort",
-                    desc: lang === 'EN' 
-                      ? "Designed for the marathon of a wedding day—from ceremony to the final dance." 
-                      : "Entwickelt für den Marathon eines Hochzeitstages – von der Zeremonie bis zum letzten Tanz."
+                    title: lang === 'EN' ? "Comfort" : lang === 'DE' ? "Komfort" : "Comfort",
+                    desc: lang === 'EN'
+                      ? "Designed for the marathon of a wedding day—from ceremony to the final dance."
+                      : lang === 'DE'
+                      ? "Entwickelt für den Marathon eines Hochzeitstages – von der Zeremonie bis zum letzten Tanz."
+                      : "Ontworpen voor de marathon van een trouwdag — van de ceremonie tot de laatste dans."
                   },
                   {
-                    title: lang === 'EN' ? "Versatility" : "Vielseitigkeit",
-                    desc: lang === 'EN' 
-                      ? "Silhouettes that transition effortlessly from formal tailoring to relaxed honeymoon style." 
-                      : "Silhouetten, die mühelos von formeller Maßkonfektion zu entspanntem Flitterwochen-Stil übergehen."
+                    title: lang === 'EN' ? "Versatility" : lang === 'DE' ? "Vielseitigkeit" : "Veelzijdigheid",
+                    desc: lang === 'EN'
+                      ? "Silhouettes that transition effortlessly from formal tailoring to relaxed honeymoon style."
+                      : lang === 'DE'
+                      ? "Silhouetten, die mühelos von formeller Maßkonfektion zu entspanntem Flitterwochen-Stil übergehen."
+                      : "Silhouetten die moeiteloos overgaan van formeel maatwerk naar ontspannen huwelijksreisstijl."
                   }
                 ].map((item, idx) => (
                   <motion.div 

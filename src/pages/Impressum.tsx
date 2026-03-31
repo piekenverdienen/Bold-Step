@@ -16,7 +16,7 @@ export default function Impressum({ lang }: ImpressumProps) {
             animate={{ opacity: 1, y: 0 }}
             className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold mb-6 block"
           >
-            {lang === 'EN' ? 'Legal Information' : 'Rechtliche Informationen'}
+            {lang === 'EN' ? 'Legal Information' : lang === 'DE' ? 'Rechtliche Informationen' : 'Juridische Informatie'}
           </motion.span>
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
@@ -37,7 +37,7 @@ export default function Impressum({ lang }: ImpressumProps) {
           >
             <section>
               <h2 className="text-xs uppercase tracking-widest font-bold text-brand-gold mb-6">
-                {lang === 'EN' ? 'Company Information' : 'Unternehmensinformationen'}
+                {lang === 'EN' ? 'Company Information' : lang === 'DE' ? 'Unternehmensinformationen' : 'Bedrijfsinformatie'}
               </h2>
               <div className="space-y-4 text-lg font-light opacity-70 leading-relaxed">
                 <p className="font-bold text-brand-black opacity-100">Rombots Digital B.V.</p>
@@ -49,7 +49,7 @@ export default function Impressum({ lang }: ImpressumProps) {
 
             <section>
               <h2 className="text-xs uppercase tracking-widest font-bold text-brand-gold mb-6">
-                {lang === 'EN' ? 'Registration' : 'Registrierung'}
+                {lang === 'EN' ? 'Registration' : lang === 'DE' ? 'Registrierung' : 'Registratie'}
               </h2>
               <div className="space-y-2 text-sm font-light opacity-70">
                 <p>Kamer van Koophandel: 77761073</p>
@@ -60,7 +60,7 @@ export default function Impressum({ lang }: ImpressumProps) {
 
             <section>
               <h2 className="text-xs uppercase tracking-widest font-bold text-brand-gold mb-6">
-                {lang === 'EN' ? 'Contact' : 'Kontakt'}
+                {lang === 'EN' ? 'Contact' : lang === 'DE' ? 'Kontakt' : 'Contact'}
               </h2>
               <div className="space-y-2 text-sm font-light opacity-70">
                 <p>Email: alexander@thegroomcode.com</p>
@@ -86,12 +86,14 @@ export default function Impressum({ lang }: ImpressumProps) {
             <div>
               <h3 className="text-2xl font-serif mb-2">Alexander Falk</h3>
               <p className="text-xs uppercase tracking-widest font-bold text-brand-gold">
-                {lang === 'EN' ? 'Editor-in-Chief' : 'Chefredakteur'}
+                {lang === 'EN' ? 'Editor-in-Chief' : lang === 'DE' ? 'Chefredakteur' : 'Hoofdredacteur'}
               </p>
               <p className="mt-4 text-sm font-light opacity-60 leading-relaxed">
-                {lang === 'EN' 
+                {lang === 'EN'
                   ? "Alexander Falk is the visionary behind The Groom Code, dedicated to bringing tailoring excellence and modern planning to grooms worldwide."
-                  : "Alexander Falk ist der Visionär hinter The Groom Code, der sich der Aufgabe verschrieben hat, Bräutigamen weltweit stilvolle Exzellenz und moderne Planung näherzubringen."}
+                  : lang === 'DE'
+                  ? "Alexander Falk ist der Visionär hinter The Groom Code, der sich der Aufgabe verschrieben hat, Bräutigamen weltweit stilvolle Exzellenz und moderne Planung näherzubringen."
+                  : "Alexander Falk is de visionair achter The Groom Code, toegewijd aan het brengen van stijlvolle excellentie en moderne planning aan bruidegoms wereldwijd."}
               </p>
             </div>
           </motion.div>

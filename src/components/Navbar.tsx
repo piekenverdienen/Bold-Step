@@ -18,22 +18,24 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
 
   const langPrefix = `/${lang.toLowerCase()}`;
 
+  const l = (en: string, de: string, nl: string) => lang === 'EN' ? en : lang === 'DE' ? de : nl;
+
   const navLinks = [
-    { name: lang === 'EN' ? 'The Journey' : 'Die Reise', href: `${langPrefix}/#narrative` },
-    { name: lang === 'EN' ? 'The Proposal' : 'Der Antrag', href: `${langPrefix}/#proposal` },
-    { name: lang === 'EN' ? 'The Planning' : 'Die Planung', href: `${langPrefix}/#planning` },
-    { name: lang === 'EN' ? 'The Style' : 'Der Stil', href: `${langPrefix}/#style` },
-    { name: lang === 'EN' ? 'The Lookbook' : 'Das Lookbook', href: `${langPrefix}/lookbook` },
-    { name: lang === 'EN' ? 'The Matcher' : 'Der Matcher', href: `${langPrefix}/matcher` },
-    { name: lang === 'EN' ? 'The Collection' : 'Die Kollektion', href: `${langPrefix}/collection` },
-    { name: lang === 'EN' ? 'The Journal' : 'Das Journal', href: `${langPrefix}/journal` },
-    { name: lang === 'EN' ? 'About' : 'Über uns', href: `${langPrefix}/about` },
+    { name: l('The Journey', 'Die Reise', 'De Reis'), href: `${langPrefix}/#narrative` },
+    { name: l('The Proposal', 'Der Antrag', 'Het Aanzoek'), href: `${langPrefix}/#proposal` },
+    { name: l('The Planning', 'Die Planung', 'De Planning'), href: `${langPrefix}/#planning` },
+    { name: l('The Style', 'Der Stil', 'De Stijl'), href: `${langPrefix}/#style` },
+    { name: l('The Lookbook', 'Das Lookbook', 'Het Lookbook'), href: `${langPrefix}/lookbook` },
+    { name: l('The Matcher', 'Der Matcher', 'De Matcher'), href: `${langPrefix}/matcher` },
+    { name: l('The Collection', 'Die Kollektion', 'De Collectie'), href: `${langPrefix}/collection` },
+    { name: l('The Journal', 'Das Journal', 'Het Journaal'), href: `${langPrefix}/journal` },
+    { name: l('About', 'Über uns', 'Over ons'), href: `${langPrefix}/about` },
   ];
 
   const featuredLinks = [
-    { name: lang === 'EN' ? 'Lookbook' : 'Lookbook', href: `${langPrefix}/lookbook` },
-    { name: lang === 'EN' ? 'Matcher' : 'Matcher', href: `${langPrefix}/matcher` },
-    { name: lang === 'EN' ? 'Collection' : 'Kollektion', href: `${langPrefix}/collection` },
+    { name: 'Lookbook', href: `${langPrefix}/lookbook` },
+    { name: 'Matcher', href: `${langPrefix}/matcher` },
+    { name: l('Collection', 'Kollektion', 'Collectie'), href: `${langPrefix}/collection` },
   ];
 
   const handleScroll = (href: string) => {
@@ -132,9 +134,9 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
                 <div className="flex flex-col gap-8 md:gap-12 text-center lg:text-right lg:border-r lg:border-white/10 lg:pr-32">
                   <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold mb-2 block">Featured</span>
                   {[
-                    { name: lang === 'EN' ? 'The Lookbook' : 'Das Lookbook', href: `${langPrefix}/lookbook` },
-                    { name: lang === 'EN' ? 'The Matcher' : 'Der Matcher', href: `${langPrefix}/matcher` },
-                    { name: lang === 'EN' ? 'The Collection' : 'Die Kollektion', href: `${langPrefix}/collection` },
+                    { name: l('The Lookbook', 'Das Lookbook', 'Het Lookbook'), href: `${langPrefix}/lookbook` },
+                    { name: l('The Matcher', 'Der Matcher', 'De Matcher'), href: `${langPrefix}/matcher` },
+                    { name: l('The Collection', 'Die Kollektion', 'De Collectie'), href: `${langPrefix}/collection` },
                   ].map((link, i) => (
                     <motion.div
                       key={link.href}
@@ -160,10 +162,10 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
                       <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold mb-6 block">The Journey</span>
                       <div className="flex flex-col gap-4">
                         {[
-                          { name: lang === 'EN' ? 'Introduction' : 'Einführung', href: `${langPrefix}/#narrative` },
-                          { name: lang === 'EN' ? 'The Proposal' : 'Der Antrag', href: `${langPrefix}/#proposal` },
-                          { name: lang === 'EN' ? 'The Planning' : 'Die Planung', href: `${langPrefix}/#planning` },
-                          { name: lang === 'EN' ? 'The Style' : 'Der Stil', href: `${langPrefix}/#style` },
+                          { name: l('Introduction', 'Einführung', 'Introductie'), href: `${langPrefix}/#narrative` },
+                          { name: l('The Proposal', 'Der Antrag', 'Het Aanzoek'), href: `${langPrefix}/#proposal` },
+                          { name: l('The Planning', 'Die Planung', 'De Planning'), href: `${langPrefix}/#planning` },
+                          { name: l('The Style', 'Der Stil', 'De Stijl'), href: `${langPrefix}/#style` },
                         ].map((link) => (
                           <Link 
                             key={link.href}
@@ -181,8 +183,8 @@ export default function Navbar({ lang, onToggleLang }: NavbarProps) {
                       <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold mb-6 block">Explore</span>
                       <div className="flex flex-col gap-4">
                         {[
-                          { name: lang === 'EN' ? 'The Journal' : 'Das Journal', href: `${langPrefix}/journal` },
-                          { name: lang === 'EN' ? 'About' : 'Über uns', href: `${langPrefix}/about` },
+                          { name: l('The Journal', 'Das Journal', 'Het Journaal'), href: `${langPrefix}/journal` },
+                          { name: l('About', 'Über uns', 'Over ons'), href: `${langPrefix}/about` },
                         ].map((link) => (
                           <Link 
                             key={link.href}

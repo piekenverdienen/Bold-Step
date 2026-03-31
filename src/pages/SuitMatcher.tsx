@@ -9,22 +9,22 @@ interface SuitMatcherProps {
 }
 
 const SUITS = [
-  { name: { EN: 'Navy', DE: 'Navy' }, hex: '#1B2A4A', category: 'navy' },
-  { name: { EN: 'Midnight Blue', DE: 'Mitternachtsblau' }, hex: '#1C2541', category: 'midnight' },
-  { name: { EN: 'Charcoal', DE: 'Anthrazit' }, hex: '#36363B', category: 'charcoal' },
-  { name: { EN: 'Black', DE: 'Schwarz' }, hex: '#1A1A1A', category: 'black' },
-  { name: { EN: 'Light Grey', DE: 'Hellgrau' }, hex: '#B0AEAB', category: 'lightgrey' },
-  { name: { EN: 'Medium Grey', DE: 'Mittelgrau' }, hex: '#7A7876', category: 'grey' },
-  { name: { EN: 'Beige', DE: 'Beige' }, hex: '#C8B99A', category: 'beige' },
-  { name: { EN: 'Sand', DE: 'Sand' }, hex: '#D4C5A9', category: 'sand' },
-  { name: { EN: 'Tan', DE: 'Tan' }, hex: '#C2A77D', category: 'tan' },
-  { name: { EN: 'Cream', DE: 'Creme' }, hex: '#EDE5D5', category: 'cream' },
-  { name: { EN: 'Olive', DE: 'Oliv' }, hex: '#5B5E3E', category: 'olive' },
-  { name: { EN: 'Forest Green', DE: 'Waldgrün' }, hex: '#2D4A3E', category: 'forest' },
-  { name: { EN: 'Burgundy', DE: 'Burgunder' }, hex: '#5E2129', category: 'burgundy' },
-  { name: { EN: 'Light Blue', DE: 'Hellblau' }, hex: '#7B9DB7', category: 'lightblue' },
-  { name: { EN: 'Brown', DE: 'Braun' }, hex: '#5C4033', category: 'brown' },
-  { name: { EN: 'White / Ivory', DE: 'Weiß / Elfenbein' }, hex: '#F2EDE3', category: 'white' },
+  { name: { EN: 'Navy', DE: 'Navy', NL: 'Navy' }, hex: '#1B2A4A', category: 'navy' },
+  { name: { EN: 'Midnight Blue', DE: 'Mitternachtsblau', NL: 'Middernachtblauw' }, hex: '#1C2541', category: 'midnight' },
+  { name: { EN: 'Charcoal', DE: 'Anthrazit', NL: 'Antraciet' }, hex: '#36363B', category: 'charcoal' },
+  { name: { EN: 'Black', DE: 'Schwarz', NL: 'Zwart' }, hex: '#1A1A1A', category: 'black' },
+  { name: { EN: 'Light Grey', DE: 'Hellgrau', NL: 'Lichtgrijs' }, hex: '#B0AEAB', category: 'lightgrey' },
+  { name: { EN: 'Medium Grey', DE: 'Mittelgrau', NL: 'Middengrijs' }, hex: '#7A7876', category: 'grey' },
+  { name: { EN: 'Beige', DE: 'Beige', NL: 'Beige' }, hex: '#C8B99A', category: 'beige' },
+  { name: { EN: 'Sand', DE: 'Sand', NL: 'Zand' }, hex: '#D4C5A9', category: 'sand' },
+  { name: { EN: 'Tan', DE: 'Tan', NL: 'Tan' }, hex: '#C2A77D', category: 'tan' },
+  { name: { EN: 'Cream', DE: 'Creme', NL: 'Crème' }, hex: '#EDE5D5', category: 'cream' },
+  { name: { EN: 'Olive', DE: 'Oliv', NL: 'Olijf' }, hex: '#5B5E3E', category: 'olive' },
+  { name: { EN: 'Forest Green', DE: 'Waldgrün', NL: 'Bosgroen' }, hex: '#2D4A3E', category: 'forest' },
+  { name: { EN: 'Burgundy', DE: 'Burgunder', NL: 'Bordeaux' }, hex: '#5E2129', category: 'burgundy' },
+  { name: { EN: 'Light Blue', DE: 'Hellblau', NL: 'Lichtblauw' }, hex: '#7B9DB7', category: 'lightblue' },
+  { name: { EN: 'Brown', DE: 'Braun', NL: 'Bruin' }, hex: '#5C4033', category: 'brown' },
+  { name: { EN: 'White / Ivory', DE: 'Weiß / Elfenbein', NL: 'Wit / Ivoor' }, hex: '#F2EDE3', category: 'white' },
 ];const LOAFER_MATCHES: Record<string, any> = {
   navy: {
     EN: [
@@ -38,6 +38,12 @@ const SUITS = [
       { name: 'Tan', hex: '#C4A777', product: LOAFER_PRODUCTS.TAN, reason: 'Eine leichtere, sommerliche Option, die Navy Frische verleiht.' },
       { name: 'Dunkelbraun', hex: '#4A3222', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Reichhaltig und raffiniert. Eine subtile, dezente Wahl für den Abend.' },
       { name: 'Burgunder', hex: '#6B2C3C', product: LOAFER_PRODUCTS.BURGUNDY, reason: 'Mutig und unerwartet. Ein Statement für den selbstbewussten Bräutigam.' },
+    ],
+    NL: [
+      { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'De klassieke combinatie — warm cognac tegen koel navy is tijdloze elegantie.', best: true },
+      { name: 'Tan', hex: '#C4A777', product: LOAFER_PRODUCTS.TAN, reason: 'Een lichtere, zomerse optie die frisheid aan navy toevoegt.' },
+      { name: 'Donkerbruin', hex: '#4A3222', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Rijk en verfijnd. Een subtiele, ingetogen keuze voor de avond.' },
+      { name: 'Bordeaux', hex: '#6B2C3C', product: LOAFER_PRODUCTS.BURGUNDY, reason: 'Gedurfd en onverwacht. Een statement voor de zelfverzekerde bruidegom.' },
     ]
   },
   midnight: {
@@ -52,6 +58,12 @@ const SUITS = [
       { name: 'Dunkelbraun', hex: '#4A3222', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Tonale Tiefe. Anspruchsvoll für einen Look, der an Black Tie grenzt.' },
       { name: 'Tan', hex: '#C4A777', product: LOAFER_PRODUCTS.TAN, reason: 'Lockert einen dunklen Anzug mit einem Hauch von Wärme auf.' },
       { name: 'Ochsenblut', hex: '#5A1E28', product: LOAFER_PRODUCTS.OXBLOOD, reason: 'Subtile Reichhaltigkeit, die fast schwarz wirkt, aber Charakter hat.' },
+    ],
+    NL: [
+      { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Warm leer tegen diep middernachtblauw creëert een prachtig contrast.', best: true },
+      { name: 'Donkerbruin', hex: '#4A3222', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Tonale diepte. Verfijnd voor een look die grenst aan black tie.' },
+      { name: 'Tan', hex: '#C4A777', product: LOAFER_PRODUCTS.TAN, reason: 'Fleurt een donker pak op met een vleugje warmte.' },
+      { name: 'Ossenbloed', hex: '#5A1E28', product: LOAFER_PRODUCTS.OXBLOOD, reason: 'Subtiele rijkdom die bijna zwart oogt, maar met karakter.' },
     ]
   },
   charcoal: {
@@ -66,6 +78,12 @@ const SUITS = [
       { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Verleiht dem neutralen Anthrazit Wärme und Persönlichkeit.' },
       { name: 'Burgunder', hex: '#6B2C3C', product: LOAFER_PRODUCTS.BURGUNDY, reason: 'Ein raffinierter Farbtupfer, der wunderbar harmoniert.' },
       { name: 'Schwarz', hex: '#1A1A1A', product: LOAFER_PRODUCTS.BLACK, reason: 'Die schärfste, formellste Kombination.' },
+    ],
+    NL: [
+      { name: 'Donkerbruin', hex: '#4A3222', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Een modern alternatief voor zwarte schoenen bij grijze pakken.', best: true },
+      { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Voegt warmte en persoonlijkheid toe aan het neutrale antraciet.' },
+      { name: 'Bordeaux', hex: '#6B2C3C', product: LOAFER_PRODUCTS.BURGUNDY, reason: 'Een verfijnd kleuraccent dat prachtig combineert.' },
+      { name: 'Zwart', hex: '#1A1A1A', product: LOAFER_PRODUCTS.BLACK, reason: 'De scherpste, meest formele combinatie.' },
     ]
   },
   black: {
@@ -80,6 +98,12 @@ const SUITS = [
       { name: 'Dunkles Anthrazit', hex: '#2E2E2E', product: LOAFER_PRODUCTS.DARK_CHARCOAL, reason: 'Fast ununterscheidbar, aber mit einem Hauch von Modernität.' },
       { name: 'Ochsenblut', hex: '#5A1E28', product: LOAFER_PRODUCTS.OXBLOOD, reason: 'Für den Bräutigam, der subtile Distinktion wünscht.' },
       { name: 'Dunkelbraun', hex: '#3A2A1A', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Nur für sehr entspannte oder Tagesfeiern.' },
+    ],
+    NL: [
+      { name: 'Zwart', hex: '#1A1A1A', product: LOAFER_PRODUCTS.BLACK, reason: 'De enige echt formele match voor een zwart pak.', best: true },
+      { name: 'Donker antraciet', hex: '#2E2E2E', product: LOAFER_PRODUCTS.DARK_CHARCOAL, reason: 'Bijna niet te onderscheiden, maar met een vleugje moderniteit.' },
+      { name: 'Ossenbloed', hex: '#5A1E28', product: LOAFER_PRODUCTS.OXBLOOD, reason: 'Voor de bruidegom die subtiel onderscheid wil.' },
+      { name: 'Donkerbruin', hex: '#3A2A1A', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Alleen voor heel ontspannen of overdag feesten.' },
     ]
   },
   lightgrey: {
@@ -94,6 +118,12 @@ const SUITS = [
       { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Eine vielseitige Wahl, die den leichten Stoff erdet.' },
       { name: 'Sand', hex: '#C8B89A', product: LOAFER_PRODUCTS.SAND, reason: 'Tonale Harmonie. Weich und diskret elegant.' },
       { name: 'Navy', hex: '#2A3F5A', product: LOAFER_PRODUCTS.NAVY, reason: 'Ein überraschender, aber raffinierter Kontrast für einen hellen Anzug.' },
+    ],
+    NL: [
+      { name: 'Licht tan', hex: '#D4B896', product: LOAFER_PRODUCTS.LIGHT_TAN, reason: 'Moeiteloos en zomerklaar. De ideale casual combinatie.', best: true },
+      { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Een veelzijdige keuze die de lichte stof verankert.' },
+      { name: 'Zand', hex: '#C8B89A', product: LOAFER_PRODUCTS.SAND, reason: 'Tonale harmonie. Zacht en subtiel elegant.' },
+      { name: 'Navy', hex: '#2A3F5A', product: LOAFER_PRODUCTS.NAVY, reason: 'Een verrassend maar verfijnd contrast voor een licht pak.' },
     ]
   },
   grey: {
@@ -108,6 +138,12 @@ const SUITS = [
       { name: 'Dunkelbraun', hex: '#4A3222', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Reichhaltiger und formeller als Cognac.' },
       { name: 'Tan', hex: '#C4A777', product: LOAFER_PRODUCTS.TAN, reason: 'Leichter und entspannter für Hochzeiten am Tag.' },
       { name: 'Burgunder', hex: '#6B2C3C', product: LOAFER_PRODUCTS.BURGUNDY, reason: 'Verleiht unerwartete Tiefe. Perfekt für Herbstzeremonien.' },
+    ],
+    NL: [
+      { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'De meestercombinatie. Warm tegen koel, altijd in balans.', best: true },
+      { name: 'Donkerbruin', hex: '#4A3222', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Rijker en formeler dan cognac.' },
+      { name: 'Tan', hex: '#C4A777', product: LOAFER_PRODUCTS.TAN, reason: 'Lichter en relaxter voor bruiloften overdag.' },
+      { name: 'Bordeaux', hex: '#6B2C3C', product: LOAFER_PRODUCTS.BURGUNDY, reason: 'Voegt onverwachte diepte toe. Perfect voor herfstceremonies.' },
     ]
   },
   beige: {
@@ -122,6 +158,12 @@ const SUITS = [
       { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Eine harmonische tonale Paarung – warm auf warm.' },
       { name: 'Creme', hex: '#E2D5BC', product: LOAFER_PRODUCTS.CREAM, reason: 'Monochromatische Eleganz für eine Strand- oder Gartenumgebung.' },
       { name: 'Navy', hex: '#2A3F5A', product: LOAFER_PRODUCTS.NAVY, reason: 'Ein scharfer Kontrast, der Struktur verleiht.' },
+    ],
+    NL: [
+      { name: 'Chocolade', hex: '#5C3D2E', product: LOAFER_PRODUCTS.CHOCOLATE, reason: 'Diepte en warmte die een beige pak prachtig verankert.', best: true },
+      { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Een harmonieuze tonale combinatie — warm op warm.' },
+      { name: 'Crème', hex: '#E2D5BC', product: LOAFER_PRODUCTS.CREAM, reason: 'Monochromatische elegantie voor een strand- of tuinsetting.' },
+      { name: 'Navy', hex: '#2A3F5A', product: LOAFER_PRODUCTS.NAVY, reason: 'Een scherp contrast dat structuur toevoegt.' },
     ]
   },
   sand: {
@@ -136,6 +178,12 @@ const SUITS = [
       { name: 'Hellbraun', hex: '#8B7355', product: LOAFER_PRODUCTS.LIGHT_BROWN, reason: 'Tonale Mischung für ein entspanntes mediterranes Gefühl.' },
       { name: 'Creme', hex: '#E2D5BC', product: LOAFER_PRODUCTS.CREAM, reason: 'Weich und verträumt – ideal für Destination-Hochzeiten.' },
       { name: 'Terrakotta', hex: '#B4654A', product: LOAFER_PRODUCTS.TERRACOTTA, reason: 'Erdige Wärme und modern. Eine zeitgemäße Wahl.' },
+    ],
+    NL: [
+      { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Warme harmonie. Als zand dat de zonsondergang ontmoet.', best: true },
+      { name: 'Lichtbruin', hex: '#8B7355', product: LOAFER_PRODUCTS.LIGHT_BROWN, reason: 'Tonale vermenging voor een ontspannen mediterraan gevoel.' },
+      { name: 'Crème', hex: '#E2D5BC', product: LOAFER_PRODUCTS.CREAM, reason: 'Zacht en dromerig — ideaal voor bestemmingsbruiloften.' },
+      { name: 'Terracotta', hex: '#B4654A', product: LOAFER_PRODUCTS.TERRACOTTA, reason: 'Aards en modern. Een eigentijdse keuze.' },
     ]
   },
   tan: {
@@ -150,6 +198,12 @@ const SUITS = [
       { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Ein naher Verwandter – harmonisch und warm.' },
       { name: 'Creme', hex: '#DED0B8', product: LOAFER_PRODUCTS.CREAM, reason: 'Subtil und weich für die entspanntesten Feiern.' },
       { name: 'Terrakotta', hex: '#B4654A', product: LOAFER_PRODUCTS.TERRACOTTA, reason: 'Erdige Wärme, die gebräunte Töne ergänzt.' },
+    ],
+    NL: [
+      { name: 'Donkerbruin', hex: '#4A3222', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Creëert verankerd contrast met het lichtere pak.', best: true },
+      { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Een nauwe verwant — harmonieus en warm.' },
+      { name: 'Crème', hex: '#DED0B8', product: LOAFER_PRODUCTS.CREAM, reason: 'Subtiel en zacht voor de meest ontspannen feesten.' },
+      { name: 'Terracotta', hex: '#B4654A', product: LOAFER_PRODUCTS.TERRACOTTA, reason: 'Aardse warmte die gebruinde tinten aanvult.' },
     ]
   },
   cream: {
@@ -164,6 +218,12 @@ const SUITS = [
       { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Genug Kontrast, um den Look zu erden, ohne ihn zu erdrücken.' },
       { name: 'Sand', hex: '#C8B89A', product: LOAFER_PRODUCTS.SAND, reason: 'Ein tonales Flüstern. Für den minimalistischen Bräutigam.' },
       { name: 'Blassrosa', hex: '#C4A097', product: LOAFER_PRODUCTS.PALE_PINK, reason: 'Unerwartete Weichheit. Ein romantischer Twist.' },
+    ],
+    NL: [
+      { name: 'Licht tan', hex: '#D4B896', product: LOAFER_PRODUCTS.LIGHT_TAN, reason: 'Nauwelijks merkbaar contrast. Zacht en hemels.', best: true },
+      { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Genoeg contrast om de look te verankeren zonder te overheersen.' },
+      { name: 'Zand', hex: '#C8B89A', product: LOAFER_PRODUCTS.SAND, reason: 'Een tonaal fluisteren. Voor de minimalistische bruidegom.' },
+      { name: 'Bleekroze', hex: '#C4A097', product: LOAFER_PRODUCTS.PALE_PINK, reason: 'Onverwachte zachtheid. Een romantische twist.' },
     ]
   },
   olive: {
@@ -178,6 +238,12 @@ const SUITS = [
       { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Warmes Leder erdet das Grün wunderbar.' },
       { name: 'Dunkelbraun', hex: '#4A3222', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Reichhaltig und kohärent – sehr herbstlich.' },
       { name: 'Creme', hex: '#DED0B8', product: LOAFER_PRODUCTS.CREAM, reason: 'Hell die Stimmung auf. Perfekt für Gartenpartys.' },
+    ],
+    NL: [
+      { name: 'Tan', hex: '#C4A777', product: LOAFER_PRODUCTS.TAN, reason: 'Natuurlijke, aardse combinatie die moeiteloos stijlvol aanvoelt.', best: true },
+      { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Warm leer verankert het groen prachtig.' },
+      { name: 'Donkerbruin', hex: '#4A3222', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Rijk en samenhangend — heel herfstig.' },
+      { name: 'Crème', hex: '#DED0B8', product: LOAFER_PRODUCTS.CREAM, reason: 'Verlicht de sfeer. Perfect voor tuinfeesten.' },
     ]
   },
   forest: {
@@ -192,6 +258,12 @@ const SUITS = [
       { name: 'Dunkelbraun', hex: '#4A3222', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Tief und stimmungsvoll. Für Winterhochzeiten im Wald.' },
       { name: 'Tan', hex: '#C4A777', product: LOAFER_PRODUCTS.TAN, reason: 'Verleiht einem dunklen, dramatischen Anzug Leichtigkeit.' },
       { name: 'Ochsenblut', hex: '#5A1E28', product: LOAFER_PRODUCTS.OXBLOOD, reason: 'Tiefes Rot und Grün – anspruchsvoll und saisonal.' },
+    ],
+    NL: [
+      { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'De ultieme aardtintcombinatie. Rijk en verfijnd.', best: true },
+      { name: 'Donkerbruin', hex: '#4A3222', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Diep en sfeervol. Voor winterbruiloften in het bos.' },
+      { name: 'Tan', hex: '#C4A777', product: LOAFER_PRODUCTS.TAN, reason: 'Voegt lichtheid toe aan een donker, dramatisch pak.' },
+      { name: 'Ossenbloed', hex: '#5A1E28', product: LOAFER_PRODUCTS.OXBLOOD, reason: 'Dieprood en groen — verfijnd en seizoensgebonden.' },
     ]
   },
   burgundy: {
@@ -206,6 +278,12 @@ const SUITS = [
       { name: 'Tan', hex: '#C4A777', product: LOAFER_PRODUCTS.TAN, reason: 'Hellt das Ensemble mit einem leichteren Akzent auf.' },
       { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Ein warmer Mittelweg. Nie falsch.' },
       { name: 'Schwarz', hex: '#1A1A1A', product: LOAFER_PRODUCTS.BLACK, reason: 'Hoher Kontrast, hohe Dramatik. Sehr formell.' },
+    ],
+    NL: [
+      { name: 'Donkerbruin', hex: '#4A3222', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Complementaire warmte zonder te concurreren met het pak.', best: true },
+      { name: 'Tan', hex: '#C4A777', product: LOAFER_PRODUCTS.TAN, reason: 'Fleurt het ensemble op met een lichter accent.' },
+      { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Een warme middenweg. Nooit fout.' },
+      { name: 'Zwart', hex: '#1A1A1A', product: LOAFER_PRODUCTS.BLACK, reason: 'Hoog contrast, veel drama. Heel formeel.' },
     ]
   },
   lightblue: {
@@ -220,6 +298,12 @@ const SUITS = [
       { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Verleiht dem kühlen Blau Tiefe und Wärme.' },
       { name: 'Hellbraun', hex: '#8B7355', product: LOAFER_PRODUCTS.LIGHT_BROWN, reason: 'Erdig und geerdet gegen das luftige Blau.' },
       { name: 'Creme', hex: '#E2D5BC', product: LOAFER_PRODUCTS.CREAM, reason: 'Weich und romantisch für Feiern im Freien.' },
+    ],
+    NL: [
+      { name: 'Tan', hex: '#C4A777', product: LOAFER_PRODUCTS.TAN, reason: 'Luchtig en verfijnd. Een droom voor zomerbruiloften.', best: true },
+      { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Voegt diepte en warmte toe aan het koele blauw.' },
+      { name: 'Lichtbruin', hex: '#8B7355', product: LOAFER_PRODUCTS.LIGHT_BROWN, reason: 'Aards en verankerd tegen het luchtige blauw.' },
+      { name: 'Crème', hex: '#E2D5BC', product: LOAFER_PRODUCTS.CREAM, reason: 'Zacht en romantisch voor feesten buiten.' },
     ]
   },
   brown: {
@@ -234,6 +318,12 @@ const SUITS = [
       { name: 'Tan', hex: '#C4A777', product: LOAFER_PRODUCTS.TAN, reason: 'Leichterer Kontrast innerhalb derselben warmen Familie.' },
       { name: 'Creme', hex: '#DED0B8', product: LOAFER_PRODUCTS.CREAM, reason: 'Lockert einen dunkleren braunen Anzug mit Leichtigkeit auf.' },
       { name: 'Dunkelbraun', hex: '#3A2A1A', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Fast monochrome Reichhaltigkeit für Mutige.' },
+    ],
+    NL: [
+      { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Tonale meesterschap. Vergelijkbaar maar onderscheidend — heel elegant.', best: true },
+      { name: 'Tan', hex: '#C4A777', product: LOAFER_PRODUCTS.TAN, reason: 'Lichter contrast binnen dezelfde warme familie.' },
+      { name: 'Crème', hex: '#DED0B8', product: LOAFER_PRODUCTS.CREAM, reason: 'Fleurt een donkerder bruin pak op met lichtheid.' },
+      { name: 'Donkerbruin', hex: '#3A2A1A', product: LOAFER_PRODUCTS.DARK_BROWN, reason: 'Bijna monochrome rijkdom voor de moedig gestylde.' },
     ]
   },
   white: {
@@ -248,6 +338,12 @@ const SUITS = [
       { name: 'Creme', hex: '#E2D5BC', product: LOAFER_PRODUCTS.CREAM, reason: 'Fast unsichtbarer Übergang. Ultra raffiniert.' },
       { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Ein warmer Anker, der dem Look Richtung gibt.' },
       { name: 'Sand', hex: '#C8B89A', product: LOAFER_PRODUCTS.SAND, reason: 'Kaum vorhanden. Wie auf Wolken gehen.' },
+    ],
+    NL: [
+      { name: 'Licht tan', hex: '#D4B896', product: LOAFER_PRODUCTS.LIGHT_TAN, reason: 'Fluisterzacht. De meest elegante match voor wit.', best: true },
+      { name: 'Crème', hex: '#E2D5BC', product: LOAFER_PRODUCTS.CREAM, reason: 'Bijna onzichtbare overgang. Ultra verfijnd.' },
+      { name: 'Cognac', hex: '#8B5A2B', product: LOAFER_PRODUCTS.COGNAC, reason: 'Een warm anker dat de look richting geeft.' },
+      { name: 'Zand', hex: '#C8B89A', product: LOAFER_PRODUCTS.SAND, reason: 'Nauwelijks aanwezig. Alsof je op wolken loopt.' },
     ]
   },
 };
@@ -420,6 +516,90 @@ const STYLE_TIPS_DE: Record<string, string[]> = {
   ],
 };
 
+const STYLE_TIPS_NL: Record<string, string[]> = {
+  navy: [
+    'Cognac of tan loafers zijn je go-to voor navy. Dit is de powercombi van herenmode.',
+    'Stem het leer van je riem af op de kleur van je loafer voor een gepolijste afwerking.',
+    'Voor avondrecepties ga je donkerder — donkerbruin of bordeaux.',
+    'Onzichtbare sokken of een flits van een gedessineerde enkel geven een moderne touch.',
+  ],
+  midnight: [
+    'Middernachtblauw is iets formeler dan navy — houd je loafers verfijnd.',
+    'Cognac blijft hier koning, maar donkerbruin grenst aan black-tie-gebied.',
+    'Combineer met een pochet dat de warmte van je schoenleer weerspiegelt.',
+  ],
+  charcoal: [
+    'Antraciet is ongelooflijk veelzijdig — bijna elk bruin leer werkt.',
+    'Vermijd te lichte loafers; middel- tot donkere tinten behouden de ernst van het pak.',
+    'Een bordeaux loafer voegt kleur toe zonder te schreeuwen. Ideaal voor creatieve bruidegoms.',
+  ],
+  black: [
+    'Zwart pak, zwarte schoenen — die regel bestaat niet voor niets.',
+    'Als de bruiloft minder formeel is, kun je experimenteren met heel donkerbruin.',
+    'Lakleer of hoogglansleer tilt de look naar een hoger niveau voor avondfeesten.',
+  ],
+  lightgrey: [
+    'Lichtgrijs vraagt om lichtere schoenen. Denk aan tan, zand of crème.',
+    'Dit is een zomerpak — laat je loafers ademen met lichtere tinten.',
+    'Vermijd zware, donkere schoenen. Ze ogen losstaand en zwaar.',
+  ],
+  grey: [
+    'Middengrijs is de ultieme kameleon — het werkt met bijna elke loafertint.',
+    'Cognac is de veiligste en meest elegante keuze voor elk moment van de dag.',
+    'Voor de herfst kun je bordeaux of donkere bruintinten proberen voor een seizoenstouch.',
+  ],
+  beige: [
+    'Beige houdt van warme metgezellen. Chocolade, cognac en karamel klinken allemaal prachtig.',
+    'Overweeg een suède loafer voor textuurcontrast met het gladde pak.',
+    'Vermijd zwarte schoenen bij beige — het contrast is te hard en oogt onsamenhangend.',
+  ],
+  sand: [
+    'Zandkleurige pakken zijn van nature relaxed — je loafer moet die sfeer weerspiegelen.',
+    'Suède boven leer hier. Het is de natuurlijke keuze voor deze stoftint.',
+    'Denk mediterraan: warm, zondoorstraald, moeiteloos.',
+  ],
+  tan: [
+    'Tan pakken werken het best met schoenen in dezelfde warme kleurenfamilie.',
+    'Donkerbruin creëert verfijnd contrast; crème houdt het luchtig.',
+    'Het best geschikt voor buitenfeesten en dagvieringen.',
+  ],
+  cream: [
+    'Crème is delicaat — houd je schoentinten zacht en dichtbij.',
+    'Dit is een zone zonder donkere schoenen. Blijf bij lichte bruintinten en tan.',
+    'Perfect voor strand- en bestemmingsbruiloften. Omarm de lichtheid.',
+  ],
+  olive: [
+    'Olijf en tan leer is een klassieke aardtintcombinatie uit de Italiaanse kleermakerij.',
+    'Suède loafers vullen het organische gevoel van een olijfkleurig pak prachtig aan.',
+    'Houd het totale palet warm en natuurlijk — geen felle accenten nodig.',
+  ],
+  forest: [
+    'Bosgroen is dramatisch — veranker het met warm, rijk leer.',
+    'Cognac en donkerbruin zijn hier je bondgenoten.',
+    'Perfect voor bos- of herfstbruiloften met een aards kleurenpalet.',
+  ],
+  burgundy: [
+    'Laat het pak de ster zijn. Kies neutrale, ingetogen loafertinten.',
+    'Donkerbruin is de veiligste partner — het ondersteunt zonder te concurreren.',
+    'Vermijd roodgetinte schoenen die botsen met de eigen rode tinten van het pak.',
+  ],
+  lightblue: [
+    'Lichtblauw en tan is de ultieme zomerbruiloftcombinatie.',
+    'Houd alles licht en luchtig — zware schoenen trekken de look naar beneden.',
+    'Een geweven of gevlochten leren loafer voegt textuur en interesse toe.',
+  ],
+  brown: [
+    'Tonaal kleden op zijn best. Blijf in de bruine familie voor samenhang.',
+    'Een lichtere loafer creëert contrast; een vergelijkbare tint creëert flow.',
+    'Suède of nubuck loafers passen prachtig bij bruine katoenen of linnen pakken.',
+  ],
+  white: [
+    'Witte pakken vragen om de lichtste, zachtste schoentinten.',
+    'Denk aan crème, nude of licht tan. Niets zwaars.',
+    'Dit is de ultieme bestemmingsbruiloft-look — houd het moeiteloos.',
+  ],
+};
+
 function hexToHSL(hex: string) {
   let r = parseInt(hex.slice(1, 3), 16) / 255;
   let g = parseInt(hex.slice(3, 5), 16) / 255;
@@ -495,13 +675,13 @@ export default function SuitMatcher({ lang }: SuitMatcherProps) {
   const handleCustomColorChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const hex = e.target.value;
     setCustomColor(hex);
-    setSelectedSuit({ name: { EN: 'Custom Shade', DE: 'Eigener Farbton' }, hex, category: findClosestCategory(hex) });
+    setSelectedSuit({ name: { EN: 'Custom Shade', DE: 'Eigener Farbton', NL: 'Eigen Kleurtint' }, hex, category: findClosestCategory(hex) });
   };
 
   const currentCategory = selectedSuit?.category || findClosestCategory(customColor);
   const matches = LOAFER_MATCHES[currentCategory]?.[lang] || LOAFER_MATCHES.grey[lang];
   const bestMatch = matches.find((m: any) => m.best) || matches[0];
-  const tips = lang === 'EN' ? STYLE_TIPS[currentCategory] : STYLE_TIPS_DE[currentCategory];
+  const tips = lang === 'EN' ? STYLE_TIPS[currentCategory] : lang === 'DE' ? STYLE_TIPS_DE[currentCategory] : STYLE_TIPS_NL[currentCategory];
 
   const t = {
     EN: {
@@ -535,6 +715,22 @@ export default function SuitMatcher({ lang }: SuitMatcherProps) {
       shopNow: "Jetzt Shoppen",
       viewCollection: "Kollektion ansehen",
       footer: "The Groom Code — Kleiden Sie sich mit Bedacht an dem Tag, der am meisten zählt."
+    },
+    NL: {
+      label: "Bruiloft Stijlgids",
+      title: "De Pak Matcher",
+      subtitle: "Selecteer je pakkleur en wij matchen de perfecte loafer. Want de schoenen van een gentleman moeten altijd dezelfde taal spreken als zijn pak.",
+      choose: "Selecteer Je Pak",
+      chooseSub: "Kies uit ons samengestelde palet of kies hieronder je exacte tint",
+      custom: "Of kies een kleur:",
+      yourSuit: "Jouw Pak",
+      bestLoafer: "Beste Loafer",
+      recTitle: "Aanbevolen Loaferkleuren",
+      recSub: `Topkeuzes voor je ${selectedSuit?.name[lang].toLowerCase() || 'pak'}`,
+      tipsTitle: "Stijltips",
+      shopNow: "Shop Nu",
+      viewCollection: "Bekijk Collectie",
+      footer: "The Groom Code — Kleed je met intentie op de dag die er het meest toe doet."
     }
   }[lang];
 

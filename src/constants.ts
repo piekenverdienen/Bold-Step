@@ -557,7 +557,7 @@ For the groom, the message is clear: you do not have to choose between quality a
           title: "Hiring a Tent for Your Wedding: Everything You Need to Know for the Big Day",
           excerpt: "The ring is on the finger, the date is set. More and more couples are choosing a tent wedding — outdoors, at a location that truly suits them.",
           category: "Guide",
-          image: IMAGES.EDITORIAL_CEREMONY,
+          image: "https://2vrent.be/wp-content/uploads/2025/03/2Vrent-Overijse-LQ-21-2048x1365.jpg",
           content: `The ring is on the finger, the date is set and the plans are taking shape. One of the most impactful decisions you will make is the choice of venue. More and more couples are deliberately choosing a tent wedding. Outdoors, at a location that truly suits them, without the limitations of a fixed function hall. But how do you approach something like this? Which tents are suitable for a wedding? What does it cost? And what do you need to consider? In this article, we lay it all out.
 
 ## Why choose a wedding under a tent?
@@ -1042,7 +1042,7 @@ Für den Bräutigam ist die Botschaft klar: Sie müssen sich nicht zwischen Qual
           title: "Ein Zelt für Ihre Hochzeit mieten: Alles, was Sie für den großen Tag wissen müssen",
           excerpt: "Der Ring sitzt am Finger, das Datum steht fest. Immer mehr Brautpaare entscheiden sich bewusst für eine Zelthochzeit — draußen, an einem Ort, der wirklich zu ihnen passt.",
           category: "Leitfaden",
-          image: IMAGES.EDITORIAL_CEREMONY,
+          image: "https://2vrent.be/wp-content/uploads/2025/03/2Vrent-Overijse-LQ-21-2048x1365.jpg",
           content: `Der Ring sitzt am Finger, das Datum steht fest und die Pläne nehmen Gestalt an. Eine der wirkungsvollsten Entscheidungen, die Sie treffen, ist die Wahl der Location. Immer mehr Brautpaare entscheiden sich bewusst für eine Zelthochzeit. Draußen, an einem Ort, der wirklich zu ihnen passt, ohne die Einschränkungen eines festen Festsaals. Aber wie geht man so etwas an? Welche Zelte eignen sich für eine Hochzeit? Was kostet es? Und worauf muss man achten? In diesem Artikel stellen wir alles zusammen.
 
 ## Warum eine Hochzeit unter einem Zelt?
@@ -1482,7 +1482,7 @@ Voor de bruidegom is de boodschap duidelijk: je hoeft niet te kiezen tussen kwal
           title: "Een tent huren voor jullie bruiloft: alles wat je moet weten voor de grote dag",
           excerpt: "De ring zit aan de vinger, de datum staat vast. Steeds meer bruidsparen kiezen bewust voor een tentbruiloft — buiten, op een plek die écht bij hen past.",
           category: "Gids",
-          image: IMAGES.EDITORIAL_CEREMONY,
+          image: "https://2vrent.be/wp-content/uploads/2025/03/2Vrent-Overijse-LQ-21-2048x1365.jpg",
           content: `De ring zit aan de vinger, de datum staat vast en de plannen beginnen vorm te krijgen. Eén van de meest impactvolle keuzes die je maakt, is die van de locatie. Steeds meer bruidsparen kiezen bewust voor een tentbruiloft. Buiten, op een plek die écht bij hen past, zonder de beperkingen van een vaste feestzaal. Maar hoe pak je zoiets aan? Welke tenten zijn geschikt voor een bruiloft? Wat kost het? En waar moet je allemaal rekening mee houden? In dit artikel zetten we alles op een rij.
 
 ## Waarom kiezen voor een bruiloft onder een tent?

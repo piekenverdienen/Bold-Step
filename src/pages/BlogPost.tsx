@@ -119,12 +119,52 @@ export default function BlogPost({ lang }: BlogPostProps) {
                 td: ({ children }: { children: React.ReactNode }) => <td className="p-4 text-sm border-b border-brand-black/5 opacity-80">{children}</td>,
               };
 
+              const FeaturedProducts = () => {
+                if (!post.featuredProducts || post.featuredProducts.length === 0) return null;
+                return (
+                  <div className="my-16 py-12 border-y border-brand-black/5">
+                    <h3 className="text-2xl md:text-3xl font-serif font-bold mb-3 text-center">
+                      {lang === 'EN' ? 'Featured in This Article' : lang === 'DE' ? 'In diesem Artikel vorgestellt' : 'Uitgelicht in dit Artikel'}
+                    </h3>
+                    <p className="text-sm opacity-50 font-light text-center mb-10">
+                      {lang === 'EN' ? 'Handmade in Italy. No visible logo. From €335.' : lang === 'DE' ? 'Handgemacht in Italien. Kein sichtbares Logo. Ab €335.' : 'Handgemaakt in Italië. Geen zichtbaar logo. Vanaf €335.'}
+                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                      {post.featuredProducts.map((product, idx) => (
+                        <a
+                          key={idx}
+                          href={product.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="group block"
+                        >
+                          <div className="aspect-square overflow-hidden mb-4 bg-brand-offwhite">
+                            <img
+                              src={product.image}
+                              alt={product.name}
+                              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                              referrerPolicy="no-referrer"
+                            />
+                          </div>
+                          <h4 className="text-base font-serif font-bold group-hover:text-brand-gold transition-colors">
+                            {product.name}
+                          </h4>
+                          <p className="text-xs opacity-50 font-light mt-1">{product.color}</p>
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                );
+              };
+
               return (
                 <>
                   <Markdown components={MarkdownComponents} remarkPlugins={[remarkGfm]}>
                     {firstHalf}
                   </Markdown>
-                  
+
+                  <FeaturedProducts />
+
                   <CTAButton />
 
                   <Markdown components={MarkdownComponents} remarkPlugins={[remarkGfm]}>

@@ -58,79 +58,79 @@ export const IMAGES = {
 
 export const LOAFER_PRODUCTS = {
   COGNAC: {
-    name: "Caramel Yacht Loafers",
-    image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/files/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_caramel7_1003cc51-db0a-4e81-8f72-849e1feabd58.jpg?v=1699530927",
-    url: "https://aurelien-online.com/products/caramel-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
+    name: "Aurélien Caramel Yacht Loafer",
+    image: "https://aurelien-online.com/cdn/shop/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_caramel7_198738ae-3c37-4554-a658-3c5c27216d5a.jpg?v=1634572845&width=700",
+    url: "https://aurelien-online.com/products/caramel-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
   },
   TAN: {
-    name: "Light Beige Yacht Loafers",
+    name: "Aurélien Light Beige Yacht Loafer",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_classic_beige8.jpg?v=1634815590",
     url: "https://aurelien-online.com/products/light-beige-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
   },
   DARK_BROWN: {
-    name: "Chocolate Yacht Loafers",
+    name: "Aurélien Chocolate Yacht Loafer",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_chocolate6.jpg?v=1634572930",
     url: "https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
   },
   BURGUNDY: {
-    name: "Port Yacht Loafers",
+    name: "Aurélien Port Yacht Loafer",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_port1_50f62849-63f2-405f-91ac-4033369a6972.jpg?v=1634573727",
     url: "https://aurelien-online.com/products/port-burgundy-suede-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
   },
   OXBLOOD: {
-    name: "Port Yacht Loafers",
+    name: "Aurélien Port Yacht Loafer",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_port1_50f62849-63f2-405f-91ac-4033369a6972.jpg?v=1634573727",
     url: "https://aurelien-online.com/products/port-burgundy-suede-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
   },
   BLACK: {
-    name: "Black Yacht Loafers",
+    name: "Aurélien Black Yacht Loafer",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/files/Aurelien_yacht_loafer_suede_black_men_10_38030896-758e-4a56-8568-857aa631dd2a.jpg?v=1729770386",
     url: "https://aurelien-online.com/products/black-yacht-loafers-black-sole?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
   },
   DARK_CHARCOAL: {
-    name: "Grey Yacht Loafers",
+    name: "Aurélien Grey Yacht Loafer",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_grey1.jpg?v=1634573039",
     url: "https://aurelien-online.com/products/grey-suede-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
   },
   LIGHT_TAN: {
-    name: "Classic Beige Yacht Loafers",
+    name: "Aurélien Classic Beige Yacht Loafer",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_classicbeige12.jpg?v=1634814227",
     url: "https://aurelien-online.com/products/classic-beige-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
   },
   SAND: {
-    name: "Beige Yacht Loafers",
+    name: "Aurélien Beige Yacht Loafer",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/files/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_beige6_91acb05a-25e2-4781-8496-ea5b425dc37f.jpg?v=1772894489",
     url: "https://aurelien-online.com/products/beige-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
   },
   NAVY: {
-    name: "Navy Yacht Loafers",
+    name: "Aurélien Navy Yacht Loafer",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_navy7_eb965d69-902a-40a3-a4c9-71ac6b14385c.jpg?v=1634573228",
     url: "https://aurelien-online.com/products/navy-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
   },
   CHOCOLATE: {
-    name: "Chocolate Yacht Loafers",
+    name: "Aurélien Chocolate Yacht Loafer",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_chocolate6.jpg?v=1634572930",
     url: "https://aurelien-online.com/products/chocolate-suede-yacht-loafers-2?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
   },
   CREAM: {
-    name: "White Yacht Loafers",
+    name: "Aurélien White Yacht Loafer",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_white1.jpg?v=1683547703",
     url: "https://aurelien-online.com/products/white-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
   },
   LIGHT_BROWN: {
-    name: "Nut Yacht Loafers",
-    image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/files/Aurelien_yacht_loafer_2.0_softey_suede_nut_men_1.jpg?v=1747850961",
-    url: "https://aurelien-online.com/products/nut-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
+    name: "Aurélien Light Beige Voyager Loafer",
+    image: "https://aurelien-online.com/cdn/shop/files/Aurelien_voyager_loafer_slip_on_suede_light_beige_men_1.jpg?v=1684854279&width=700",
+    url: "https://aurelien-online.com/products/light-beige-voyager-loafer?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
   },
   TERRACOTTA: {
-    name: "Rust Yacht Loafers",
+    name: "Aurélien Rust Yacht Loafer",
     image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_rust9.jpg?v=1634814965",
     url: "https://aurelien-online.com/products/rust-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
   },
   PALE_PINK: {
-    name: "Dusty Pink Yacht Loafers",
-    image: "https://cdn.shopify.com/s/files/1/0103/3987/6928/files/Aurelien_yacht_loafer_slip_on_suede_dusty_pink_2.0_men_1.jpg?v=1700474056",
-    url: "https://aurelien-online.com/products/dusty-pink-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
+    name: "Aurélien Light Beige Yacht Loafer",
+    image: "https://aurelien-online.com/cdn/shop/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_classic_beige8.jpg?v=1634815590&width=800",
+    url: "https://aurelien-online.com/products/light-beige-yacht-loafers?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
   }
 };
 

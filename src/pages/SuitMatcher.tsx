@@ -830,7 +830,7 @@ export default function SuitMatcher({ lang }: SuitMatcherProps) {
                     <img src={bestMatch.product.image} alt={bestMatch.product.name} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                   </div>
                   <span className="text-[10px] uppercase tracking-[0.3em] font-bold opacity-30 mb-2 block">{t.bestLoafer}</span>
-                  <h3 className="text-2xl font-serif mb-6">{bestMatch.name}</h3>
+                  <h3 className="text-2xl font-serif mb-6">{bestMatch.product.name}</h3>
                   <div className="flex flex-col gap-3 max-w-[240px] mx-auto">
                     <a 
                       href={bestMatch.product.url} 

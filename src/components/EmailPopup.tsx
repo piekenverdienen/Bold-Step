@@ -102,7 +102,7 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
                     : l('Click to copy', 'Klicken zum Kopieren', 'Klik om te kopiëren')}
                 </p>
                 <a
-                  href="https://www.aurelien.com/?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
+                  href="https://aurelien-online.com/?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full mt-6 py-3 bg-brand-gold text-brand-black text-[11px] uppercase tracking-[0.2em] font-bold text-center hover:bg-brand-champagne transition-all"
@@ -111,9 +111,9 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
                 </a>
                 <p className="text-xs opacity-40 mt-4">
                   {l(
-                    '10% discount included. Apply at checkout on aurelien.com',
-                    '10% Rabatt inklusive. An der Kasse auf aurelien.com einlösen',
-                    '10% korting inbegrepen. Gebruik bij checkout op aurelien.com'
+                    '10% discount included. Apply at checkout on aurelien-online.com',
+                    '10% Rabatt inklusive. An der Kasse auf aurelien-online.com einlösen',
+                    '10% korting inbegrepen. Gebruik bij checkout op aurelien-online.com'
                   )}
                 </p>
               </div>

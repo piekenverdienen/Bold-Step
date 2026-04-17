@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { X } from 'lucide-react';
+import { X, Copy, Check } from 'lucide-react';
 import { Language } from '../constants';
 import { subscribeEmail } from '../lib/supabase';
 
@@ -13,6 +13,7 @@ interface EmailPopupProps {
 export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [copied, setCopied] = useState(false);
 
   const l = (en: string, de: string, nl: string) =>
     lang === 'EN' ? en : lang === 'DE' ? de : nl;
@@ -22,7 +23,14 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
     if (status === 'success') {
       setStatus('idle');
       setEmail('');
+      setCopied(false);
     }
+  };
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText('GROOM10');
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -81,9 +89,26 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
                     'Hier is je 10% kortingscode:'
                   )}
                 </p>
-                <div className="bg-brand-black text-brand-offwhite py-4 px-6">
+                <button
+                  onClick={handleCopy}
+                  className="w-full bg-brand-black text-brand-offwhite py-4 px-6 flex items-center justify-center gap-3 hover:bg-brand-black/90 transition-colors cursor-pointer"
+                >
                   <p className="text-sm sm:text-2xl font-bold tracking-[0.15em] sm:tracking-[0.3em]">GROOM10</p>
-                </div>
+                  {copied ? <Check size={18} className="text-brand-gold" /> : <Copy size={18} className="opacity-60" />}
+                </button>
+                <p className="text-xs opacity-40 mt-2">
+                  {copied
+                    ? l('Copied!', 'Kopiert!', 'Gekopieerd!')
+                    : l('Click to copy', 'Klicken zum Kopieren', 'Klik om te kopiëren')}
+                </p>
+                <a
+                  href="https://www.aurelien.com/?utm_source=thegroomcode&utm_medium=referral&utm_campaign=editorial"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full mt-6 py-3 bg-brand-gold text-brand-black text-[11px] uppercase tracking-[0.2em] font-bold text-center hover:bg-brand-champagne transition-all"
+                >
+                  {l('Shop Aurélien Now', 'Jetzt bei Aurélien shoppen', 'Shop nu bij Aurélien')}
+                </a>
                 <p className="text-xs opacity-40 mt-4">
                   {l(
                     '10% discount included. Apply at checkout on aurelien.com',

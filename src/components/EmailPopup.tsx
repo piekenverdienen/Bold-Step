@@ -76,19 +76,19 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
                 </div>
                 <p className="text-sm opacity-60 mb-6">
                   {l(
-                    'Here is your free shipping code:',
-                    'Hier ist Ihr Code für kostenlosen Versand:',
-                    'Hier is je code voor gratis verzending:'
+                    'Here is your 10% discount code:',
+                    'Hier ist Ihr 10% Rabattcode:',
+                    'Hier is je 10% kortingscode:'
                   )}
                 </p>
                 <div className="bg-brand-black text-brand-offwhite py-4 px-6">
-                  <p className="text-sm sm:text-2xl font-bold tracking-[0.15em] sm:tracking-[0.3em]">THEGROOMCODE26</p>
+                  <p className="text-sm sm:text-2xl font-bold tracking-[0.15em] sm:tracking-[0.3em]">GROOM10</p>
                 </div>
                 <p className="text-xs opacity-40 mt-4">
                   {l(
-                    'Free shipping included. Apply at checkout on aurelien.com',
-                    'Kostenloser Versand inklusive. An der Kasse auf aurelien.com einlösen',
-                    'Gratis verzending inbegrepen. Gebruik bij checkout op aurelien.com'
+                    '10% discount included. Apply at checkout on aurelien.com',
+                    '10% Rabatt inklusive. An der Kasse auf aurelien.com einlösen',
+                    '10% korting inbegrepen. Gebruik bij checkout op aurelien.com'
                   )}
                 </p>
               </div>
@@ -100,16 +100,16 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
                   </span>
                   <h2 className="text-3xl font-serif mb-3">
                     {l(
-                      'Claim Your Free Shipping',
-                      'Kostenloser Versand sichern',
-                      'Claim je Gratis Verzending'
+                      'Claim Your 10% Discount',
+                      '10% Rabatt sichern',
+                      'Claim je 10% Korting'
                     )}
                   </h2>
                   <p className="text-sm opacity-60 leading-relaxed">
                     {l(
-                      'Enter your email to receive your exclusive free shipping code for Aurélien luxury footwear.',
-                      'Geben Sie Ihre E-Mail-Adresse ein, um Ihren exklusiven Code für kostenlosen Versand bei Aurélien Luxusschuhen zu erhalten.',
-                      'Vul je e-mailadres in en ontvang je exclusieve code voor gratis verzending op Aurélien luxe schoenen.'
+                      'Enter your email to receive your exclusive 10% discount code for Aurélien luxury footwear.',
+                      'Geben Sie Ihre E-Mail-Adresse ein, um Ihren exklusiven 10% Rabattcode für Aurélien Luxusschuhe zu erhalten.',
+                      'Vul je e-mailadres in en ontvang je exclusieve 10% kortingscode voor Aurélien luxe schoenen.'
                     )}
                   </p>
                 </div>
@@ -130,7 +130,7 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
                   >
                     {status === 'loading'
                       ? '...'
-                      : l('Get Free Shipping', 'Kostenlosen Versand erhalten', 'Ontvang gratis verzending')}
+                      : l('Get 10% Discount', '10% Rabatt erhalten', 'Ontvang 10% Korting')}
                   </button>
                 </form>
 

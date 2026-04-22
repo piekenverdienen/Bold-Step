@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
-import { ChevronRight, ChevronDown, Check, Info } from 'lucide-react';
+import { ChevronRight, ChevronDown, Check, Info, Copy } from 'lucide-react';
 import { Language, LOAFER_PRODUCTS } from '../constants';
 
 interface SuitMatcherProps {
@@ -662,7 +662,18 @@ function isLight(hex: string) {
 export default function SuitMatcher({ lang }: SuitMatcherProps) {
   const [selectedSuit, setSelectedSuit] = useState<any>(null);
   const [customColor, setCustomColor] = useState('#4A4A4A');
+  const [codeCopied, setCodeCopied] = useState(false);
   const resultRef = useRef<HTMLDivElement>(null);
+
+  const handleCopyCode = async () => {
+    try {
+      await navigator.clipboard.writeText('GROOM10');
+      setCodeCopied(true);
+      setTimeout(() => setCodeCopied(false), 2000);
+    } catch {
+      // clipboard unavailable — silent fail
+    }
+  };
 
   const handleSuitSelect = (suit: any) => {
     setSelectedSuit(suit);
@@ -698,6 +709,10 @@ export default function SuitMatcher({ lang }: SuitMatcherProps) {
       tipsTitle: "Styling Notes",
       shopNow: "Shop Now",
       viewCollection: "View Collection",
+      promoLabel: "Exclusive for Grooms",
+      promoText: "10% off with code",
+      promoCopied: "Code copied",
+      promoCopy: "Copy code",
       footer: "The Groom Code — Dress with intention on the day that matters most."
     },
     DE: {
@@ -714,6 +729,10 @@ export default function SuitMatcher({ lang }: SuitMatcherProps) {
       tipsTitle: "Styling-Hinweise",
       shopNow: "Jetzt Shoppen",
       viewCollection: "Kollektion ansehen",
+      promoLabel: "Exklusiv für Bräutigame",
+      promoText: "10% Rabatt mit Code",
+      promoCopied: "Code kopiert",
+      promoCopy: "Code kopieren",
       footer: "The Groom Code — Kleiden Sie sich mit Bedacht an dem Tag, der am meisten zählt."
     },
     NL: {
@@ -730,6 +749,10 @@ export default function SuitMatcher({ lang }: SuitMatcherProps) {
       tipsTitle: "Stijltips",
       shopNow: "Shop Nu",
       viewCollection: "Bekijk Collectie",
+      promoLabel: "Exclusief voor Grooms",
+      promoText: "10% korting met code",
+      promoCopied: "Code gekopieerd",
+      promoCopy: "Kopieer code",
       footer: "The Groom Code — Kleed je met intentie op de dag die er het meest toe doet."
     }
   }[lang];
@@ -831,6 +854,30 @@ export default function SuitMatcher({ lang }: SuitMatcherProps) {
                   </div>
                   <span className="text-[10px] uppercase tracking-[0.3em] font-bold opacity-30 mb-2 block">{t.bestLoafer}</span>
                   <h3 className="text-2xl font-serif mb-6">{bestMatch.product.name}</h3>
+                  <div className="max-w-[280px] mx-auto mb-6 p-4 rounded-xl border border-brand-gold/30 bg-gradient-to-br from-brand-champagne/40 via-white to-brand-champagne/20">
+                    <span className="text-[9px] uppercase tracking-[0.3em] font-bold text-brand-gold block mb-2">{t.promoLabel}</span>
+                    <p className="text-[11px] opacity-60 font-light mb-3">{t.promoText}</p>
+                    <button
+                      onClick={handleCopyCode}
+                      aria-label={codeCopied ? t.promoCopied : t.promoCopy}
+                      className="w-full flex items-center justify-between gap-3 px-4 py-2.5 rounded-lg bg-white border border-dashed border-brand-gold/50 hover:border-brand-gold hover:bg-brand-cream/50 transition-all group"
+                    >
+                      <span className="font-mono text-sm tracking-[0.2em] font-bold text-brand-black">GROOM10</span>
+                      <span className="flex items-center gap-1.5 text-[9px] uppercase tracking-widest font-bold text-brand-gold">
+                        {codeCopied ? (
+                          <>
+                            <Check size={12} />
+                            {t.promoCopied}
+                          </>
+                        ) : (
+                          <>
+                            <Copy size={12} className="group-hover:scale-110 transition-transform" />
+                            {t.promoCopy}
+                          </>
+                        )}
+                      </span>
+                    </button>
+                  </div>
                   <div className="flex flex-col gap-3 max-w-[240px] mx-auto">
                     <a 
                       href={bestMatch.product.url} 

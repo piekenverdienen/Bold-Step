@@ -48,19 +48,19 @@ const looks = {
   ],
   DE: [
     {
-      title: "Der Black Tie Bräutigam",
-      subtitle: "Absolute Formalität",
+      title: "Der Bräutigam in Black Tie",
+      subtitle: "Festlich auf höchstem Niveau",
       images: {
         total: IMAGES.STYLE_BLACK_TIE,
         suit: IMAGES.LOOKBOOK_BLACK_TIE_SUIT,
         shoes: IMAGES.LOOKBOOK_BLACK_TIE_SHOES,
         detail: IMAGES.LOOKBOOK_BLACK_TIE_DETAIL
       },
-      description: "Der Gipfel der stilvollen Eleganz. Ein mitternachtsblauer oder schwarzer Smoking, kombiniert mit polierten Loafern für eine moderne Interpretation einer zeitlosen Tradition.",
-      details: ["Seiden-Grosgrain-Revers", "Handveredeltes Leder", "Architektonische Silhouette"]
+      description: "Smoking in Mitternachtsblau oder Schwarz, dazu ein polierter Loafer. Eine moderne Interpretation einer zeitlosen Tradition – und der vielleicht eleganteste Auftritt Ihres Lebens.",
+      details: ["Revers aus Seiden-Grosgrain", "Handveredeltes Leder", "Klare, festliche Silhouette"]
     },
     {
-      title: "Leinen- oder beiger Anzug",
+      title: "Hochzeit im Süden",
       subtitle: "Mediterrane Leichtigkeit",
       images: {
         total: IMAGES.STYLE_DESTINATION,
@@ -68,20 +68,20 @@ const looks = {
         shoes: IMAGES.LOOKBOOK_LINEN_SHOES,
         detail: IMAGES.LOOKBOOK_LINEN_DETAIL
       },
-      description: "Perfekt für sonnenverwöhnte Feiern. Atmungsaktive Stoffe treffen auf die entspannte Raffinesse von Wildleder-Fahrschuhen.",
-      details: ["Ungefütterte Konstruktion", "Natürliche Erdtöne", "Küsten-Raffinesse"]
+      description: "Wie gemacht für die Trauung am Meer oder im Olivenhain. Atmungsaktive Stoffe treffen auf weiches Wildleder – entspannt, aber nie nachlässig.",
+      details: ["Ungefütterte Verarbeitung", "Natürliche Erdtöne", "Lässige Eleganz"]
     },
     {
-      title: "Der City Bräutigam",
-      subtitle: "Urbane Präzision",
+      title: "Der Bräutigam in der Stadt",
+      subtitle: "Klare urbane Linie",
       images: {
         total: IMAGES.STYLE_CITY,
         suit: IMAGES.LOOKBOOK_CITY_SUIT,
         shoes: IMAGES.LOOKBOOK_CITY_SHOES,
         detail: IMAGES.LOOKBOOK_CITY_DETAIL
       },
-      description: "Scharfe Maßkonfektion für die moderne Metropole. Anthrazitfarbene oder marineblaue Anzüge, die in jeder urbanen Umgebung Präsenz zeigen.",
-      details: ["Moderne Maßkonfektion", "Italienische Handwerkskunst", "Vielseitige Elegance"]
+      description: "Anthrazit oder Navy, scharf geschnitten. Für die festliche Trauung in Berlin, Wien oder Hamburg – modern, präzise, präsent.",
+      details: ["Moderner Anzugschnitt", "Italienische Handarbeit", "Vielseitig kombinierbar"]
     }
   ],
   NL: [
@@ -169,7 +169,7 @@ function StyleCollage({ images, lang }: { images: { total: string, suit: string,
           to={`/${lang.toLowerCase()}/collection`}
           className="mt-8 px-10 py-5 bg-brand-black text-brand-offwhite text-[10px] uppercase tracking-[0.3em] font-bold hover:bg-brand-gold transition-all rounded-full shadow-lg hover:shadow-brand-gold/20"
         >
-          {lang === 'EN' ? 'Shop the Collection' : lang === 'DE' ? 'Kollektion Shoppen' : 'Bekijk de Collectie'}
+          {lang === 'EN' ? 'Shop the Collection' : lang === 'DE' ? 'Zur Kollektion' : 'Bekijk de Collectie'}
         </Link>
       </div>
     </div>
@@ -188,15 +188,15 @@ export default function Lookbook({ lang }: LookbookProps) {
             animate={{ opacity: 1, y: 0 }}
             className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold mb-6 block"
           >
-            {lang === 'EN' ? 'Editorial Lookbook' : lang === 'DE' ? 'Editorielles Lookbook' : 'Redactioneel Lookbook'}
+            {lang === 'EN' ? 'Editorial Lookbook' : lang === 'DE' ? 'Das Lookbook' : 'Redactioneel Lookbook'}
           </motion.span>
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
             className="text-5xl md:text-8xl font-serif mb-8"
           >
-            {lang === 'EN' ? 'Archetypes of Style' : lang === 'DE' ? 'Archetypen des Stils' : 'Archetypen van Stijl'}
+            {lang === 'EN' ? 'Archetypes of Style' : lang === 'DE' ? 'Drei Wege zum Hochzeitslook' : 'Archetypen van Stijl'}
           </motion.h1>
           <motion.div 
             initial={{ width: 0 }}
@@ -248,13 +248,13 @@ export default function Lookbook({ lang }: LookbookProps) {
 
         <footer className="mt-64 text-center border-t border-brand-black/5 pt-32">
           <h3 className="text-3xl font-serif italic mb-8">
-            {lang === 'EN' ? 'Your journey begins with a single step.' : lang === 'DE' ? 'Ihre Reise beginnt mit einem einzigen Schritt.' : 'Je reis begint met één enkele stap.'}
+            {lang === 'EN' ? 'Your journey begins with a single step.' : lang === 'DE' ? 'Jeder große Tag beginnt mit dem ersten Schritt.' : 'Je reis begint met één enkele stap.'}
           </h3>
           <p className="text-sm opacity-60 max-w-md mx-auto leading-relaxed">
             {lang === 'EN'
               ? "Every archetype is a starting point. Your wedding is your own narrative. We are here to help you write it."
               : lang === 'DE'
-              ? "Jeder Archetyp ist ein Ausgangspunkt. Ihre Hochzeit ist Ihre eigene Geschichte. Wir sind hier, um Ihnen zu helfen, sie zu schreiben."
+              ? "Jede Stilrichtung ist nur ein Anfang. Ihre Hochzeit ist Ihre eigene Geschichte – wir helfen Ihnen, sie zu schreiben."
               : "Elk archetype is een startpunt. Je bruiloft is jouw eigen verhaal. Wij zijn hier om je te helpen het te schrijven."}
           </p>
         </footer>

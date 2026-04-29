@@ -47,7 +47,7 @@ export default function Home({ lang, onOpenQuiz }: HomeProps) {
             animate={{ opacity: 1, y: 0 }}
             className="text-xs uppercase tracking-[0.4em] font-bold text-brand-gold mb-6 block"
           >
-            {lang === 'EN' ? 'The Groom\'s Compendium' : lang === 'DE' ? 'Das Kompendium des Bräutigams' : 'Het Compendium van de Bruidegom'}
+            {lang === 'EN' ? 'The Groom\'s Compendium' : lang === 'DE' ? 'Stilratgeber für Bräutigame' : 'Het Compendium van de Bruidegom'}
           </motion.span>
           <motion.h1 
             initial={{ opacity: 0, scale: 0.95 }}
@@ -123,7 +123,7 @@ export default function Home({ lang, onOpenQuiz }: HomeProps) {
             transition={{ duration: 1 }}
           >
             <span className="text-[10px] uppercase tracking-[0.4em] font-bold text-brand-gold mb-6 block">
-              {lang === 'EN' ? 'Style Toolkit' : lang === 'DE' ? 'Stil-Toolkit' : 'Stijl Toolkit'}
+              {lang === 'EN' ? 'Style Toolkit' : lang === 'DE' ? 'Stil-Werkzeug' : 'Stijl Toolkit'}
             </span>
             <h2 className="text-4xl md:text-6xl font-serif mb-8 leading-tight">
               {lang === 'EN' ? 'The Suit Matcher' : lang === 'DE' ? 'Der Anzug-Matcher' : 'De Pak Matcher'}
@@ -132,14 +132,14 @@ export default function Home({ lang, onOpenQuiz }: HomeProps) {
               {lang === 'EN'
                 ? "Not sure which loafer colour complements your suit? Our interactive matcher provides the definitive answer based on tailoring rules."
                 : lang === 'DE'
-                ? "Sie sind sich nicht sicher, welche Loafer-Farbe zu Ihrem Anzug passt? Unser interaktiver Matcher liefert die definitive Antwort basierend auf klassischen Stilregeln."
+                ? "Welche Loafer-Farbe passt zu Ihrem Anzug? Unser Matcher gibt Ihnen die Antwort – basierend auf klassischen Stilregeln, in wenigen Sekunden."
                 : "Niet zeker welke loaferkleur bij je pak past? Onze interactieve matcher geeft het definitieve antwoord op basis van stijlregels."}
             </p>
-            <Link 
+            <Link
               to={`/${lang.toLowerCase()}/matcher`}
               className="inline-block px-10 py-5 bg-brand-black text-brand-offwhite text-[10px] uppercase tracking-[0.3em] font-bold hover:bg-brand-gold transition-all"
             >
-              {lang === 'EN' ? 'Launch Matcher' : lang === 'DE' ? 'Matcher Starten' : 'Start Matcher'}
+              {lang === 'EN' ? 'Launch Matcher' : lang === 'DE' ? 'Matcher starten' : 'Start Matcher'}
             </Link>
           </motion.div>
           <motion.div
@@ -162,7 +162,7 @@ export default function Home({ lang, onOpenQuiz }: HomeProps) {
                 {lang === 'EN'
                   ? "A gentleman's shoes should always speak the same language as his suit."
                   : lang === 'DE'
-                  ? "Die Schuhe eines Gentlemans sollten immer dieselbe Sprache sprechen wie sein Anzug."
+                  ? "Die Schuhe sollten immer dieselbe Sprache sprechen wie der Anzug."
                   : "De schoenen van een gentleman moeten altijd dezelfde taal spreken als zijn pak."}
               </p>
             </div>
@@ -205,7 +205,7 @@ export default function Home({ lang, onOpenQuiz }: HomeProps) {
             {lang === 'EN'
               ? "Handcrafted in Italy. Designed for the Aisle."
               : lang === 'DE'
-              ? "Handgefertigt in Italien. Entworfen für den Altar."
+              ? "In Italien handgefertigt. Gemacht für den großen Tag."
               : "Handgemaakt in Italië. Ontworpen voor het Altaar."}
           </p>
         </div>

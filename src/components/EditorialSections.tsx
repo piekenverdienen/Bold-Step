@@ -21,34 +21,34 @@ export default function EditorialSections({ lang }: EditorialProps) {
           >
             <span className="text-xs uppercase tracking-widest font-bold text-brand-gold mb-6 block">Pillar 01 — The Proposal</span>
             <h2 className="text-4xl md:text-6xl font-serif mb-8 leading-tight">
-              {lang === 'EN' ? 'The Moment of Commitment' : lang === 'DE' ? 'Der Moment der Hingabe' : 'Het Moment van Toewijding'}
+              {lang === 'EN' ? 'The Moment of Commitment' : lang === 'DE' ? 'Der entscheidende Moment' : 'Het Moment van Toewijding'}
             </h2>
             <div className="prose prose-sm opacity-70 font-light leading-relaxed mb-12">
               <p>
                 {lang === 'EN'
                   ? "The proposal is the first bold step in your shared narrative. It requires a balance of nerves and tailoring confidence. Choosing the right setting is paramount, but so is your presence."
                   : lang === 'DE'
-                  ? "Der Antrag ist der erste mutige Schritt in Ihrer gemeinsamen Geschichte. Er erfordert ein Gleichgewicht zwischen Nerven und stilvollem Selbstvertrauen. Die Wahl des richtigen Rahmens ist entscheidend, ebenso wie Ihre Präsenz."
+                  ? "Der Antrag ist der erste mutige Schritt in Ihrer gemeinsamen Geschichte. Es braucht das richtige Maß an Mut und ein gutes Gefühl für den Moment. Der Ort ist wichtig – Ihr Auftritt aber genauso."
                   : "Het aanzoek is de eerste dappere stap in jullie gezamenlijke verhaal. Het vereist een balans tussen zenuwen en stijlvol zelfvertrouwen. De juiste setting kiezen is cruciaal, maar je uitstraling net zo."}
               </p>
               <p className="mt-4">
                 {lang === 'EN'
                   ? "For a casual yet high-end proposal, we recommend the Aurélien Driving Shoe. It offers the perfect blend of comfort for the bended knee and the sophistication required for the celebration that follows."
                   : lang === 'DE'
-                  ? "Für einen entspannten und dennoch exklusiven Antrag empfehlen wir den Aurélien Driving Shoe. Er bietet die perfekte Mischung aus Komfort für den Kniefall und der Raffinesse, die für die anschließende Feier erforderlich ist."
+                  ? "Für den entspannten, aber stilvollen Antrag empfehlen wir den Aurélien Driving Shoe. Bequem genug für den Kniefall – und elegant genug für das gemeinsame Anstoßen danach."
                   : "Voor een casual maar high-end aanzoek raden we de Aurélien Driving Shoe aan. De perfecte mix van comfort voor de knieval en de verfijning die nodig is voor het feest dat volgt."}
               </p>
             </div>
             <div className="p-8 border border-brand-black/5 bg-brand-champagne/10">
               <h4 className="text-xs uppercase tracking-widest font-bold mb-4">The Proposal Outfit</h4>
               <p className="text-sm italic opacity-60 mb-6">
-                {lang === 'EN' ? 'Unstructured blazer, crisp white shirt, and our recommended Driving Shoes in Navy.' : lang === 'DE' ? 'Unstrukturierter Blazer, frisches weißes Hemd und unsere empfohlenen Driving Shoes in Navy.' : 'Ongestructureerde blazer, fris wit overhemd en onze aanbevolen Driving Shoes in Navy.'}
+                {lang === 'EN' ? 'Unstructured blazer, crisp white shirt, and our recommended Driving Shoes in Navy.' : lang === 'DE' ? 'Unstrukturierter Blazer, weißes Hemd und unsere empfohlenen Driving Shoes in Navy.' : 'Ongestructureerde blazer, fris wit overhemd en onze aanbevolen Driving Shoes in Navy.'}
               </p>
-              <Link 
+              <Link
                 to={`/${lang.toLowerCase()}/collection`}
                 className="text-[10px] uppercase tracking-widest font-bold text-brand-gold hover:underline inline-block"
               >
-                {lang === 'EN' ? 'View Selection' : lang === 'DE' ? 'Auswahl Ansehen' : 'Bekijk Selectie'}
+                {lang === 'EN' ? 'View Selection' : lang === 'DE' ? 'Zur Auswahl' : 'Bekijk Selectie'}
               </Link>
             </div>
           </motion.div>
@@ -89,21 +89,21 @@ export default function EditorialSections({ lang }: EditorialProps) {
           >
             <span className="text-xs uppercase tracking-widest font-bold text-brand-gold mb-6 block">Pillar 02 — The Planning</span>
             <h2 className="text-4xl md:text-6xl font-serif mb-8 leading-tight">
-              {lang === 'EN' ? 'Elegant Protocol' : lang === 'DE' ? 'Elegantes Protokoll' : 'Elegant Protocol'}
+              {lang === 'EN' ? 'Elegant Protocol' : lang === 'DE' ? 'Mit Stil durch alle Termine' : 'Elegant Protocol'}
             </h2>
             <div className="prose prose-sm opacity-70 font-light leading-relaxed mb-12">
               <p>
                 {lang === 'EN'
                   ? "Planning a wedding is an exercise in precision. From the bachelor party to the rehearsal dinner, every event has its own hierarchy of dress. Navigating these protocols is where the modern groom truly shines."
                   : lang === 'DE'
-                  ? "Die Planung einer Hochzeit ist eine Übung in Präzision. Vom Junggesellenabschied bis zum Probeessen hat jede Veranstaltung ihre eigene Kleiderordnung. Das Navigieren durch diese Protokolle ist der Moment, in dem der moderne Bräutigam wirklich glänzt."
+                  ? "Eine Hochzeit zu planen heißt: an alles denken. Vom Junggesellenabschied bis zum Probeessen hat jeder Anlass seine eigene Kleiderordnung. Wer diese kennt – und sie souverän mit dem eigenen Stil verbindet – hat schon gewonnen."
                   : "Het plannen van een bruiloft is een oefening in precisie. Van het vrijgezellenfeest tot het repetitiediner, elk evenement heeft zijn eigen dresscode. Het navigeren door deze protocollen is waar de moderne bruidegom echt schittert."}
               </p>
               <p className="mt-4">
                 {lang === 'EN'
                   ? "The bachelor party demands smart casual excellence. Aurélien Yacht Loafers provide the versatility needed for a weekend of celebration, transitioning seamlessly from city walks to evening cocktails."
                   : lang === 'DE'
-                  ? "Der Junggesellenabschied verlangt nach Smart-Casual-Exzellenz. Aurélien Yacht-Loafer bieten die Vielseitigkeit, die für ein Wochenende voller Feierlichkeiten benötigt wird, und gehen nahtlos von Stadtspaziergängen zu Abendcocktails über."
+                  ? "Beim Junggesellenabschied ist Smart Casual gefragt. Der Aurélien Yacht Loafer ist genau dafür gemacht – tagsüber durch die Stadt, abends zum Cocktail, ohne Schuhwechsel dazwischen."
                   : "Het vrijgezellenfeest vraagt om smart casual excellentie. Aurélien Yacht Loafers bieden de veelzijdigheid die nodig is voor een weekend vol feest, en gaan naadloos over van stadswandelingen naar avondcocktails."}
               </p>
             </div>

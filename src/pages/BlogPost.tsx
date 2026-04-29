@@ -66,13 +66,13 @@ export default function BlogPost({ lang }: BlogPostProps) {
               const CTAButton = () => (
                 <div className="my-16 py-12 border-y border-brand-black/5 flex flex-col items-center text-center">
                   <h4 className="text-xl font-serif mb-6">
-                    {lang === 'EN' ? 'Ready to find your perfect pair?' : lang === 'DE' ? 'Bereit für Ihr perfektes Paar?' : 'Klaar om je perfecte paar te vinden?'}
+                    {lang === 'EN' ? 'Ready to find your perfect pair?' : lang === 'DE' ? 'Bereit für Ihr Hochzeits-Paar?' : 'Klaar om je perfecte paar te vinden?'}
                   </h4>
                   <Link 
                     to={`${langPrefix}/collection`}
                     className="px-8 py-4 bg-brand-black text-brand-offwhite text-xs uppercase tracking-widest font-bold hover:bg-brand-gold transition-all"
                   >
-                    {lang === 'EN' ? 'Explore the Collection' : lang === 'DE' ? 'Kollektion entdecken' : 'Ontdek de Collectie'}
+                    {lang === 'EN' ? 'Explore the Collection' : lang === 'DE' ? 'Zur Kollektion' : 'Ontdek de Collectie'}
                   </Link>
                 </div>
               );
@@ -124,10 +124,10 @@ export default function BlogPost({ lang }: BlogPostProps) {
                 return (
                   <div className="my-16 py-12 border-y border-brand-black/5">
                     <h3 className="text-2xl md:text-3xl font-serif font-bold mb-3 text-center">
-                      {lang === 'EN' ? 'Featured in This Article' : lang === 'DE' ? 'In diesem Artikel vorgestellt' : 'Uitgelicht in dit Artikel'}
+                      {lang === 'EN' ? 'Featured in This Article' : lang === 'DE' ? 'Im Artikel vorgestellt' : 'Uitgelicht in dit Artikel'}
                     </h3>
                     <p className="text-sm opacity-50 font-light text-center mb-10">
-                      {lang === 'EN' ? 'Handmade in Italy. No visible logo. From €335.' : lang === 'DE' ? 'Handgemacht in Italien. Kein sichtbares Logo. Ab €335.' : 'Handgemaakt in Italië. Geen zichtbaar logo. Vanaf €335.'}
+                      {lang === 'EN' ? 'Handmade in Italy. No visible logo. From €335.' : lang === 'DE' ? 'Handgemacht in Italien. Ohne sichtbares Logo. Ab 335 €.' : 'Handgemaakt in Italië. Geen zichtbaar logo. Vanaf €335.'}
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                       {post.featuredProducts.map((product, idx) => (
@@ -193,7 +193,7 @@ export default function BlogPost({ lang }: BlogPostProps) {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-2xl md:text-3xl font-serif font-bold mb-12">
-                {lang === 'EN' ? 'Continue Reading' : lang === 'DE' ? 'Weiterlesen' : 'Verder Lezen'}
+                {lang === 'EN' ? 'Continue Reading' : lang === 'DE' ? 'Weiterlesen im Journal' : 'Verder Lezen'}
               </h2>
 
               <div className="grid md:grid-cols-3 gap-8">
@@ -233,10 +233,10 @@ export default function BlogPost({ lang }: BlogPostProps) {
         {/* Newsletter / CTA */}
         <div className="mt-32 p-12 bg-brand-offwhite text-center">
           <h3 className="text-2xl font-serif mb-4">
-            {lang === 'EN' ? 'Stay Informed' : lang === 'DE' ? 'Bleiben Sie Informiert' : 'Blijf op de Hoogte'}
+            {lang === 'EN' ? 'Stay Informed' : lang === 'DE' ? 'Auf dem Laufenden bleiben' : 'Blijf op de Hoogte'}
           </h3>
           <p className="text-sm opacity-60 font-light mb-8">
-            {lang === 'EN' ? 'Get the latest insights on modern groom style directly in your inbox.' : lang === 'DE' ? 'Erhalten Sie die neuesten Einblicke in modernen Bräutigam-Stil direkt in Ihrem Postfach.' : 'Ontvang de nieuwste inzichten over moderne bruidegomstijl direct in je inbox.'}
+            {lang === 'EN' ? 'Get the latest insights on modern groom style directly in your inbox.' : lang === 'DE' ? 'Aktuelle Stiltipps für den modernen Bräutigam – direkt ins Postfach.' : 'Ontvang de nieuwste inzichten over moderne bruidegomstijl direct in je inbox.'}
           </p>
           <div className="flex max-w-md mx-auto gap-4">
             <input

@@ -18,7 +18,7 @@ export default function Footer({ lang }: FooterProps) {
             {lang === 'EN'
               ? "The definitive style manual for the modern groom. Navigating tradition with contemporary elegance."
               : lang === 'DE'
-              ? "Der definitive Stil-Leitfaden für den modernen Bräutigam. Tradition met zeitgenössischer Eleganz verbinden."
+              ? "Der Stilratgeber für den modernen Bräutigam. Tradition trifft auf zeitgemäße Eleganz."
               : "De ultieme stijlgids voor de moderne bruidegom. Traditie navigeren met hedendaagse elegantie."}
           </p>
         </div>
@@ -43,7 +43,7 @@ export default function Footer({ lang }: FooterProps) {
       </div>
       <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-brand-black/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest font-bold opacity-40">
         <p>© 2026 The Groom Code</p>
-        <p>{lang === 'EN' ? 'Handcrafted in Italy. Designed for the Aisle.' : lang === 'DE' ? 'Handgefertigt in Italien. Entworfen für den Altar.' : 'Handgemaakt in Italië. Ontworpen voor het Altaar.'}</p>
+        <p>{lang === 'EN' ? 'Handcrafted in Italy. Designed for the Aisle.' : lang === 'DE' ? 'In Italien handgefertigt. Gemacht für den großen Tag.' : 'Handgemaakt in Italië. Ontworpen voor het Altaar.'}</p>
       </div>
     </footer>
   );

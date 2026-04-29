@@ -693,290 +693,293 @@ Looking for the perfect tent for your wedding? 2VRent is a specialist in luxury 
   },
   DE: {
     hero: {
-      headline: "Der Bräutigam-Kodex",
-      subline: "Ein kuratierter Leitfaden für den modernen Bräutigam. Die Symbiose aus Tradition und zeitgenössischer Eleganz.",
-      cta: "Beginnen Sie Ihre Reise"
+      headline: "The Groom Code",
+      subline: "Der Stilratgeber für den modernen Bräutigam. Tradition trifft auf zeitgemäße Eleganz – ohne Steifheit.",
+      cta: "Stil-Quiz starten"
     },
     narrative: {
-      title: "Die Reise des Bräutigams",
+      title: "Der Weg zum Hochzeitstag",
       steps: [
-        { title: "Der Antrag", description: "Souveränität ab dem ersten Moment. Beginnen Sie Ihre gemeinsame Geschichte mit bewusstem Stil." },
-        { title: "Die Planung", description: "Akribische Präzision in jedem Detail. Sicher navigieren durch die Etikette moderner Feierlichkeiten." },
-        { title: "Der Große Tag", description: "Der ultimative Schritt. Wo Handwerkskunst auf die Leichtigkeit des Anlasses trifft." }
+        { title: "Der Antrag", description: "Selbstbewusst vom ersten Moment an. Stil, der zur gemeinsamen Geschichte passt." },
+        { title: "Die Planung", description: "Vom Junggesellenabschied bis zur Generalprobe – elegant durch jeden Anlass." },
+        { title: "Der große Tag", description: "Der wichtigste Auftritt Ihres Lebens. Handwerkskunst, die den ganzen Tag trägt." }
       ]
     },
     collection: {
       title: "Die Auswahl",
       products: [
-        { 
-          name: LOAFER_PRODUCTS.COGNAC.name, 
-          description: "Die definitive Wahl für Destination-Hochzeiten. Außergewöhnlicher Komfort trifft auf raffinierten mediterranen Stil.", 
-          image: LOAFER_PRODUCTS.COGNAC.image, 
-          link: LOAFER_PRODUCTS.COGNAC.url 
+        {
+          name: LOAFER_PRODUCTS.COGNAC.name,
+          description: "Der Klassiker für die Hochzeit im Süden. Mediterraner Charme – mit dem Komfort, den ein langer Tag verlangt.",
+          image: LOAFER_PRODUCTS.COGNAC.image,
+          link: LOAFER_PRODUCTS.COGNAC.url
         },
-        { 
-          name: LOAFER_PRODUCTS.BLACK.name, 
-          description: "Die schärfste Silhouette für urbane Maßkonfektion. Handgefertigte Qualität für eine souveräne Präsenz.", 
-          image: LOAFER_PRODUCTS.BLACK.image, 
-          link: LOAFER_PRODUCTS.BLACK.url 
+        {
+          name: LOAFER_PRODUCTS.BLACK.name,
+          description: "Klare Linie zum dunklen Anzug. Italienische Handarbeit, die zum großen Auftritt passt.",
+          image: LOAFER_PRODUCTS.BLACK.image,
+          link: LOAFER_PRODUCTS.BLACK.url
         },
-        { 
-          name: LOAFER_PRODUCTS.DARK_BROWN.name, 
-          description: "Eine vielseitige Balance aus Luxus und Leichtigkeit. Ideal für ländliche Anwesen und anspruchsvolle Feiern.", 
-          image: LOAFER_PRODUCTS.DARK_BROWN.image, 
-          link: LOAFER_PRODUCTS.DARK_BROWN.url 
+        {
+          name: LOAFER_PRODUCTS.DARK_BROWN.name,
+          description: "Vielseitig zwischen festlich und entspannt. Erste Wahl für Hochzeiten auf dem Gut oder im Schloss.",
+          image: LOAFER_PRODUCTS.DARK_BROWN.image,
+          link: LOAFER_PRODUCTS.DARK_BROWN.url
         },
-        { 
-          name: LOAFER_PRODUCTS.NAVY.name, 
-          description: "Eine moderne Alternative zur Tradition. Tiefblaues Wildleder, das jedem maßgeschneiderten Ensemble Charakter verleiht.", 
-          image: LOAFER_PRODUCTS.NAVY.image, 
-          link: LOAFER_PRODUCTS.NAVY.url 
+        {
+          name: LOAFER_PRODUCTS.NAVY.name,
+          description: "Die moderne Alternative zu Schwarz. Tiefblaues Wildleder, das jedem Anzug Charakter gibt.",
+          image: LOAFER_PRODUCTS.NAVY.image,
+          link: LOAFER_PRODUCTS.NAVY.url
         },
-        { 
-          name: LOAFER_PRODUCTS.SAND.name, 
-          description: "Leicht und ungefüttert. Der ultimative Ausdruck mediterraner Sommereleganz.", 
-          image: LOAFER_PRODUCTS.SAND.image, 
-          link: LOAFER_PRODUCTS.SAND.url 
+        {
+          name: LOAFER_PRODUCTS.SAND.name,
+          description: "Leicht, ungefüttert, sommertauglich. Wie gemacht für die Trauung unter freiem Himmel.",
+          image: LOAFER_PRODUCTS.SAND.image,
+          link: LOAFER_PRODUCTS.SAND.url
         },
-        { 
-          name: LOAFER_PRODUCTS.BURGUNDY.name, 
-          description: "Satte Töne für den Bräutigam, der Wert auf Textur und Tiefe legt. Ein Meisterwerk italienischer Handwerkskunst.", 
-          image: LOAFER_PRODUCTS.BURGUNDY.image, 
-          link: LOAFER_PRODUCTS.BURGUNDY.url 
+        {
+          name: LOAFER_PRODUCTS.BURGUNDY.name,
+          description: "Tiefe Farbtöne für alle, die Charakter zeigen wollen. Italienische Handarbeit auf höchstem Niveau.",
+          image: LOAFER_PRODUCTS.BURGUNDY.image,
+          link: LOAFER_PRODUCTS.BURGUNDY.url
         },
-        { 
-          name: LOAFER_PRODUCTS.TAN.name, 
-          description: "Ein warmer, vielseitiger Farbton, der die Brücke zwischen formell und entspannt schlägt. Perfekt für Frühlingsfeiern.", 
-          image: LOAFER_PRODUCTS.TAN.image, 
-          link: LOAFER_PRODUCTS.TAN.url 
+        {
+          name: LOAFER_PRODUCTS.TAN.name,
+          description: "Ein warmer Ton zwischen festlich und entspannt. Wie gemacht für Hochzeiten im Frühling.",
+          image: LOAFER_PRODUCTS.TAN.image,
+          link: LOAFER_PRODUCTS.TAN.url
         },
-        { 
-          name: LOAFER_PRODUCTS.CREAM.name, 
-          description: "Die ultimative Wahl für tropische Destinationen. Reine Eleganz in einer leichten, atmungsaktiven Silhouette.", 
-          image: LOAFER_PRODUCTS.CREAM.image, 
-          link: LOAFER_PRODUCTS.CREAM.url 
+        {
+          name: LOAFER_PRODUCTS.CREAM.name,
+          description: "Die Wahl für die Hochzeit am Meer. Pure Eleganz – leicht, luftig, atmungsaktiv.",
+          image: LOAFER_PRODUCTS.CREAM.image,
+          link: LOAFER_PRODUCTS.CREAM.url
         },
-        { 
-          name: LOAFER_PRODUCTS.DARK_CHARCOAL.name, 
-          description: "Eine anspruchsvolle Alternative zu Schwarz. Tiefgraues Wildleder, das ein modernes, architektonisches Finish bietet.", 
-          image: LOAFER_PRODUCTS.DARK_CHARCOAL.image, 
-          link: LOAFER_PRODUCTS.DARK_CHARCOAL.url 
+        {
+          name: LOAFER_PRODUCTS.DARK_CHARCOAL.name,
+          description: "Die elegante Alternative zu Schwarz. Tiefgraues Wildleder mit klarer, moderner Linie.",
+          image: LOAFER_PRODUCTS.DARK_CHARCOAL.image,
+          link: LOAFER_PRODUCTS.DARK_CHARCOAL.url
         }
       ]
     },
     social: {
-      quote: "Moderne Eleganz bedeutet nicht, jeder Regel zu folgen; es bedeutet zu wissen, welche man mit Selbstvertrauen neu schreiben kann.",
+      quote: "Moderne Eleganz heißt nicht, jeder Regel zu folgen. Sie heißt zu wissen, welche man getrost beiseitelassen darf.",
       author: "The Modern Gentleman"
     },
     notFound: {
-      title: "Weg verloren?",
-      message: "Selbst die am besten geplanten Reisen führen manchmal in eine Sackgasse. Dieser Pfad ist so abgenutzt wie ein altes Paar Schuhe.",
-      cta: "Zurück zur Reise"
+      title: "Den Weg verloren?",
+      message: "Auch die beste Planung kennt mal eine Sackgasse. Diese Seite gibt es leider nicht – aber der Weg zurück ist nur einen Klick entfernt.",
+      cta: "Zurück zur Startseite"
     },
     blog: {
       title: "Das Journal",
-      cta: "Mehr lesen",
+      cta: "Weiterlesen",
       posts: [
         {
           slug: "warum-traditionelle-hochzeitsschuhe-durch-loafer-ersetzt-werden",
-          title: "Der Wandel am Fuß: Warum der Loafer den klassischen Hochzeitsschuh ablöst",
-          excerpt: "Immer öfter weicht der klassische Schnürschuh einer entspannteren, raffinierteren und selbstbewussteren Alternative: dem Loafer.",
+          title: "Schuhwechsel: Warum der Loafer den klassischen Hochzeitsschuh ablöst",
+          excerpt: "Der schwere Schnürschuh hat ausgedient. Immer mehr Bräutigame wählen den Loafer – entspannter, eleganter und einfach moderner.",
           category: "Stil",
           image: IMAGES.ALT_1,
-          content: `Seit Jahrzehnten war das Regelwerk für Bräutigame einfach: schwarzer Anzug, polierte Oxford-Schuhe und wenig Spielraum für Interpretationen. Doch moderne Hochzeiten – und moderne Männer – schreiben dieses Drehbuch neu. Immer öfter weicht der klassische Schnürschuh einer entspannteren, raffinierteren und selbstbewussteren Alternative: dem Loafer.
+          content: `Jahrzehntelang war die Sache klar: dunkler Anzug, polierte Schnürschuhe, fertig. Doch moderne Hochzeiten – und moderne Männer – schreiben dieses Drehbuch um. Immer häufiger weicht der klassische Schnürer einem Schuh, der entspannter wirkt, eleganter sitzt und mehr über den Träger sagt: dem Loafer.
 
-## Ein Wandel der Perspektive
-Dieser Wandel spiegelt eine breitere Veränderung im Stil der Männer wider. Der Bräutigam von heute wünscht sich Eleganz ohne Steifheit. Er möchte maßgeschneidert, bewusst und zeitgemäß aussehen – nicht so, als würde er an einer Vorstandssitzung teilnehmen. Der Loafer liefert genau dieses Gleichgewicht.
+## Ein neuer Blick auf den Hochzeitsstil
+Der Wandel spiegelt einen größeren Trend wider. Der Bräutigam von heute will elegant aussehen, aber nicht steif. Festlich, aber nicht verkleidet. Hochwertig, aber nicht wie auf dem Weg ins nächste Vorstandsmeeting. Genau diese Balance liefert der Loafer.
 
-## Die Balance aus Leichtigkeit und Eleganz
-Im Gegensatz zu traditionellen formellen Schuhen bringen Loafer ein Gefühl von Leichtigkeit in die Abendgarderobe. Sie bewahren die Raffinesse und lockern gleichzeitig das Gesamtbild auf. Gepaart mit einem gut geschnittenen Anzug oder sogar einem maßgeschneiderten zweireihigen Ensemble signalisiert ein Leder- oder Wildleder-Loafer modernes Selbstvertrauen.
+## Eleganz mit Leichtigkeit
+Anders als der klassische Lederschnürer bringt der Loafer Lässigkeit in die festliche Garderobe – ohne an Klasse zu verlieren. Zum gut geschnittenen Anzug oder sogar zum zweireihigen Sakko getragen, signalisiert ein Leder- oder Wildleder-Loafer ruhiges Selbstvertrauen. Genau das, was an einem solchen Tag zählt.
 
-## Praktikabilität trifft auf Glanz
-Es gibt auch einen praktischen Grund für ihre wachsende Beliebtheit. Hochzeiten sind lange Tage voller Stehen, Gehen, Tanzen und Feiern. Loafer sind für Bewegung konzipiert. Ihre Konstruktion bietet Komfort und Flexibilität, ohne auf Glanz zu verzichten.
+## Praktisch, ohne Kompromiss
+Es gibt auch einen sehr handfesten Grund: Eine Hochzeit ist ein langer Tag. Stehen, gehen, anstoßen, tanzen. Loafer sind für Bewegung gemacht. Sie sitzen sofort, drücken nicht und lassen den Fuß atmen – ohne, dass dafür Schliff und Würde geopfert werden müssten.
 
-## Meisterhafte Handwerkskunst
-Designer und Luxushäuser haben den Loafer ebenfalls als legitime formelle Option akzeptiert. Tiefes Espresso-Leder, sattes Wildleder, dezente Nähte – die Handwerkskunst steht der traditioneller Abendschuhe in nichts nach und bietet gleichzeitig eine entspanntere Silhouette.
+## Handwerkskunst auf höchstem Niveau
+Auch die großen Häuser haben den Loafer längst als festliche Option anerkannt. Tiefes Espressoleder, weiches Wildleder, dezente Naht – die Verarbeitung steht der eines klassischen Abendschuhs in nichts nach. Die Silhouette aber bleibt entspannter, mediterraner, moderner.
 
-Letztendlich kommuniziert die Wahl eines Loafers an Ihrem Hochzeitstag etwas Subtiles, aber Kraftvolles: Sie fühlen sich in Ihrem Stil wohl. Sie respektieren die Tradition, sind aber nicht an sie gebunden.
+Am Ende sagt die Wahl eines Loafers etwas Leises, aber Klares aus: Sie tragen Ihren Stil mit Selbstverständlichkeit. Sie kennen die Tradition – aber Sie folgen ihr nicht blind.
 
-Und vielleicht ist es genau das, wonach moderne Eleganz aussieht.`
+Vielleicht sieht moderne Eleganz heute genau so aus.`
         },
         {
           slug: "7-essenzielle-tipps-wahl-hochzeitsanzug",
-          title: "7 essenzielle Tipps für die Wahl Ihres Hochzeitsanzugs",
-          excerpt: "Ihr Hochzeitsanzug ist mehr als nur Kleidung – er ist die Uniform eines der wichtigsten Tage Ihres Lebens.",
+          title: "7 Tipps für die Wahl des richtigen Hochzeitsanzugs",
+          excerpt: "Der Hochzeitsanzug ist mehr als nur Kleidung. Er ist Ihr Outfit für einen der wichtigsten Tage Ihres Lebens – und sollte sich auch so anfühlen.",
           category: "Leitfaden",
           image: IMAGES.ALT_2,
-          content: `Ihr Hochzeitsanzug ist mehr als nur Kleidung – er ist die Uniform eines der wichtigsten Tage Ihres Lebens. Der richtige Anzug sollte Ihre Präsenz unterstreichen, auf Fotos wunderschön aussehen und sich vor allem authentisch nach Ihnen anfühlen.
+          content: `Der Hochzeitsanzug ist nicht einfach nur Kleidung. Er ist Ihr Outfit für einen der wichtigsten Tage Ihres Lebens – und sollte sich auch so anfühlen. Der richtige Anzug unterstreicht Ihre Wirkung, macht auf den Fotos eine gute Figur und fühlt sich vor allem nach Ihnen an. Nicht nach Kostüm.
 
-Hier sind sieben essenzielle Tipps, die jeder Bräutigam berücksichtigen sollte.
+Sieben Punkte, die jeder Bräutigam beherzigen sollte.
 
-## 1. Beginnen Sie mit dem Rahmen
-Eine Strandzeremonie, ein Landgut oder eine Stadthochzeit erfordern jeweils einen anderen Stil. Die Umgebung sollte Stoff, Farbe und Struktur beeinflussen.
+## 1. Erst die Location, dann der Anzug
+Strandzeremonie, Hochzeit auf dem Land oder feierliche Trauung in der Stadt – jede Location verlangt einen anderen Anzug. Stoff, Farbe und Schnitt sollten zum Rahmen passen, nicht umgekehrt.
 
-## 2. Passform ist alles
-Selbst der teuerste Anzug versagt ohne die richtige Maßkonfektion. Die Schultern müssen perfekt sitzen, die Ärmel sollten einen Hauch der Hemdmanschette preisgeben, und das Sakko sollte der natürlichen Linie Ihres Körpers folgen.
+## 2. Die Passform entscheidet alles
+Auch der teuerste Anzug wirkt nichts, wenn er nicht sitzt. Die Schultern müssen perfekt aufliegen, der Ärmel sollte ein, zwei Zentimeter Hemdmanschette zeigen, und das Sakko muss der natürlichen Linie Ihres Körpers folgen. Planen Sie Zeit für Anproben ein – mindestens drei.
 
-## 3. Wählen Sie zeitlose Farben
-Elfenbein, Sand, Mitternachtsblau und klassisches Navy lassen sich wunderschön fotografieren und bleiben über Jahre hinweg elegant. Trends vergehen – zeitlose Maßkonfektion bleibt.
+## 3. Setzen Sie auf zeitlose Farben
+Elfenbein, Sand, Mitternachtsblau und klassisches Navy fotografieren wunderbar und sehen auch in zehn Jahren noch gut aus. Trends vergehen – ein gut geschnittener Anzug in einer ruhigen Farbe bleibt.
 
 ## 4. Der Stoff macht den Unterschied
-Leichte Wolle, Woll-Seiden-Mischungen oder Leinenmischungen bieten den ganzen Tag über Komfort und Atmungsaktivität. Vermeiden Sie Stoffe, die übermäßig knittern.
+Leichte Schurwolle, Woll-Seide oder eine Leinenmischung sind atmungsaktiv und stehen einen langen Tag durch. Reiner Leinen knittert schnell – schön, aber nicht für jeden ein Vorteil. Polyester hat auf der Hochzeit nichts verloren.
 
-## 5. Berücksichtigen Sie die Silhouette
-Ein einreihiger Anzug bietet klassische Schlichtheit, während ein zweireihiges Sakko Autorität und Präsenz verleiht. Wählen Sie die Silhouette, die zu Ihrem Körperbau passt.
+## 5. Wählen Sie die richtige Silhouette
+Einreiher heißt klassisch und schlank. Zweireiher wirkt formeller und gibt Präsenz. Schauen Sie in den Spiegel – nicht auf Pinterest. Welche Linie steht Ihnen wirklich?
 
-## 6. Halten Sie Accessoires bewusst
-Eine hochwertige Uhr, dezente Manschettenknöpfe und elegante Schuhe sagen oft mehr als übermäßiges Styling.
+## 6. Weniger ist mehr bei den Accessoires
+Eine hochwertige Uhr, dezente Manschettenknöpfe, gut gewählte Schuhe. Das genügt. Alles weitere wirkt schnell verkleidet.
 
-## 7. Tragen Sie Selbstvertrauen
-Der beste Anzug ist der, in dem Sie aufrechter stehen. Wenn Sie sich darin wohlfühlen, wird man es Ihnen ansehen.
+## 7. Selbstbewusstsein ist die beste Zutat
+Der beste Anzug ist der, in dem Sie aufrechter stehen. Wenn Sie sich darin wohlfühlen, sieht man Ihnen das an – und das ist es, was am Ende auf den Fotos hängenbleibt.
 
-Denn an Ihrem Hochzeitstag zählt die Präsenz genauso viel wie der Stil.`
+Denn an Ihrem Hochzeitstag zählt die Haltung genauso viel wie der Stil.`
         },
         {
           slug: "wie-sie-ihrer-freundin-einen-antrag-machen-leitfaden",
-          title: "Wie Sie Ihrer Freundin einen Antrag machen: Ein Leitfaden für den modernen Gentleman",
-          excerpt: "Ein Heiratsantrag ist einer der bedeutendsten Momente im Leben eines Mannes. Er markiert den Beginn einer gemeinsamen Zukunft.",
+          title: "Der Heiratsantrag: Ein Leitfaden für den modernen Mann",
+          excerpt: "Ein Heiratsantrag ist einer der wichtigsten Momente im Leben. Mit guter Vorbereitung wird aus Nervosität echtes Selbstvertrauen.",
           category: "Leben",
           image: IMAGES.ALT_3,
-          content: `Ein Heiratsantrag ist einer der bedeutendsten Momente im Leben eines Mannes. Er markiert den Beginn einer gemeinsamen Zukunft – und während Nervosität unvermeidlich ist, kann Vorbereitung Unsicherheit in Selbstvertrauen verwandeln.
+          content: `Ein Heiratsantrag ist einer der wichtigsten Momente im Leben eines Mannes. Er ist der Anfang einer gemeinsamen Zukunft – und ja, nervös wird man dabei. Mit guter Vorbereitung lässt sich daraus aber Selbstvertrauen machen.
 
-## Die Kraft der Absicht
-Ein großartiger Antrag hat nichts mit Spektakel zu tun. Es geht um Authentizität. Denken Sie an Orte, die für Sie beide eine Bedeutung haben: die Stadt, in der Sie sich kennengelernt haben, ein Lieblingsrestaurant, ein ruhiger Aussichtspunkt oder ein Ziel, das Ihre gemeinsame Geschichte widerspiegelt.
+## Auf den Moment kommt es an, nicht auf das Spektakel
+Ein guter Antrag braucht keine Überraschung im Stadion und keinen Heißluftballon. Er braucht Echtheit. Denken Sie an Orte, die für Sie beide etwas bedeuten: die Stadt, in der Sie sich kennengelernt haben, das erste gemeinsame Lieblingsrestaurant, eine ruhige Anhöhe mit Aussicht. Was Ihre Geschichte erzählt, passt.
 
-## Timing ist alles
-Wählen Sie einen Moment, in dem Sie beide den Anlass wirklich erleben können. Vermeiden Sie Ablenkungen. Die besten Anträge finden statt, wenn die Welt kurzzeitig stillzustehen scheint.
+## Das richtige Timing
+Wählen Sie einen Moment, in dem Sie beide wirklich anwesend sein können. Kein Zeitdruck, keine Ablenkung. Die besten Anträge passieren, wenn die Welt für einen Augenblick stillzustehen scheint.
 
-## Bereiten Sie Ihre Worte vor
-Sie brauchen keine filmreife Rede. Ein paar aufrichtige Worte darüber, warum Sie sie lieben und warum Sie ein gemeinsames Leben aufbauen wollen, sind kraftvoller als einstudierte Perfektion.
+## Ein paar Worte vorbereiten – aber nicht auswendig lernen
+Sie brauchen keine Rede, die wie aus einem Film klingt. Drei, vier ehrliche Sätze, warum Sie sie lieben und warum Sie ein Leben mit ihr aufbauen wollen, sind tausendmal mehr wert als ein einstudierter Monolog. Schreiben Sie es vorher auf, dann wissen Sie im richtigen Moment, was Sie sagen wollen.
 
-## Achten Sie auf Ihre Präsentation
-Stil ist vielleicht nicht das Erste, was Ihnen in den Sinn kommt, aber wie Sie auftreten, ist wichtig. Ein gut sitzendes Outfit, polierte Schuhe und Liebe zum Detail signalisieren, dass der Moment Respekt verdient.
+## Auch das Äußere zählt
+Stil ist vielleicht nicht das Erste, woran Sie denken – aber wie Sie auftreten, gehört dazu. Ein gut sitzendes Outfit, ordentliche Schuhe, gepflegtes Auftreten: Das alles zeigt, dass Ihnen der Moment wichtig ist.
 
-## Lassen Sie die Emotionen zu
-Vielleicht sind Sie nervös. Ihre Stimme könnte zittern. Das ist völlig normal. Tatsächlich ist es Teil dessen, was den Moment unvergesslich macht.
+## Emotionen sind erlaubt
+Vielleicht zittert Ihre Stimme. Vielleicht laufen ein paar Tränen. Das ist völlig in Ordnung. Es ist sogar das, woran Sie sich später am liebsten erinnern werden.
 
-Denn am Ende geht es bei einem Antrag nicht um Perfektion. Es geht darum, den ersten mutigen Schritt in Richtung Ewigkeit zu tun.`
+Am Ende geht es bei einem Heiratsantrag nicht um Perfektion. Es geht um den ersten mutigen Schritt in eine gemeinsame Zukunft. Und der ist immer richtig.`
         },
         {
           slug: "best-man-hochzeitsschuhe-leitfaden",
-          title: "Der Best Man Leitfaden: Die perfekten Hochzeitsschuhe",
-          excerpt: "Als Best Man ist Ihre Rolle entscheidend – und Ihr Stil sollte das widerspiegeln. So wählen Sie Schuhe, die den Bräutigam ergänzen, ohne ihm die Show zu stehlen.",
+          title: "Trauzeugen-Guide: Die richtigen Schuhe für den großen Tag",
+          excerpt: "Als Trauzeuge spielen Sie eine wichtige Rolle – und Ihr Auftritt gehört dazu. So finden Sie Schuhe, die zum Bräutigam passen, ohne ihm die Show zu stehlen.",
           category: "Leitfaden",
           image: IMAGES.ALT_4,
-          content: `Als Best Man ist Ihre Rolle entscheidend. Sie sind der Navigator, der Zeuge und die wichtigste Stütze. Ihr Stil sollte diese Bedeutung widerspiegeln – als Zeugnis für die Wichtigkeit des Anlasses, während Sie gleichzeitig sicherstellen, dass das Rampenlicht fest auf dem Bräutigam bleibt.
+          content: `Als Trauzeuge sind Sie an diesem Tag rechte Hand, Stütze und manchmal auch Feuerwehrmann. Ihr Outfit darf das ruhig zeigen – und sollte gleichzeitig nie mit dem des Bräutigams konkurrieren. Das Rampenlicht gehört ihm.
 
-Bei der Wahl der Schuhe steht der Best Man vor einer besonderen Herausforderung: ein Paar zu finden, das formell genug für die Zeremonie, bequem genug für die Aufgaben des Tages und stilistisch auf die Hochzeitsgesellschaft abgestimmt ist.
+Bei den Schuhen heißt das: festlich genug für die Zeremonie, bequem genug für einen langen Tag, farblich abgestimmt auf die Hochzeitsgesellschaft. Vier Punkte, die dabei helfen.
 
-## 1. Koordinieren, nicht kopieren
-Obwohl Sie sich am Formalitätsgrad des Bräutigams orientieren sollten, benötigen Sie nicht unbedingt exakt denselben Schuh. Wenn der Bräutigam poliertes Leder trägt, kann ein raffinierter Wildleder-Loafer in einem ähnlichen Ton eine subtile, anspruchsvolle Unterscheidung bieten.
+## 1. Abstimmen, nicht kopieren
+Sie sollten sich am Formalitätsgrad des Bräutigams orientieren – aber nicht denselben Schuh tragen. Trägt der Bräutigam glattes Leder, ist ein Wildleder-Loafer in ähnlichem Ton eine elegante, leicht zurückgenommene Variante. Genau das richtige Maß an Eigenständigkeit.
 
-## 2. Priorität auf Vielseitigkeit
-Ein Best Man ist oft mehr auf den Beinen als jeder andere. Von den Vorbereitungen am Morgen bis hin zu den Feierlichkeiten am späten Abend müssen Ihre Schuhe Leistung bringen. Hier wird eine hochwertige Konstruktion unerlässlich. Achten Sie auf Schuhe mit flexiblen Sohlen und erstklassigen Materialien, die atmen.
+## 2. Bequemlichkeit ist Pflicht
+Kein Gast steht so viel auf den Beinen wie der Trauzeuge. Vorbereitung am Morgen, Zeremonie, Empfang, Reden, Tanzen bis spät – Ihre Schuhe müssen das mitmachen. Achten Sie auf flexible Sohlen und atmungsaktive Materialien. Lackleder ist meistens die schlechteste Wahl.
 
-## 3. Berücksichtigen Sie die Farbpalette
-Wenn die Hochzeitsgesellschaft in Navy gekleidet ist, ziehen Sie satte Schokoladen- oder Espresso-Töne in Betracht. Für graue Maßkonfektion bietet Schwarz oder tiefes Anthrazit ein scharfes, modernes Finish. Das Ziel ist eine harmonische Ästhetik, die auf jedem Foto bewusst gewählt wirkt.
+## 3. Auf die Farbpalette der Trauung achten
+Trägt die Gesellschaft Navy, sind Schokoladen- oder Espressotöne ideal. Zu grauen Anzügen passt Schwarz oder tiefes Anthrazit. Das Ziel: ein stimmiges Gesamtbild auf den Fotos, ohne dass etwas heraussticht – außer dem Brautpaar.
 
-## 4. Der Loafer-Vorteil
-Immer mehr Trauzeugen entscheiden sich für Loafer. Sie bieten eine zeitgemäße Eleganz, die perfekt zu moderner Maßkonfektion passt. Sie sind einfach zu tragen, außergewöhnlich bequem und signalisieren ein entspanntes Selbstvertrauen, das perfekt zur Rolle passt.
+## 4. Warum Loafer eine gute Idee sind
+Immer mehr Trauzeugen greifen zum Loafer. Er passt zum modernen Anzug, lässt sich leicht tragen und sitzt ab dem ersten Moment. Vor allem aber strahlt er die Art von ruhigem Selbstvertrauen aus, das gut zur Rolle des Trauzeugen passt: präsent, aber nicht im Vordergrund.
 
-Ihre Schuhe sind das Fundament Ihrer Präsenz. Wählen Sie weise, und Sie werden Ihre Aufgaben mit dem Stil erfüllen, den der Tag verdient.
+Ihre Schuhe sind das Fundament Ihres Auftritts. Mit der richtigen Wahl erfüllen Sie Ihre Aufgaben mit dem Stil, den dieser Tag verdient.
 
-[Entdecken Sie unsere Auswahl an beliebten Hochzeitsschuhen für Trauzeugen und Bräutigame.](/de/collection)`
+[Hier geht es zu unserer Auswahl an Hochzeitsschuhen für Bräutigame und Trauzeugen.](/de/collection)`
         },
         {
           slug: "warum-loafer-die-ultimativen-hochzeitsschuhe-sind",
-          title: "Der Aufstieg des Hochzeits-Loafers: Warum moderne Bräutigame auf Schnürsenkel verzichten",
-          excerpt: "Vom Strand bis zur Kathedrale – der Loafer ist zur definitiven Wahl für den modernen Bräutigam geworden. Erfahren Sie, warum.",
+          title: "Warum der Loafer der neue Hochzeitsschuh ist – und der Schnürer ausgedient hat",
+          excerpt: "Vom Strand bis zur Kirche: Der Loafer ist heute die erste Wahl für den modernen Bräutigam. Warum eigentlich?",
           category: "Stil",
           image: IMAGES.ALT_5,
-          content: `Die Hochzeitslandschaft verändert sich. Die Tage der starren, unbequemen Formalität werden durch eine neue Ära der „entspannten Eleganz“ ersetzt. Im Zentrum dieser stilvollen Revolution steht eine einzige, ikonische Silhouette: der Loafer.
+          content: `Hochzeiten haben sich verändert. Die Zeit, in der ein steifer, unbequemer Schnürschuh Pflicht war, ist vorbei. An ihre Stelle tritt eine neue Form der Festlichkeit: entspannt, mediterran, persönlich. Und mittendrin steht eine Silhouette, die diesen Wandel wie keine zweite verkörpert: der Loafer.
 
-Warum tauschen moderne Bräutigame zunehmend traditionelle Oxfords gegen den Slip-on? Die Antwort liegt an der Schnittstelle von traditionellem Stil, höchstem Komfort und zeitgemäßem Selbstvertrauen.
+Warum greifen so viele Bräutigame heute zum Loafer und nicht zum Oxford? Die Antwort liegt am Schnittpunkt von Stil, Komfort und einem ruhigeren, moderneren Selbstverständnis.
 
-## Finden Sie Ihre Übereinstimmung: Ein Leitfaden für Hochzeitsorte
-Die Schönheit des Loafers liegt in seiner Anpassungsfähigkeit. Egal, ob Sie einen Kathedralengang entlangschreiten oder über einen Sandstrand laufen, es gibt eine Silhouette, die für diesen Moment entworfen wurde.
+## Welcher Loafer für welche Hochzeit?
+Die Stärke des Loafers liegt in seiner Wandlungsfähigkeit. Egal, ob Sie durch das Mittelschiff einer Kirche schreiten oder durch warmen Sand laufen – es gibt eine Silhouette, die genau zu diesem Moment passt.
 
-| Hochzeitsthema | Empfohlener Stil | Material & Farbe | Das Styling-Geheimnis |
+| Hochzeitsstil | Empfohlener Schuh | Material & Farbe | Der Stylingtipp |
 | :--- | :--- | :--- | :--- |
-| **Black Tie / Formell** | Eleganter Penny Loafer | Poliertes schwarzes Kalbsleder | Kombinieren Sie ihn mit einem Hosenbeinsaum ohne Knick („no-break“). |
-| **Destination / Strand** | Ungefütterter Voyage Loafer | Sand- oder Salbei-Wildleder | Gehen Sie barfuß für ein echtes mediterranes Gefühl. |
-| **City Chic / Modern** | Tassel Loafer | Sattes Schokoladen-Wildleder | Ergänzt perfekt marineblaue oder anthrazitfarbene Maßkonfektion. |
+| **Black Tie / Festlich** | Eleganter Penny Loafer | Schwarzes Kalbsleder, poliert | Mit einer Hose ohne Bruch („no break") tragen. |
+| **Hochzeit am Meer** | Ungefütterter Yacht Loafer | Sand- oder Salbei-Wildleder | Ohne Socken – das volle mediterrane Gefühl. |
+| **Stadt / Modern** | Tassel Loafer | Schokoladen-Wildleder | Passt perfekt zu Navy oder Anthrazit. |
 
-## Warum der Loafer der neue Goldstandard ist
+## Warum der Loafer heute Maßstab ist
 
-### 1. Der Komfort einer „zweiten Haut“
-Eine Hochzeit ist ein Marathon, kein Sprint. Vom ersten Blick bis zum letzten Tanz werden Sie über zehn Stunden auf den Beinen sein. Während traditionelle Abendschuhe oft eine schmerzhafte Einlaufzeit erfordern, bieten Loafer aus hochwertigem mediterranem Veloursleder sofortige Flexibilität.
+### 1. Bequem ab dem ersten Schritt
+Eine Hochzeit ist ein Marathon, kein Sprint. Vom ersten Blick zur Braut bis zum letzten Tanz stehen Sie zehn Stunden oder länger auf den Beinen. Klassische Schnürschuhe brauchen oft Wochen Einlaufzeit. Ein hochwertiger Loafer aus mediterranem Wildleder sitzt vom ersten Moment an – und ist abends genauso angenehm wie morgens.
 
-**Profi-Tipp:** Achten Sie auf eine Blake-genähte Sohle. Diese Konstruktionsmethode führt zu einem leichteren, flexibleren Schuh, der sich mit Ihrem Fuß bewegt – unerlässlich, um die Tanzfläche zu dominieren.
+**Tipp aus der Praxis:** Achten Sie auf eine Blake-Naht. Sie macht den Schuh leichter und flexibler – ein echter Vorteil, wenn die Tanzfläche ruft.
 
-### 2. Ein Statement stilvollen Selbstvertrauens
-Die Wahl eines Loafers ist eine subtile Absichtserklärung. Sie deutet auf einen Bräutigam hin, der die Regeln der Herrenmode gut genug kennt, um mit ihnen zu spielen. Sie signalisiert einen Mann, der Handwerkskunst schätzt, aber die Leichtigkeit des Anlasses priorisiert. Es ist das Schuhwerk eines Gentlemans, der sich in seiner Haut wirklich wohlfühlt.
+### 2. Eine ruhige Stilaussage
+Wer heute einen Loafer trägt, zeigt damit etwas Leises, aber Bestimmtes: Er kennt die Regeln der Herrenmode gut genug, um sie spielerisch zu nehmen. Er schätzt Handwerkskunst, will aber keinen Schuh, der härter arbeitet als er selbst. Es ist das Schuhwerk eines Mannes, der sich in seiner Haut zu Hause fühlt.
 
-### 3. Visuelle Tiefe & Charakter
-Über die Funktionalität hinaus sehen Loafer in der Fotografie einfach außergewöhnlich aus. Die reiche Textur von handveredeltem Leder oder die butterweiche Haptik von Wildleder fügt eine Ebene visuellen Interesses hinzu, die glattem Leder oft fehlt.
+### 3. Mehr Charakter auf den Fotos
+Wildleder hat etwas, das glattes Leder nicht hat: Textur. Die feinen Schattierungen, die weiche Oberfläche, der ruhige Glanz – auf Hochzeitsfotos macht das einen sichtbaren Unterschied. Der Schuh wird vom Pflichtteil zum gestaltenden Element.
 
-## Socken oder keine Socken?
-Die ultimative Debatte. Für eine formelle Stadthochzeit ist eine feine Socke aus Seide oder merzerisierter Baumwolle in einer passenden Farbe am besten. Für eine Sommer- oder Destination-Hochzeit ist der „No-Sock“-Look jedoch zum Markenzeichen des modernen, gut gekleideten Bräutigams geworden.
+## Mit oder ohne Socken?
+Die alte Frage. Für die festliche Stadthochzeit gehört eine feine Socke aus Seide oder merzerisierter Baumwolle in einer Farbe, die zum Anzug passt, dazu. Für die Sommer- oder Auslandshochzeit ist der Look ohne Socken zum Markenzeichen des modernen, gut gekleideten Bräutigams geworden – vorausgesetzt, der Schuh sitzt wirklich.
 
-**Experten-Tipp:** Wenn Sie barfuß gehen, verwenden Sie am Tag danach immer hochwertige Schuhspanner aus Zedernholz, um die Form und Frische Ihres Leders zu erhalten.
+**Tipp:** Wenn Sie ohne Socken tragen, am Abend immer Schuhspanner aus Zedernholz hineinstecken. Sie nehmen die Feuchtigkeit auf und erhalten die Form.
 
 ## Bereit für den nächsten Schritt?
-In der modernen Hochzeitswelt ist der Loafer nicht nur eine Alternative – er ist der Standard für den Mann, der das Beste aus beiden Welten will. Egal, ob Sie die Struktur eines klassischen Leders oder den mühelosen Fall von Wildleder bevorzugen, Ihre Wahl des Schuhwerks sollte so unvergesslich sein wie der Tag selbst.
+Der Loafer ist heute keine Alternative mehr. Er ist der Standard für den Bräutigam, der Stil und Komfort nicht gegeneinander ausspielen will. Ob klassisches Leder oder weiches Wildleder – Ihre Wahl darf so unvergesslich sein wie der Tag selbst.
 
 ---
 
-**Entdecken Sie die Hochzeits-Loafer-Kollektion** – [Handverlesene Stile für den modernen Bräutigam.](/de/collection)
+**Die Hochzeits-Loafer-Kollektion** – [Handverlesene Modelle für den modernen Bräutigam.](/de/collection)
 
-**Der Fit-Guide** – [So stellen Sie sicher, dass Ihre Loafer von der Zeremonie bis zum Sonnenaufgang perfekt sitzen.](/de/journal/the-fit-guide)
+**Der Passform-Guide** – [So sitzen Ihre Loafer von der Trauung bis zum Sonnenaufgang.](/de/journal/the-fit-guide)
 
-**Das Lookbook ansehen** – [Inspiration für das komplette Hochzeitsensemble.](/de/journal/the-lookbook)`
+**Das Lookbook** – [Inspiration für das komplette Hochzeitsoutfit.](/de/journal/the-lookbook)`
         },
         {
           slug: "the-fit-guide",
-          title: "Der Fit-Guide: So sitzen Ihre Loafer perfekt",
-          excerpt: "Die perfekte Passform ist entscheidend für einen Tag voller Feierlichkeiten. Erfahren Sie, wie Ihre Loafer von der Zeremonie bis zum Sonnenaufgang sicher sitzen.",
+          title: "Der Passform-Guide: So sitzt Ihr Loafer wirklich",
+          excerpt: "Die richtige Passform ist beim Loafer alles. So sitzt Ihr Schuh von der Trauung bis zum letzten Tanz – ohne Druckstellen, ohne Rutschen.",
           category: "Leitfaden",
           image: IMAGES.ALT_6,
-          content: `Die häufigste Sorge beim Wechsel zu Loafern für eine Hochzeit ist das „Herausrutschen der Ferse“. Im Gegensatz zu Schnürschuhen können Sie einen Loafer nicht festziehen, sobald er angezogen ist. Eine eng anliegende, sichere Passform ist unerlässlich für einen Tag, der alles umfasst – vom Stehen am Altar bis zum Tanzen bis spät in die Nacht.
+          content: `Die häufigste Sorge beim Umstieg auf Loafer ist die rutschende Ferse. Anders als beim Schnürschuh können Sie einen Loafer nicht nachziehen, sobald er sitzt. Deshalb ist die Passform entscheidend – an einem Tag, der vom Altar bis zur Tanzfläche reicht, macht jeder Millimeter den Unterschied.
 
-## 1. Der „Pop“-Test
-Wenn Sie in einen hochwertigen Loafer schlüpfen, sollten Sie ein leichtes „Ploppen“ der entweichenden Luft hören. Dies deutet auf eine vakuumähnliche Versiegelung um Ihren Fuß hin. Wenn der Schuh zu leicht hineingleitet, ist er wahrscheinlich zu groß und wird rutschen, wenn das Leder im Laufe des Tages weicher wird.
+## 1. Der Plopp-Test
+Wenn Sie in einen guten Loafer schlüpfen, sollten Sie ein leises „Ploppen" hören – die Luft, die entweicht. Genau das Geräusch zeigt: Der Schuh schließt eng am Fuß ab. Rutscht er einfach hinein, ist er zu groß und wird sich noch weiter ausdehnen.
 
-## 2. Berücksichtigen Sie die Dehnung von Veloursleder
-Hochwertiges mediterranes Veloursleder ist unglaublich weich, dehnt sich aber etwas mehr als Kalbsleder. Wenn Sie bei einem Veloursleder-Loafer zwischen zwei Größen liegen, empfehlen wir, die kleinere Größe zu wählen. Er sollte sich anfangs „angenehm eng“ anfühlen; innerhalb einer Stunde Tragezeit passt er sich perfekt an Ihren Fuß an.
+## 2. Wildleder dehnt sich – planen Sie ein
+Hochwertiges mediterranes Wildleder ist weich und gibt mehr nach als Kalbsleder. Wenn Sie zwischen zwei Größen liegen, wählen Sie beim Wildleder-Loafer die kleinere. Er darf sich anfangs „angenehm eng" anfühlen – nach einer Stunde Tragezeit passt er sich perfekt an.
 
-## 3. Der unsichtbare Vorteil
-Wenn Sie den „No-Sock“-Look bevorzugen, aber zusätzliche Sicherheit wünschen, verwenden Sie hochwertige unsichtbare Socken mit Silikon-Fersengriffen. Dies bietet die Ästhetik eines nackten Knöchels und fügt gleichzeitig eine Reibungsebene hinzu, die jegliche interne Bewegung verhindert.
+## 3. Der unsichtbare Trick
+Wer den Look ohne Socken liebt, aber etwas mehr Halt möchte, greift zu Füßlingen mit Silikon-Fersengriff. So bleibt das nackte Knöchel-Bild erhalten, der Schuh sitzt aber bombenfest.
 
-## 4. Fersenhalter als letzter Ausweg
-Wenn Sie ein Paar haben, das etwas zu locker sitzt, kann ein kleiner Veloursleder-Fersenhalter ein Lebensretter sein. Die beste Lösung ist jedoch immer, mit der richtigen Leistenform zu beginnen.`
+## 4. Fersenpolster als Notlösung
+Sitzt ein Paar etwas zu locker, helfen kleine Fersenpolster aus Wildleder. Sie sind aber immer ein Kompromiss – die beste Lösung ist und bleibt die richtige Größe von Anfang an.
+
+## Tipp zum Schluss
+Bestellen Sie Ihren Hochzeitsschuh früh genug. Probieren Sie ihn zu Hause auf Teppichboden – nicht auf dem Fußboden, falls ein Umtausch nötig wird. Und tragen Sie ihn vor der Hochzeit ein paar Stunden ein. So sind Sie am großen Tag sicher: keine Druckstellen, kein böses Erwachen, nur ein Schuh, der wie eine zweite Haut sitzt.`
         },
         {
           slug: "the-lookbook",
           title: "Das Hochzeits-Lookbook: Inspiration für den modernen Bräutigam",
-          excerpt: "Entdecken Sie drei verschiedene Archetypen für den modernen Bräutigam und sehen Sie, wie man Textur, Farbe und Silhouette in Einklang bringt.",
+          excerpt: "Drei Stilrichtungen für den modernen Bräutigam – und wie sich Textur, Farbe und Silhouette zu einem stimmigen Ganzen fügen.",
           category: "Stil",
           image: IMAGES.ALT_7,
-          content: `Schuhwerk ist das Fundament, aber das komplette Ensemble ist das, was die Geschichte erzählt. Unser Hochzeits-Lookbook erkundet drei verschiedene Archetypen für den modernen Bräutigam und zeigt, wie man Textur, Farbe und Silhouette in Einklang bringt.
+          content: `Der Schuh ist das Fundament. Aber erst das ganze Outfit erzählt die Geschichte. Unser Lookbook zeigt drei Stilrichtungen für den modernen Bräutigam – und wie sich Textur, Farbe und Silhouette zu einem stimmigen Ganzen fügen.
 
-## Destination: Amalfiküste
-**Der Look:** Ein hellsandfarbener Leinenanzug, ein weißes Hemd mit offenem Kragen und unsere ungefütterten Voyage Loafer in Salbei-Veloursleder.
-**Der Vibe:** Mühelos, sonnendurchflutet und anspruchsvoll. Dieser Look priorisiert Atmungsaktivität, ohne die Bedeutung des Anlasses zu vernachlässigen.
+## Hochzeit am Mittelmeer: Amalfi
+**Der Look:** Sandfarbener Leinenanzug, weißes Hemd mit offenem Kragen, ungefütterter Yacht Loafer in Salbei-Wildleder.
+**Die Stimmung:** Leicht, sonnig, aber niemals nachlässig. Atmungsaktiv, wo es zählt – und stilvoll genug für die Trauung am Klippenrand.
 
-## Urbane Mikro-Hochzeit: London
-**Der Look:** Ein anthrazitgrauer zweireihiger Anzug, eine gestrickte Seidenkrawatte und Tassel Loafer in dunkelbraunem Veloursleder.
-**Der Vibe:** Scharf, architektonisch und modern. Die Textur des Veloursleders bricht die Formalität der grauen Maßkonfektion auf und fügt eine Ebene zeitgemäßer Coolness hinzu.
+## Die kleine Stadthochzeit: Berlin oder Wien
+**Der Look:** Anthrazitgrauer Zweireiher, gestrickte Seidenkrawatte, Tassel Loafer in dunkelbraunem Wildleder.
+**Die Stimmung:** Klar, urban, modern. Das Wildleder bricht die Strenge des grauen Anzugs auf und gibt dem Look eine ruhige Zeitgemäßheit.
 
-## Die klassische Black-Tie-Revolution
-**Der Look:** Ein mitternachtsblauer Smoking mit Revers aus Seidengrosgrain und elegante Penny Loafer in poliertem schwarzem Kalbsleder.
-**Der Vibe:** Das ultimative Statement an Selbstvertrauen. Den Lackschuh mit Schnürung durch einen polierten Loafer zu ersetzen, ist das Markenzeichen eines Bräutigams, der seinen Stil kennt.`
+## Der Black-Tie-Klassiker neu gedacht
+**Der Look:** Mitternachtsblauer Smoking mit Seiden-Grosgrain-Revers, polierter Penny Loafer in schwarzem Kalbsleder.
+**Die Stimmung:** Selbstbewusst, ohne aufzutragen. Den Lackschuh mit Schnürung durch einen ruhigen Loafer zu ersetzen – das ist das Zeichen eines Bräutigams, der seinen eigenen Stil hat.`
         },
         {
           slug: "aurelien-yacht-loafers-quiet-luxury-fuer-den-modernen-braeutigam",
-          title: "Quiet Luxury für den modernen Bräutigam: Der €335 Loafer aus Italien — ohne Logo",
-          excerpt: "Quiet Luxury heißt nicht weniger ausgeben — es heißt, nicht für ein Logo zu bezahlen. Der Aurélien Yacht Loafer ist handgefertigt in Italien aus französischem Kalbsleder, kostet €335 und trägt kein sichtbares Branding. Die Luxusmarke ohne Logo für Bräutigame, die Substanz über Status stellen.",
+          title: "Quiet Luxury für den Bräutigam: Der italienische Loafer für 335 € – ohne Logo",
+          excerpt: "Quiet Luxury heißt nicht, weniger auszugeben. Es heißt, nicht für ein Logo zu zahlen. Der Aurélien Yacht Loafer wird in Italien aus französischem Kalbsleder gefertigt, kostet 335 € – und kommt ganz ohne sichtbares Branding aus.",
           category: "Stil",
           image: "https://aurelien-online.com/cdn/shop/products/Aurelien_Yacht_Loafers_men_suede_shoes_summer_italy_navy7_eb965d69-902a-40a3-a4c9-71ac6b14385c.jpg?v=1634573228&width=1200",
           featuredProducts: [
@@ -984,116 +987,116 @@ Wenn Sie ein Paar haben, das etwas zu locker sitzt, kann ein kleiner Velourslede
             { name: "Caramel Yacht Loafer", color: "Caramel", image: LOAFER_PRODUCTS.COGNAC.image, url: LOAFER_PRODUCTS.COGNAC.url },
             { name: "Black Yacht Loafer", color: "Schwarz", image: LOAFER_PRODUCTS.BLACK.image, url: LOAFER_PRODUCTS.BLACK.url }
           ],
-          content: `Die interessanteste Entwicklung in der Herrenmode ist kein neuer Trend — sie ist die Ablehnung eines solchen. Quiet Luxury, die Abkehr von sichtbaren Logos hin zu zurückhaltender Handwerkskunst, hat grundlegend verändert, wie stilbewusste Männer sich kleiden. Und nirgendwo ist das relevanter als bei einer Hochzeit.
+          content: `Die spannendste Entwicklung in der Herrenmode ist gerade kein neuer Trend. Sie ist die bewusste Abkehr davon. Quiet Luxury – also der Verzicht auf sichtbare Logos zugunsten echter Handwerkskunst – hat verändert, wie stilbewusste Männer sich kleiden. Und nirgendwo ist das so spürbar wie bei der Hochzeit.
 
-Handgefertigt in einem familiengeführten Atelier in Süditalien. Französisches Kalbswildleder. Handgenähte Details. Kein sichtbares Logo. Man liest das und erwartet einen Preis jenseits der €700. Der [Yacht Loafer von Aurélien](https://aurelien-online.com/pages/yacht-loafer-lander) kostet €335.
+Handgefertigt in einem Familienatelier in Süditalien. Französisches Kalbswildleder. Handgenähte Vorderkappe. Kein sichtbares Logo. Wer das liest, rechnet mit einem Preis jenseits der 700 €. Der [Yacht Loafer von Aurélien](https://aurelien-online.com/pages/yacht-loafer-lander) kostet 335 €.
 
-Diese Kombination — Quiet Luxury zu einem ehrlichen Preis — macht diesen Schuh so bemerkenswert. Immer mehr Bräutigame entdecken ihn als ihren Hochzeitsschuh. Nicht weil sie ein Schnäppchen suchen, sondern weil sie eine Luxusmarke ohne Logo schätzen, die den Preis nicht künstlich aufbläst, nur weil sie es könnte.
+Diese Kombination – echte Handwerkskunst zu einem ehrlichen Preis – macht den Schuh so bemerkenswert. Immer mehr Bräutigame entdecken ihn für ihren Hochzeitstag. Nicht, weil sie auf der Suche nach einem Schnäppchen sind. Sondern weil sie einen Schuh schätzen, der seinen Wert aus dem Material zieht – und nicht aus einer Markensteuer.
 
-## Was Quiet Luxury für den Bräutigam wirklich bedeutet
+## Was Quiet Luxury für den Bräutigam wirklich heißt
 
-Der Begriff „Quiet Luxury" wird häufig verwendet, aber im Kern beschreibt er etwas Konkretes: Luxus, der sich über Materialqualität und Handwerkskunst definiert — nicht über Markensichtbarkeit. Kein Logo auf der Außenseite. Kein Monogramm, das um Aufmerksamkeit schreit. Nur außergewöhnliche Materialien, die für sich sprechen.
+Der Begriff „Quiet Luxury" wird viel benutzt, meint im Kern aber etwas sehr Konkretes: Luxus, der sich über Materialqualität und Verarbeitung definiert – nicht über Markensichtbarkeit. Kein Logo auf der Außenseite. Kein Monogramm, das nach Aufmerksamkeit ruft. Nur Materialien, die für sich sprechen.
 
-Für den modernen Bräutigam ist diese Philosophie befreiend. Ihre Hochzeitsfotos sollen *Sie* einfangen, nicht das Branding auf Ihren Schuhen. Ein Luxusschuh ohne Logo lässt die Handwerkskunst sprechen — die Textur des Wildleders, die Präzision der Handnaht, die Silhouette einer mandelförmigen Zehenpartie. Das sind die Details, die ein Outfit aufwerten, ohne damit zu konkurrieren.
+Für den Bräutigam ist das eine befreiende Idee. Auf den Hochzeitsfotos soll *Sie* zu sehen sein – nicht das Markenzeichen auf Ihren Schuhen. Ein Schuh ohne Logo lässt die Verarbeitung sprechen: die Struktur des Wildleders, die Präzision der Handnaht, die ruhige Linie der Mandelspitze. Genau die Details, die ein Outfit aufwerten, ohne sich in den Vordergrund zu drängen.
 
-Genau das liefert Aurélien: eine Luxusmarke ohne Logo-Abhängigkeit. Der Schuh spricht durch seine Materialien und Verarbeitung, nicht durch ein aufgestempeltes Emblem oder ein Hardware-Akzent, der auf Markenwiedererkennung abzielt.
+Aurélien ist genau diese Art von Marke: Luxus ohne Logo. Der Schuh spricht durch sein Material und seine Verarbeitung – nicht durch ein aufgestempeltes Emblem oder Beschläge, die nach Wiedererkennung schreien.
 
-## Die Hochzeit hat sich verändert — Ihre Schuhe sollten das auch
+## Hochzeiten haben sich verändert – Ihre Schuhe sollten es auch
 
-Hochzeiten sind heute selten ein einzelnes formelles Event. Sie erstrecken sich über ein ganzes Wochenende — manchmal eine volle Woche — mit standesamtlicher Trauung, Dinners, Fotoshootings, Afterpartys und dem Brunch am nächsten Morgen. Der Dresscode wechselt von Zeremonie zu Feier. Der Bräutigam, der das alles in steifen Schnürschuhen durchstehen will, spürt es spätestens am zweiten Tag.
+Eine Hochzeit ist heute selten ein einzelnes Event. Sie zieht sich über ein Wochenende, manchmal eine ganze Woche: Standesamt, Probedinner, kirchliche Trauung, Fotos, Empfang, Afterparty, Brunch am Tag danach. Der Dresscode wechselt von festlich zu locker und wieder zurück. Wer das alles in steifen Schnürschuhen durchstehen will, spürt es spätestens am zweiten Tag.
 
-Genau deshalb hat der Loafer seinen großen Moment — und der Quiet-Luxury-Loafer passt besonders gut zur modernen Hochzeit. Er sitzt genau in diesem Sweet Spot zwischen Sneaker-Komfort und formeller Eleganz. Der Yacht Loafer spielt diese Rolle besser als die meisten: nautisch inspiriert, aber ohne das wörtliche „Bootsschuh"-Klischee. Denken Sie an mediterrane Verfeinerung — die Art Schuh, die auf einer Terrasse in Positano genauso funktioniert wie im Standesamt in Amsterdam.
+Genau hier hat der Loafer seinen großen Auftritt – und der Yacht Loafer passt besonders gut. Er sitzt zwischen Sneaker-Komfort und festlicher Eleganz, ohne sich in eine Richtung festzulegen. Nautisch inspiriert, aber kein typischer Bootsschuh. Eher mediterrane Verfeinerung: die Art Schuh, die auf einer Terrasse in Positano genauso funktioniert wie im Standesamt in München.
 
-Der Komfort ist dabei keine Nebensache. Aurélien baut den Yacht Loafer mit einer ungefütterten Wildlederkonstruktion, die sich ab dem ersten Tragen der Fußform anpasst. Kombiniert mit einer flexiblen Gummisohle bietet er ganztägigen Tragekomfort — was sich direkt in einer entspannteren Haltung auf Fotos, weniger Ablenkung beim Ja-Wort und einem Schuh übersetzt, den man *wirklich* weiter tragen möchte.
+Der Komfort ist dabei keine Nebensache. Der Yacht Loafer ist ungefüttert verarbeitet und passt sich vom ersten Tragen an die Fußform an. Mit der flexiblen Gummisohle ist er auch nach zehn Stunden auf den Beinen noch angenehm zu tragen – was man der Haltung auf den Fotos durchaus ansieht.
 
-## Luxus ohne Logo: Was diesen Schuh besonders macht
+## Luxus ohne Logo: Was den Schuh besonders macht
 
-Seien wir ehrlich: Es gibt genug Loafer auf dem Markt. Was den Yacht Loafer hervorhebt, ist sein Bekenntnis zum Quiet-Luxury-Prinzip — außergewöhnliche Qualität ohne jede Abhängigkeit von sichtbarem Branding.
+Seien wir ehrlich: Loafer gibt es viele. Was den Yacht Loafer heraushebt, ist die konsequente Haltung – außergewöhnliche Qualität, ohne dass auf irgendeiner Stelle ein Markenname prangt.
 
-Das Obermaterial ist aus Softey® Suede geschnitten — 100 % französisches Kalbsleder, das außergewöhnlich geschmeidig und atmungsaktiv ist. Das Innenmaterial besteht aus Kalbsleder. Die charakteristische Zickzack-Kante an der Zunge und die handgenähte Vorderkappe geben ihm eine eigenständige Optik — *ohne auf Logos oder auffällige Hardware zurückzugreifen*. Die mandelförmige Zehenpartie fügt gerade genug Raffinesse hinzu, um ihn über einen gewöhnlichen Slipper zu erheben.
+Das Obermaterial ist aus Softey® Suede – 100 % französisches Kalbsleder, weich und atmungsaktiv. Das Innenfutter besteht ebenfalls aus Kalbsleder. Die charakteristische Zickzack-Kante an der Zunge und die handgenähte Vorderkappe geben dem Schuh seine eigene Linie – *ganz ohne Logo oder auffällige Beschläge*. Die Mandelspitze sorgt für genau das richtige Maß an Eleganz, das ihn vom gewöhnlichen Slipper abhebt.
 
-Das unterscheidet echte Quiet Luxury von schlichtem Minimalismus. Der Yacht Loafer ist nicht schlicht — er ist *bewusst zurückhaltend*. Jedes Detail signalisiert Qualität für Kenner, ohne etwas für andere zu signalisieren.
+Das ist der Unterschied zwischen echtem Quiet Luxury und reinem Minimalismus. Der Yacht Loafer ist nicht schlicht – er ist *bewusst zurückgenommen*. Jedes Detail spricht zum Kenner, ohne nach außen etwas beweisen zu müssen.
 
-**Technische Details:**
+**Technische Daten:**
 - **Obermaterial:** Softey® Suede (100 % französisches Kalbsleder)
-- **Innenmaterial:** Kalbsleder
-- **Sohle:** Rubber Latex
-- **Branding:** Kein sichtbares Logo — Quiet Luxury by Design
-- **Herstellung:** Handgemacht in Italien
-- **Preis:** €335 (z. B. [Navy Yacht Loafers](https://aurelien-online.com/products/navy-suede-yacht-loafers-2))
+- **Futter:** Kalbsleder
+- **Sohle:** Latex-Gummi
+- **Branding:** Kein sichtbares Logo
+- **Fertigung:** Handgemacht in Italien
+- **Preis:** 335 € (z. B. [Navy Yacht Loafers](https://aurelien-online.com/products/navy-suede-yacht-loafers-2))
 - **Größen:** 39–47
-- **Farben:** 20+ Farbtöne verfügbar
+- **Farben:** über 20 Farbtöne
 
-Hinter jedem Paar steht die Geschichte von Auréliens [Atelier](https://aurelien-online.com/pages/driving-shoes): ein Familienbetrieb in Süditalien, in dem Meister Giovanni seit Jahrzehnten die Produktion leitet. Dieselben Hände, dieselben Techniken, dieselbe Liebe zum Detail wie in den exklusivsten italienischen Häusern — aber ohne den traditionellen Luxusaufschlag. Das ist der Kern dessen, was Aurélien [Smart Luxury](https://aurelien-online.com/pages/smart-luxury) nennt: luxuriöse Materialien und echte Handwerkskunst, direkt an Sie geliefert, zu einem Preis, der den wahren Wert widerspiegelt und nicht die Markenprämie.
+Hinter jedem Paar steht die Geschichte des Aurélien-[Ateliers](https://aurelien-online.com/pages/driving-shoes): ein Familienbetrieb in Süditalien, in dem Meister Giovanni seit Jahrzehnten die Produktion leitet. Dieselben Hände, dieselben Techniken, dieselbe Sorgfalt wie in den größten italienischen Häusern – nur ohne den klassischen Luxusaufschlag. Das ist der Kern von Auréliens [Smart-Luxury](https://aurelien-online.com/pages/smart-luxury)-Idee: hochwertige Materialien und echte Handarbeit, direkt geliefert, zu einem Preis, der dem Produkt entspricht und nicht der Marke.
 
-## Wie Aurélien im Vergleich zu anderen Luxus-Loafern abschneidet
+## Wie Aurélien im Vergleich abschneidet
 
-Stellt man den Yacht Loafer neben die etablierten Namen, passiert etwas Interessantes: Er hält bei der Qualität mit, übertrifft oft beim Komfort und kostet deutlich weniger. Der Unterschied liegt nicht in dem, was Aurélien weglässt — sondern in dem, was die traditionellen Marken aufschlagen: Logo-Aufpreis, Retail-Overhead und Markensteuer.
+Stellt man den Yacht Loafer neben die etablierten Namen, fällt etwas auf: Bei der Qualität hält er mit, beim Komfort schlägt er viele – und kostet trotzdem deutlich weniger. Der Unterschied liegt nicht darin, was Aurélien weglässt. Sondern darin, was die traditionellen Marken auf den Preis aufschlagen: Markensteuer, Filialnetz, Werbebudget.
 
-| Marke / Modell | Ca.-Preis | Material & Sohle | Logo-Sichtbarkeit | Quiet-Luxury-Score |
+| Marke / Modell | Preis ca. | Material & Sohle | Logo-Sichtbarkeit | Quiet-Luxury-Bewertung |
 | :--- | :--- | :--- | :--- | :--- |
-| **Aurélien Yacht Loafer** | €335 | Softey® Suede, Kalbsleder-Interieur, Rubber-Latex-Sohle | Kein sichtbares Logo | ★★★★★ |
-| **Tod's Gommino** | €590 | Kalbswildleder, Gommini-Gummisohle | Dezente Markenzeichen | ★★★★ |
-| **Gucci Horsebit 1953** | €890 | Leder, Horsebit-Hardware, Ledersohle | Prominentes Hardware-Logo | ★★ |
-| **Santoni Essentials** | €650 | Luxe Leder/Wildleder | Dezentes Branding | ★★★★ |
-| **Common Projects Penny** | €615 | Wildleder, minimales Design | Seriennummern-Stempel | ★★★★ |
-| **Loro Piana Summer Walk** | ~€980 | Ultra-Luxe-Wildleder, ungefüttert | Minimales Branding | ★★★★★ |
+| **Aurélien Yacht Loafer** | 335 € | Softey® Suede, Kalbslederfutter, Latex-Gummisohle | Kein sichtbares Logo | ★★★★★ |
+| **Tod's Gommino** | 590 € | Kalbswildleder, Gommini-Gummisohle | Dezentes Markenzeichen | ★★★★ |
+| **Gucci Horsebit 1953** | 890 € | Leder, Horsebit-Beschlag, Ledersohle | Prominentes Hardware-Logo | ★★ |
+| **Santoni Essentials** | 650 € | Hochwertiges Leder/Wildleder | Dezentes Branding | ★★★★ |
+| **Common Projects Penny** | 615 € | Wildleder, minimales Design | Seriennummer-Prägung | ★★★★ |
+| **Loro Piana Summer Walk** | ca. 980 € | Ultra-Premium-Wildleder, ungefüttert | Minimales Branding | ★★★★★ |
 
-Die Quintessenz: Aurélien liefert Quiet Luxury auf Loro-Piana-Niveau — zu ungefähr einem Drittel des Preises. Sie machen keinen Kompromiss — Sie wählen eine Luxusmarke ohne Logo, die ihre gesamte Investition in das Produkt steckt, nicht ins Marketing.
+Die Bilanz: Aurélien liefert Quiet Luxury auf Loro-Piana-Niveau – zu etwa einem Drittel des Preises. Kein Kompromiss bei der Qualität, dafür ein Schuh, dessen ganzer Wert ins Produkt fließt, nicht ins Marketing.
 
-## Was über 2.000 Kunden berichten
+## Was über 2.000 Kunden sagen
 
-Auf [Trustpilot](https://nl.trustpilot.com/review/aurelien-online.com) hält Aurélien eine stabile Bewertung von 4,4/5 bei über 2.000 Reviews. Die wiederkehrenden Themen sprechen für sich: „ab dem ersten Tag bequem", „unglaubliche Qualität für den Preis" und „sieht aus und fühlt sich an wie deutlich teurer." Das sind keine Marketingaussagen — es sind unabhängige Kundenerfahrungen von Menschen, die sich für Luxus ohne Logo entschieden haben.
+Auf [Trustpilot](https://nl.trustpilot.com/review/aurelien-online.com) liegt Aurélien stabil bei 4,4 von 5 Sternen – über 2.000 Bewertungen. Die wiederkehrenden Themen: „Ab dem ersten Tag bequem", „unglaubliche Qualität fürs Geld", „sieht aus und fühlt sich an wie deutlich teurer". Das sind keine Marketingaussagen, sondern echte Kundenstimmen.
 
-Ein praktischer Hinweis: Loafer sind passformempfindlich. Sie müssen eng genug sitzen, um nicht zu rutschen, dürfen aber nie drücken. Bestellen Sie rechtzeitig vor dem Hochzeitstermin, probieren Sie sie zu Hause auf Teppichboden und geben Sie sich Zeit für einen Umtausch. Der Kundenservice von Aurélien wird in Bewertungen durchgehend gelobt — der Prozess ist unkompliziert.
+Ein praktischer Hinweis: Loafer sind passformempfindlich. Sie müssen eng genug sitzen, um nicht zu rutschen – aber nirgends drücken. Bestellen Sie also rechtzeitig vor dem Hochzeitstermin, probieren Sie zu Hause auf Teppich und planen Sie genug Zeit für einen Umtausch ein. Der Kundenservice von Aurélien wird in den Bewertungen durchgehend gelobt – das läuft unkompliziert.
 
-## Quiet Luxury stylen: Drei Hochzeitsszenarien
+## Drei Hochzeitslooks mit dem Yacht Loafer
 
-Das Schöne an Quiet Luxury: Es lässt das Outfit atmen. Kein Logo, das um Aufmerksamkeit konkurriert, keine Hardware, die das Licht unvorteilhaft einfängt. Nur pure Textur und Silhouette. So stylen Sie den Yacht Loafer für drei verschiedene Hochzeitssettings.
+Das Schöne an Quiet Luxury: Das Outfit darf atmen. Kein Logo, das um Aufmerksamkeit kämpft. Keine Beschläge, die das Licht falsch einfangen. Nur Textur und Linie. So tragen Sie den Yacht Loafer zu drei sehr unterschiedlichen Anlässen.
 
-### Destination- oder Strandhochzeit
-Ein sandfarbener oder hellgrauer Leinenanzug, offener Kragen oder weißes T-Shirt, und ein Yacht Loafer in Navy, Beige oder Warm Grey. Das ist mediterranes Hochzeitsdressing in Bestform — diese mühelose „Urlaubs-Eleganz", die wunderbar fotografiert und sich noch besser anfühlt. Die logofreie Silhouette sorgt dafür, dass nichts von der natürlichen Umgebung ablenkt.
+### Hochzeit am Meer oder im Süden
+Sandfarbener oder hellgrauer Leinenanzug, offener Kragen oder weißes T-Shirt, dazu der Yacht Loafer in Navy, Beige oder Warmgrau. Das ist mediterrane Hochzeitseleganz – die Art mühelose Festlichkeit, die wunderbar fotografiert und sich auch so anfühlt. Ohne Logo lenkt nichts von der Umgebung ab.
 
-### City Wedding (Standesamt + Dinner)
-Kombinieren Sie einen dunkleren Loafer (Navy oder Schwarz) mit einem hellen Anzug (Ivory/Off-White) oder einem mittelgrauen Anzug. Die mandelförmige Zehenpartie verleiht genug Formalität für die Stadt, während das Wildleder den Gesamteindruck weicher macht — modern, nicht steif. Hier zahlt sich der Verzicht auf Logos besonders aus: Der Schuh wertet auf, ohne zu dominieren.
+### Stadthochzeit (Standesamt und Dinner)
+Dunklerer Loafer (Navy oder Schwarz), kombiniert mit einem hellen Anzug in Off-White oder einem mittelgrauen Anzug. Die Mandelspitze gibt genug Festlichkeit für die Stadt, das Wildleder nimmt der Strenge die Schärfe – modern, nicht steif. Genau hier zahlt sich der Verzicht auf Logos aus: Der Schuh wertet das Outfit auf, ohne es zu dominieren.
 
-### Rehearsal Dinner / Afterparty
-Tailored Trousers mit einem Feinstrick-Polo oder einem Leinen-Resort-Shirt. Hier spielt der Yacht Loafer seine größte Stärke aus — er überbrückt die Lücke zwischen „angezogen" und „entspannt." Tipp: Loafer-Farbe und Gürtel aufeinander abstimmen für einen durchdachten, bewussten Look. Quiet Luxury in seiner mühelosesten Form.
+### Probedinner oder Afterparty
+Sauber geschnittene Hose, Feinstrick-Polo oder Leinenhemd. Hier spielt der Yacht Loafer seine größte Stärke aus – er schließt die Lücke zwischen festlich und entspannt. Tipp: Schuhfarbe und Gürtelfarbe aufeinander abstimmen. Das wirkt durchdacht, ohne übertrieben.
 
-## Wildleder-Pflege: Eine einfache Routine
+## Wildlederpflege: Drei Handgriffe genügen
 
-Wildleder verlangt etwas mehr Aufmerksamkeit als Glattleder, aber eine einfache Routine hält Ihre Yacht Loafers jahrelang in Schuss:
+Wildleder verlangt etwas mehr Aufmerksamkeit als Glattleder. Mit einer einfachen Routine bleibt Ihr Yacht Loafer aber jahrelang gut in Form:
 
-- **Regelmäßig bürsten** mit einer Wildlederbürste, um den Flor aufzurichten und Schmutz zu entfernen
-- **Imprägnieren** mit einem Wildleder-Schutzspray vor dem ersten Tragen — bei Outdoor-Hochzeiten ein Muss
-- **Kühl und trocken lagern**, fern von direktem Sonnenlicht und Hitze
-- **Staubbeutel nutzen**, die bei jedem Paar mitgeliefert werden
+- **Regelmäßig bürsten** mit einer Wildlederbürste – richtet den Flor auf und entfernt Staub
+- **Imprägnieren** mit einem Wildleder-Schutzspray vor dem ersten Tragen – bei einer Hochzeit im Freien Pflicht
+- **Kühl und trocken lagern**, weg von direkter Sonne und Heizung
+- **Staubbeutel nutzen**, der bei jedem Paar dabei ist
 
-## Das große Bild: Warum Luxus ohne Logo eine Generation anspricht
+## Warum „Luxus ohne Logo" eine ganze Generation anspricht
 
-[Gegründet 2015](https://aurelien-online.com/pages/the-maison), basiert Aurélien auf einer einfachen Beobachtung: Das traditionelle Luxusmodell berechnet einen Aufschlag für Tradition und Retail-Overhead, nicht für ein besseres Produkt. Indem die gesamte Kette — vom Design bis zur Lieferung — weitgehend in eigener Hand bleibt, bietet Aurélien dieselbe italienische Handwerkskunst und Premium-Materialien zu einem Preis, der tatsächlich widerspiegelt, was man bekommt.
+Aurélien wurde 2015 [gegründet](https://aurelien-online.com/pages/the-maison) – mit einer einfachen Beobachtung als Ausgangspunkt: Das klassische Luxusmodell berechnet einen Aufschlag für Tradition und Filialnetz, nicht für ein besseres Produkt. Weil Aurélien Design, Produktion und Vertrieb weitgehend selbst kontrolliert, kann das Haus dieselbe italienische Handarbeit und dieselben Premium-Materialien zu einem Preis anbieten, der tatsächlich dem entspricht, was im Schuh steckt.
 
-Es geht nicht um „Budget-Luxus." Es geht um eine Generation, die mit Zugang zu Information aufgewachsen ist, die Materialien und Verarbeitungsqualität selbst vergleichen kann und die lieber in einen Schuh investiert, der wirklich liefert, als für ein Logo zu bezahlen. Die Quiet-Luxury-Bewegung hat dieser Philosophie einen Namen gegeben, aber Aurélien praktiziert sie seit Tag eins: Luxus ohne Logo, ohne Markensteuer, ohne Kompromisse bei der Qualität.
+Das ist kein „Discount-Luxus". Es ist die Antwort auf eine Generation, die Materialien und Verarbeitung selbst vergleichen kann – und lieber in einen Schuh investiert, der wirklich liefert, als für ein Logo zu zahlen. Quiet Luxury hat dieser Haltung einen Namen gegeben. Aurélien lebt sie seit Tag eins.
 
-[The Gentleman's Journal](https://shop.thegentlemansjournal.com/blogs/news/the-dutch-brand-beating-the-italians-at-their-own-style-game) nannte Aurélien „the Dutch brand beating the Italians at their own style game." In Schuh-Fachkreisen wird der Yacht Loafer regelmäßig im selben Atemzug wie Loro Pianas Summer Walk genannt — der Quiet-Luxury-Referenz — zu ungefähr einem Drittel des Preises.
+[The Gentleman's Journal](https://shop.thegentlemansjournal.com/blogs/news/the-dutch-brand-beating-the-italians-at-their-own-style-game) nannte Aurélien einmal „die niederländische Marke, die die Italiener in ihrem eigenen Spiel schlägt". In Fachkreisen wird der Yacht Loafer regelmäßig im selben Atemzug mit Loro Pianas Summer Walk genannt – zu etwa einem Drittel des Preises.
 
-Für den Bräutigam ist die Botschaft klar: Sie müssen sich nicht zwischen Qualität und Preis-Leistung entscheiden. Bei Aurélien bekommen Sie beides — einen Luxusschuh ohne Logo, der Sie bei jedem Hineinschlüpfen an Ihren Hochzeitstag erinnert.
+Für den Bräutigam ist die Botschaft klar: Sie müssen sich nicht zwischen Qualität und Preis-Leistung entscheiden. Bei Aurélien bekommen Sie beides – einen Schuh, der jedes Mal an Ihren Hochzeitstag erinnert, wenn Sie hineinschlüpfen.
 
 ---
 
-*Produktspezifikationen in diesem Artikel basieren auf den genannten Quellen. Entdecken Sie die [Yacht Loafer Kollektion](https://aurelien-online.com/a/l/nl/collections/loafers/model_yacht-loafer) oder besuchen Sie den [Aurélien Flagship Store in Amsterdam](https://aurelien-online.com/pages/amsterdam-store).*`
+*Produktdaten in diesem Artikel beruhen auf den genannten Quellen. Mehr zur [Yacht-Loafer-Kollektion](https://aurelien-online.com/a/l/nl/collections/loafers/model_yacht-loafer) oder ein Besuch im [Aurélien Flagship Store in Amsterdam](https://aurelien-online.com/pages/amsterdam-store).*`
         },
         {
           slug: "hochzeitszelt-mieten-der-ultimative-leitfaden",
-          title: "Ein Zelt für Ihre Hochzeit mieten: Alles, was Sie für den großen Tag wissen müssen",
-          excerpt: "Der Ring sitzt am Finger, das Datum steht fest. Immer mehr Brautpaare entscheiden sich bewusst für eine Zelthochzeit — draußen, an einem Ort, der wirklich zu ihnen passt.",
+          title: "Hochzeitszelt mieten: Alles, was Sie für den großen Tag wissen sollten",
+          excerpt: "Der Ring sitzt, das Datum steht. Immer mehr Brautpaare entscheiden sich bewusst für die Hochzeit unter freiem Himmel – an einem Ort, der wirklich zu ihnen passt.",
           category: "Leitfaden",
           image: "https://2vrent.be/wp-content/uploads/2025/03/2Vrent-Overijse-LQ-21-2048x1365.jpg",
-          content: `Der Ring sitzt am Finger, das Datum steht fest und die Pläne nehmen Gestalt an. Eine der wirkungsvollsten Entscheidungen, die Sie treffen, ist die Wahl der Location. Immer mehr Brautpaare entscheiden sich bewusst für eine Zelthochzeit. Draußen, an einem Ort, der wirklich zu ihnen passt, ohne die Einschränkungen eines festen Festsaals. Aber wie geht man so etwas an? Welche Zelte eignen sich für eine Hochzeit? Was kostet es? Und worauf muss man achten? In diesem Artikel stellen wir alles zusammen.
+          content: `Der Ring sitzt, das Datum steht, die Planung nimmt Form an. Eine der wichtigsten Entscheidungen ist die Wahl der Location – und immer mehr Brautpaare entscheiden sich bewusst gegen den klassischen Festsaal und für die Hochzeit unter einem Zelt. Draußen, an einem Ort, der wirklich zu ihnen passt. Aber wie geht man das an? Welche Zelte eignen sich überhaupt? Was kostet das? Und worauf sollte man achten? Dieser Artikel beantwortet die wichtigsten Fragen.
 
 ## Warum eine Hochzeit unter einem Zelt?
 
-Eine Zelthochzeit gibt Ihnen eines, das kein Festsaal bieten kann: Freiheit. Freiheit bei der Standortwahl, bei der Atmosphäre, bei der Raumaufteilung und beim Stil. Ob Sie von einer Zeremonie im eigenen Garten träumen, einer idyllischen Wiese oder einer Waldlichtung — ein Zelt macht es möglich. Mit dem richtigen Zelt brauchen Sie zudem das Wetter nicht zu fürchten, und da Sie selbst bestimmen, wie Sie den Raum gestalten, wird das Zelt ein direktes Spiegelbild von Ihnen als Paar.
+Eine Zelthochzeit bietet etwas, das kein Festsaal leisten kann: Freiheit. Freiheit beim Ort, bei der Atmosphäre, bei der Raumaufteilung, beim Stil. Ob Garten, Wiese oder Waldlichtung – mit dem richtigen Zelt funktioniert fast jeder Ort. Sie brauchen das Wetter nicht mehr zu fürchten, und weil Sie selbst entscheiden, wie der Raum aussieht, wird das Zelt zu einem direkten Spiegelbild Ihrer Hochzeit.
 
 ## Welches Zelt passt zu Ihrer Hochzeit?
 
@@ -1185,13 +1188,13 @@ Endgültige Bestätigung des Aufbaumoments. Informieren Sie die Nachbarn und pr�
 **3 Tage vor der Hochzeit — Aufbau & letzte Details**
 Das Zelt wird aufgebaut. Finale Kontrolle von Beleuchtung, Boden und Ausstattung. Zeit für Dekoration und persönliche Akzente.
 
-## 2VRent ist Spezialist für luxuriöse Zeltvermietung
+## 2VRent: Spezialist für hochwertige Zeltvermietung
 
-Auf der Suche nach dem perfekten Zelt für Ihre Hochzeit? 2VRent ist Spezialist für luxuriöse Zeltvermietung für Hochzeiten — von der Orangerie bis zum Sailcloth. Sie denken aktiv mit und erstellen ein maßgeschneidertes Angebot.
+Auf der Suche nach dem passenden Zelt für Ihre Hochzeit? 2VRent ist auf hochwertige Zeltvermietung für Hochzeiten spezialisiert – von der Orangerie bis zum Sailcloth-Zelt. Beratung, Konzept und Angebot kommen aus einer Hand.
 
 ---
 
-*Mehr erfahren? Fordern Sie ein unverbindliches Angebot an über [2VRent](https://www.2vrent.be/nl/).*`
+*Mehr erfahren? Ein unverbindliches Angebot gibt es bei [2VRent](https://www.2vrent.be/nl/).*`
         }
       ]
     }

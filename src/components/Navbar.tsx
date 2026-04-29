@@ -22,7 +22,7 @@ export default function Navbar({ lang, onToggleLang, hasBanner = false }: Navbar
   const l = (en: string, de: string, nl: string) => lang === 'EN' ? en : lang === 'DE' ? de : nl;
 
   const navLinks = [
-    { name: l('The Journey', 'Die Reise', 'De Reis'), href: `${langPrefix}/#narrative` },
+    { name: l('The Journey', 'Der Weg', 'De Reis'), href: `${langPrefix}/#narrative` },
     { name: l('The Proposal', 'Der Antrag', 'Het Aanzoek'), href: `${langPrefix}/#proposal` },
     { name: l('The Planning', 'Die Planung', 'De Planning'), href: `${langPrefix}/#planning` },
     { name: l('The Style', 'Der Stil', 'De Stijl'), href: `${langPrefix}/#style` },
@@ -163,7 +163,7 @@ export default function Navbar({ lang, onToggleLang, hasBanner = false }: Navbar
                       <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-brand-gold mb-6 block">The Journey</span>
                       <div className="flex flex-col gap-4">
                         {[
-                          { name: l('Introduction', 'Einführung', 'Introductie'), href: `${langPrefix}/#narrative` },
+                          { name: l('Introduction', 'Übersicht', 'Introductie'), href: `${langPrefix}/#narrative` },
                           { name: l('The Proposal', 'Der Antrag', 'Het Aanzoek'), href: `${langPrefix}/#proposal` },
                           { name: l('The Planning', 'Die Planung', 'De Planning'), href: `${langPrefix}/#planning` },
                           { name: l('The Style', 'Der Stil', 'De Stijl'), href: `${langPrefix}/#style` },

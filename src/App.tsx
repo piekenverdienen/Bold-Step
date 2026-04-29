@@ -53,7 +53,7 @@ function LanguageWrapper() {
     // Update document title
     const titles: Record<Language, string> = {
       EN: "The Groom Code — Unlock the code for a perfect day",
-      DE: "The Groom Code — Entschlüsseln Sie den Code für den perfekten Tag",
+      DE: "The Groom Code — Stilratgeber für den modernen Bräutigam",
       NL: "The Groom Code — Ontgrendel de code voor een perfecte dag"
     };
     document.title = titles[lang];

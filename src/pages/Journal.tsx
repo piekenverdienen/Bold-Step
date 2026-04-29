@@ -17,7 +17,7 @@ export default function Journal({ lang }: JournalProps) {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-24">
           <span className="text-xs uppercase tracking-widest font-bold text-brand-gold mb-4 block">
-            {lang === 'EN' ? 'Insights & Inspiration' : lang === 'DE' ? 'Einblicke & Inspiration' : 'Inzichten & Inspiratie'}
+            {lang === 'EN' ? 'Insights & Inspiration' : lang === 'DE' ? 'Stiltipps & Inspiration' : 'Inzichten & Inspiratie'}
           </span>
           <h2 className="text-5xl md:text-7xl font-serif mb-6">{data.title}</h2>
           <div className="w-24 h-px bg-brand-gold mx-auto"></div>

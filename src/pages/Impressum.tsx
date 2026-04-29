@@ -92,7 +92,7 @@ export default function Impressum({ lang }: ImpressumProps) {
                 {lang === 'EN'
                   ? "Alexander Falk is the visionary behind The Groom Code, dedicated to bringing tailoring excellence and modern planning to grooms worldwide."
                   : lang === 'DE'
-                  ? "Alexander Falk ist der Visionär hinter The Groom Code, der sich der Aufgabe verschrieben hat, Bräutigamen weltweit stilvolle Exzellenz und moderne Planung näherzubringen."
+                  ? "Alexander Falk ist der Gründer von The Groom Code – mit dem Anspruch, Bräutigamen stilvolle Beratung und moderne Hochzeitsplanung zu bieten."
                   : "Alexander Falk is de visionair achter The Groom Code, toegewijd aan het brengen van stijlvolle excellentie en moderne planning aan bruidegoms wereldwijd."}
               </p>
             </div>

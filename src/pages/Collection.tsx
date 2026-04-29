@@ -21,7 +21,7 @@ export default function Collection({ lang }: CollectionProps) {
               animate={{ opacity: 1, y: 0 }}
               className="text-xs uppercase tracking-[0.4em] font-bold text-brand-gold mb-6 block"
             >
-              {lang === 'EN' ? 'Independent Selection' : lang === 'DE' ? 'Unabhängige Auswahl' : 'Onafhankelijke Selectie'}
+              {lang === 'EN' ? 'Independent Selection' : lang === 'DE' ? 'Unabhängig kuratiert' : 'Onafhankelijke Selectie'}
             </motion.span>
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
@@ -40,7 +40,7 @@ export default function Collection({ lang }: CollectionProps) {
               {lang === 'EN'
                 ? "A definitive curation of Mediterranean craftsmanship, selected for the modern aisle."
                 : lang === 'DE'
-                ? "Eine definitive Auswahl mediterraner Handwerkskunst, kuratiert für den modernen Altar."
+                ? "Eine handverlesene Auswahl mediterraner Handwerkskunst – für die Hochzeit von heute."
                 : "Een definitieve selectie van mediterraans vakmanschap, samengesteld voor het moderne altaar."}
             </motion.p>
           </div>
@@ -59,7 +59,7 @@ export default function Collection({ lang }: CollectionProps) {
             {lang === 'EN'
               ? "We recommend Aurélien for their exceptional balance of Italian quality and effortless ease. Each model represents a specific style code."
               : lang === 'DE'
-              ? "Wir empfehlen Aurélien für ihre außergewöhnliche Balance aus italienischer Qualität und müheloser Leichtigkeit. Jedes Modell repräsentiert einen spezifischen Stil-Kodex."
+              ? "Wir empfehlen Aurélien für die seltene Verbindung aus italienischer Qualität und entspannter Eleganz. Jedes Modell steht für einen klaren Stil."
               : "Wij bevelen Aurélien aan vanwege hun uitzonderlijke balans van Italiaanse kwaliteit en moeiteloos gemak. Elk model vertegenwoordigt een specifieke stijlcode."}
           </motion.p>
         </div>
@@ -93,7 +93,7 @@ export default function Collection({ lang }: CollectionProps) {
                   {/* Hover Overlay */}
                   <div className="absolute bottom-0 left-0 right-0 p-8 translate-y-full group-hover:translate-y-0 transition-transform duration-500 bg-gradient-to-t from-brand-black/40 to-transparent">
                     <span className="text-[10px] uppercase tracking-[0.3em] font-bold text-brand-offwhite">
-                      {lang === 'EN' ? 'View Details' : lang === 'DE' ? 'Details Anzeigen' : 'Bekijk Details'}
+                      {lang === 'EN' ? 'View Details' : lang === 'DE' ? 'Details ansehen' : 'Bekijk Details'}
                     </span>
                   </div>
                 </div>
@@ -141,7 +141,7 @@ export default function Collection({ lang }: CollectionProps) {
                     desc: lang === 'EN'
                       ? "Hand-finished in Italy using the finest Mediterranean suedes and leathers."
                       : lang === 'DE'
-                      ? "Handgefertigt in Italien aus feinstem mediterranem Wildleder und Glattleder."
+                      ? "In Italien handgefertigt – aus feinstem mediterranem Wildleder und Kalbsleder."
                       : "Handafgewerkt in Italië met het finest mediterrane suède en leer."
                   },
                   {
@@ -149,7 +149,7 @@ export default function Collection({ lang }: CollectionProps) {
                     desc: lang === 'EN'
                       ? "Designed for the marathon of a wedding day—from ceremony to the final dance."
                       : lang === 'DE'
-                      ? "Entwickelt für den Marathon eines Hochzeitstages – von der Zeremonie bis zum letzten Tanz."
+                      ? "Gemacht für einen langen Hochzeitstag – von der Trauung bis zum letzten Tanz."
                       : "Ontworpen voor de marathon van een trouwdag — van de ceremonie tot de laatste dans."
                   },
                   {
@@ -157,7 +157,7 @@ export default function Collection({ lang }: CollectionProps) {
                     desc: lang === 'EN'
                       ? "Silhouettes that transition effortlessly from formal tailoring to relaxed honeymoon style."
                       : lang === 'DE'
-                      ? "Silhouetten, die mühelos von formeller Maßkonfektion zu entspanntem Flitterwochen-Stil übergehen."
+                      ? "Silhouetten, die genauso gut zum festlichen Anzug passen wie zum entspannten Look in den Flitterwochen."
                       : "Silhouetten die moeiteloos overgaan van formeel maatwerk naar ontspannen huwelijksreisstijl."
                   }
                 ].map((item, idx) => (

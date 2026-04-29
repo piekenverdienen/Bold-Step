@@ -45,19 +45,19 @@ export default function About({ lang }: AboutProps) {
                 </>
               ) : lang === 'DE' ? (
                 <>
-                  <p>Den größten Teil meines Berufslebens habe ich in der Welt der Mode gearbeitet. Nicht nur Kleidung, sondern die subtile Sprache des Stils – die Art und Weise, wie ein gut gewähltes Stück verändern kann, wie ein Mann sich gibt.</p>
-                  <p>Im Laufe der Jahre hatte ich das Privileg, unzähligen Männern zu helfen, die beste Version ihrer selbst zu finden. Von der alltäglichen Maßkonfektion bis hin zu den wichtigsten Momenten des Lebens. Und keiner dieser Momente ist bedeutungsvoller als ein Hochzeitstag.</p>
-                  <p>Ich weiß das nicht nur aus meiner Erfahrung in der Mode, sondern aus meinem eigenen Leben.</p>
-                  <p>Ich bin mit meiner wunderbaren Frau Jessica verheiratet, und gemeinsam ziehen wir zwei wunderschöne Kinder groß. Als ich an meinem eigenen Hochzeitstag dort stand, wurde mir etwas Einfaches, aber Kraftvolles klar: Ein Mann sollte sich an diesem Tag ganz er selbst fühlen – selbstbewusst, entspannt und stolz darauf, wie er auftritt.</p>
-                  <p className="text-brand-black opacity-100 font-serif italic text-2xl">Nicht verkleidet. Sondern erhoben.</p>
-                  <p>Dieser Moment blieb mir in Erinnerung.</p>
-                  <p>Während meiner gesamten Karriere fiel mir auf, dass die Hochzeitsindustrie zwar endlose Anleitungen für Bräute bietet, der Bräutigam aber oft allein gelassen wird, um diese Erfahrung zu bewältigen. Dabei verdient er die gleiche Liebe zum Detail, die gleiche Sorgfalt und das gleiche Gefühl für den Anlass.</p>
-                  <p>Deshalb habe ich The Groom Code ins Leben gerufen.</p>
-                  <p>Diese Plattform ist ein kuratierter Leitfaden für den modernen Bräutigam. Ein Ort, an dem Tradition auf zeitgenössische Eleganz trifft und an dem Stil mit Absicht angegangen wird.</p>
-                  <p>Vom Antrag bis zur Zeremonie, von der Wahl des richtigen Anzugs bis zum Finden des perfekten Paars Loafer trägt jedes Detail zur Geschichte des Tages bei.</p>
-                  <p>Meine Leidenschaft war es schon immer, Männern zu helfen, gut auszusehen – und vor allem sich gut zu fühlen.</p>
-                  <p>Mit The Groom Code hoffe ich, diese Leidenschaft mit Ihnen zu teilen.</p>
-                  <p>Denn an dem Tag, der sehr wohl der schönste Tag Ihres Lebens sein kann, verdienen Sie es, mit Selbstvertrauen, Stil und Leichtigkeit voranzuschreiten.</p>
+                  <p>Den größten Teil meines Berufslebens habe ich in der Mode gearbeitet. Nicht nur in der Welt der Kleidung, sondern in der leisen Sprache des Stils – darin, wie ein gut gewählter Anzug verändern kann, wie ein Mann sich bewegt, wie er auftritt, wie er sich fühlt.</p>
+                  <p>Über die Jahre durfte ich vielen Männern dabei helfen, ihre beste Version zu finden. Vom alltäglichen Anzug bis zu den wichtigsten Momenten ihres Lebens. Und kein Moment hat dabei mehr Gewicht als der Hochzeitstag.</p>
+                  <p>Ich weiß das nicht nur aus meiner Arbeit, sondern aus meinem eigenen Leben.</p>
+                  <p>Ich bin mit meiner Frau Jessica verheiratet, gemeinsam ziehen wir zwei wundervolle Kinder groß. Als ich selbst vor dem Altar stand, wurde mir etwas klar, das einfach klingt, aber doch nicht selbstverständlich ist: An so einem Tag sollte ein Mann ganz er selbst sein dürfen. Selbstbewusst. Entspannt. Stolz auf das, wie er auftritt.</p>
+                  <p className="text-brand-black opacity-100 font-serif italic text-2xl">Nicht verkleidet. Sondern in seiner besten Form.</p>
+                  <p>Dieser Moment hat mich nie losgelassen.</p>
+                  <p>In all den Jahren in der Branche ist mir aufgefallen: Für die Braut gibt es unzählige Ratgeber. Den Bräutigam überlässt man meistens sich selbst. Dabei verdient er dieselbe Aufmerksamkeit, dieselbe Sorgfalt, dasselbe Gespür für den Anlass.</p>
+                  <p>Deshalb habe ich The Groom Code gegründet.</p>
+                  <p>Eine Plattform, die der Bräutigam wirklich brauchen kann. Tradition, kombiniert mit zeitgemäßer Eleganz. Stil, der nicht laut sein muss, um wirken zu können.</p>
+                  <p>Vom Antrag bis zur Trauung, von der Wahl des Anzugs bis zum richtigen Paar Loafer – jedes Detail schreibt mit an der Geschichte des Tages.</p>
+                  <p>Meine Leidenschaft war es immer, Männern zu helfen, gut auszusehen – und sich vor allem gut zu fühlen.</p>
+                  <p>Mit The Groom Code möchte ich genau diese Leidenschaft mit Ihnen teilen.</p>
+                  <p>Denn an einem Tag, der einer der schönsten Ihres Lebens werden kann, sollten Sie ihn mit Selbstvertrauen, Stil und Leichtigkeit erleben.</p>
                   <p className="pt-8 font-serif text-xl">— The Groom Code</p>
                 </>
               ) : (

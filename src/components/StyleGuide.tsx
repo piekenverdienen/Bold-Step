@@ -33,24 +33,24 @@ const archetypes = {
   ],
   DE: [
     {
-      title: "Der Black Tie Bräutigam",
-      suit: "Schwarzer Smoking / Weißes Dinnerjacket",
+      title: "Der Bräutigam in Black Tie",
+      suit: "Schwarzer Smoking / weißes Dinnerjacket",
       match: "Lackleder- oder Samt-Loafer",
-      desc: "Für das ultimative formelle Statement. Exklusive Eleganz unter dem Licht des Festsaals.",
+      desc: "Festlich auf höchstem Niveau. Eleganz, die zum Saal und zum Anlass passt.",
       image: IMAGES.STYLE_BLACK_TIE
     },
     {
-      title: "Leinen- oder beiger Anzug",
+      title: "Hochzeit im Süden",
       suit: "Leinen- oder beiger Anzug",
       match: "Hellbrauner Wildleder-Loafer",
-      desc: "Mediterrane Leichtigkeit für die sonnenverwöhnte Feier. Butterweiches Wildleder trifft auf Küstenstil.",
+      desc: "Mediterrane Leichtigkeit für die Hochzeit unter freiem Himmel. Weiches Wildleder, das atmet.",
       image: IMAGES.STYLE_DESTINATION
     },
     {
-      title: "Der City Bräutigam",
-      suit: "Moderne Maßkonfektion (Anthrazit, Navy)",
+      title: "Der Bräutigam in der Stadt",
+      suit: "Moderner Anzug in Anthrazit oder Navy",
       match: "Leder-Loafer",
-      desc: "Raffinierte Präzision für das urbane Umfeld. Handgefertigtes italienisches Leder für den modernen Mann.",
+      desc: "Klare Linie für die festliche Trauung in der Stadt. Italienische Handarbeit, die jeden Anzug aufwertet.",
       image: IMAGES.STYLE_CITY
     }
   ],
@@ -87,10 +87,10 @@ export default function StyleGuide({ lang }: StyleGuideProps) {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-24">
           <span className="text-xs uppercase tracking-widest font-bold text-brand-gold mb-4 block">
-            {lang === 'EN' ? 'The Style Pillars' : lang === 'DE' ? 'Die Stil-Säulen' : 'De Stijlpijlers'}
+            {lang === 'EN' ? 'The Style Pillars' : lang === 'DE' ? 'Die drei Stilrichtungen' : 'De Stijlpijlers'}
           </span>
           <h2 className="text-4xl md:text-6xl font-serif mb-6">
-            {lang === 'EN' ? 'Archetypes of Elegance' : lang === 'DE' ? 'Archetypen der Eleganz' : 'Archetypen van Elegantie'}
+            {lang === 'EN' ? 'Archetypes of Elegance' : lang === 'DE' ? 'Drei Wege zum Hochzeitslook' : 'Archetypen van Elegantie'}
           </h2>
           <div className="w-24 h-px bg-brand-gold mx-auto"></div>
         </div>

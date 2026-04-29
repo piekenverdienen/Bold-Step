@@ -21,7 +21,7 @@ export default function TopBanner({ lang, onClose, onClickSignup }: TopBannerPro
       <div className="max-w-7xl mx-auto px-6 py-2.5 flex items-center justify-center relative">
         <button onClick={onClickSignup} className="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-center cursor-pointer hover:opacity-80 transition-opacity">
           <span className="font-bold text-brand-gold">
-            {l('Claim 10% Discount', '10% Rabatt sichern', 'Claim 10% Korting')}
+            {l('Claim 10% Discount', '10 % Rabatt sichern', 'Claim 10% Korting')}
           </span>
           <span className="mx-2 opacity-40">|</span>
           <span className="underline text-brand-champagne">

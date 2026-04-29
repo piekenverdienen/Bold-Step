@@ -77,7 +77,7 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
                 <p className="text-sm opacity-60 mb-6">
                   {l(
                     'Here is your 10% discount code:',
-                    'Hier ist Ihr 10% Rabattcode:',
+                    'Hier ist Ihr 10 %-Rabattcode:',
                     'Hier is je 10% kortingscode:'
                   )}
                 </p>
@@ -87,7 +87,7 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
                 <p className="text-xs opacity-40 mt-4">
                   {l(
                     '10% discount included. Apply at checkout on aurelien.com',
-                    '10% Rabatt inklusive. An der Kasse auf aurelien.com einlösen',
+                    '10 % Rabatt inklusive. An der Kasse auf aurelien.com einlösen.',
                     '10% korting inbegrepen. Gebruik bij checkout op aurelien.com'
                   )}
                 </p>
@@ -101,14 +101,14 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
                   <h2 className="text-3xl font-serif mb-3">
                     {l(
                       'Claim Your 10% Discount',
-                      '10% Rabatt sichern',
+                      '10 % Rabatt sichern',
                       'Claim je 10% Korting'
                     )}
                   </h2>
                   <p className="text-sm opacity-60 leading-relaxed">
                     {l(
                       'Enter your email to receive your exclusive 10% discount code for Aurélien luxury footwear.',
-                      'Geben Sie Ihre E-Mail-Adresse ein, um Ihren exklusiven 10% Rabattcode für Aurélien Luxusschuhe zu erhalten.',
+                      'Tragen Sie Ihre E-Mail-Adresse ein und erhalten Sie Ihren persönlichen 10 %-Rabattcode für Aurélien-Schuhe.',
                       'Vul je e-mailadres in en ontvang je exclusieve 10% kortingscode voor Aurélien luxe schoenen.'
                     )}
                   </p>
@@ -130,7 +130,7 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
                   >
                     {status === 'loading'
                       ? '...'
-                      : l('Get 10% Discount', '10% Rabatt erhalten', 'Ontvang 10% Korting')}
+                      : l('Get 10% Discount', '10 % Rabatt erhalten', 'Ontvang 10% Korting')}
                   </button>
                 </form>
 
@@ -138,7 +138,7 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
                   <p className="text-red-500 text-xs text-center mt-3">
                     {l(
                       'Something went wrong. Please try again.',
-                      'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.',
+                      'Da ist etwas schiefgelaufen. Bitte versuchen Sie es noch einmal.',
                       'Er is iets misgegaan. Probeer het opnieuw.'
                     )}
                   </p>
@@ -147,7 +147,7 @@ export default function EmailPopup({ lang, isOpen, onClose }: EmailPopupProps) {
                 <p className="text-[10px] text-center opacity-30 mt-6">
                   {l(
                     'No spam, ever. Unsubscribe anytime.',
-                    'Kein Spam, niemals. Jederzeit abmelden.',
+                    'Kein Spam. Jederzeit abbestellbar.',
                     'Nooit spam. Afmelden kan altijd.'
                   )}
                 </p>

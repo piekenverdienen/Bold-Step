@@ -57,45 +57,45 @@ const quizData = {
   DE: {
     steps: [
       {
-        question: "Wo findet die Feier statt?",
+        question: "Wo wird gefeiert?",
         options: [
-          { label: "Mediterraner Strand / Destination", value: "voyage" },
-          { label: "Metropole / Urban", value: "city" },
-          { label: "Ländliches Anwesen / Rustikal", value: "driving" },
-          { label: "Prunkvoller Festsaal / Historisch", value: "city" }
+          { label: "Am Meer / im Süden", value: "voyage" },
+          { label: "In der Stadt", value: "city" },
+          { label: "Auf dem Land / Gut oder Schloss", value: "driving" },
+          { label: "Im historischen Festsaal", value: "city" }
         ]
       },
       {
-        question: "Was ist Ihre gewählte Kleidung?",
+        question: "Was tragen Sie zur Trauung?",
         options: [
-          { label: "Black Tie / Smoking", value: "city" },
+          { label: "Smoking (Black Tie)", value: "city" },
           { label: "Klassischer Maßanzug", value: "tassel" },
-          { label: "Leinen / Sommeranzug", value: "voyage" },
-          { label: "Smart Casual / Kombination", value: "driving" }
+          { label: "Leinen- oder Sommeranzug", value: "voyage" },
+          { label: "Sakko mit Hose (Smart Casual)", value: "driving" }
         ]
       },
       {
-        question: "Wie ist das erwartete Klima?",
+        question: "Wie wird das Wetter sein?",
         options: [
-          { label: "Tropisch / Hohe Hitze", value: "voyage" },
-          { label: "Mild / Frühlingsbrise", value: "driving" },
-          { label: "Frisch / Herbstluft", value: "tassel" },
-          { label: "Kalt / Winterabend", value: "city" }
+          { label: "Sommerlich heiß", value: "voyage" },
+          { label: "Mild – Frühling", value: "driving" },
+          { label: "Frisch – Herbst", value: "tassel" },
+          { label: "Kalt – Winterabend", value: "city" }
         ]
       },
       {
-        question: "Was ist Ihr wichtigstes Stil-Ziel?",
+        question: "Worauf legen Sie am meisten Wert?",
         options: [
-          { label: "Kompromissloser Komfort", value: "driving" },
-          { label: "Die schärfste Silhouette", value: "city" },
-          { label: "Mühelose Vielseitigkeit", value: "tassel" },
+          { label: "Bequemlichkeit, ohne Kompromisse", value: "driving" },
+          { label: "Klare, festliche Linie", value: "city" },
+          { label: "Vielseitig tragbar", value: "tassel" },
           { label: "Mediterrane Leichtigkeit", value: "voyage" }
         ]
       }
     ],
     result: {
-      title: "Ihr Sole Mate",
-      cta: "Kollektion Shoppen"
+      title: "Ihr passender Loafer",
+      cta: "Zur Kollektion"
     }
   },
   NL: {
@@ -231,7 +231,7 @@ export default function Quiz({ lang, onClose }: QuizProps) {
             >
               <div className="w-16 h-16 border-2 border-brand-gold/20 border-t-brand-gold rounded-full animate-spin mx-auto mb-8" />
               <h2 className="text-2xl font-serif italic">
-                {lang === 'EN' ? 'Finding your perfect match...' : lang === 'DE' ? 'Wir finden Ihr perfektes Match...' : 'We vinden jouw perfecte match...'}
+                {lang === 'EN' ? 'Finding your perfect match...' : lang === 'DE' ? 'Ihr perfektes Paar wird gesucht…' : 'We vinden jouw perfecte match...'}
               </h2>
             </motion.div>
           ) : step < data.steps.length ? (
@@ -295,7 +295,7 @@ export default function Quiz({ lang, onClose }: QuizProps) {
                     }}
                     className="text-xs uppercase tracking-[0.3em] font-bold opacity-40 hover:opacity-100 transition-opacity"
                   >
-                    {lang === 'EN' ? 'Retake Quiz' : lang === 'DE' ? 'Quiz wiederholen' : 'Quiz opnieuw doen'}
+                    {lang === 'EN' ? 'Retake Quiz' : lang === 'DE' ? 'Quiz neu starten' : 'Quiz opnieuw doen'}
                   </button>
                 </div>
               </div>
